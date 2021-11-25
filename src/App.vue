@@ -1,6 +1,6 @@
 <template lang='pug'>
 <div class="app" :class="mode">
-<Header :mode="mode"/>
+<Header :mode="mode" @toggle="toggle"/>
 MainPage
 </div>
 </template>
@@ -37,6 +37,7 @@ export default defineComponent({
   width: 100vw;
   min-height: 100vh;
   background: #f5f5f5;
+  transition: background 0.3s ease-in-out;
 }
 .dark {
   background: #1f3041;

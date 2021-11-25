@@ -7,6 +7,7 @@
         <input 
             type="checkbox" 
             :checked="(mode==='dark')?'checked':false"
+            @change="$emit('toggle')"
         /> {{ mode }} mode
     </span>
 </header>
@@ -27,7 +28,7 @@ header {
     overflow: hidden;
     text-align: center;
     padding: 15px;
-    // transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
 }
 .dark header {
   background: #121c25;
