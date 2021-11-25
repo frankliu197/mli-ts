@@ -1,12 +1,15 @@
 <template lang='pug'>
-InputBox 
+Header
+InputBox
 </template>
 
-<script>
+<script lang="ts">
 import InputBox from "../components/InputBox.vue"
+import Header from "../components/Header.vue"
 export default {
   name: 'MainPage',
   components: {
+    Header,
     InputBox
   }
 }
