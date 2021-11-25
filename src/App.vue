@@ -7,7 +7,6 @@ MainPage
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
 import MainPage from './pages/MainPage.vue';
 import Header from "./components/Header.vue"
 
