@@ -24,7 +24,8 @@ export default defineComponent({
 
 <style lang="scss">
 header {
-    background: rgb(58, 58, 58);
+    background: #cccccc;
+    color: rgb(63, 65, 63);
     overflow: hidden;
     text-align: center;
     padding: 15px;
@@ -33,10 +34,6 @@ header {
 .dark header {
   background: #121c25;
   color: rgb(183, 189, 183);
-}
-header {
-    background: #cccccc;
-    color: rgb(63, 65, 63);
 }
 .dark .nav-btn {
     color: rgb(183, 189, 183);
