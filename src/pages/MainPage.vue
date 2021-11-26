@@ -1,8 +1,8 @@
 <template lang='pug'>
-InputBox 
+InputBox
 </template>
 
-<script>
+<script lang="ts">
 import InputBox from "../components/InputBox.vue"
 export default {
   name: 'MainPage',

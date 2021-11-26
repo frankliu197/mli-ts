@@ -1,7 +1,6 @@
 <template lang='pug'>
 
-textarea(ref="textarea" @keyup.page-down="insertSuggestDropdown")
-
+textarea(style = "resize: none;" ref="textarea" @keyup.page-down="insertSuggestDropdown")
 n-dropdown
   .absolute-dropdown(v-show="showDropdown" :style="coords") adfsd
 </template>
@@ -34,6 +33,7 @@ export default defineComponent({
       fontsize.width = textarea.clientWidth + 1
       fontsize.height = textarea.clientHeight + 1
       let {x, y} = textarea.getBoundingClientRect()
+      y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
       this.coords = {left: `calc(${x}px + ${offset}px)`, top: y + "px", width: MIN_WIDTH + "px", height: 100 + "px"}
     }
@@ -44,12 +44,14 @@ export default defineComponent({
 <style lang='scss' scoped>
 textarea {
   width: 90%;
+  height: 20px;
   margin: 15px;  
   font-size: 20px;
 }
 
 .absolute-dropdown {
   position: absolute;
-  background-color: yellow;
+  color: white;
+  background-color: rgb(129, 159, 184);
 }
 </style>
