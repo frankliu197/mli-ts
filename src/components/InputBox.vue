@@ -51,6 +51,7 @@ textarea {
 
 .absolute-dropdown {
   position: absolute;
-  background-color: yellow;
+  color: white;
+  background-color: rgb(129, 159, 184);
 }
 </style>
