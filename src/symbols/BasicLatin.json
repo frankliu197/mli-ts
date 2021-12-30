@@ -1,0 +1,472 @@
+{
+    "33": {
+        "unicode": "33",
+        "name": "EXCLAMATION_MARK",
+        "symbol": "!"
+    },
+    "34": {
+        "unicode": "34",
+        "name": "QUOTATION_MARK",
+        "symbol": "\""
+    },
+    "35": {
+        "unicode": "35",
+        "name": "NUMBER_SIGN",
+        "symbol": "#"
+    },
+    "36": {
+        "unicode": "36",
+        "name": "DOLLAR_SIGN",
+        "symbol": "$"
+    },
+    "37": {
+        "unicode": "37",
+        "name": "PERCENT_SIGN",
+        "symbol": "%"
+    },
+    "38": {
+        "unicode": "38",
+        "name": "AMPERSAND",
+        "symbol": "&amp;"
+    },
+    "39": {
+        "unicode": "39",
+        "name": "APOSTROPHE",
+        "symbol": "'"
+    },
+    "40": {
+        "unicode": "40",
+        "name": "LEFT_PARENTHESIS",
+        "symbol": "("
+    },
+    "41": {
+        "unicode": "41",
+        "name": "RIGHT_PARENTHESIS",
+        "symbol": ")"
+    },
+    "42": {
+        "unicode": "42",
+        "name": "ASTERISK",
+        "symbol": "*"
+    },
+    "43": {
+        "unicode": "43",
+        "name": "PLUS_SIGN",
+        "symbol": "+"
+    },
+    "44": {
+        "unicode": "44",
+        "name": "COMMA",
+        "symbol": ","
+    },
+    "45": {
+        "unicode": "45",
+        "name": "HYPHEN-MINUS",
+        "symbol": "-"
+    },
+    "46": {
+        "unicode": "46",
+        "name": "FULL_STOP",
+        "symbol": "."
+    },
+    "47": {
+        "unicode": "47",
+        "name": "SOLIDUS",
+        "symbol": "/"
+    },
+    "48": {
+        "unicode": "48",
+        "name": "DIGIT_ZERO",
+        "symbol": "0"
+    },
+    "49": {
+        "unicode": "49",
+        "name": "DIGIT_ONE",
+        "symbol": "1"
+    },
+    "50": {
+        "unicode": "50",
+        "name": "DIGIT_TWO",
+        "symbol": "2"
+    },
+    "51": {
+        "unicode": "51",
+        "name": "DIGIT_THREE",
+        "symbol": "3"
+    },
+    "52": {
+        "unicode": "52",
+        "name": "DIGIT_FOUR",
+        "symbol": "4"
+    },
+    "53": {
+        "unicode": "53",
+        "name": "DIGIT_FIVE",
+        "symbol": "5"
+    },
+    "54": {
+        "unicode": "54",
+        "name": "DIGIT_SIX",
+        "symbol": "6"
+    },
+    "55": {
+        "unicode": "55",
+        "name": "DIGIT_SEVEN",
+        "symbol": "7"
+    },
+    "56": {
+        "unicode": "56",
+        "name": "DIGIT_EIGHT",
+        "symbol": "8"
+    },
+    "57": {
+        "unicode": "57",
+        "name": "DIGIT_NINE",
+        "symbol": "9"
+    },
+    "58": {
+        "unicode": "58",
+        "name": "COLON",
+        "symbol": ":"
+    },
+    "59": {
+        "unicode": "59",
+        "name": "SEMICOLON",
+        "symbol": ";"
+    },
+    "60": {
+        "unicode": "60",
+        "name": "LESS-THAN_SIGN",
+        "symbol": "&lt;"
+    },
+    "61": {
+        "unicode": "61",
+        "name": "EQUALS_SIGN",
+        "symbol": "="
+    },
+    "62": {
+        "unicode": "62",
+        "name": "GREATER-THAN_SIGN",
+        "symbol": "&gt;"
+    },
+    "63": {
+        "unicode": "63",
+        "name": "QUESTION_MARK",
+        "symbol": "?"
+    },
+    "64": {
+        "unicode": "64",
+        "name": "COMMERCIAL_AT",
+        "symbol": "@"
+    },
+    "65": {
+        "unicode": "65",
+        "name": "LATIN_CAPITAL_LETTER_A",
+        "symbol": "A"
+    },
+    "66": {
+        "unicode": "66",
+        "name": "LATIN_CAPITAL_LETTER_B",
+        "symbol": "B"
+    },
+    "67": {
+        "unicode": "67",
+        "name": "LATIN_CAPITAL_LETTER_C",
+        "symbol": "C"
+    },
+    "68": {
+        "unicode": "68",
+        "name": "LATIN_CAPITAL_LETTER_D",
+        "symbol": "D"
+    },
+    "69": {
+        "unicode": "69",
+        "name": "LATIN_CAPITAL_LETTER_E",
+        "symbol": "E"
+    },
+    "70": {
+        "unicode": "70",
+        "name": "LATIN_CAPITAL_LETTER_F",
+        "symbol": "F"
+    },
+    "71": {
+        "unicode": "71",
+        "name": "LATIN_CAPITAL_LETTER_G",
+        "symbol": "G"
+    },
+    "72": {
+        "unicode": "72",
+        "name": "LATIN_CAPITAL_LETTER_H",
+        "symbol": "H"
+    },
+    "73": {
+        "unicode": "73",
+        "name": "LATIN_CAPITAL_LETTER_I",
+        "symbol": "I"
+    },
+    "74": {
+        "unicode": "74",
+        "name": "LATIN_CAPITAL_LETTER_J",
+        "symbol": "J"
+    },
+    "75": {
+        "unicode": "75",
+        "name": "LATIN_CAPITAL_LETTER_K",
+        "symbol": "K"
+    },
+    "76": {
+        "unicode": "76",
+        "name": "LATIN_CAPITAL_LETTER_L",
+        "symbol": "L"
+    },
+    "77": {
+        "unicode": "77",
+        "name": "LATIN_CAPITAL_LETTER_M",
+        "symbol": "M"
+    },
+    "78": {
+        "unicode": "78",
+        "name": "LATIN_CAPITAL_LETTER_N",
+        "symbol": "N"
+    },
+    "79": {
+        "unicode": "79",
+        "name": "LATIN_CAPITAL_LETTER_O",
+        "symbol": "O"
+    },
+    "80": {
+        "unicode": "80",
+        "name": "LATIN_CAPITAL_LETTER_P",
+        "symbol": "P"
+    },
+    "81": {
+        "unicode": "81",
+        "name": "LATIN_CAPITAL_LETTER_Q",
+        "symbol": "Q"
+    },
+    "82": {
+        "unicode": "82",
+        "name": "LATIN_CAPITAL_LETTER_R",
+        "symbol": "R"
+    },
+    "83": {
+        "unicode": "83",
+        "name": "LATIN_CAPITAL_LETTER_S",
+        "symbol": "S"
+    },
+    "84": {
+        "unicode": "84",
+        "name": "LATIN_CAPITAL_LETTER_T",
+        "symbol": "T"
+    },
+    "85": {
+        "unicode": "85",
+        "name": "LATIN_CAPITAL_LETTER_U",
+        "symbol": "U"
+    },
+    "86": {
+        "unicode": "86",
+        "name": "LATIN_CAPITAL_LETTER_V",
+        "symbol": "V"
+    },
+    "87": {
+        "unicode": "87",
+        "name": "LATIN_CAPITAL_LETTER_W",
+        "symbol": "W"
+    },
+    "88": {
+        "unicode": "88",
+        "name": "LATIN_CAPITAL_LETTER_X",
+        "symbol": "X"
+    },
+    "89": {
+        "unicode": "89",
+        "name": "LATIN_CAPITAL_LETTER_Y",
+        "symbol": "Y"
+    },
+    "90": {
+        "unicode": "90",
+        "name": "LATIN_CAPITAL_LETTER_Z",
+        "symbol": "Z"
+    },
+    "91": {
+        "unicode": "91",
+        "name": "LEFT_SQUARE_BRACKET",
+        "symbol": "["
+    },
+    "92": {
+        "unicode": "92",
+        "name": "REVERSE_SOLIDUS",
+        "symbol": "\\"
+    },
+    "93": {
+        "unicode": "93",
+        "name": "RIGHT_SQUARE_BRACKET",
+        "symbol": "]"
+    },
+    "94": {
+        "unicode": "94",
+        "name": "CIRCUMFLEX_ACCENT",
+        "symbol": "^"
+    },
+    "95": {
+        "unicode": "95",
+        "name": "LOW_LINE",
+        "symbol": "_"
+    },
+    "96": {
+        "unicode": "96",
+        "name": "GRAVE_ACCENT",
+        "symbol": "`"
+    },
+    "97": {
+        "unicode": "97",
+        "name": "LATIN_SMALL_LETTER_A",
+        "symbol": "a"
+    },
+    "98": {
+        "unicode": "98",
+        "name": "LATIN_SMALL_LETTER_B",
+        "symbol": "b"
+    },
+    "99": {
+        "unicode": "99",
+        "name": "LATIN_SMALL_LETTER_C",
+        "symbol": "c"
+    },
+    "100": {
+        "unicode": "100",
+        "name": "LATIN_SMALL_LETTER_D",
+        "symbol": "d"
+    },
+    "101": {
+        "unicode": "101",
+        "name": "LATIN_SMALL_LETTER_E",
+        "symbol": "e"
+    },
+    "102": {
+        "unicode": "102",
+        "name": "LATIN_SMALL_LETTER_F",
+        "symbol": "f"
+    },
+    "103": {
+        "unicode": "103",
+        "name": "LATIN_SMALL_LETTER_G",
+        "symbol": "g"
+    },
+    "104": {
+        "unicode": "104",
+        "name": "LATIN_SMALL_LETTER_H",
+        "symbol": "h"
+    },
+    "105": {
+        "unicode": "105",
+        "name": "LATIN_SMALL_LETTER_I",
+        "symbol": "i"
+    },
+    "106": {
+        "unicode": "106",
+        "name": "LATIN_SMALL_LETTER_J",
+        "symbol": "j"
+    },
+    "107": {
+        "unicode": "107",
+        "name": "LATIN_SMALL_LETTER_K",
+        "symbol": "k"
+    },
+    "108": {
+        "unicode": "108",
+        "name": "LATIN_SMALL_LETTER_L",
+        "symbol": "l"
+    },
+    "109": {
+        "unicode": "109",
+        "name": "LATIN_SMALL_LETTER_M",
+        "symbol": "m"
+    },
+    "110": {
+        "unicode": "110",
+        "name": "LATIN_SMALL_LETTER_N",
+        "symbol": "n"
+    },
+    "111": {
+        "unicode": "111",
+        "name": "LATIN_SMALL_LETTER_O",
+        "symbol": "o"
+    },
+    "112": {
+        "unicode": "112",
+        "name": "LATIN_SMALL_LETTER_P",
+        "symbol": "p"
+    },
+    "113": {
+        "unicode": "113",
+        "name": "LATIN_SMALL_LETTER_Q",
+        "symbol": "q"
+    },
+    "114": {
+        "unicode": "114",
+        "name": "LATIN_SMALL_LETTER_R",
+        "symbol": "r"
+    },
+    "115": {
+        "unicode": "115",
+        "name": "LATIN_SMALL_LETTER_S",
+        "symbol": "s"
+    },
+    "116": {
+        "unicode": "116",
+        "name": "LATIN_SMALL_LETTER_T",
+        "symbol": "t"
+    },
+    "117": {
+        "unicode": "117",
+        "name": "LATIN_SMALL_LETTER_U",
+        "symbol": "u"
+    },
+    "118": {
+        "unicode": "118",
+        "name": "LATIN_SMALL_LETTER_V",
+        "symbol": "v"
+    },
+    "119": {
+        "unicode": "119",
+        "name": "LATIN_SMALL_LETTER_W",
+        "symbol": "w"
+    },
+    "120": {
+        "unicode": "120",
+        "name": "LATIN_SMALL_LETTER_X",
+        "symbol": "x"
+    },
+    "121": {
+        "unicode": "121",
+        "name": "LATIN_SMALL_LETTER_Y",
+        "symbol": "y"
+    },
+    "122": {
+        "unicode": "122",
+        "name": "LATIN_SMALL_LETTER_Z",
+        "symbol": "z"
+    },
+    "123": {
+        "unicode": "123",
+        "name": "LEFT_CURLY_BRACKET",
+        "symbol": "{"
+    },
+    "124": {
+        "unicode": "124",
+        "name": "VERTICAL_LINE",
+        "symbol": "|"
+    },
+    "125": {
+        "unicode": "125",
+        "name": "RIGHT_CURLY_BRACKET",
+        "symbol": "}"
+    },
+    "126": {
+        "unicode": "126",
+        "name": "TILDE",
+        "symbol": "~"
+    }
+}

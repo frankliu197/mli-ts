@@ -1,26 +1,32 @@
 <template lang='pug'>
 
 textarea(style = "resize: none;" ref="textarea" @keyup.page-down="insertSuggestDropdown")
-n-dropdown
-  .absolute-dropdown(v-show="showDropdown" :style="coords") adfsd
+.absolute-dropdown(v-show="dropdown.show" :style="dropdown.position")
+  SuggestDropdown
 </template>
 
 <script lang='ts'>
 import { defineComponent } from 'vue'
-interface Coordinates { left: string, top: string, height: string, width: string}
+import SuggestDropdown from './SuggestDropdown.vue'
+interface Position { left: string, top: string}
 
 let MIN_WIDTH = 50;
 export default defineComponent({
   name: 'InputBox',
+  components: { 
+    SuggestDropdown
+  },
   methods: {
     insertSuggestDropdown(){
-      this.showDropdown = !this.showDropdown
+      this.dropdown.show = !this.dropdown.show
     }
   },
   data: function(){
     return {
-      showDropdown: false,
-      coords: {} as Coordinates
+      dropdown: {
+        show: false,
+        position: {} as Position
+      }
     }
   },
   watch: {
@@ -28,14 +34,14 @@ export default defineComponent({
       if (!val) {
         return 
       }
-      const textarea : HTMLTextAreaElement = this.$refs.textarea as HTMLTextAreaElement
+      const textarea = this.$refs.textarea as HTMLTextAreaElement
       let fontsize = {} as any;
       fontsize.width = textarea.clientWidth + 1
       fontsize.height = textarea.clientHeight + 1
       let {x, y} = textarea.getBoundingClientRect()
       y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
-      this.coords = {left: `calc(${x}px + ${offset}px)`, top: y + "px", width: MIN_WIDTH + "px", height: 100 + "px"}
+      this.dropdown.position = {left: `calc(${x}px + ${offset}px)`, top: y + "px"}
     }
   }
 })

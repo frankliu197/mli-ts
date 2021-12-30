@@ -1,24 +1,25 @@
-<template lang="">
-<header>
-    <n-button class="nav-btn" color="#66ff33" strong secondary round type="info">Home</n-button>
-    <n-button class="nav-btn" color="#009900" ghost>Favourites</n-button>
-    <n-button class="nav-btn" color="#009900" ghost>Customize</n-button>
-    <span> 
-        <input 
-            type="checkbox" 
-            :checked="(mode==='dark')?'checked':false"
-            @change="$emit('toggle')"
-        /> {{ mode }} mode
-    </span>
-</header>
+<template lang="pug">
+header
+  n-button.nav-btn(color='#66ff33' strong='' secondary='' round='' type='info') Home
+  n-button.nav-btn(color='#009900' ghost='') Favourites
+  n-button.nav-btn(color='#009900' ghost='') Customize
+  n-button.nav-btn(@click="printSymbols") Test
+  span
+    input(type='checkbox' :checked="(mode==='dark')?'checked':false" @change="$emit('toggle')")
+    |  {{ mode }} mode
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
+import BasicLatin from "../symbols/BasicLatin.json" 
 export default defineComponent({
     name:'Header',
-    props: ['mode']
+    props: ['mode'],
+    methods: {
+        printSymbols: function(){
+            console.log(BasicLatin)
+        }
+    }
 })
 </script>
 
