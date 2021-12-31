@@ -1,12 +1,15 @@
 <template lang="pug">
 header
-  n-button.nav-btn(color='#66ff33' strong='' secondary='' round='' type='info') Home
-  n-button.nav-btn(color='#009900' ghost='') Favourites
-  n-button.nav-btn(color='#009900' ghost='') Customize
-  n-button.nav-btn(@click="printSymbols") Test
-  span
-    input(type='checkbox' :checked="(mode==='dark')?'checked':false" @change="$emit('toggle')")
-    |  {{ mode }} mode
+  n-space
+    router-link(:to="{name: 'Home'}")
+      n-button(type='info') Home
+    router-link(:to="{name: 'About'}")
+      n-button(type="info") About
+    n-button(type="warning") Customize
+    n-button(@click="printSymbols") Test
+    span
+      input(type='checkbox' v-bind:checked="mode==='dark'?'checked':false" @change="$emit('toggle')") 
+      p {{ mode }} mode
 </template>
 
 <script lang="ts">
@@ -44,4 +47,5 @@ header {
     color: rgb(63, 65, 63);
     margin: 0 10px 0 10px;
 }
+a { text-decoration: none; }
 </style>

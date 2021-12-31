@@ -1,19 +1,17 @@
-<template lang='pug'>
+<template>
 <div class="app" :class="mode">
 <Header :mode="mode" @toggle="toggle"/>
-MainPage
+<router-view></router-view>
 </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import MainPage from './pages/MainPage.vue';
 import Header from "./components/Header.vue"
 
 export default defineComponent({
   components: {
-    Header,
-    MainPage,
+    Header
   },
   data () {
     return {

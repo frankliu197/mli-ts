@@ -5,7 +5,7 @@ InputBox
 <script lang="ts">
 import InputBox from "../components/InputBox.vue"
 export default {
-  name: 'MainPage',
+  name: 'Home',
   components: {
     InputBox
   }
