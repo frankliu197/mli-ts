@@ -8,7 +8,11 @@ export default class {
         return
     }
 
-    public toString(){
-        return Collections.util.makeString(this);
+    public hashcode() : number{
+        return this.unicode;
+    }
+
+    public toString() : string{
+        return this.symbol;
     }
 }
