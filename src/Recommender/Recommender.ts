@@ -4,11 +4,12 @@ import Character from './Character';
 import Fuse from 'fuse.js'
 import lunr from 'lunr'
 const options = {
-    threshold: "0.1",
+    threshold: "0",
     keys: [
         "name"
     ]
 }
+/*
 const index = lunr(function(){
     // @ts-expect-error: javascript
     this.field('name')
@@ -20,11 +21,12 @@ const index = lunr(function(){
         this.add(doc)
         // @ts-expect-error: javascript
     }, this)
-})
+})*/
 
-//const fuse = new Fuse(BasicLatin, options);
+const fuse = new Fuse(BasicLatin, options);
 export default function(search : string) : Set<Character> { //: Character[] cast into character
-    console.log(index.search(search))
+    //console.log(index.search(search))
+    console.log(fuse.search(search))
     const suggestions = new Set<Character>();
     //search word corospondence only if length > 3
     /*const suggestions = new Set<Character>();
