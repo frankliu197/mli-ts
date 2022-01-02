@@ -8,11 +8,11 @@ export default class {
         return
     }
 
-    public hashcode() : number{
+    public hashcode() : number {
         return this.unicode;
     }
 
-    public toString() : string{
+    public toString() : string {
         return this.symbol;
     }
 }

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#usage  .\ParseSymbolFile.py ..\src\symbols\BasicLatin.txt
 import sys
 import json
 dataset = []
