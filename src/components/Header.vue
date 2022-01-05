@@ -6,28 +6,25 @@ header
     router-link(:to="{name: 'About'}")
       n-button(type="info") About
     n-button(type="warning") Customize
-    n-button(@click="printSymbols") Test
+    n-button(@click="printSymbols") Test 
+
+    <ThemeToggler :dark="dark" @click="$emit('toggleTheme');"/>
     
-    //- Dark/Light mode switcher
-    .theme-toggler-wrap
-      .theme-toggler(v-bind:class="{ active: mode==='dark' }" @click="$emit('toggle');")
-        .toggler-slider
-          .toggler-nob
-            img.toggler-icon(v-if="mode==='dark'" src='@/assets/icon/moon.png')
-            img.toggler-icon(v-else='' src='@/assets/icon/sun.png')
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import BasicLatin from "../symbols/BasicLatin.json"
+import ThemeToggler from './ThemeToggler.vue'
 export default defineComponent({
-    name:'Header',
-    props: ['mode'],
+    name: "Header",
+    props: ["dark"],
     methods: {
-        printSymbols: function(){
-            console.log(BasicLatin)
+        printSymbols: function () {
+            console.log(BasicLatin);
         }
-    }
+    },
+    components: { ThemeToggler }
 })
 </script>
 
@@ -57,46 +54,5 @@ header {
 }
 
 a { text-decoration: none; }
-
-// Dark/Light mode toggle switch in the OFF position
-.theme-toggler-wrap {
-  width: 100%;
-  text-align: right;
-
-  .theme-toggler {
-    display: inline-block;
-    cursor: pointer;
-
-    .toggler-slider {
-      width: 40px;
-      height: 20px;
-      border-radius: 10px;
-      background-color: rgb(170, 170, 170);
-
-      .toggler-nob {
-        background-color: rgb(122, 122, 122);
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        transition: all 0.3s ease-in-out;
-      }
-    }
-  }
-}
-
-// Dark/Light mode toggle switch in the ON position
-.theme-toggler-wrap .theme-toggler.active .toggler-slider {
-  background-color: #555;
-}
-.theme-toggler-wrap .theme-toggler.active .toggler-nob {
-  transform: translateX(20px);
-  background-color: #7bbb5e;
-}
-
-.toggler-icon {
-  width: 15px;
-  height: 15px;
-  padding-right: 3px;
-}
 
 </style>

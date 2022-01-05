@@ -1,6 +1,6 @@
 <template>
-<div class="app" :class="mode">
-<Header :mode="mode" @toggle="toggle"/>
+<div class="app" v-bind:class="{ dark: dark }">
+<Header :dark="dark" @toggleTheme="toggleTheme"/>
 <router-view></router-view>
 </div>
 </template>
@@ -15,16 +15,12 @@ export default defineComponent({
   },
   data () {
     return {
-      mode: 'dark'
+      dark: true
     }
   },
   methods: {
-    toggle() {
-      if (this.mode === 'dark') {
-        this.mode = 'light'
-      } else {
-        this.mode = 'dark'
-      }
+    toggleTheme() {
+      this.dark = !this.dark;
     }
   }
 })
