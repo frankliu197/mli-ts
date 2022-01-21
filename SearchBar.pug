@@ -1,0 +1,29 @@
+doctype html
+| PASTE YOUR HTML CODE HERE
+head
+  style.
+    .SearchBar-container button {
+    padding: 14px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    }
+    input[type=text] {
+    border: 1px solid #ccc;
+    padding: 14px;
+    width: 50%;
+    }
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  title Page Title
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' type='text/css' media='screen' href='main.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  script(src='main.js')
+.SearchBar-container
+  input(type='text' name='search')
+  button(type='submit')
+    i.fa.fa-search
