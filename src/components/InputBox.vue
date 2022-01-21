@@ -33,7 +33,7 @@ export default defineComponent({
     }
   },
   watch: {
-    showDropdown: function(val) {
+    "dropdown.show": function(val) {
       //https://stackoverflow.com/questions/17016698/get-caret-coordinates-on-a-contenteditable-div-through-javascript
       //TODO: try getting x and y coordinates on its own
       if (!val) {
@@ -48,6 +48,7 @@ export default defineComponent({
       const offset = textarea.selectionStart * 12 ?? 0
       //TODO: set min length
       this.dropdown.position = {left: `calc(${x}px + ${offset}px)`, top: y + "px", minlength: "10px"}
+      
     }
   }
 })
