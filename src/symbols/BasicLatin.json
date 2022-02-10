@@ -1,27 +1,26 @@
-[
-    {
+[{
         "unicode": 33,
-        "name": "EXCLAMATION_MARK",
+        "name": "EXCLAMATION MARK",
         "symbol": "!"
     },
     {
         "unicode": 34,
-        "name": "QUOTATION_MARK",
+        "name": "QUOTATION MARK",
         "symbol": "\""
     },
     {
         "unicode": 35,
-        "name": "NUMBER_SIGN",
+        "name": "NUMBER SIGN",
         "symbol": "#"
     },
     {
         "unicode": 36,
-        "name": "DOLLAR_SIGN",
+        "name": "DOLLAR SIGN",
         "symbol": "$"
     },
     {
         "unicode": 37,
-        "name": "PERCENT_SIGN",
+        "name": "PERCENT SIGN",
         "symbol": "%"
     },
     {
@@ -36,12 +35,12 @@
     },
     {
         "unicode": 40,
-        "name": "LEFT_PARENTHESIS",
+        "name": "LEFT PARENTHESIS",
         "symbol": "("
     },
     {
         "unicode": 41,
-        "name": "RIGHT_PARENTHESIS",
+        "name": "RIGHT PARENTHESIS",
         "symbol": ")"
     },
     {
@@ -51,7 +50,7 @@
     },
     {
         "unicode": 43,
-        "name": "PLUS_SIGN",
+        "name": "PLUS SIGN",
         "symbol": "+"
     },
     {
@@ -61,12 +60,12 @@
     },
     {
         "unicode": 45,
-        "name": "HYPHEN_MINUS",
-        "symbol": "_"
+        "name": "HYPHEN MINUS",
+        "symbol": " "
     },
     {
         "unicode": 46,
-        "name": "FULL_STOP",
+        "name": "FULL STOP",
         "symbol": "."
     },
     {
@@ -76,52 +75,52 @@
     },
     {
         "unicode": 48,
-        "name": "DIGIT_ZERO",
+        "name": "DIGIT ZERO",
         "symbol": "0"
     },
     {
         "unicode": 49,
-        "name": "DIGIT_ONE",
+        "name": "DIGIT ONE",
         "symbol": "1"
     },
     {
         "unicode": 50,
-        "name": "DIGIT_TWO",
+        "name": "DIGIT TWO",
         "symbol": "2"
     },
     {
         "unicode": 51,
-        "name": "DIGIT_THREE",
+        "name": "DIGIT THREE",
         "symbol": "3"
     },
     {
         "unicode": 52,
-        "name": "DIGIT_FOUR",
+        "name": "DIGIT FOUR",
         "symbol": "4"
     },
     {
         "unicode": 53,
-        "name": "DIGIT_FIVE",
+        "name": "DIGIT FIVE",
         "symbol": "5"
     },
     {
         "unicode": 54,
-        "name": "DIGIT_SIX",
+        "name": "DIGIT SIX",
         "symbol": "6"
     },
     {
         "unicode": 55,
-        "name": "DIGIT_SEVEN",
+        "name": "DIGIT SEVEN",
         "symbol": "7"
     },
     {
         "unicode": 56,
-        "name": "DIGIT_EIGHT",
+        "name": "DIGIT EIGHT",
         "symbol": "8"
     },
     {
         "unicode": 57,
-        "name": "DIGIT_NINE",
+        "name": "DIGIT NINE",
         "symbol": "9"
     },
     {
@@ -136,332 +135,332 @@
     },
     {
         "unicode": 60,
-        "name": "LESS_THAN_SIGN",
+        "name": "LESS THAN SIGN",
         "symbol": "&lt;"
     },
     {
         "unicode": 61,
-        "name": "EQUALS_SIGN",
+        "name": "EQUALS SIGN",
         "symbol": "="
     },
     {
         "unicode": 62,
-        "name": "GREATER_THAN_SIGN",
+        "name": "GREATER THAN SIGN",
         "symbol": "&gt;"
     },
     {
         "unicode": 63,
-        "name": "QUESTION_MARK",
+        "name": "QUESTION MARK",
         "symbol": "?"
     },
     {
         "unicode": 64,
-        "name": "COMMERCIAL_AT",
+        "name": "COMMERCIAL AT",
         "symbol": "@"
     },
     {
         "unicode": 65,
-        "name": "LATIN_CAPITAL_LETTER_A",
+        "name": "LATIN CAPITAL LETTER A",
         "symbol": "A"
     },
     {
         "unicode": 66,
-        "name": "LATIN_CAPITAL_LETTER_B",
+        "name": "LATIN CAPITAL LETTER B",
         "symbol": "B"
     },
     {
         "unicode": 67,
-        "name": "LATIN_CAPITAL_LETTER_C",
+        "name": "LATIN CAPITAL LETTER C",
         "symbol": "C"
     },
     {
         "unicode": 68,
-        "name": "LATIN_CAPITAL_LETTER_D",
+        "name": "LATIN CAPITAL LETTER D",
         "symbol": "D"
     },
     {
         "unicode": 69,
-        "name": "LATIN_CAPITAL_LETTER_E",
+        "name": "LATIN CAPITAL LETTER E",
         "symbol": "E"
     },
     {
         "unicode": 70,
-        "name": "LATIN_CAPITAL_LETTER_F",
+        "name": "LATIN CAPITAL LETTER F",
         "symbol": "F"
     },
     {
         "unicode": 71,
-        "name": "LATIN_CAPITAL_LETTER_G",
+        "name": "LATIN CAPITAL LETTER G",
         "symbol": "G"
     },
     {
         "unicode": 72,
-        "name": "LATIN_CAPITAL_LETTER_H",
+        "name": "LATIN CAPITAL LETTER H",
         "symbol": "H"
     },
     {
         "unicode": 73,
-        "name": "LATIN_CAPITAL_LETTER_I",
+        "name": "LATIN CAPITAL LETTER I",
         "symbol": "I"
     },
     {
         "unicode": 74,
-        "name": "LATIN_CAPITAL_LETTER_J",
+        "name": "LATIN CAPITAL LETTER J",
         "symbol": "J"
     },
     {
         "unicode": 75,
-        "name": "LATIN_CAPITAL_LETTER_K",
+        "name": "LATIN CAPITAL LETTER K",
         "symbol": "K"
     },
     {
         "unicode": 76,
-        "name": "LATIN_CAPITAL_LETTER_L",
+        "name": "LATIN CAPITAL LETTER L",
         "symbol": "L"
     },
     {
         "unicode": 77,
-        "name": "LATIN_CAPITAL_LETTER_M",
+        "name": "LATIN CAPITAL LETTER M",
         "symbol": "M"
     },
     {
         "unicode": 78,
-        "name": "LATIN_CAPITAL_LETTER_N",
+        "name": "LATIN CAPITAL LETTER N",
         "symbol": "N"
     },
     {
         "unicode": 79,
-        "name": "LATIN_CAPITAL_LETTER_O",
+        "name": "LATIN CAPITAL LETTER O",
         "symbol": "O"
     },
     {
         "unicode": 80,
-        "name": "LATIN_CAPITAL_LETTER_P",
+        "name": "LATIN CAPITAL LETTER P",
         "symbol": "P"
     },
     {
         "unicode": 81,
-        "name": "LATIN_CAPITAL_LETTER_Q",
+        "name": "LATIN CAPITAL LETTER Q",
         "symbol": "Q"
     },
     {
         "unicode": 82,
-        "name": "LATIN_CAPITAL_LETTER_R",
+        "name": "LATIN CAPITAL LETTER R",
         "symbol": "R"
     },
     {
         "unicode": 83,
-        "name": "LATIN_CAPITAL_LETTER_S",
+        "name": "LATIN CAPITAL LETTER S",
         "symbol": "S"
     },
     {
         "unicode": 84,
-        "name": "LATIN_CAPITAL_LETTER_T",
+        "name": "LATIN CAPITAL LETTER T",
         "symbol": "T"
     },
     {
         "unicode": 85,
-        "name": "LATIN_CAPITAL_LETTER_U",
+        "name": "LATIN CAPITAL LETTER U",
         "symbol": "U"
     },
     {
         "unicode": 86,
-        "name": "LATIN_CAPITAL_LETTER_V",
+        "name": "LATIN CAPITAL LETTER V",
         "symbol": "V"
     },
     {
         "unicode": 87,
-        "name": "LATIN_CAPITAL_LETTER_W",
+        "name": "LATIN CAPITAL LETTER W",
         "symbol": "W"
     },
     {
         "unicode": 88,
-        "name": "LATIN_CAPITAL_LETTER_X",
+        "name": "LATIN CAPITAL LETTER X",
         "symbol": "X"
     },
     {
         "unicode": 89,
-        "name": "LATIN_CAPITAL_LETTER_Y",
+        "name": "LATIN CAPITAL LETTER Y",
         "symbol": "Y"
     },
     {
         "unicode": 90,
-        "name": "LATIN_CAPITAL_LETTER_Z",
+        "name": "LATIN CAPITAL LETTER Z",
         "symbol": "Z"
     },
     {
         "unicode": 91,
-        "name": "LEFT_SQUARE_BRACKET",
+        "name": "LEFT SQUARE BRACKET",
         "symbol": "["
     },
     {
         "unicode": 92,
-        "name": "REVERSE_SOLIDUS",
+        "name": "REVERSE SOLIDUS",
         "symbol": "\\"
     },
     {
         "unicode": 93,
-        "name": "RIGHT_SQUARE_BRACKET",
+        "name": "RIGHT SQUARE BRACKET",
         "symbol": "]"
     },
     {
         "unicode": 94,
-        "name": "CIRCUMFLEX_ACCENT",
+        "name": "CIRCUMFLEX ACCENT",
         "symbol": "^"
     },
     {
         "unicode": 95,
-        "name": "LOW_LINE",
-        "symbol": "_"
+        "name": "LOW LINE",
+        "symbol": " "
     },
     {
         "unicode": 96,
-        "name": "GRAVE_ACCENT",
+        "name": "GRAVE ACCENT",
         "symbol": "`"
     },
     {
         "unicode": 97,
-        "name": "LATIN_SMALL_LETTER_A",
+        "name": "LATIN SMALL LETTER A",
         "symbol": "a"
     },
     {
         "unicode": 98,
-        "name": "LATIN_SMALL_LETTER_B",
+        "name": "LATIN SMALL LETTER B",
         "symbol": "b"
     },
     {
         "unicode": 99,
-        "name": "LATIN_SMALL_LETTER_C",
+        "name": "LATIN SMALL LETTER C",
         "symbol": "c"
     },
     {
         "unicode": 100,
-        "name": "LATIN_SMALL_LETTER_D",
+        "name": "LATIN SMALL LETTER D",
         "symbol": "d"
     },
     {
         "unicode": 101,
-        "name": "LATIN_SMALL_LETTER_E",
+        "name": "LATIN SMALL LETTER E",
         "symbol": "e"
     },
     {
         "unicode": 102,
-        "name": "LATIN_SMALL_LETTER_F",
+        "name": "LATIN SMALL LETTER F",
         "symbol": "f"
     },
     {
         "unicode": 103,
-        "name": "LATIN_SMALL_LETTER_G",
+        "name": "LATIN SMALL LETTER G",
         "symbol": "g"
     },
     {
         "unicode": 104,
-        "name": "LATIN_SMALL_LETTER_H",
+        "name": "LATIN SMALL LETTER H",
         "symbol": "h"
     },
     {
         "unicode": 105,
-        "name": "LATIN_SMALL_LETTER_I",
+        "name": "LATIN SMALL LETTER I",
         "symbol": "i"
     },
     {
         "unicode": 106,
-        "name": "LATIN_SMALL_LETTER_J",
+        "name": "LATIN SMALL LETTER J",
         "symbol": "j"
     },
     {
         "unicode": 107,
-        "name": "LATIN_SMALL_LETTER_K",
+        "name": "LATIN SMALL LETTER K",
         "symbol": "k"
     },
     {
         "unicode": 108,
-        "name": "LATIN_SMALL_LETTER_L",
+        "name": "LATIN SMALL LETTER L",
         "symbol": "l"
     },
     {
         "unicode": 109,
-        "name": "LATIN_SMALL_LETTER_M",
+        "name": "LATIN SMALL LETTER M",
         "symbol": "m"
     },
     {
         "unicode": 110,
-        "name": "LATIN_SMALL_LETTER_N",
+        "name": "LATIN SMALL LETTER N",
         "symbol": "n"
     },
     {
         "unicode": 111,
-        "name": "LATIN_SMALL_LETTER_O",
+        "name": "LATIN SMALL LETTER O",
         "symbol": "o"
     },
     {
         "unicode": 112,
-        "name": "LATIN_SMALL_LETTER_P",
+        "name": "LATIN SMALL LETTER P",
         "symbol": "p"
     },
     {
         "unicode": 113,
-        "name": "LATIN_SMALL_LETTER_Q",
+        "name": "LATIN SMALL LETTER Q",
         "symbol": "q"
     },
     {
         "unicode": 114,
-        "name": "LATIN_SMALL_LETTER_R",
+        "name": "LATIN SMALL LETTER R",
         "symbol": "r"
     },
     {
         "unicode": 115,
-        "name": "LATIN_SMALL_LETTER_S",
+        "name": "LATIN SMALL LETTER S",
         "symbol": "s"
     },
     {
         "unicode": 116,
-        "name": "LATIN_SMALL_LETTER_T",
+        "name": "LATIN SMALL LETTER T",
         "symbol": "t"
     },
     {
         "unicode": 117,
-        "name": "LATIN_SMALL_LETTER_U",
+        "name": "LATIN SMALL LETTER U",
         "symbol": "u"
     },
     {
         "unicode": 118,
-        "name": "LATIN_SMALL_LETTER_V",
+        "name": "LATIN SMALL LETTER V",
         "symbol": "v"
     },
     {
         "unicode": 119,
-        "name": "LATIN_SMALL_LETTER_W",
+        "name": "LATIN SMALL LETTER W",
         "symbol": "w"
     },
     {
         "unicode": 120,
-        "name": "LATIN_SMALL_LETTER_X",
+        "name": "LATIN SMALL LETTER X",
         "symbol": "x"
     },
     {
         "unicode": 121,
-        "name": "LATIN_SMALL_LETTER_Y",
+        "name": "LATIN SMALL LETTER Y",
         "symbol": "y"
     },
     {
         "unicode": 122,
-        "name": "LATIN_SMALL_LETTER_Z",
+        "name": "LATIN SMALL LETTER Z",
         "symbol": "z"
     },
     {
         "unicode": 123,
-        "name": "LEFT_CURLY_BRACKET",
+        "name": "LEFT CURLY BRACKET",
         "symbol": "{"
     },
     {
         "unicode": 124,
-        "name": "VERTICAL_LINE",
+        "name": "VERTICAL LINE",
         "symbol": "|"
     },
     {
         "unicode": 125,
-        "name": "RIGHT_CURLY_BRACKET",
+        "name": "RIGHT CURLY BRACKET",
         "symbol": "}"
     },
     {
