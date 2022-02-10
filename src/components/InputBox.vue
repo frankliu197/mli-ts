@@ -2,7 +2,7 @@
 
 textarea(style = "resize: none;" ref="textarea" v-model="search" @keyup.page-down="insertSuggestDropdown" default="Type Here")
 .absolute-dropdown(v-show="dropdown.show" :style="dropdown.position")
-  n-button(v-for="(item, index) in suggestions.values()" :key="item") {{ index }}   {{ item.symbol }}
+  input(@blur="dropdown.show = false")
 </template>
 
 <script lang='ts'>

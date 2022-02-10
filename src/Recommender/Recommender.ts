@@ -1,14 +1,7 @@
 import BasicLatin from "../symbols/BasicLatin.json" 
 import * as Collections from 'typescript-collections';
 import Character from './Character';
-import Fuse from 'fuse.js'
-import lunr from 'lunr'
-const options = {
-    threshold: "0",
-    keys: [
-        "name"
-    ]
-}
+
 /*
 const index = lunr(function(){
     // @ts-expect-error: javascript
@@ -23,11 +16,10 @@ const index = lunr(function(){
     }, this)
 })*/
 
-const fuse = new Fuse(BasicLatin, options);
-export default function(search : string) : Set<Character> { //: Character[] cast into character
+export default function(search : string) /*: Set<Character>*/ { //: Character[] cast into character
     //console.log(index.search(search))
-    console.log(fuse.search(search))
-    const suggestions = new Set<Character>();
+    //console.log(fuse.search(search))
+    //const suggestions = new Set<Character>();
     //search word corospondence only if length > 3
     /*const suggestions = new Set<Character>();
     if (search.length > 3) {
@@ -40,5 +32,5 @@ export default function(search : string) : Set<Character> { //: Character[] cast
     } else {
         return suggestions
     }*/
-    return suggestions
+   // return suggestions
 }
