@@ -1,27 +1,19 @@
-<template>
-<div class="app" v-bind:class="{ dark: dark }">
-<Header :dark="dark" @toggleTheme="toggleTheme"/>
-<router-view></router-view>
-</div>
+<template lang="pug">
+v-app
+  Header
+  v-main
+    Home
+    
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import Header from "./components/Header.vue"
-
-export default defineComponent({
+import Header from "@/components/Header.vue"
+import Home from "@/pages/Home.vue"
+import Vue from "vue";
+export default Vue.extend({
   components: {
-    Header
-  },
-  data () {
-    return {
-      dark: true
-    }
-  },
-  methods: {
-    toggleTheme() {
-      this.dark = !this.dark;
-    }
+    Header,
+    Home
   }
 })
 </script>
@@ -32,9 +24,5 @@ export default defineComponent({
   min-height: 100vh;
   background: #f5f5f5;
   transition: background 0.3s ease-in-out;
-}
-.dark {
-  background: #1f3041;
-  color: #F3F3F3;
 }
 </style>

@@ -1,9 +1,10 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import App from './App.vue'
-import naive, { autoCompleteDark } from 'naive-ui'
-import router from './router'
+import vuetify from './plugins/vuetify'
 
-const app = createApp(App)
-app.use(router)
-app.use(naive)
-app.mount('#app')
+Vue.config.productionTip = false
+
+new Vue({
+  vuetify,
+  render: h => h(App)
+}).$mount('#app')

@@ -1,23 +1,26 @@
 <template lang='pug'>
+.input-box
+  textarea(ref="textarea" @keyup.page-down="insertSuggestDropdown" default="Type Here")
+  .absolute-dropdown(v-show="dropdown.show" :style="dropdown.position")
+    input(ref="inputDropdown" v-model="dropdown.search" @input="resizeInput" @blur="dropdown.show = false" @keyup.enter="")
 
-textarea(style = "resize: none;" ref="textarea" v-model="search" @keyup.page-down="insertSuggestDropdown" default="Type Here")
-.absolute-dropdown(v-show="dropdown.show" :style="dropdown.position")
-  input(@blur="dropdown.show = false")
+
 </template>
 
 <script lang='ts'>
-import { defineComponent } from 'vue'
-import recommender from '../Recommender/Recommender'
-import Character from '../Recommender/Character';
-interface Position { left: string, top: string, minlength: string}
-
-export default defineComponent({
+import recommender from '@/Recommender/Recommender'
+import Character from '@/Recommender/Character';
+import * as Collections from 'typescript-collections';
+interface Position { left: string, top: string }
+import Vue from "vue";
+export default Vue.extend({
   name: 'InputBox',
   data: function() {
     return {
-      search: "",
       dropdown: {
-        show: true,
+        minSize: 167,
+        search: "",
+        show: false,
         position: {} as Position
       }
     }
@@ -25,11 +28,17 @@ export default defineComponent({
   methods: {
     insertSuggestDropdown(){
       this.dropdown.show = !this.dropdown.show
+      this.dropdown.search = ""
+    },
+    resizeInput(){
+      const inputDropdown = this.$refs.inputDropdown as HTMLInputElement
+      console.log(inputDropdown.scrollWidth)
+      inputDropdown.style.width = Math.max(inputDropdown.scrollWidth, this.dropdown.minSize) + "px"
     }
   },
   computed: {
-    suggestions: function() : Set<Character> {
-      return recommender(this.search)
+    suggestions: function() : Collections.Set<Character> {
+      return recommender(this.dropdown.search)
     }
   },
   watch: {
@@ -39,7 +48,10 @@ export default defineComponent({
       if (!val) {
         return 
       }
+
       const textarea = this.$refs.textarea as HTMLTextAreaElement
+      const inputDropdown = this.$refs.inputDropdown as HTMLInputElement
+      
       let fontsize = {} as any;
       fontsize.width = textarea.clientWidth + 1
       fontsize.height = textarea.clientHeight + 1
@@ -47,7 +59,11 @@ export default defineComponent({
       y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
       //TODO: set min length
-      this.dropdown.position = {left: `calc(${x}px + ${offset}px)`, top: y + "px", minlength: "10px"}
+      this.dropdown.position = {left: `calc(${x}px + ${offset}px)`, top: y + "px"}
+      
+      this.$nextTick(()=>{
+        inputDropdown.focus()
+      })
       
     }
   }

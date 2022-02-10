@@ -1,5 +1,7 @@
 <template lang='pug'>
-InputBox
+.home
+  v-container.main.background(fluid)
+    InputBox
 </template>
 
 <script lang="ts">
