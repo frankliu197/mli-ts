@@ -1,6 +1,8 @@
-import BasicLatin from "../symbols/BasicLatin.json" 
+import SymbolSet from './SymbolSet';
 import Character from './Character';
+import KeywordRecommender from './KeywordRecommender';
 
+KeywordRecommender.addSymbolSet(SymbolSet["BasicLatin"])
 /*
 const index = lunr(function(){
     // @ts-expect-error: javascript
