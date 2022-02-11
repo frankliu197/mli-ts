@@ -1,5 +1,4 @@
 import BasicLatin from "../symbols/BasicLatin.json" 
-import * as Collections from 'typescript-collections';
 import Character from './Character';
 
 /*
@@ -16,7 +15,7 @@ const index = lunr(function(){
     }, this)
 })*/
 
-export default function(search : string) : Collections.Set<Character> { //: Character[] cast into character
+export default function(search : string) : Set<Character> { //: Character[] cast into character
     //console.log(index.search(search))
     //console.log(fuse.search(search))
     //const suggestions = new Set<Character>();
@@ -32,5 +31,5 @@ export default function(search : string) : Collections.Set<Character> { //: Char
     } else {
         return suggestions
     }*/
-   return new Collections.Set<Character>()
+   return new Set<Character>()
 }

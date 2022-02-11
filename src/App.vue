@@ -1,8 +1,7 @@
 <template lang="pug">
-v-app
+.app
   Header
-  v-main
-    Home
+  Home
     
 </template>
 

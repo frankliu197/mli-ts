@@ -2,15 +2,17 @@
 .input-box
   textarea(ref="textarea" @keyup.page-down="insertSuggestDropdown" default="Type Here")
   .absolute-dropdown(v-show="dropdown.show" :style="dropdown.position")
-    input(ref="inputDropdown" v-model="dropdown.search" @input="resizeInput" @blur="dropdown.show = false" @keyup.enter="")
-
+    input(ref="inputDropdown" v-model="dropdown.search" v-autowidth="{maxWidth:'960px', minWidth: `${dropdown.minWidth}px`, comfortZone: 10}" @blur="dropdown.show = false" @keyup.enter="")
+    template(v-for="(item, index) of suggestions")
+      v-btn(block @click="") {{index}} {{item}}
 
 </template>
 
 <script lang='ts'>
 import recommender from '@/Recommender/Recommender'
 import Character from '@/Recommender/Character';
-import * as Collections from 'typescript-collections';
+
+import "@/Recommender/KeywordRecommender";
 interface Position { left: string, top: string }
 import Vue from "vue";
 export default Vue.extend({
@@ -18,27 +20,22 @@ export default Vue.extend({
   data: function() {
     return {
       dropdown: {
-        minSize: 167,
+        minWidth: 50,
         search: "",
-        show: false,
+        show: true,
         position: {} as Position
       }
     }
   },
   methods: {
     insertSuggestDropdown(){
-      this.dropdown.show = !this.dropdown.show
+      //this.dropdown.show = !this.dropdown.show
       this.dropdown.search = ""
-    },
-    resizeInput(){
-      const inputDropdown = this.$refs.inputDropdown as HTMLInputElement
-      console.log(inputDropdown.scrollWidth)
-      inputDropdown.style.width = Math.max(inputDropdown.scrollWidth, this.dropdown.minSize) + "px"
     }
   },
   computed: {
-    suggestions: function() : Collections.Set<Character> {
-      return recommender(this.dropdown.search)
+    suggestions: function() : Set<Character> {
+      return  recommender(this.dropdown.search)
     }
   },
   watch: {
