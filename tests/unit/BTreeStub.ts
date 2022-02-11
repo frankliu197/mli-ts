@@ -1,29 +1,34 @@
 import chai, { assert, expect } from 'chai'
 import ChaiSorted from 'chai-sorted'
-import {BPlusTree, Node} from "@/Recommender/BPlusTree"
+import {BPlusTree, Node} from "@/Recommender/BPlusTreeCharacter"
+import Character from "@/Recommender/Character"
 chai.use(ChaiSorted)
 
 
 export class StubNode {
-	keys: Array<number>
+	keys: Array<string>
 	child?: Array<StubNode>
 	_nextNode?: StubNode
+	_values?: Array<Set<Character>>
 }
 
 export class StubTree {
-	keys: Array<number>
-	child?: Array<StubNode>
-	_nextNode?: StubNode
+	keys: Array<string>
+	child?: Array<StubTree>
+	_nextNode: StubNode
+	_values: Array<Set<Character>>
 }
 
-export function createStubTree(stubNode: StubNode) : StubTree {
-	//fills in all the nodes
-	if (!stubNode.child){
-		return stubNode
-	}
+export function createStubTree(stubNode: StubNode, characters: Array<Character>) : StubTree {
+	//fills in all the nextNodes
+	addValuesToStubNode(stubNode, characters)
 	
 	const queue = new Array<{node: StubNode, depth: number}>()
 	let prev = {node: stubNode, depth: 1}
+
+	if (!stubNode.child){
+		return stubNode as StubTree
+	}
 
 	for (const i of stubNode.child){
 		queue.push({node: i, depth: 2})
@@ -31,14 +36,30 @@ export function createStubTree(stubNode: StubNode) : StubTree {
 	
 	while (queue.length > 0){
 		const curr = queue.shift()!
+		addValuesToStubNode(curr.node, characters)
+		
 		if (curr.depth === prev.depth){
 			prev.node._nextNode = curr.node
 		}
 		prev = curr
 	}
-	return stubNode
+	return stubNode as StubTree	
 }
 
+function addValuesToStubNode(stubNode: StubNode, characters: Array<Character>): void{
+	stubNode._values = []
+	for (const i in stubNode.keys){
+		stubNode._values.push(new Set<Character>())
+	}
+	for (const c of characters){
+		for (const k of c.name.split(" ")){
+			const indexOf = stubNode.keys.indexOf(k)
+			if (indexOf >= 0){
+				stubNode._values[indexOf].add(c)
+			}
+		}
+	}
+}
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export function assertTree(actualTree: BPlusTree, stubNode: StubTree) {
@@ -46,7 +67,7 @@ export function assertTree(actualTree: BPlusTree, stubNode: StubTree) {
 	assert.isUndefined(actualTree.root.parent, "root.parent")
 	assert.isUndefined(actualTree.root.nextNode, "root.nextNode")
 	assert.deepEqual(actualTree.root.keys, stubNode.keys, "root.keys")
-	assert.deepEqual(actualTree.root.values, stubNode.keys, "root.values")
+	assert.deepEqual(actualTree.root.values, stubNode._values, "root.values")
 	
 	//@ts-expect-error: ts not reading sorted
 	expect(actualTree.toArray()).to.be.sorted()
@@ -78,7 +99,7 @@ function assertNode(actualNode: Node, stubNode: StubNode) {
 	}
 	
 	assert.deepEqual(actualNode.keys, stubNode.keys, "child.keys")
-	assert.deepEqual(actualNode.values, stubNode.keys, "child.values")
+	assert.deepEqual(actualNode.values, stubNode._values, "child.values")
 
 	if (stubNode.child){
 		assert.lengthOf(actualNode.child, stubNode.child.length, "child.child")

@@ -3,7 +3,7 @@
 import { isUndefined } from "typescript-collections/dist/lib/util"
 import {enumerate} from "./Helper"
 const order = 4
-//https://gist.github.com/savarin/69acd246302567395f65ad6b97ee503d
+
 /**
  * Same keys are not permitted
  */
@@ -16,7 +16,10 @@ export class BPlusTree {
 
 	insert(key: number, value: number){
 		const node = this.searchNode(key)
-		node.insert(key, value)
+		const index = node.index(key)
+		node.keys.splice(index, 0, key)
+		node.values.splice(index, 0, value)
+		
 		this.insertRecursive(node)
 	}
 
@@ -165,25 +168,4 @@ export class Node {
 	}
 }
 
-/*
-	add(character : Character) : void {
-		for (const i of character.name.split(" ")){
-			
-		}
-	}
-	
-	get(keyword: string) : Set<Character>{
-		for (const i of keywords.split(" ")){
-		
-		}
-	
-	}
 
-	private */
-
-	/*
-	tsc helloworld.ts
-Again run the command
-
-node helloworld.js
-*/
