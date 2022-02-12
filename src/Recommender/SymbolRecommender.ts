@@ -1,6 +1,7 @@
 
 import {SymbolTree} from "./SymbolTree"
 import Character from "./Character"
+import SymbolSet from './SymbolSet';
 
 import { combinePriority } from "./Priority"
 
@@ -10,8 +11,8 @@ export class SymbolRecommender {
 	constructor(){
 		this.tree = new SymbolTree()
 	}
-	addSymbolSet(characters: Character[]) : void{
-		for (const c of characters){
+	add(set: SymbolSet) : void{
+		for (const c of set.symbols){
 			this.tree.insert(c)
 		}
 	}	

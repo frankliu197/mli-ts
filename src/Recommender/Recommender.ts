@@ -1,20 +1,29 @@
 import SymbolSet from './SymbolSet';
-
-
 import Character from './Character';
 import { KeywordRecommender } from './KeywordRecommender';
 import { SymbolRecommender } from './SymbolRecommender';
 import { combinePriority } from './Priority';
 import * as Storage from "./Storage"
 import { stringSort } from "@/helpers/helpers"
+import BasicLatin from "../symbols/json/BasicLatin.json" 
+import LatinExtended from "../symbols/json/LatinExtended.json"
+import Greek from "../symbols/json/Greek.json"
+import MathOperators from "../symbols/json/MathOperators.json"
+import MiscTechnical from "../symbols/json/MiscTechnical.json"
+import NumberForms from "../symbols/json/NumberForms.json"
+import SmallFormVariants from "../symbols/json/SmallFormVariants.json"
+import SuperscriptsAndSubscripts from "../symbols/json/SuperscriptsAndSubscripts.json"
 
+const symbolSet = new SymbolSet()
+symbolSet.add(BasicLatin)
+symbolSet.add(Greek)
+symbolSet.add(MathOperators)
 
 
 let keywordRecommender = new KeywordRecommender()
-keywordRecommender.addSymbolSet(SymbolSet.get("BasicLatin")!)
+keywordRecommender.add(symbolSet)
 let symbolRecommender = new SymbolRecommender()
-symbolRecommender.addSymbolSet(SymbolSet.get("BasicLatin")!)
-
+symbolRecommender.add(symbolSet)
 /**
  * Search with keywords
  * Search with strokes (if no spaces)
@@ -41,8 +50,8 @@ export function suggest(search : string) : Array<Character> { //: Character[] ca
     }
   }
 
-  if (search.length === 1 && SymbolSet.getCharacter(search)!){
-    map.set(SymbolSet.getCharacter(search)!, Number.MAX_VALUE) 
+  if (search.length === 1 && symbolSet.getCharacter(search)!){
+    map.set(symbolSet.getCharacter(search)!, Number.MAX_VALUE) 
   }
   
   //boost
