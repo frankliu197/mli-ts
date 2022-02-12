@@ -1,6 +1,8 @@
 
 import {BPlusTree} from "./BPlusTree"
 import Character from "./Character"
+import SymbolSet from './SymbolSet';
+
 
 import { valueCountPriority, combinePriority , stringMatchPriority} from "./Priority"
 
@@ -10,8 +12,8 @@ export class KeywordRecommender {
 	constructor(){
 		this.tree = new BPlusTree()
 	}
-	addSymbolSet(characters: Character[]) : void{
-		for (const c of characters){
+	add(set: SymbolSet) : void{
+		for (const c of set.symbols){
 			for (const k of c.name.split(" ")){
 				this.tree.insert(k, c)
 			}
