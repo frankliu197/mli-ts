@@ -1,1694 +1,1694 @@
 [
     {
         "unicode": 8704,
-        "name": "FOR ALL",
+        "name": "for all",
         "symbol": "\u2200",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8705,
-        "name": "COMPLEMENT",
+        "name": "complement",
         "symbol": "\u2201",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8706,
-        "name": "PARTIAL DIFFERENTIAL",
+        "name": "partial differential",
         "symbol": "\u2202",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8707,
-        "name": "THERE EXISTS",
+        "name": "there exists",
         "symbol": "\u2203",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8708,
-        "name": "THERE DOES NOT EXIST",
+        "name": "there does not exist",
         "symbol": "\u2204",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8709,
-        "name": "EMPTY SET",
+        "name": "empty set",
         "symbol": "\u2205",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8710,
-        "name": "INCREMENT",
+        "name": "increment",
         "symbol": "\u2206",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8711,
-        "name": "NABLA",
+        "name": "nabla",
         "symbol": "\u2207",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8712,
-        "name": "ELEMENT OF",
+        "name": "element of",
         "symbol": "\u2208",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8713,
-        "name": "NOT AN ELEMENT OF",
+        "name": "not an element of",
         "symbol": "\u2209",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8714,
-        "name": "SMALL ELEMENT OF",
+        "name": "small element of",
         "symbol": "\u220a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8715,
-        "name": "CONTAINS AS MEMBER",
+        "name": "contains as member",
         "symbol": "\u220b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8716,
-        "name": "DOES NOT CONTAIN AS MEMBER",
+        "name": "does not contain as member",
         "symbol": "\u220c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8717,
-        "name": "SMALL CONTAINS AS MEMBER",
+        "name": "small contains as member",
         "symbol": "\u220d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8718,
-        "name": "END OF PROOF",
+        "name": "end of proof",
         "symbol": "\u220e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8719,
-        "name": "N ARY PRODUCT",
+        "name": "n ary product",
         "symbol": "\u220f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8720,
-        "name": "N ARY COPRODUCT",
+        "name": "n ary coproduct",
         "symbol": "\u2210",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8721,
-        "name": "N ARY SUMMATION",
+        "name": "n ary summation",
         "symbol": "\u2211",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8722,
-        "name": "MINUS SIGN",
+        "name": "minus sign",
         "symbol": "\u2212",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8723,
-        "name": "MINUS OR PLUS SIGN",
+        "name": "minus or plus sign",
         "symbol": "\u2213",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8724,
-        "name": "DOT PLUS",
+        "name": "dot plus",
         "symbol": "\u2214",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8725,
-        "name": "DIVISION SLASH",
+        "name": "division slash",
         "symbol": "\u2215",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8726,
-        "name": "SET MINUS",
+        "name": "set minus",
         "symbol": "\u2216",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8727,
-        "name": "ASTERISK OPERATOR",
+        "name": "asterisk operator",
         "symbol": "\u2217",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8728,
-        "name": "RING OPERATOR",
+        "name": "ring operator",
         "symbol": "\u2218",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8729,
-        "name": "BULLET OPERATOR",
+        "name": "bullet operator",
         "symbol": "\u2219",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8730,
-        "name": "SQUARE ROOT",
+        "name": "square root",
         "symbol": "\u221a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8731,
-        "name": "CUBE ROOT",
+        "name": "cube root",
         "symbol": "\u221b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8732,
-        "name": "FOURTH ROOT",
+        "name": "fourth root",
         "symbol": "\u221c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8733,
-        "name": "PROPORTIONAL TO",
+        "name": "proportional to",
         "symbol": "\u221d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8734,
-        "name": "INFINITY",
+        "name": "infinity",
         "symbol": "\u221e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8735,
-        "name": "RIGHT ANGLE",
+        "name": "right angle",
         "symbol": "\u221f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8736,
-        "name": "ANGLE",
+        "name": "angle",
         "symbol": "\u2220",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8737,
-        "name": "MEASURED ANGLE",
+        "name": "measured angle",
         "symbol": "\u2221",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8738,
-        "name": "SPHERICAL ANGLE",
+        "name": "spherical angle",
         "symbol": "\u2222",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8739,
-        "name": "DIVIDES",
+        "name": "divides",
         "symbol": "\u2223",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8740,
-        "name": "DOES NOT DIVIDE",
+        "name": "does not divide",
         "symbol": "\u2224",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8741,
-        "name": "PARALLEL TO",
+        "name": "parallel to",
         "symbol": "\u2225",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8742,
-        "name": "NOT PARALLEL TO",
+        "name": "not parallel to",
         "symbol": "\u2226",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8743,
-        "name": "LOGICAL AND",
+        "name": "logical and",
         "symbol": "\u2227",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8744,
-        "name": "LOGICAL OR",
+        "name": "logical or",
         "symbol": "\u2228",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8745,
-        "name": "INTERSECTION",
+        "name": "intersection",
         "symbol": "\u2229",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8746,
-        "name": "UNION",
+        "name": "union",
         "symbol": "\u222a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8747,
-        "name": "INTEGRAL",
+        "name": "integral",
         "symbol": "\u222b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8748,
-        "name": "DOUBLE INTEGRAL",
+        "name": "double integral",
         "symbol": "\u222c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8749,
-        "name": "TRIPLE INTEGRAL",
+        "name": "triple integral",
         "symbol": "\u222d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8750,
-        "name": "CONTOUR INTEGRAL",
+        "name": "contour integral",
         "symbol": "\u222e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8751,
-        "name": "SURFACE INTEGRAL",
+        "name": "surface integral",
         "symbol": "\u222f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8752,
-        "name": "VOLUME INTEGRAL",
+        "name": "volume integral",
         "symbol": "\u2230",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8753,
-        "name": "CLOCKWISE INTEGRAL",
+        "name": "clockwise integral",
         "symbol": "\u2231",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8754,
-        "name": "CLOCKWISE CONTOUR INTEGRAL",
+        "name": "clockwise contour integral",
         "symbol": "\u2232",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8755,
-        "name": "ANTICLOCKWISE CONTOUR INTEGRAL",
+        "name": "anticlockwise contour integral",
         "symbol": "\u2233",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8756,
-        "name": "THEREFORE",
+        "name": "therefore",
         "symbol": "\u2234",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8757,
-        "name": "BECAUSE",
+        "name": "because",
         "symbol": "\u2235",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8758,
-        "name": "RATIO",
+        "name": "ratio",
         "symbol": "\u2236",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8759,
-        "name": "PROPORTION",
+        "name": "proportion",
         "symbol": "\u2237",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8760,
-        "name": "DOT MINUS",
+        "name": "dot minus",
         "symbol": "\u2238",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8761,
-        "name": "EXCESS",
+        "name": "excess",
         "symbol": "\u2239",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8762,
-        "name": "GEOMETRIC PROPORTION",
+        "name": "geometric proportion",
         "symbol": "\u223a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8763,
-        "name": "HOMOTHETIC",
+        "name": "homothetic",
         "symbol": "\u223b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8764,
-        "name": "TILDE OPERATOR",
+        "name": "tilde operator",
         "symbol": "\u223c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8765,
-        "name": "REVERSED TILDE",
+        "name": "reversed tilde",
         "symbol": "\u223d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8766,
-        "name": "INVERTED LAZY S",
+        "name": "inverted lazy s",
         "symbol": "\u223e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8767,
-        "name": "SINE WAVE",
+        "name": "sine wave",
         "symbol": "\u223f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8768,
-        "name": "WREATH PRODUCT",
+        "name": "wreath product",
         "symbol": "\u2240",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8769,
-        "name": "NOT TILDE",
+        "name": "not tilde",
         "symbol": "\u2241",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8770,
-        "name": "MINUS TILDE",
+        "name": "minus tilde",
         "symbol": "\u2242",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8771,
-        "name": "ASYMPTOTICALLY EQUAL TO",
+        "name": "asymptotically equal to",
         "symbol": "\u2243",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8772,
-        "name": "NOT ASYMPTOTICALLY EQUAL TO",
+        "name": "not asymptotically equal to",
         "symbol": "\u2244",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8773,
-        "name": "APPROXIMATELY EQUAL TO",
+        "name": "approximately equal to",
         "symbol": "\u2245",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8774,
-        "name": "APPROXIMATELY BUT NOT ACTUALLY EQUAL TO",
+        "name": "approximately but not actually equal to",
         "symbol": "\u2246",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8775,
-        "name": "NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO",
+        "name": "neither approximately nor actually equal to",
         "symbol": "\u2247",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8776,
-        "name": "ALMOST EQUAL TO",
+        "name": "almost equal to",
         "symbol": "\u2248",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8777,
-        "name": "NOT ALMOST EQUAL TO",
+        "name": "not almost equal to",
         "symbol": "\u2249",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8778,
-        "name": "ALMOST EQUAL OR EQUAL TO",
+        "name": "almost equal or equal to",
         "symbol": "\u224a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8779,
-        "name": "TRIPLE TILDE",
+        "name": "triple tilde",
         "symbol": "\u224b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8780,
-        "name": "ALL EQUAL TO",
+        "name": "all equal to",
         "symbol": "\u224c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8781,
-        "name": "EQUIVALENT TO",
+        "name": "equivalent to",
         "symbol": "\u224d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8782,
-        "name": "GEOMETRICALLY EQUIVALENT TO",
+        "name": "geometrically equivalent to",
         "symbol": "\u224e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8783,
-        "name": "DIFFERENCE BETWEEN",
+        "name": "difference between",
         "symbol": "\u224f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8784,
-        "name": "APPROACHES THE LIMIT",
+        "name": "approaches the limit",
         "symbol": "\u2250",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8785,
-        "name": "GEOMETRICALLY EQUAL TO",
+        "name": "geometrically equal to",
         "symbol": "\u2251",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8786,
-        "name": "APPROXIMATELY EQUAL TO OR THE IMAGE OF",
+        "name": "approximately equal to or the image of",
         "symbol": "\u2252",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8787,
-        "name": "IMAGE OF OR APPROXIMATELY EQUAL TO",
+        "name": "image of or approximately equal to",
         "symbol": "\u2253",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8788,
-        "name": "COLON EQUALS",
+        "name": "colon equals",
         "symbol": "\u2254",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8789,
-        "name": "EQUALS COLON",
+        "name": "equals colon",
         "symbol": "\u2255",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8790,
-        "name": "RING IN EQUAL TO",
+        "name": "ring in equal to",
         "symbol": "\u2256",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8791,
-        "name": "RING EQUAL TO",
+        "name": "ring equal to",
         "symbol": "\u2257",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8792,
-        "name": "CORRESPONDS TO",
+        "name": "corresponds to",
         "symbol": "\u2258",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8793,
-        "name": "ESTIMATES",
+        "name": "estimates",
         "symbol": "\u2259",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8794,
-        "name": "EQUIANGULAR TO",
+        "name": "equiangular to",
         "symbol": "\u225a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8795,
-        "name": "STAR EQUALS",
+        "name": "star equals",
         "symbol": "\u225b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8796,
-        "name": "DELTA EQUAL TO",
+        "name": "delta equal to",
         "symbol": "\u225c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8797,
-        "name": "EQUAL TO BY DEFINITION",
+        "name": "equal to by definition",
         "symbol": "\u225d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8798,
-        "name": "MEASURED BY",
+        "name": "measured by",
         "symbol": "\u225e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8799,
-        "name": "QUESTIONED EQUAL TO",
+        "name": "questioned equal to",
         "symbol": "\u225f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8800,
-        "name": "NOT EQUAL TO",
+        "name": "not equal to",
         "symbol": "\u2260",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8801,
-        "name": "IDENTICAL TO",
+        "name": "identical to",
         "symbol": "\u2261",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8802,
-        "name": "NOT IDENTICAL TO",
+        "name": "not identical to",
         "symbol": "\u2262",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8803,
-        "name": "STRICTLY EQUIVALENT TO",
+        "name": "strictly equivalent to",
         "symbol": "\u2263",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8804,
-        "name": "LESS THAN OR EQUAL TO",
+        "name": "less than or equal to",
         "symbol": "\u2264",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8805,
-        "name": "GREATER THAN OR EQUAL TO",
+        "name": "greater than or equal to",
         "symbol": "\u2265",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8806,
-        "name": "LESS THAN OVER EQUAL TO",
+        "name": "less than over equal to",
         "symbol": "\u2266",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8807,
-        "name": "GREATER THAN OVER EQUAL TO",
+        "name": "greater than over equal to",
         "symbol": "\u2267",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8808,
-        "name": "LESS THAN BUT NOT EQUAL TO",
+        "name": "less than but not equal to",
         "symbol": "\u2268",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8809,
-        "name": "GREATER THAN BUT NOT EQUAL TO",
+        "name": "greater than but not equal to",
         "symbol": "\u2269",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8810,
-        "name": "MUCH LESS THAN",
+        "name": "much less than",
         "symbol": "\u226a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8811,
-        "name": "MUCH GREATER THAN",
+        "name": "much greater than",
         "symbol": "\u226b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8812,
-        "name": "BETWEEN",
+        "name": "between",
         "symbol": "\u226c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8813,
-        "name": "NOT EQUIVALENT TO",
+        "name": "not equivalent to",
         "symbol": "\u226d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8814,
-        "name": "NOT LESS THAN",
+        "name": "not less than",
         "symbol": "\u226e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8815,
-        "name": "NOT GREATER THAN",
+        "name": "not greater than",
         "symbol": "\u226f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8816,
-        "name": "NEITHER LESS THAN NOR EQUAL TO",
+        "name": "neither less than nor equal to",
         "symbol": "\u2270",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8817,
-        "name": "NEITHER GREATER THAN NOR EQUAL TO",
+        "name": "neither greater than nor equal to",
         "symbol": "\u2271",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8818,
-        "name": "LESS THAN OR EQUIVALENT TO",
+        "name": "less than or equivalent to",
         "symbol": "\u2272",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8819,
-        "name": "GREATER THAN OR EQUIVALENT TO",
+        "name": "greater than or equivalent to",
         "symbol": "\u2273",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8820,
-        "name": "NEITHER LESS THAN NOR EQUIVALENT TO",
+        "name": "neither less than nor equivalent to",
         "symbol": "\u2274",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8821,
-        "name": "NEITHER GREATER THAN NOR EQUIVALENT TO",
+        "name": "neither greater than nor equivalent to",
         "symbol": "\u2275",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8822,
-        "name": "LESS THAN OR GREATER THAN",
+        "name": "less than or greater than",
         "symbol": "\u2276",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8823,
-        "name": "GREATER THAN OR LESS THAN",
+        "name": "greater than or less than",
         "symbol": "\u2277",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8824,
-        "name": "NEITHER LESS THAN NOR GREATER THAN",
+        "name": "neither less than nor greater than",
         "symbol": "\u2278",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8825,
-        "name": "NEITHER GREATER THAN NOR LESS THAN",
+        "name": "neither greater than nor less than",
         "symbol": "\u2279",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8826,
-        "name": "PRECEDES",
+        "name": "precedes",
         "symbol": "\u227a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8827,
-        "name": "SUCCEEDS",
+        "name": "succeeds",
         "symbol": "\u227b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8828,
-        "name": "PRECEDES OR EQUAL TO",
+        "name": "precedes or equal to",
         "symbol": "\u227c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8829,
-        "name": "SUCCEEDS OR EQUAL TO",
+        "name": "succeeds or equal to",
         "symbol": "\u227d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8830,
-        "name": "PRECEDES OR EQUIVALENT TO",
+        "name": "precedes or equivalent to",
         "symbol": "\u227e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8831,
-        "name": "SUCCEEDS OR EQUIVALENT TO",
+        "name": "succeeds or equivalent to",
         "symbol": "\u227f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8832,
-        "name": "DOES NOT PRECEDE",
+        "name": "does not precede",
         "symbol": "\u2280",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8833,
-        "name": "DOES NOT SUCCEED",
+        "name": "does not succeed",
         "symbol": "\u2281",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8834,
-        "name": "SUBSET OF",
+        "name": "subset of",
         "symbol": "\u2282",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8835,
-        "name": "SUPERSET OF",
+        "name": "superset of",
         "symbol": "\u2283",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8836,
-        "name": "NOT A SUBSET OF",
+        "name": "not a subset of",
         "symbol": "\u2284",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8837,
-        "name": "NOT A SUPERSET OF",
+        "name": "not a superset of",
         "symbol": "\u2285",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8838,
-        "name": "SUBSET OF OR EQUAL TO",
+        "name": "subset of or equal to",
         "symbol": "\u2286",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8839,
-        "name": "SUPERSET OF OR EQUAL TO",
+        "name": "superset of or equal to",
         "symbol": "\u2287",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8840,
-        "name": "NEITHER A SUBSET OF NOR EQUAL TO",
+        "name": "neither a subset of nor equal to",
         "symbol": "\u2288",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8841,
-        "name": "NEITHER A SUPERSET OF NOR EQUAL TO",
+        "name": "neither a superset of nor equal to",
         "symbol": "\u2289",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8842,
-        "name": "SUBSET OF WITH NOT EQUAL TO",
+        "name": "subset of with not equal to",
         "symbol": "\u228a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8843,
-        "name": "SUPERSET OF WITH NOT EQUAL TO",
+        "name": "superset of with not equal to",
         "symbol": "\u228b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8844,
-        "name": "MULTISET",
+        "name": "multiset",
         "symbol": "\u228c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8845,
-        "name": "MULTISET MULTIPLICATION",
+        "name": "multiset multiplication",
         "symbol": "\u228d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8846,
-        "name": "MULTISET UNION",
+        "name": "multiset union",
         "symbol": "\u228e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8847,
-        "name": "SQUARE IMAGE OF",
+        "name": "square image of",
         "symbol": "\u228f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8848,
-        "name": "SQUARE ORIGINAL OF",
+        "name": "square original of",
         "symbol": "\u2290",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8849,
-        "name": "SQUARE IMAGE OF OR EQUAL TO",
+        "name": "square image of or equal to",
         "symbol": "\u2291",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8850,
-        "name": "SQUARE ORIGINAL OF OR EQUAL TO",
+        "name": "square original of or equal to",
         "symbol": "\u2292",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8851,
-        "name": "SQUARE CAP",
+        "name": "square cap",
         "symbol": "\u2293",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8852,
-        "name": "SQUARE CUP",
+        "name": "square cup",
         "symbol": "\u2294",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8853,
-        "name": "CIRCLED PLUS",
+        "name": "circled plus",
         "symbol": "\u2295",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8854,
-        "name": "CIRCLED MINUS",
+        "name": "circled minus",
         "symbol": "\u2296",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8855,
-        "name": "CIRCLED TIMES",
+        "name": "circled times",
         "symbol": "\u2297",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8856,
-        "name": "CIRCLED DIVISION SLASH",
+        "name": "circled division slash",
         "symbol": "\u2298",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8857,
-        "name": "CIRCLED DOT OPERATOR",
+        "name": "circled dot operator",
         "symbol": "\u2299",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8858,
-        "name": "CIRCLED RING OPERATOR",
+        "name": "circled ring operator",
         "symbol": "\u229a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8859,
-        "name": "CIRCLED ASTERISK OPERATOR",
+        "name": "circled asterisk operator",
         "symbol": "\u229b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8860,
-        "name": "CIRCLED EQUALS",
+        "name": "circled equals",
         "symbol": "\u229c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8861,
-        "name": "CIRCLED DASH",
+        "name": "circled dash",
         "symbol": "\u229d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8862,
-        "name": "SQUARED PLUS",
+        "name": "squared plus",
         "symbol": "\u229e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8863,
-        "name": "SQUARED MINUS",
+        "name": "squared minus",
         "symbol": "\u229f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8864,
-        "name": "SQUARED TIMES",
+        "name": "squared times",
         "symbol": "\u22a0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8865,
-        "name": "SQUARED DOT OPERATOR",
+        "name": "squared dot operator",
         "symbol": "\u22a1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8866,
-        "name": "RIGHT TACK",
+        "name": "right tack",
         "symbol": "\u22a2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8867,
-        "name": "LEFT TACK",
+        "name": "left tack",
         "symbol": "\u22a3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8868,
-        "name": "DOWN TACK",
+        "name": "down tack",
         "symbol": "\u22a4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8869,
-        "name": "UP TACK",
+        "name": "up tack",
         "symbol": "\u22a5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8870,
-        "name": "ASSERTION",
+        "name": "assertion",
         "symbol": "\u22a6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8871,
-        "name": "MODELS",
+        "name": "models",
         "symbol": "\u22a7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8872,
-        "name": "TRUE",
+        "name": "true",
         "symbol": "\u22a8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8873,
-        "name": "FORCES",
+        "name": "forces",
         "symbol": "\u22a9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8874,
-        "name": "TRIPLE VERTICAL BAR RIGHT TURNSTILE",
+        "name": "triple vertical bar right turnstile",
         "symbol": "\u22aa",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8875,
-        "name": "DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE",
+        "name": "double vertical bar double right turnstile",
         "symbol": "\u22ab",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8876,
-        "name": "DOES NOT PROVE",
+        "name": "does not prove",
         "symbol": "\u22ac",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8877,
-        "name": "NOT TRUE",
+        "name": "not true",
         "symbol": "\u22ad",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8878,
-        "name": "DOES NOT FORCE",
+        "name": "does not force",
         "symbol": "\u22ae",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8879,
-        "name": "NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE",
+        "name": "negated double vertical bar double right turnstile",
         "symbol": "\u22af",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8880,
-        "name": "PRECEDES UNDER RELATION",
+        "name": "precedes under relation",
         "symbol": "\u22b0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8881,
-        "name": "SUCCEEDS UNDER RELATION",
+        "name": "succeeds under relation",
         "symbol": "\u22b1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8882,
-        "name": "NORMAL SUBGROUP OF",
+        "name": "normal subgroup of",
         "symbol": "\u22b2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8883,
-        "name": "CONTAINS AS NORMAL SUBGROUP",
+        "name": "contains as normal subgroup",
         "symbol": "\u22b3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8884,
-        "name": "NORMAL SUBGROUP OF OR EQUAL TO",
+        "name": "normal subgroup of or equal to",
         "symbol": "\u22b4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8885,
-        "name": "CONTAINS AS NORMAL SUBGROUP OR EQUAL TO",
+        "name": "contains as normal subgroup or equal to",
         "symbol": "\u22b5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8886,
-        "name": "ORIGINAL OF",
+        "name": "original of",
         "symbol": "\u22b6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8887,
-        "name": "IMAGE OF",
+        "name": "image of",
         "symbol": "\u22b7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8888,
-        "name": "MULTIMAP",
+        "name": "multimap",
         "symbol": "\u22b8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8889,
-        "name": "HERMITIAN CONJUGATE MATRIX",
+        "name": "hermitian conjugate matrix",
         "symbol": "\u22b9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8890,
-        "name": "INTERCALATE",
+        "name": "intercalate",
         "symbol": "\u22ba",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8891,
-        "name": "XOR",
+        "name": "xor",
         "symbol": "\u22bb",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8892,
-        "name": "NAND",
+        "name": "nand",
         "symbol": "\u22bc",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8893,
-        "name": "NOR",
+        "name": "nor",
         "symbol": "\u22bd",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8894,
-        "name": "RIGHT ANGLE WITH ARC",
+        "name": "right angle with arc",
         "symbol": "\u22be",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8895,
-        "name": "RIGHT TRIANGLE",
+        "name": "right triangle",
         "symbol": "\u22bf",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8896,
-        "name": "N ARY LOGICAL AND",
+        "name": "n ary logical and",
         "symbol": "\u22c0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8897,
-        "name": "N ARY LOGICAL OR",
+        "name": "n ary logical or",
         "symbol": "\u22c1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8898,
-        "name": "N ARY INTERSECTION",
+        "name": "n ary intersection",
         "symbol": "\u22c2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8899,
-        "name": "N ARY UNION",
+        "name": "n ary union",
         "symbol": "\u22c3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8900,
-        "name": "DIAMOND OPERATOR",
+        "name": "diamond operator",
         "symbol": "\u22c4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8901,
-        "name": "DOT OPERATOR",
+        "name": "dot operator",
         "symbol": "\u22c5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8902,
-        "name": "STAR OPERATOR",
+        "name": "star operator",
         "symbol": "\u22c6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8903,
-        "name": "DIVISION TIMES",
+        "name": "division times",
         "symbol": "\u22c7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8904,
-        "name": "BOWTIE",
+        "name": "bowtie",
         "symbol": "\u22c8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8905,
-        "name": "LEFT NORMAL FACTOR SEMIDIRECT PRODUCT",
+        "name": "left normal factor semidirect product",
         "symbol": "\u22c9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8906,
-        "name": "RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT",
+        "name": "right normal factor semidirect product",
         "symbol": "\u22ca",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8907,
-        "name": "LEFT SEMIDIRECT PRODUCT",
+        "name": "left semidirect product",
         "symbol": "\u22cb",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8908,
-        "name": "RIGHT SEMIDIRECT PRODUCT",
+        "name": "right semidirect product",
         "symbol": "\u22cc",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8909,
-        "name": "REVERSED TILDE EQUALS",
+        "name": "reversed tilde equals",
         "symbol": "\u22cd",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8910,
-        "name": "CURLY LOGICAL OR",
+        "name": "curly logical or",
         "symbol": "\u22ce",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8911,
-        "name": "CURLY LOGICAL AND",
+        "name": "curly logical and",
         "symbol": "\u22cf",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8912,
-        "name": "DOUBLE SUBSET",
+        "name": "double subset",
         "symbol": "\u22d0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8913,
-        "name": "DOUBLE SUPERSET",
+        "name": "double superset",
         "symbol": "\u22d1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8914,
-        "name": "DOUBLE INTERSECTION",
+        "name": "double intersection",
         "symbol": "\u22d2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8915,
-        "name": "DOUBLE UNION",
+        "name": "double union",
         "symbol": "\u22d3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8916,
-        "name": "PITCHFORK",
+        "name": "pitchfork",
         "symbol": "\u22d4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8917,
-        "name": "EQUAL AND PARALLEL TO",
+        "name": "equal and parallel to",
         "symbol": "\u22d5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8918,
-        "name": "LESS THAN WITH DOT",
+        "name": "less than with dot",
         "symbol": "\u22d6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8919,
-        "name": "GREATER THAN WITH DOT",
+        "name": "greater than with dot",
         "symbol": "\u22d7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8920,
-        "name": "VERY MUCH LESS THAN",
+        "name": "very much less than",
         "symbol": "\u22d8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8921,
-        "name": "VERY MUCH GREATER THAN",
+        "name": "very much greater than",
         "symbol": "\u22d9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8922,
-        "name": "LESS THAN EQUAL TO OR GREATER THAN",
+        "name": "less than equal to or greater than",
         "symbol": "\u22da",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8923,
-        "name": "GREATER THAN EQUAL TO OR LESS THAN",
+        "name": "greater than equal to or less than",
         "symbol": "\u22db",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8924,
-        "name": "EQUAL TO OR LESS THAN",
+        "name": "equal to or less than",
         "symbol": "\u22dc",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8925,
-        "name": "EQUAL TO OR GREATER THAN",
+        "name": "equal to or greater than",
         "symbol": "\u22dd",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8926,
-        "name": "EQUAL TO OR PRECEDES",
+        "name": "equal to or precedes",
         "symbol": "\u22de",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8927,
-        "name": "EQUAL TO OR SUCCEEDS",
+        "name": "equal to or succeeds",
         "symbol": "\u22df",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8928,
-        "name": "DOES NOT PRECEDE OR EQUAL",
+        "name": "does not precede or equal",
         "symbol": "\u22e0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8929,
-        "name": "DOES NOT SUCCEED OR EQUAL",
+        "name": "does not succeed or equal",
         "symbol": "\u22e1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8930,
-        "name": "NOT SQUARE IMAGE OF OR EQUAL TO",
+        "name": "not square image of or equal to",
         "symbol": "\u22e2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8931,
-        "name": "NOT SQUARE ORIGINAL OF OR EQUAL TO",
+        "name": "not square original of or equal to",
         "symbol": "\u22e3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8932,
-        "name": "SQUARE IMAGE OF OR NOT EQUAL TO",
+        "name": "square image of or not equal to",
         "symbol": "\u22e4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8933,
-        "name": "SQUARE ORIGINAL OF OR NOT EQUAL TO",
+        "name": "square original of or not equal to",
         "symbol": "\u22e5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8934,
-        "name": "LESS THAN BUT NOT EQUIVALENT TO",
+        "name": "less than but not equivalent to",
         "symbol": "\u22e6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8935,
-        "name": "GREATER THAN BUT NOT EQUIVALENT TO",
+        "name": "greater than but not equivalent to",
         "symbol": "\u22e7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8936,
-        "name": "PRECEDES BUT NOT EQUIVALENT TO",
+        "name": "precedes but not equivalent to",
         "symbol": "\u22e8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8937,
-        "name": "SUCCEEDS BUT NOT EQUIVALENT TO",
+        "name": "succeeds but not equivalent to",
         "symbol": "\u22e9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8938,
-        "name": "NOT NORMAL SUBGROUP OF",
+        "name": "not normal subgroup of",
         "symbol": "\u22ea",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8939,
-        "name": "DOES NOT CONTAIN AS NORMAL SUBGROUP",
+        "name": "does not contain as normal subgroup",
         "symbol": "\u22eb",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8940,
-        "name": "NOT NORMAL SUBGROUP OF OR EQUAL TO",
+        "name": "not normal subgroup of or equal to",
         "symbol": "\u22ec",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8941,
-        "name": "DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL",
+        "name": "does not contain as normal subgroup or equal",
         "symbol": "\u22ed",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8942,
-        "name": "VERTICAL ELLIPSIS",
+        "name": "vertical ellipsis",
         "symbol": "\u22ee",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8943,
-        "name": "MIDLINE HORIZONTAL ELLIPSIS",
+        "name": "midline horizontal ellipsis",
         "symbol": "\u22ef",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8944,
-        "name": "UP RIGHT DIAGONAL ELLIPSIS",
+        "name": "up right diagonal ellipsis",
         "symbol": "\u22f0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8945,
-        "name": "DOWN RIGHT DIAGONAL ELLIPSIS",
+        "name": "down right diagonal ellipsis",
         "symbol": "\u22f1",
         "keywords": [],
         "symbols": {}

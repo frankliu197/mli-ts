@@ -1,343 +1,343 @@
 [
     {
         "unicode": 8531,
-        "name": "VULGAR FRACTION ONE THIRD",
+        "name": "vulgar fraction one third",
         "symbol": "\u2153",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8532,
-        "name": "VULGAR FRACTION TWO THIRDS",
+        "name": "vulgar fraction two thirds",
         "symbol": "\u2154",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8533,
-        "name": "VULGAR FRACTION ONE FIFTH",
+        "name": "vulgar fraction one fifth",
         "symbol": "\u2155",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8534,
-        "name": "VULGAR FRACTION TWO FIFTHS",
+        "name": "vulgar fraction two fifths",
         "symbol": "\u2156",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8535,
-        "name": "VULGAR FRACTION THREE FIFTHS",
+        "name": "vulgar fraction three fifths",
         "symbol": "\u2157",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8536,
-        "name": "VULGAR FRACTION FOUR FIFTHS",
+        "name": "vulgar fraction four fifths",
         "symbol": "\u2158",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8537,
-        "name": "VULGAR FRACTION ONE SIXTH",
+        "name": "vulgar fraction one sixth",
         "symbol": "\u2159",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8538,
-        "name": "VULGAR FRACTION FIVE SIXTHS",
+        "name": "vulgar fraction five sixths",
         "symbol": "\u215a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8539,
-        "name": "VULGAR FRACTION ONE EIGHTH",
+        "name": "vulgar fraction one eighth",
         "symbol": "\u215b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8540,
-        "name": "VULGAR FRACTION THREE EIGHTHS",
+        "name": "vulgar fraction three eighths",
         "symbol": "\u215c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8541,
-        "name": "VULGAR FRACTION FIVE EIGHTHS",
+        "name": "vulgar fraction five eighths",
         "symbol": "\u215d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8542,
-        "name": "VULGAR FRACTION SEVEN EIGHTHS",
+        "name": "vulgar fraction seven eighths",
         "symbol": "\u215e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8543,
-        "name": "FRACTION NUMERATOR ONE",
+        "name": "fraction numerator one",
         "symbol": "\u215f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8544,
-        "name": "ROMAN NUMERAL ONE",
+        "name": "roman numeral one",
         "symbol": "\u2160",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8545,
-        "name": "ROMAN NUMERAL TWO",
+        "name": "roman numeral two",
         "symbol": "\u2161",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8546,
-        "name": "ROMAN NUMERAL THREE",
+        "name": "roman numeral three",
         "symbol": "\u2162",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8547,
-        "name": "ROMAN NUMERAL FOUR",
+        "name": "roman numeral four",
         "symbol": "\u2163",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8548,
-        "name": "ROMAN NUMERAL FIVE",
+        "name": "roman numeral five",
         "symbol": "\u2164",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8549,
-        "name": "ROMAN NUMERAL SIX",
+        "name": "roman numeral six",
         "symbol": "\u2165",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8550,
-        "name": "ROMAN NUMERAL SEVEN",
+        "name": "roman numeral seven",
         "symbol": "\u2166",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8551,
-        "name": "ROMAN NUMERAL EIGHT",
+        "name": "roman numeral eight",
         "symbol": "\u2167",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8552,
-        "name": "ROMAN NUMERAL NINE",
+        "name": "roman numeral nine",
         "symbol": "\u2168",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8553,
-        "name": "ROMAN NUMERAL TEN",
+        "name": "roman numeral ten",
         "symbol": "\u2169",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8554,
-        "name": "ROMAN NUMERAL ELEVEN",
+        "name": "roman numeral eleven",
         "symbol": "\u216a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8555,
-        "name": "ROMAN NUMERAL TWELVE",
+        "name": "roman numeral twelve",
         "symbol": "\u216b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8556,
-        "name": "ROMAN NUMERAL FIFTY",
+        "name": "roman numeral fifty",
         "symbol": "\u216c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8557,
-        "name": "ROMAN NUMERAL ONE HUNDRED",
+        "name": "roman numeral one hundred",
         "symbol": "\u216d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8558,
-        "name": "ROMAN NUMERAL FIVE HUNDRED",
+        "name": "roman numeral five hundred",
         "symbol": "\u216e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8559,
-        "name": "ROMAN NUMERAL ONE THOUSAND",
+        "name": "roman numeral one thousand",
         "symbol": "\u216f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8560,
-        "name": "SMALL ROMAN NUMERAL ONE",
+        "name": "small roman numeral one",
         "symbol": "\u2170",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8561,
-        "name": "SMALL ROMAN NUMERAL TWO",
+        "name": "small roman numeral two",
         "symbol": "\u2171",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8562,
-        "name": "SMALL ROMAN NUMERAL THREE",
+        "name": "small roman numeral three",
         "symbol": "\u2172",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8563,
-        "name": "SMALL ROMAN NUMERAL FOUR",
+        "name": "small roman numeral four",
         "symbol": "\u2173",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8564,
-        "name": "SMALL ROMAN NUMERAL FIVE",
+        "name": "small roman numeral five",
         "symbol": "\u2174",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8565,
-        "name": "SMALL ROMAN NUMERAL SIX",
+        "name": "small roman numeral six",
         "symbol": "\u2175",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8566,
-        "name": "SMALL ROMAN NUMERAL SEVEN",
+        "name": "small roman numeral seven",
         "symbol": "\u2176",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8567,
-        "name": "SMALL ROMAN NUMERAL EIGHT",
+        "name": "small roman numeral eight",
         "symbol": "\u2177",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8568,
-        "name": "SMALL ROMAN NUMERAL NINE",
+        "name": "small roman numeral nine",
         "symbol": "\u2178",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8569,
-        "name": "SMALL ROMAN NUMERAL TEN",
+        "name": "small roman numeral ten",
         "symbol": "\u2179",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8570,
-        "name": "SMALL ROMAN NUMERAL ELEVEN",
+        "name": "small roman numeral eleven",
         "symbol": "\u217a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8571,
-        "name": "SMALL ROMAN NUMERAL TWELVE",
+        "name": "small roman numeral twelve",
         "symbol": "\u217b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8572,
-        "name": "SMALL ROMAN NUMERAL FIFTY",
+        "name": "small roman numeral fifty",
         "symbol": "\u217c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8573,
-        "name": "SMALL ROMAN NUMERAL ONE HUNDRED",
+        "name": "small roman numeral one hundred",
         "symbol": "\u217d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8574,
-        "name": "SMALL ROMAN NUMERAL FIVE HUNDRED",
+        "name": "small roman numeral five hundred",
         "symbol": "\u217e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8575,
-        "name": "SMALL ROMAN NUMERAL ONE THOUSAND",
+        "name": "small roman numeral one thousand",
         "symbol": "\u217f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8576,
-        "name": "ROMAN NUMERAL ONE THOUSAND C D",
+        "name": "roman numeral one thousand c d",
         "symbol": "\u2180",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8577,
-        "name": "ROMAN NUMERAL FIVE THOUSAND",
+        "name": "roman numeral five thousand",
         "symbol": "\u2181",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8578,
-        "name": "ROMAN NUMERAL TEN THOUSAND",
+        "name": "roman numeral ten thousand",
         "symbol": "\u2182",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8579,
-        "name": "ROMAN NUMERAL REVERSED ONE HUNDRED",
+        "name": "roman numeral reversed one hundred",
         "symbol": "\u2183",
         "keywords": [],
         "symbols": {}

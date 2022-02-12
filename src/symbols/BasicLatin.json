@@ -1,827 +1,828 @@
-[{
-    "unicode": 1,
-    "name": "START OF HEADING",
-    "symbol": "\u0001",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 2,
-    "name": "START OF TEXT",
-    "symbol": "\u0002",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 3,
-    "name": "END OF TEXT",
-    "symbol": "\u0003",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 4,
-    "name": "END OF TRANSMISSION",
-    "symbol": "\u0004",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 5,
-    "name": "ENQUIRY",
-    "symbol": "\u0005",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 6,
-    "name": "ACKNOWLEDGE",
-    "symbol": "\u0006",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 7,
-    "name": "BELL",
-    "symbol": "\u0007",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 8,
-    "name": "BACKSPACE",
-    "symbol": "\b",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 14,
-    "name": "SHIFT OUT",
-    "symbol": "\u000e",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 15,
-    "name": "SHIFT IN",
-    "symbol": "\u000f",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 16,
-    "name": "DATA LINK ESCAPE",
-    "symbol": "\u0010",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 17,
-    "name": "DEVICE CONTROL ONE",
-    "symbol": "\u0011",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 18,
-    "name": "DEVICE CONTROL TWO",
-    "symbol": "\u0012",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 19,
-    "name": "DEVICE CONTROL THREE",
-    "symbol": "\u0013",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 20,
-    "name": "DEVICE CONTROL FOUR",
-    "symbol": "\u0014",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 21,
-    "name": "NEGATIVE ACKNOWLEDGE",
-    "symbol": "\u0015",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 22,
-    "name": "SYNCHRONOUS IDLE",
-    "symbol": "\u0016",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 23,
-    "name": "END OF TRANSMISSION BLOCK",
-    "symbol": "\u0017",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 24,
-    "name": "CANCEL",
-    "symbol": "\u0018",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 25,
-    "name": "END OF MEDIUM",
-    "symbol": "\u0019",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 26,
-    "name": "SUBSTITUTE",
-    "symbol": "\u001a",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 27,
-    "name": "ESCAPE",
-    "symbol": "\u001b",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 32,
-    "name": "SPACE",
-    "symbol": "_",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 33,
-    "name": "EXCLAMATION MARK",
-    "symbol": "!",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 34,
-    "name": "QUOTATION MARK",
-    "symbol": "\"",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 35,
-    "name": "NUMBER SIGN",
-    "symbol": "#",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 36,
-    "name": "DOLLAR SIGN",
-    "symbol": "$",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 37,
-    "name": "PERCENT SIGN",
-    "symbol": "%",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 38,
-    "name": "AMPERSAND",
-    "symbol": "&amp;",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 39,
-    "name": "APOSTROPHE",
-    "symbol": "'",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 40,
-    "name": "LEFT PARENTHESIS",
-    "symbol": "(",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 41,
-    "name": "RIGHT PARENTHESIS",
-    "symbol": ")",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 42,
-    "name": "ASTERISK",
-    "symbol": "*",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 43,
-    "name": "PLUS SIGN",
-    "symbol": "+",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 44,
-    "name": "COMMA",
-    "symbol": ",",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 45,
-    "name": "HYPHEN MINUS",
-    "symbol": "_",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 46,
-    "name": "FULL STOP",
-    "symbol": ".",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 47,
-    "name": "SOLIDUS",
-    "symbol": "/",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 48,
-    "name": "DIGIT ZERO",
-    "symbol": "0",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 49,
-    "name": "DIGIT ONE",
-    "symbol": "1",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 50,
-    "name": "DIGIT TWO",
-    "symbol": "2",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 51,
-    "name": "DIGIT THREE",
-    "symbol": "3",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 52,
-    "name": "DIGIT FOUR",
-    "symbol": "4",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 53,
-    "name": "DIGIT FIVE",
-    "symbol": "5",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 54,
-    "name": "DIGIT SIX",
-    "symbol": "6",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 55,
-    "name": "DIGIT SEVEN",
-    "symbol": "7",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 56,
-    "name": "DIGIT EIGHT",
-    "symbol": "8",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 57,
-    "name": "DIGIT NINE",
-    "symbol": "9",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 58,
-    "name": "COLON",
-    "symbol": ":",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 59,
-    "name": "SEMICOLON",
-    "symbol": ";",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 60,
-    "name": "LESS THAN SIGN",
-    "symbol": "&lt;",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 61,
-    "name": "EQUALS SIGN",
-    "symbol": "=",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 62,
-    "name": "GREATER THAN SIGN",
-    "symbol": "&gt;",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 63,
-    "name": "QUESTION MARK",
-    "symbol": "?",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 64,
-    "name": "COMMERCIAL AT",
-    "symbol": "@",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 65,
-    "name": "LATIN CAPITAL LETTER A",
-    "symbol": "A",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 66,
-    "name": "LATIN CAPITAL LETTER B",
-    "symbol": "B",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 67,
-    "name": "LATIN CAPITAL LETTER C",
-    "symbol": "C",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 68,
-    "name": "LATIN CAPITAL LETTER D",
-    "symbol": "D",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 69,
-    "name": "LATIN CAPITAL LETTER E",
-    "symbol": "E",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 70,
-    "name": "LATIN CAPITAL LETTER F",
-    "symbol": "F",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 71,
-    "name": "LATIN CAPITAL LETTER G",
-    "symbol": "G",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 72,
-    "name": "LATIN CAPITAL LETTER H",
-    "symbol": "H",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 73,
-    "name": "LATIN CAPITAL LETTER I",
-    "symbol": "I",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 74,
-    "name": "LATIN CAPITAL LETTER J",
-    "symbol": "J",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 75,
-    "name": "LATIN CAPITAL LETTER K",
-    "symbol": "K",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 76,
-    "name": "LATIN CAPITAL LETTER L",
-    "symbol": "L",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 77,
-    "name": "LATIN CAPITAL LETTER M",
-    "symbol": "M",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 78,
-    "name": "LATIN CAPITAL LETTER N",
-    "symbol": "N",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 79,
-    "name": "LATIN CAPITAL LETTER O",
-    "symbol": "O",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 80,
-    "name": "LATIN CAPITAL LETTER P",
-    "symbol": "P",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 81,
-    "name": "LATIN CAPITAL LETTER Q",
-    "symbol": "Q",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 82,
-    "name": "LATIN CAPITAL LETTER R",
-    "symbol": "R",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 83,
-    "name": "LATIN CAPITAL LETTER S",
-    "symbol": "S",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 84,
-    "name": "LATIN CAPITAL LETTER T",
-    "symbol": "T",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 85,
-    "name": "LATIN CAPITAL LETTER U",
-    "symbol": "U",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 86,
-    "name": "LATIN CAPITAL LETTER V",
-    "symbol": "V",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 87,
-    "name": "LATIN CAPITAL LETTER W",
-    "symbol": "W",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 88,
-    "name": "LATIN CAPITAL LETTER X",
-    "symbol": "X",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 89,
-    "name": "LATIN CAPITAL LETTER Y",
-    "symbol": "Y",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 90,
-    "name": "LATIN CAPITAL LETTER Z",
-    "symbol": "Z",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 91,
-    "name": "LEFT SQUARE BRACKET",
-    "symbol": "[",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 92,
-    "name": "REVERSE SOLIDUS",
-    "symbol": "\\",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 93,
-    "name": "RIGHT SQUARE BRACKET",
-    "symbol": "]",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 94,
-    "name": "CIRCUMFLEX ACCENT",
-    "symbol": "^",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 95,
-    "name": "LOW LINE",
-    "symbol": "_",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 96,
-    "name": "GRAVE ACCENT",
-    "symbol": "`",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 97,
-    "name": "LATIN SMALL LETTER A",
-    "symbol": "a",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 98,
-    "name": "LATIN SMALL LETTER B",
-    "symbol": "b",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 99,
-    "name": "LATIN SMALL LETTER C",
-    "symbol": "c",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 100,
-    "name": "LATIN SMALL LETTER D",
-    "symbol": "d",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 101,
-    "name": "LATIN SMALL LETTER E",
-    "symbol": "e",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 102,
-    "name": "LATIN SMALL LETTER F",
-    "symbol": "f",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 103,
-    "name": "LATIN SMALL LETTER G",
-    "symbol": "g",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 104,
-    "name": "LATIN SMALL LETTER H",
-    "symbol": "h",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 105,
-    "name": "LATIN SMALL LETTER I",
-    "symbol": "i",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 106,
-    "name": "LATIN SMALL LETTER J",
-    "symbol": "j",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 107,
-    "name": "LATIN SMALL LETTER K",
-    "symbol": "k",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 108,
-    "name": "LATIN SMALL LETTER L",
-    "symbol": "l",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 109,
-    "name": "LATIN SMALL LETTER M",
-    "symbol": "m",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 110,
-    "name": "LATIN SMALL LETTER N",
-    "symbol": "n",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 111,
-    "name": "LATIN SMALL LETTER O",
-    "symbol": "o",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 112,
-    "name": "LATIN SMALL LETTER P",
-    "symbol": "p",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 113,
-    "name": "LATIN SMALL LETTER Q",
-    "symbol": "q",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 114,
-    "name": "LATIN SMALL LETTER R",
-    "symbol": "r",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 115,
-    "name": "LATIN SMALL LETTER S",
-    "symbol": "s",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 116,
-    "name": "LATIN SMALL LETTER T",
-    "symbol": "t",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 117,
-    "name": "LATIN SMALL LETTER U",
-    "symbol": "u",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 118,
-    "name": "LATIN SMALL LETTER V",
-    "symbol": "v",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 119,
-    "name": "LATIN SMALL LETTER W",
-    "symbol": "w",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 120,
-    "name": "LATIN SMALL LETTER X",
-    "symbol": "x",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 121,
-    "name": "LATIN SMALL LETTER Y",
-    "symbol": "y",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 122,
-    "name": "LATIN SMALL LETTER Z",
-    "symbol": "z",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 123,
-    "name": "LEFT CURLY BRACKET",
-    "symbol": "{",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 124,
-    "name": "VERTICAL LINE",
-    "symbol": "|",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 125,
-    "name": "RIGHT CURLY BRACKET",
-    "symbol": "}",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 126,
-    "name": "TILDE",
-    "symbol": "~",
-    "keywords": [],
-    "symbols": {}
-},
-{
-    "unicode": 127,
-    "name": "DELETE",
-    "symbol": "\u007f",
-    "keywords": [],
-    "symbols": {}
-}
+[
+    {
+        "unicode": 1,
+        "name": "start of heading",
+        "symbol": "\u0001",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 2,
+        "name": "start of text",
+        "symbol": "\u0002",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 3,
+        "name": "end of text",
+        "symbol": "\u0003",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 4,
+        "name": "end of transmission",
+        "symbol": "\u0004",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 5,
+        "name": "enquiry",
+        "symbol": "\u0005",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 6,
+        "name": "acknowledge",
+        "symbol": "\u0006",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 7,
+        "name": "bell",
+        "symbol": "\u0007",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8,
+        "name": "backspace",
+        "symbol": "\b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 14,
+        "name": "shift out",
+        "symbol": "\u000e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 15,
+        "name": "shift in",
+        "symbol": "\u000f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 16,
+        "name": "data link escape",
+        "symbol": "\u0010",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 17,
+        "name": "device control one",
+        "symbol": "\u0011",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 18,
+        "name": "device control two",
+        "symbol": "\u0012",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 19,
+        "name": "device control three",
+        "symbol": "\u0013",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 20,
+        "name": "device control four",
+        "symbol": "\u0014",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 21,
+        "name": "negative acknowledge",
+        "symbol": "\u0015",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 22,
+        "name": "synchronous idle",
+        "symbol": "\u0016",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 23,
+        "name": "end of transmission block",
+        "symbol": "\u0017",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 24,
+        "name": "cancel",
+        "symbol": "\u0018",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 25,
+        "name": "end of medium",
+        "symbol": "\u0019",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 26,
+        "name": "substitute",
+        "symbol": "\u001a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 27,
+        "name": "escape",
+        "symbol": "\u001b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 32,
+        "name": "space",
+        "symbol": "_",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 33,
+        "name": "exclamation mark",
+        "symbol": "!",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 34,
+        "name": "quotation mark",
+        "symbol": "\"",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 35,
+        "name": "number sign",
+        "symbol": "#",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 36,
+        "name": "dollar sign",
+        "symbol": "$",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 37,
+        "name": "percent sign",
+        "symbol": "%",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 38,
+        "name": "ampersand",
+        "symbol": "&amp;",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 39,
+        "name": "apostrophe",
+        "symbol": "'",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 40,
+        "name": "left parenthesis",
+        "symbol": "(",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 41,
+        "name": "right parenthesis",
+        "symbol": ")",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 42,
+        "name": "asterisk",
+        "symbol": "*",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 43,
+        "name": "plus sign",
+        "symbol": "+",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 44,
+        "name": "comma",
+        "symbol": ",",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 45,
+        "name": "hyphen minus",
+        "symbol": "_",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 46,
+        "name": "full stop",
+        "symbol": ".",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 47,
+        "name": "solidus",
+        "symbol": "/",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 48,
+        "name": "digit zero",
+        "symbol": "0",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 49,
+        "name": "digit one",
+        "symbol": "1",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 50,
+        "name": "digit two",
+        "symbol": "2",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 51,
+        "name": "digit three",
+        "symbol": "3",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 52,
+        "name": "digit four",
+        "symbol": "4",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 53,
+        "name": "digit five",
+        "symbol": "5",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 54,
+        "name": "digit six",
+        "symbol": "6",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 55,
+        "name": "digit seven",
+        "symbol": "7",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 56,
+        "name": "digit eight",
+        "symbol": "8",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 57,
+        "name": "digit nine",
+        "symbol": "9",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 58,
+        "name": "colon",
+        "symbol": ":",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 59,
+        "name": "semicolon",
+        "symbol": ";",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 60,
+        "name": "less than sign",
+        "symbol": "&lt;",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 61,
+        "name": "equals sign",
+        "symbol": "=",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 62,
+        "name": "greater than sign",
+        "symbol": "&gt;",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 63,
+        "name": "question mark",
+        "symbol": "?",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 64,
+        "name": "commercial at",
+        "symbol": "@",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 65,
+        "name": "latin capital letter a",
+        "symbol": "a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 66,
+        "name": "latin capital letter b",
+        "symbol": "b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 67,
+        "name": "latin capital letter c",
+        "symbol": "c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 68,
+        "name": "latin capital letter d",
+        "symbol": "d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 69,
+        "name": "latin capital letter e",
+        "symbol": "e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 70,
+        "name": "latin capital letter f",
+        "symbol": "f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 71,
+        "name": "latin capital letter g",
+        "symbol": "g",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 72,
+        "name": "latin capital letter h",
+        "symbol": "h",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 73,
+        "name": "latin capital letter i",
+        "symbol": "i",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 74,
+        "name": "latin capital letter j",
+        "symbol": "j",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 75,
+        "name": "latin capital letter k",
+        "symbol": "k",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 76,
+        "name": "latin capital letter l",
+        "symbol": "l",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 77,
+        "name": "latin capital letter m",
+        "symbol": "m",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 78,
+        "name": "latin capital letter n",
+        "symbol": "n",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 79,
+        "name": "latin capital letter o",
+        "symbol": "o",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 80,
+        "name": "latin capital letter p",
+        "symbol": "p",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 81,
+        "name": "latin capital letter q",
+        "symbol": "q",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 82,
+        "name": "latin capital letter r",
+        "symbol": "r",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 83,
+        "name": "latin capital letter s",
+        "symbol": "s",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 84,
+        "name": "latin capital letter t",
+        "symbol": "t",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 85,
+        "name": "latin capital letter u",
+        "symbol": "u",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 86,
+        "name": "latin capital letter v",
+        "symbol": "v",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 87,
+        "name": "latin capital letter w",
+        "symbol": "w",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 88,
+        "name": "latin capital letter x",
+        "symbol": "x",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 89,
+        "name": "latin capital letter y",
+        "symbol": "y",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 90,
+        "name": "latin capital letter z",
+        "symbol": "z",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 91,
+        "name": "left square bracket",
+        "symbol": "[",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 92,
+        "name": "reverse solidus",
+        "symbol": "\\",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 93,
+        "name": "right square bracket",
+        "symbol": "]",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 94,
+        "name": "circumflex accent",
+        "symbol": "^",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 95,
+        "name": "low line",
+        "symbol": "_",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 96,
+        "name": "grave accent",
+        "symbol": "`",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 97,
+        "name": "latin small letter a",
+        "symbol": "a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 98,
+        "name": "latin small letter b",
+        "symbol": "b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 99,
+        "name": "latin small letter c",
+        "symbol": "c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 100,
+        "name": "latin small letter d",
+        "symbol": "d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 101,
+        "name": "latin small letter e",
+        "symbol": "e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 102,
+        "name": "latin small letter f",
+        "symbol": "f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 103,
+        "name": "latin small letter g",
+        "symbol": "g",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 104,
+        "name": "latin small letter h",
+        "symbol": "h",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 105,
+        "name": "latin small letter i",
+        "symbol": "i",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 106,
+        "name": "latin small letter j",
+        "symbol": "j",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 107,
+        "name": "latin small letter k",
+        "symbol": "k",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 108,
+        "name": "latin small letter l",
+        "symbol": "l",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 109,
+        "name": "latin small letter m",
+        "symbol": "m",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 110,
+        "name": "latin small letter n",
+        "symbol": "n",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 111,
+        "name": "latin small letter o",
+        "symbol": "o",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 112,
+        "name": "latin small letter p",
+        "symbol": "p",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 113,
+        "name": "latin small letter q",
+        "symbol": "q",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 114,
+        "name": "latin small letter r",
+        "symbol": "r",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 115,
+        "name": "latin small letter s",
+        "symbol": "s",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 116,
+        "name": "latin small letter t",
+        "symbol": "t",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 117,
+        "name": "latin small letter u",
+        "symbol": "u",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 118,
+        "name": "latin small letter v",
+        "symbol": "v",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 119,
+        "name": "latin small letter w",
+        "symbol": "w",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 120,
+        "name": "latin small letter x",
+        "symbol": "x",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 121,
+        "name": "latin small letter y",
+        "symbol": "y",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 122,
+        "name": "latin small letter z",
+        "symbol": "z",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 123,
+        "name": "left curly bracket",
+        "symbol": "{",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 124,
+        "name": "vertical line",
+        "symbol": "|",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 125,
+        "name": "right curly bracket",
+        "symbol": "}",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 126,
+        "name": "tilde",
+        "symbol": "~",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 127,
+        "name": "delete",
+        "symbol": "\u007f",
+        "keywords": [],
+        "symbols": {}
+    }
 ]

@@ -1,770 +1,770 @@
 [
     {
         "unicode": 884,
-        "name": "GREEK NUMERAL SIGN",
+        "name": "greek numeral sign",
         "symbol": "\u0374",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 885,
-        "name": "GREEK LOWER NUMERAL SIGN",
+        "name": "greek lower numeral sign",
         "symbol": "\u0375",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 890,
-        "name": "GREEK YPOGEGRAMMENI",
+        "name": "greek ypogegrammeni",
         "symbol": "\u037a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 894,
-        "name": "GREEK QUESTION MARK",
+        "name": "greek question mark",
         "symbol": "\u037e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 900,
-        "name": "GREEK TONOS",
+        "name": "greek tonos",
         "symbol": "\u0384",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 901,
-        "name": "GREEK DIALYTIKA TONOS",
+        "name": "greek dialytika tonos",
         "symbol": "\u0385",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 902,
-        "name": "GREEK CAPITAL LETTER ALPHA WITH TONOS",
+        "name": "greek capital letter alpha with tonos",
         "symbol": "\u0386",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 903,
-        "name": "GREEK ANO TELEIA",
+        "name": "greek ano teleia",
         "symbol": "\u0387",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 904,
-        "name": "GREEK CAPITAL LETTER EPSILON WITH TONOS",
+        "name": "greek capital letter epsilon with tonos",
         "symbol": "\u0388",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 905,
-        "name": "GREEK CAPITAL LETTER ETA WITH TONOS",
+        "name": "greek capital letter eta with tonos",
         "symbol": "\u0389",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 906,
-        "name": "GREEK CAPITAL LETTER IOTA WITH TONOS",
+        "name": "greek capital letter iota with tonos",
         "symbol": "\u038a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 908,
-        "name": "GREEK CAPITAL LETTER OMICRON WITH TONOS",
+        "name": "greek capital letter omicron with tonos",
         "symbol": "\u038c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 910,
-        "name": "GREEK CAPITAL LETTER UPSILON WITH TONOS",
+        "name": "greek capital letter upsilon with tonos",
         "symbol": "\u038e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 911,
-        "name": "GREEK CAPITAL LETTER OMEGA WITH TONOS",
+        "name": "greek capital letter omega with tonos",
         "symbol": "\u038f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 912,
-        "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS",
+        "name": "greek small letter iota with dialytika and tonos",
         "symbol": "\u0390",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 913,
-        "name": "GREEK CAPITAL LETTER ALPHA",
+        "name": "greek capital letter alpha",
         "symbol": "\u0391",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 914,
-        "name": "GREEK CAPITAL LETTER BETA",
+        "name": "greek capital letter beta",
         "symbol": "\u0392",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 915,
-        "name": "GREEK CAPITAL LETTER GAMMA",
+        "name": "greek capital letter gamma",
         "symbol": "\u0393",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 916,
-        "name": "GREEK CAPITAL LETTER DELTA",
+        "name": "greek capital letter delta",
         "symbol": "\u0394",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 917,
-        "name": "GREEK CAPITAL LETTER EPSILON",
+        "name": "greek capital letter epsilon",
         "symbol": "\u0395",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 918,
-        "name": "GREEK CAPITAL LETTER ZETA",
+        "name": "greek capital letter zeta",
         "symbol": "\u0396",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 919,
-        "name": "GREEK CAPITAL LETTER ETA",
+        "name": "greek capital letter eta",
         "symbol": "\u0397",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 920,
-        "name": "GREEK CAPITAL LETTER THETA",
+        "name": "greek capital letter theta",
         "symbol": "\u0398",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 921,
-        "name": "GREEK CAPITAL LETTER IOTA",
+        "name": "greek capital letter iota",
         "symbol": "\u0399",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 922,
-        "name": "GREEK CAPITAL LETTER KAPPA",
+        "name": "greek capital letter kappa",
         "symbol": "\u039a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 923,
-        "name": "GREEK CAPITAL LETTER LAMDA",
+        "name": "greek capital letter lamda",
         "symbol": "\u039b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 924,
-        "name": "GREEK CAPITAL LETTER MU",
+        "name": "greek capital letter mu",
         "symbol": "\u039c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 925,
-        "name": "GREEK CAPITAL LETTER NU",
+        "name": "greek capital letter nu",
         "symbol": "\u039d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 926,
-        "name": "GREEK CAPITAL LETTER XI",
+        "name": "greek capital letter xi",
         "symbol": "\u039e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 927,
-        "name": "GREEK CAPITAL LETTER OMICRON",
+        "name": "greek capital letter omicron",
         "symbol": "\u039f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 928,
-        "name": "GREEK CAPITAL LETTER PI",
+        "name": "greek capital letter pi",
         "symbol": "\u03a0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 929,
-        "name": "GREEK CAPITAL LETTER RHO",
+        "name": "greek capital letter rho",
         "symbol": "\u03a1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 931,
-        "name": "GREEK CAPITAL LETTER SIGMA",
+        "name": "greek capital letter sigma",
         "symbol": "\u03a3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 932,
-        "name": "GREEK CAPITAL LETTER TAU",
+        "name": "greek capital letter tau",
         "symbol": "\u03a4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 933,
-        "name": "GREEK CAPITAL LETTER UPSILON",
+        "name": "greek capital letter upsilon",
         "symbol": "\u03a5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 934,
-        "name": "GREEK CAPITAL LETTER PHI",
+        "name": "greek capital letter phi",
         "symbol": "\u03a6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 935,
-        "name": "GREEK CAPITAL LETTER CHI",
+        "name": "greek capital letter chi",
         "symbol": "\u03a7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 936,
-        "name": "GREEK CAPITAL LETTER PSI",
+        "name": "greek capital letter psi",
         "symbol": "\u03a8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 937,
-        "name": "GREEK CAPITAL LETTER OMEGA",
+        "name": "greek capital letter omega",
         "symbol": "\u03a9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 938,
-        "name": "GREEK CAPITAL LETTER IOTA WITH DIALYTIKA",
+        "name": "greek capital letter iota with dialytika",
         "symbol": "\u03aa",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 939,
-        "name": "GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA",
+        "name": "greek capital letter upsilon with dialytika",
         "symbol": "\u03ab",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 940,
-        "name": "GREEK SMALL LETTER ALPHA WITH TONOS",
+        "name": "greek small letter alpha with tonos",
         "symbol": "\u03ac",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 941,
-        "name": "GREEK SMALL LETTER EPSILON WITH TONOS",
+        "name": "greek small letter epsilon with tonos",
         "symbol": "\u03ad",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 942,
-        "name": "GREEK SMALL LETTER ETA WITH TONOS",
+        "name": "greek small letter eta with tonos",
         "symbol": "\u03ae",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 943,
-        "name": "GREEK SMALL LETTER IOTA WITH TONOS",
+        "name": "greek small letter iota with tonos",
         "symbol": "\u03af",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 944,
-        "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS",
+        "name": "greek small letter upsilon with dialytika and tonos",
         "symbol": "\u03b0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 945,
-        "name": "GREEK SMALL LETTER ALPHA",
+        "name": "greek small letter alpha",
         "symbol": "\u03b1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 946,
-        "name": "GREEK SMALL LETTER BETA",
+        "name": "greek small letter beta",
         "symbol": "\u03b2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 947,
-        "name": "GREEK SMALL LETTER GAMMA",
+        "name": "greek small letter gamma",
         "symbol": "\u03b3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 948,
-        "name": "GREEK SMALL LETTER DELTA",
+        "name": "greek small letter delta",
         "symbol": "\u03b4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 949,
-        "name": "GREEK SMALL LETTER EPSILON",
+        "name": "greek small letter epsilon",
         "symbol": "\u03b5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 950,
-        "name": "GREEK SMALL LETTER ZETA",
+        "name": "greek small letter zeta",
         "symbol": "\u03b6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 951,
-        "name": "GREEK SMALL LETTER ETA",
+        "name": "greek small letter eta",
         "symbol": "\u03b7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 952,
-        "name": "GREEK SMALL LETTER THETA",
+        "name": "greek small letter theta",
         "symbol": "\u03b8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 953,
-        "name": "GREEK SMALL LETTER IOTA",
+        "name": "greek small letter iota",
         "symbol": "\u03b9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 954,
-        "name": "GREEK SMALL LETTER KAPPA",
+        "name": "greek small letter kappa",
         "symbol": "\u03ba",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 955,
-        "name": "GREEK SMALL LETTER LAMDA",
+        "name": "greek small letter lamda",
         "symbol": "\u03bb",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 956,
-        "name": "GREEK SMALL LETTER MU",
+        "name": "greek small letter mu",
         "symbol": "\u03bc",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 957,
-        "name": "GREEK SMALL LETTER NU",
+        "name": "greek small letter nu",
         "symbol": "\u03bd",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 958,
-        "name": "GREEK SMALL LETTER XI",
+        "name": "greek small letter xi",
         "symbol": "\u03be",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 959,
-        "name": "GREEK SMALL LETTER OMICRON",
+        "name": "greek small letter omicron",
         "symbol": "\u03bf",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 960,
-        "name": "GREEK SMALL LETTER PI",
+        "name": "greek small letter pi",
         "symbol": "\u03c0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 961,
-        "name": "GREEK SMALL LETTER RHO",
+        "name": "greek small letter rho",
         "symbol": "\u03c1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 962,
-        "name": "GREEK SMALL LETTER FINAL SIGMA",
+        "name": "greek small letter final sigma",
         "symbol": "\u03c2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 963,
-        "name": "GREEK SMALL LETTER SIGMA",
+        "name": "greek small letter sigma",
         "symbol": "\u03c3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 964,
-        "name": "GREEK SMALL LETTER TAU",
+        "name": "greek small letter tau",
         "symbol": "\u03c4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 965,
-        "name": "GREEK SMALL LETTER UPSILON",
+        "name": "greek small letter upsilon",
         "symbol": "\u03c5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 966,
-        "name": "GREEK SMALL LETTER PHI",
+        "name": "greek small letter phi",
         "symbol": "\u03c6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 967,
-        "name": "GREEK SMALL LETTER CHI",
+        "name": "greek small letter chi",
         "symbol": "\u03c7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 968,
-        "name": "GREEK SMALL LETTER PSI",
+        "name": "greek small letter psi",
         "symbol": "\u03c8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 969,
-        "name": "GREEK SMALL LETTER OMEGA",
+        "name": "greek small letter omega",
         "symbol": "\u03c9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 970,
-        "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA",
+        "name": "greek small letter iota with dialytika",
         "symbol": "\u03ca",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 971,
-        "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA",
+        "name": "greek small letter upsilon with dialytika",
         "symbol": "\u03cb",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 972,
-        "name": "GREEK SMALL LETTER OMICRON WITH TONOS",
+        "name": "greek small letter omicron with tonos",
         "symbol": "\u03cc",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 973,
-        "name": "GREEK SMALL LETTER UPSILON WITH TONOS",
+        "name": "greek small letter upsilon with tonos",
         "symbol": "\u03cd",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 974,
-        "name": "GREEK SMALL LETTER OMEGA WITH TONOS",
+        "name": "greek small letter omega with tonos",
         "symbol": "\u03ce",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 976,
-        "name": "GREEK BETA SYMBOL",
+        "name": "greek beta symbol",
         "symbol": "\u03d0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 977,
-        "name": "GREEK THETA SYMBOL",
+        "name": "greek theta symbol",
         "symbol": "\u03d1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 978,
-        "name": "GREEK UPSILON WITH HOOK SYMBOL",
+        "name": "greek upsilon with hook symbol",
         "symbol": "\u03d2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 979,
-        "name": "GREEK UPSILON WITH ACUTE AND HOOK SYMBOL",
+        "name": "greek upsilon with acute and hook symbol",
         "symbol": "\u03d3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 980,
-        "name": "GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL",
+        "name": "greek upsilon with diaeresis and hook symbol",
         "symbol": "\u03d4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 981,
-        "name": "GREEK PHI SYMBOL",
+        "name": "greek phi symbol",
         "symbol": "\u03d5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 982,
-        "name": "GREEK PI SYMBOL",
+        "name": "greek pi symbol",
         "symbol": "\u03d6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 983,
-        "name": "GREEK KAI SYMBOL",
+        "name": "greek kai symbol",
         "symbol": "\u03d7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 986,
-        "name": "GREEK LETTER STIGMA",
+        "name": "greek letter stigma",
         "symbol": "\u03da",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 987,
-        "name": "GREEK SMALL LETTER STIGMA",
+        "name": "greek small letter stigma",
         "symbol": "\u03db",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 988,
-        "name": "GREEK LETTER DIGAMMA",
+        "name": "greek letter digamma",
         "symbol": "\u03dc",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 989,
-        "name": "GREEK SMALL LETTER DIGAMMA",
+        "name": "greek small letter digamma",
         "symbol": "\u03dd",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 990,
-        "name": "GREEK LETTER KOPPA",
+        "name": "greek letter koppa",
         "symbol": "\u03de",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 991,
-        "name": "GREEK SMALL LETTER KOPPA",
+        "name": "greek small letter koppa",
         "symbol": "\u03df",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 992,
-        "name": "GREEK LETTER SAMPI",
+        "name": "greek letter sampi",
         "symbol": "\u03e0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 993,
-        "name": "GREEK SMALL LETTER SAMPI",
+        "name": "greek small letter sampi",
         "symbol": "\u03e1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 994,
-        "name": "COPTIC CAPITAL LETTER SHEI",
+        "name": "coptic capital letter shei",
         "symbol": "\u03e2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 995,
-        "name": "COPTIC SMALL LETTER SHEI",
+        "name": "coptic small letter shei",
         "symbol": "\u03e3",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 996,
-        "name": "COPTIC CAPITAL LETTER FEI",
+        "name": "coptic capital letter fei",
         "symbol": "\u03e4",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 997,
-        "name": "COPTIC SMALL LETTER FEI",
+        "name": "coptic small letter fei",
         "symbol": "\u03e5",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 998,
-        "name": "COPTIC CAPITAL LETTER KHEI",
+        "name": "coptic capital letter khei",
         "symbol": "\u03e6",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 999,
-        "name": "COPTIC SMALL LETTER KHEI",
+        "name": "coptic small letter khei",
         "symbol": "\u03e7",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1000,
-        "name": "COPTIC CAPITAL LETTER HORI",
+        "name": "coptic capital letter hori",
         "symbol": "\u03e8",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1001,
-        "name": "COPTIC SMALL LETTER HORI",
+        "name": "coptic small letter hori",
         "symbol": "\u03e9",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1002,
-        "name": "COPTIC CAPITAL LETTER GANGIA",
+        "name": "coptic capital letter gangia",
         "symbol": "\u03ea",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1003,
-        "name": "COPTIC SMALL LETTER GANGIA",
+        "name": "coptic small letter gangia",
         "symbol": "\u03eb",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1004,
-        "name": "COPTIC CAPITAL LETTER SHIMA",
+        "name": "coptic capital letter shima",
         "symbol": "\u03ec",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1005,
-        "name": "COPTIC SMALL LETTER SHIMA",
+        "name": "coptic small letter shima",
         "symbol": "\u03ed",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1006,
-        "name": "COPTIC CAPITAL LETTER DEI",
+        "name": "coptic capital letter dei",
         "symbol": "\u03ee",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1007,
-        "name": "COPTIC SMALL LETTER DEI",
+        "name": "coptic small letter dei",
         "symbol": "\u03ef",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1008,
-        "name": "GREEK KAPPA SYMBOL",
+        "name": "greek kappa symbol",
         "symbol": "\u03f0",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1009,
-        "name": "GREEK RHO SYMBOL",
+        "name": "greek rho symbol",
         "symbol": "\u03f1",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1010,
-        "name": "GREEK LUNATE SIGMA SYMBOL",
+        "name": "greek lunate sigma symbol",
         "symbol": "\u03f2",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 1011,
-        "name": "GREEK LETTER YOT",
+        "name": "greek letter yot",
         "symbol": "\u03f3",
         "keywords": [],
         "symbols": {}

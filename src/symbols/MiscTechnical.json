@@ -1,1078 +1,1078 @@
 [
     {
         "unicode": 8960,
-        "name": "DIAMETER SIGN",
+        "name": "diameter sign",
         "symbol": "\u2300",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8961,
-        "name": "ELECTRIC ARROW",
+        "name": "electric arrow",
         "symbol": "\u2301",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8962,
-        "name": "HOUSE",
+        "name": "house",
         "symbol": "\u2302",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8963,
-        "name": "UP ARROWHEAD",
+        "name": "up arrowhead",
         "symbol": "\u2303",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8964,
-        "name": "DOWN ARROWHEAD",
+        "name": "down arrowhead",
         "symbol": "\u2304",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8965,
-        "name": "PROJECTIVE",
+        "name": "projective",
         "symbol": "\u2305",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8966,
-        "name": "PERSPECTIVE",
+        "name": "perspective",
         "symbol": "\u2306",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8967,
-        "name": "WAVY LINE",
+        "name": "wavy line",
         "symbol": "\u2307",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8968,
-        "name": "LEFT CEILING",
+        "name": "left ceiling",
         "symbol": "\u2308",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8969,
-        "name": "RIGHT CEILING",
+        "name": "right ceiling",
         "symbol": "\u2309",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8970,
-        "name": "LEFT FLOOR",
+        "name": "left floor",
         "symbol": "\u230a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8971,
-        "name": "RIGHT FLOOR",
+        "name": "right floor",
         "symbol": "\u230b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8972,
-        "name": "BOTTOM RIGHT CROP",
+        "name": "bottom right crop",
         "symbol": "\u230c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8973,
-        "name": "BOTTOM LEFT CROP",
+        "name": "bottom left crop",
         "symbol": "\u230d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8974,
-        "name": "TOP RIGHT CROP",
+        "name": "top right crop",
         "symbol": "\u230e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8975,
-        "name": "TOP LEFT CROP",
+        "name": "top left crop",
         "symbol": "\u230f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8976,
-        "name": "REVERSED NOT SIGN",
+        "name": "reversed not sign",
         "symbol": "\u2310",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8977,
-        "name": "SQUARE LOZENGE",
+        "name": "square lozenge",
         "symbol": "\u2311",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8978,
-        "name": "ARC",
+        "name": "arc",
         "symbol": "\u2312",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8979,
-        "name": "SEGMENT",
+        "name": "segment",
         "symbol": "\u2313",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8980,
-        "name": "SECTOR",
+        "name": "sector",
         "symbol": "\u2314",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8981,
-        "name": "TELEPHONE RECORDER",
+        "name": "telephone recorder",
         "symbol": "\u2315",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8982,
-        "name": "POSITION INDICATOR",
+        "name": "position indicator",
         "symbol": "\u2316",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8983,
-        "name": "VIEWDATA SQUARE",
+        "name": "viewdata square",
         "symbol": "\u2317",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8984,
-        "name": "PLACE OF INTEREST SIGN",
+        "name": "place of interest sign",
         "symbol": "\u2318",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8985,
-        "name": "TURNED NOT SIGN",
+        "name": "turned not sign",
         "symbol": "\u2319",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8986,
-        "name": "WATCH",
+        "name": "watch",
         "symbol": "\u231a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8987,
-        "name": "HOURGLASS",
+        "name": "hourglass",
         "symbol": "\u231b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8988,
-        "name": "TOP LEFT CORNER",
+        "name": "top left corner",
         "symbol": "\u231c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8989,
-        "name": "TOP RIGHT CORNER",
+        "name": "top right corner",
         "symbol": "\u231d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8990,
-        "name": "BOTTOM LEFT CORNER",
+        "name": "bottom left corner",
         "symbol": "\u231e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8991,
-        "name": "BOTTOM RIGHT CORNER",
+        "name": "bottom right corner",
         "symbol": "\u231f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8992,
-        "name": "TOP HALF INTEGRAL",
+        "name": "top half integral",
         "symbol": "\u2320",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8993,
-        "name": "BOTTOM HALF INTEGRAL",
+        "name": "bottom half integral",
         "symbol": "\u2321",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8994,
-        "name": "FROWN",
+        "name": "frown",
         "symbol": "\u2322",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8995,
-        "name": "SMILE",
+        "name": "smile",
         "symbol": "\u2323",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8996,
-        "name": "UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS",
+        "name": "up arrowhead between two horizontal bars",
         "symbol": "\u2324",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8997,
-        "name": "OPTION KEY",
+        "name": "option key",
         "symbol": "\u2325",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8998,
-        "name": "ERASE TO THE RIGHT",
+        "name": "erase to the right",
         "symbol": "\u2326",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 8999,
-        "name": "X IN A RECTANGLE BOX",
+        "name": "x in a rectangle box",
         "symbol": "\u2327",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9000,
-        "name": "KEYBOARD",
+        "name": "keyboard",
         "symbol": "\u2328",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9001,
-        "name": "LEFT POINTING ANGLE BRACKET",
+        "name": "left pointing angle bracket",
         "symbol": "\u2329",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9002,
-        "name": "RIGHT POINTING ANGLE BRACKET",
+        "name": "right pointing angle bracket",
         "symbol": "\u232a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9003,
-        "name": "ERASE TO THE LEFT",
+        "name": "erase to the left",
         "symbol": "\u232b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9004,
-        "name": "BENZENE RING",
+        "name": "benzene ring",
         "symbol": "\u232c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9005,
-        "name": "CYLINDRICITY",
+        "name": "cylindricity",
         "symbol": "\u232d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9006,
-        "name": "ALL AROUND PROFILE",
+        "name": "all around profile",
         "symbol": "\u232e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9007,
-        "name": "SYMMETRY",
+        "name": "symmetry",
         "symbol": "\u232f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9008,
-        "name": "TOTAL RUNOUT",
+        "name": "total runout",
         "symbol": "\u2330",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9009,
-        "name": "DIMENSION ORIGIN",
+        "name": "dimension origin",
         "symbol": "\u2331",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9010,
-        "name": "CONICAL TAPER",
+        "name": "conical taper",
         "symbol": "\u2332",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9011,
-        "name": "SLOPE",
+        "name": "slope",
         "symbol": "\u2333",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9012,
-        "name": "COUNTERBORE",
+        "name": "counterbore",
         "symbol": "\u2334",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9013,
-        "name": "COUNTERSINK",
+        "name": "countersink",
         "symbol": "\u2335",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9014,
-        "name": "APL FUNCTIONAL SYMBOL I BEAM",
+        "name": "apl functional symbol i beam",
         "symbol": "\u2336",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9015,
-        "name": "APL FUNCTIONAL SYMBOL SQUISH QUAD",
+        "name": "apl functional symbol squish quad",
         "symbol": "\u2337",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9016,
-        "name": "APL FUNCTIONAL SYMBOL QUAD EQUAL",
+        "name": "apl functional symbol quad equal",
         "symbol": "\u2338",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9017,
-        "name": "APL FUNCTIONAL SYMBOL QUAD DIVIDE",
+        "name": "apl functional symbol quad divide",
         "symbol": "\u2339",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9018,
-        "name": "APL FUNCTIONAL SYMBOL QUAD DIAMOND",
+        "name": "apl functional symbol quad diamond",
         "symbol": "\u233a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9019,
-        "name": "APL FUNCTIONAL SYMBOL QUAD JOT",
+        "name": "apl functional symbol quad jot",
         "symbol": "\u233b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9020,
-        "name": "APL FUNCTIONAL SYMBOL QUAD CIRCLE",
+        "name": "apl functional symbol quad circle",
         "symbol": "\u233c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9021,
-        "name": "APL FUNCTIONAL SYMBOL CIRCLE STILE",
+        "name": "apl functional symbol circle stile",
         "symbol": "\u233d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9022,
-        "name": "APL FUNCTIONAL SYMBOL CIRCLE JOT",
+        "name": "apl functional symbol circle jot",
         "symbol": "\u233e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9023,
-        "name": "APL FUNCTIONAL SYMBOL SLASH BAR",
+        "name": "apl functional symbol slash bar",
         "symbol": "\u233f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9024,
-        "name": "APL FUNCTIONAL SYMBOL BACKSLASH BAR",
+        "name": "apl functional symbol backslash bar",
         "symbol": "\u2340",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9025,
-        "name": "APL FUNCTIONAL SYMBOL QUAD SLASH",
+        "name": "apl functional symbol quad slash",
         "symbol": "\u2341",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9026,
-        "name": "APL FUNCTIONAL SYMBOL QUAD BACKSLASH",
+        "name": "apl functional symbol quad backslash",
         "symbol": "\u2342",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9027,
-        "name": "APL FUNCTIONAL SYMBOL QUAD LESS THAN",
+        "name": "apl functional symbol quad less than",
         "symbol": "\u2343",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9028,
-        "name": "APL FUNCTIONAL SYMBOL QUAD GREATER THAN",
+        "name": "apl functional symbol quad greater than",
         "symbol": "\u2344",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9029,
-        "name": "APL FUNCTIONAL SYMBOL LEFTWARDS VANE",
+        "name": "apl functional symbol leftwards vane",
         "symbol": "\u2345",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9030,
-        "name": "APL FUNCTIONAL SYMBOL RIGHTWARDS VANE",
+        "name": "apl functional symbol rightwards vane",
         "symbol": "\u2346",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9031,
-        "name": "APL FUNCTIONAL SYMBOL QUAD LEFTWARDS ARROW",
+        "name": "apl functional symbol quad leftwards arrow",
         "symbol": "\u2347",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9032,
-        "name": "APL FUNCTIONAL SYMBOL QUAD RIGHTWARDS ARROW",
+        "name": "apl functional symbol quad rightwards arrow",
         "symbol": "\u2348",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9033,
-        "name": "APL FUNCTIONAL SYMBOL CIRCLE BACKSLASH",
+        "name": "apl functional symbol circle backslash",
         "symbol": "\u2349",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9034,
-        "name": "APL FUNCTIONAL SYMBOL DOWN TACK UNDERBAR",
+        "name": "apl functional symbol down tack underbar",
         "symbol": "\u234a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9035,
-        "name": "APL FUNCTIONAL SYMBOL DELTA STILE",
+        "name": "apl functional symbol delta stile",
         "symbol": "\u234b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9036,
-        "name": "APL FUNCTIONAL SYMBOL QUAD DOWN CARET",
+        "name": "apl functional symbol quad down caret",
         "symbol": "\u234c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9037,
-        "name": "APL FUNCTIONAL SYMBOL QUAD DELTA",
+        "name": "apl functional symbol quad delta",
         "symbol": "\u234d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9038,
-        "name": "APL FUNCTIONAL SYMBOL DOWN TACK JOT",
+        "name": "apl functional symbol down tack jot",
         "symbol": "\u234e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9039,
-        "name": "APL FUNCTIONAL SYMBOL UPWARDS VANE",
+        "name": "apl functional symbol upwards vane",
         "symbol": "\u234f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9040,
-        "name": "APL FUNCTIONAL SYMBOL QUAD UPWARDS ARROW",
+        "name": "apl functional symbol quad upwards arrow",
         "symbol": "\u2350",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9041,
-        "name": "APL FUNCTIONAL SYMBOL UP TACK OVERBAR",
+        "name": "apl functional symbol up tack overbar",
         "symbol": "\u2351",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9042,
-        "name": "APL FUNCTIONAL SYMBOL DEL STILE",
+        "name": "apl functional symbol del stile",
         "symbol": "\u2352",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9043,
-        "name": "APL FUNCTIONAL SYMBOL QUAD UP CARET",
+        "name": "apl functional symbol quad up caret",
         "symbol": "\u2353",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9044,
-        "name": "APL FUNCTIONAL SYMBOL QUAD DEL",
+        "name": "apl functional symbol quad del",
         "symbol": "\u2354",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9045,
-        "name": "APL FUNCTIONAL SYMBOL UP TACK JOT",
+        "name": "apl functional symbol up tack jot",
         "symbol": "\u2355",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9046,
-        "name": "APL FUNCTIONAL SYMBOL DOWNWARDS VANE",
+        "name": "apl functional symbol downwards vane",
         "symbol": "\u2356",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9047,
-        "name": "APL FUNCTIONAL SYMBOL QUAD DOWNWARDS ARROW",
+        "name": "apl functional symbol quad downwards arrow",
         "symbol": "\u2357",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9048,
-        "name": "APL FUNCTIONAL SYMBOL QUOTE UNDERBAR",
+        "name": "apl functional symbol quote underbar",
         "symbol": "\u2358",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9049,
-        "name": "APL FUNCTIONAL SYMBOL DELTA UNDERBAR",
+        "name": "apl functional symbol delta underbar",
         "symbol": "\u2359",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9050,
-        "name": "APL FUNCTIONAL SYMBOL DIAMOND UNDERBAR",
+        "name": "apl functional symbol diamond underbar",
         "symbol": "\u235a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9051,
-        "name": "APL FUNCTIONAL SYMBOL JOT UNDERBAR",
+        "name": "apl functional symbol jot underbar",
         "symbol": "\u235b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9052,
-        "name": "APL FUNCTIONAL SYMBOL CIRCLE UNDERBAR",
+        "name": "apl functional symbol circle underbar",
         "symbol": "\u235c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9053,
-        "name": "APL FUNCTIONAL SYMBOL UP SHOE JOT",
+        "name": "apl functional symbol up shoe jot",
         "symbol": "\u235d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9054,
-        "name": "APL FUNCTIONAL SYMBOL QUOTE QUAD",
+        "name": "apl functional symbol quote quad",
         "symbol": "\u235e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9055,
-        "name": "APL FUNCTIONAL SYMBOL CIRCLE STAR",
+        "name": "apl functional symbol circle star",
         "symbol": "\u235f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9056,
-        "name": "APL FUNCTIONAL SYMBOL QUAD COLON",
+        "name": "apl functional symbol quad colon",
         "symbol": "\u2360",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9057,
-        "name": "APL FUNCTIONAL SYMBOL UP TACK DIAERESIS",
+        "name": "apl functional symbol up tack diaeresis",
         "symbol": "\u2361",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9058,
-        "name": "APL FUNCTIONAL SYMBOL DEL DIAERESIS",
+        "name": "apl functional symbol del diaeresis",
         "symbol": "\u2362",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9059,
-        "name": "APL FUNCTIONAL SYMBOL STAR DIAERESIS",
+        "name": "apl functional symbol star diaeresis",
         "symbol": "\u2363",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9060,
-        "name": "APL FUNCTIONAL SYMBOL JOT DIAERESIS",
+        "name": "apl functional symbol jot diaeresis",
         "symbol": "\u2364",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9061,
-        "name": "APL FUNCTIONAL SYMBOL CIRCLE DIAERESIS",
+        "name": "apl functional symbol circle diaeresis",
         "symbol": "\u2365",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9062,
-        "name": "APL FUNCTIONAL SYMBOL DOWN SHOE STILE",
+        "name": "apl functional symbol down shoe stile",
         "symbol": "\u2366",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9063,
-        "name": "APL FUNCTIONAL SYMBOL LEFT SHOE STILE",
+        "name": "apl functional symbol left shoe stile",
         "symbol": "\u2367",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9064,
-        "name": "APL FUNCTIONAL SYMBOL TILDE DIAERESIS",
+        "name": "apl functional symbol tilde diaeresis",
         "symbol": "\u2368",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9065,
-        "name": "APL FUNCTIONAL SYMBOL GREATER THAN DIAERESIS",
+        "name": "apl functional symbol greater than diaeresis",
         "symbol": "\u2369",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9066,
-        "name": "APL FUNCTIONAL SYMBOL COMMA BAR",
+        "name": "apl functional symbol comma bar",
         "symbol": "\u236a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9067,
-        "name": "APL FUNCTIONAL SYMBOL DEL TILDE",
+        "name": "apl functional symbol del tilde",
         "symbol": "\u236b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9068,
-        "name": "APL FUNCTIONAL SYMBOL ZILDE",
+        "name": "apl functional symbol zilde",
         "symbol": "\u236c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9069,
-        "name": "APL FUNCTIONAL SYMBOL STILE TILDE",
+        "name": "apl functional symbol stile tilde",
         "symbol": "\u236d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9070,
-        "name": "APL FUNCTIONAL SYMBOL SEMICOLON UNDERBAR",
+        "name": "apl functional symbol semicolon underbar",
         "symbol": "\u236e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9071,
-        "name": "APL FUNCTIONAL SYMBOL QUAD NOT EQUAL",
+        "name": "apl functional symbol quad not equal",
         "symbol": "\u236f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9072,
-        "name": "APL FUNCTIONAL SYMBOL QUAD QUESTION",
+        "name": "apl functional symbol quad question",
         "symbol": "\u2370",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9073,
-        "name": "APL FUNCTIONAL SYMBOL DOWN CARET TILDE",
+        "name": "apl functional symbol down caret tilde",
         "symbol": "\u2371",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9074,
-        "name": "APL FUNCTIONAL SYMBOL UP CARET TILDE",
+        "name": "apl functional symbol up caret tilde",
         "symbol": "\u2372",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9075,
-        "name": "APL FUNCTIONAL SYMBOL IOTA",
+        "name": "apl functional symbol iota",
         "symbol": "\u2373",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9076,
-        "name": "APL FUNCTIONAL SYMBOL RHO",
+        "name": "apl functional symbol rho",
         "symbol": "\u2374",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9077,
-        "name": "APL FUNCTIONAL SYMBOL OMEGA",
+        "name": "apl functional symbol omega",
         "symbol": "\u2375",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9078,
-        "name": "APL FUNCTIONAL SYMBOL ALPHA UNDERBAR",
+        "name": "apl functional symbol alpha underbar",
         "symbol": "\u2376",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9079,
-        "name": "APL FUNCTIONAL SYMBOL EPSILON UNDERBAR",
+        "name": "apl functional symbol epsilon underbar",
         "symbol": "\u2377",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9080,
-        "name": "APL FUNCTIONAL SYMBOL IOTA UNDERBAR",
+        "name": "apl functional symbol iota underbar",
         "symbol": "\u2378",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9081,
-        "name": "APL FUNCTIONAL SYMBOL OMEGA UNDERBAR",
+        "name": "apl functional symbol omega underbar",
         "symbol": "\u2379",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9082,
-        "name": "APL FUNCTIONAL SYMBOL ALPHA",
+        "name": "apl functional symbol alpha",
         "symbol": "\u237a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9083,
-        "name": "NOT CHECK MARK",
+        "name": "not check mark",
         "symbol": "\u237b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9085,
-        "name": "SHOULDERED OPEN BOX",
+        "name": "shouldered open box",
         "symbol": "\u237d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9086,
-        "name": "BELL SYMBOL",
+        "name": "bell symbol",
         "symbol": "\u237e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9087,
-        "name": "VERTICAL LINE WITH MIDDLE DOT",
+        "name": "vertical line with middle dot",
         "symbol": "\u237f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9088,
-        "name": "INSERTION SYMBOL",
+        "name": "insertion symbol",
         "symbol": "\u2380",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9089,
-        "name": "CONTINUOUS UNDERLINE SYMBOL",
+        "name": "continuous underline symbol",
         "symbol": "\u2381",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9090,
-        "name": "DISCONTINUOUS UNDERLINE SYMBOL",
+        "name": "discontinuous underline symbol",
         "symbol": "\u2382",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9091,
-        "name": "EMPHASIS SYMBOL",
+        "name": "emphasis symbol",
         "symbol": "\u2383",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9092,
-        "name": "COMPOSITION SYMBOL",
+        "name": "composition symbol",
         "symbol": "\u2384",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9093,
-        "name": "WHITE SQUARE WITH CENTRE VERTICAL LINE",
+        "name": "white square with centre vertical line",
         "symbol": "\u2385",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9094,
-        "name": "ENTER SYMBOL",
+        "name": "enter symbol",
         "symbol": "\u2386",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9095,
-        "name": "ALTERNATIVE KEY SYMBOL",
+        "name": "alternative key symbol",
         "symbol": "\u2387",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9096,
-        "name": "HELM SYMBOL",
+        "name": "helm symbol",
         "symbol": "\u2388",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9097,
-        "name": "CIRCLED HORIZONTAL BAR WITH NOTCH",
+        "name": "circled horizontal bar with notch",
         "symbol": "\u2389",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9098,
-        "name": "CIRCLED TRIANGLE DOWN",
+        "name": "circled triangle down",
         "symbol": "\u238a",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9099,
-        "name": "BROKEN CIRCLE WITH NORTHWEST ARROW",
+        "name": "broken circle with northwest arrow",
         "symbol": "\u238b",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9100,
-        "name": "UNDO SYMBOL",
+        "name": "undo symbol",
         "symbol": "\u238c",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9101,
-        "name": "MONOSTABLE SYMBOL",
+        "name": "monostable symbol",
         "symbol": "\u238d",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9102,
-        "name": "HYSTERESIS SYMBOL",
+        "name": "hysteresis symbol",
         "symbol": "\u238e",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9103,
-        "name": "OPEN CIRCUIT OUTPUT H TYPE SYMBOL",
+        "name": "open circuit output h type symbol",
         "symbol": "\u238f",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9104,
-        "name": "OPEN CIRCUIT OUTPUT L TYPE SYMBOL",
+        "name": "open circuit output l type symbol",
         "symbol": "\u2390",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9105,
-        "name": "PASSIVE PULL DOWN OUTPUT SYMBOL",
+        "name": "passive pull down output symbol",
         "symbol": "\u2391",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9106,
-        "name": "PASSIVE PULL UP OUTPUT SYMBOL",
+        "name": "passive pull up output symbol",
         "symbol": "\u2392",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9107,
-        "name": "DIRECT CURRENT SYMBOL FORM TWO",
+        "name": "direct current symbol form two",
         "symbol": "\u2393",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9108,
-        "name": "SOFTWARE FUNCTION SYMBOL",
+        "name": "software function symbol",
         "symbol": "\u2394",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9109,
-        "name": "APL FUNCTIONAL SYMBOL QUAD",
+        "name": "apl functional symbol quad",
         "symbol": "\u2395",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9110,
-        "name": "DECIMAL SEPARATOR KEY SYMBOL",
+        "name": "decimal separator key symbol",
         "symbol": "\u2396",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9111,
-        "name": "PREVIOUS PAGE",
+        "name": "previous page",
         "symbol": "\u2397",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9112,
-        "name": "NEXT PAGE",
+        "name": "next page",
         "symbol": "\u2398",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9113,
-        "name": "PRINT SCREEN SYMBOL",
+        "name": "print screen symbol",
         "symbol": "\u2399",
         "keywords": [],
         "symbols": {}
     },
     {
         "unicode": 9114,
-        "name": "CLEAR SCREEN SYMBOL",
+        "name": "clear screen symbol",
         "symbol": "\u239a",
         "keywords": [],
         "symbols": {}
