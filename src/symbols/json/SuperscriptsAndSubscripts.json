@@ -4,195 +4,223 @@
         "name": "superscript zero",
         "symbol": "\u2070",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8308,
         "name": "superscript four",
         "symbol": "\u2074",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8309,
         "name": "superscript five",
         "symbol": "\u2075",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8310,
         "name": "superscript six",
         "symbol": "\u2076",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8311,
         "name": "superscript seven",
         "symbol": "\u2077",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8312,
         "name": "superscript eight",
         "symbol": "\u2078",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8313,
         "name": "superscript nine",
         "symbol": "\u2079",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8314,
         "name": "superscript plus sign",
         "symbol": "\u207a",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8315,
         "name": "superscript minus",
         "symbol": "\u207b",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8316,
         "name": "superscript equals sign",
         "symbol": "\u207c",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8317,
         "name": "superscript left parenthesis",
         "symbol": "\u207d",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8318,
         "name": "superscript right parenthesis",
         "symbol": "\u207e",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8319,
         "name": "superscript latin small letter n",
         "symbol": "\u207f",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8320,
         "name": "subscript zero",
         "symbol": "\u2080",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8321,
         "name": "subscript one",
         "symbol": "\u2081",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8322,
         "name": "subscript two",
         "symbol": "\u2082",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8323,
         "name": "subscript three",
         "symbol": "\u2083",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8324,
         "name": "subscript four",
         "symbol": "\u2084",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8325,
         "name": "subscript five",
         "symbol": "\u2085",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8326,
         "name": "subscript six",
         "symbol": "\u2086",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8327,
         "name": "subscript seven",
         "symbol": "\u2087",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8328,
         "name": "subscript eight",
         "symbol": "\u2088",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8329,
         "name": "subscript nine",
         "symbol": "\u2089",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8330,
         "name": "subscript plus sign",
         "symbol": "\u208a",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8331,
         "name": "subscript minus",
         "symbol": "\u208b",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8332,
         "name": "subscript equals sign",
         "symbol": "\u208c",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8333,
         "name": "subscript left parenthesis",
         "symbol": "\u208d",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 8334,
         "name": "subscript right parenthesis",
         "symbol": "\u208e",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     }
 ]

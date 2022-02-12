@@ -4,181 +4,207 @@
         "name": "small comma",
         "symbol": "\ufe50",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65105,
         "name": "small ideographic comma",
         "symbol": "\ufe51",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65106,
         "name": "small full stop",
         "symbol": "\ufe52",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65108,
         "name": "small semicolon",
         "symbol": "\ufe54",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65109,
         "name": "small colon",
         "symbol": "\ufe55",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65110,
         "name": "small question mark",
         "symbol": "\ufe56",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65111,
         "name": "small exclamation mark",
         "symbol": "\ufe57",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65112,
         "name": "small em dash",
         "symbol": "\ufe58",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65113,
         "name": "small left parenthesis",
         "symbol": "\ufe59",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65114,
         "name": "small right parenthesis",
         "symbol": "\ufe5a",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65115,
         "name": "small left curly bracket",
         "symbol": "\ufe5b",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65116,
         "name": "small right curly bracket",
         "symbol": "\ufe5c",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65117,
         "name": "small left tortoise shell bracket",
         "symbol": "\ufe5d",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65118,
         "name": "small right tortoise shell bracket",
         "symbol": "\ufe5e",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65119,
         "name": "small number sign",
         "symbol": "\ufe5f",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65120,
         "name": "small ampersand",
         "symbol": "\ufe60",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65121,
         "name": "small asterisk",
         "symbol": "\ufe61",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65122,
         "name": "small plus sign",
         "symbol": "\ufe62",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65123,
         "name": "small hyphen minus",
         "symbol": "\ufe63",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65124,
         "name": "small less than sign",
         "symbol": "\ufe64",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65125,
         "name": "small greater than sign",
         "symbol": "\ufe65",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65126,
         "name": "small equals sign",
         "symbol": "\ufe66",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65128,
         "name": "small reverse solidus",
         "symbol": "\ufe68",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65129,
         "name": "small dollar sign",
         "symbol": "\ufe69",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65130,
         "name": "small percent sign",
         "symbol": "\ufe6a",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     },
     {
         "unicode": 65131,
         "name": "small commercial at",
         "symbol": "\ufe6b",
         "keywords": [],
-        "symbols": {}
+        "strokes": "",
+        "boost": 1
     }
 ]
