@@ -1,0 +1,1080 @@
+[
+    {
+        "unicode": 8960,
+        "name": "DIAMETER SIGN",
+        "symbol": "\u2300",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8961,
+        "name": "ELECTRIC ARROW",
+        "symbol": "\u2301",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8962,
+        "name": "HOUSE",
+        "symbol": "\u2302",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8963,
+        "name": "UP ARROWHEAD",
+        "symbol": "\u2303",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8964,
+        "name": "DOWN ARROWHEAD",
+        "symbol": "\u2304",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8965,
+        "name": "PROJECTIVE",
+        "symbol": "\u2305",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8966,
+        "name": "PERSPECTIVE",
+        "symbol": "\u2306",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8967,
+        "name": "WAVY LINE",
+        "symbol": "\u2307",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8968,
+        "name": "LEFT CEILING",
+        "symbol": "\u2308",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8969,
+        "name": "RIGHT CEILING",
+        "symbol": "\u2309",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8970,
+        "name": "LEFT FLOOR",
+        "symbol": "\u230a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8971,
+        "name": "RIGHT FLOOR",
+        "symbol": "\u230b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8972,
+        "name": "BOTTOM RIGHT CROP",
+        "symbol": "\u230c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8973,
+        "name": "BOTTOM LEFT CROP",
+        "symbol": "\u230d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8974,
+        "name": "TOP RIGHT CROP",
+        "symbol": "\u230e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8975,
+        "name": "TOP LEFT CROP",
+        "symbol": "\u230f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8976,
+        "name": "REVERSED NOT SIGN",
+        "symbol": "\u2310",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8977,
+        "name": "SQUARE LOZENGE",
+        "symbol": "\u2311",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8978,
+        "name": "ARC",
+        "symbol": "\u2312",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8979,
+        "name": "SEGMENT",
+        "symbol": "\u2313",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8980,
+        "name": "SECTOR",
+        "symbol": "\u2314",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8981,
+        "name": "TELEPHONE RECORDER",
+        "symbol": "\u2315",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8982,
+        "name": "POSITION INDICATOR",
+        "symbol": "\u2316",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8983,
+        "name": "VIEWDATA SQUARE",
+        "symbol": "\u2317",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8984,
+        "name": "PLACE OF INTEREST SIGN",
+        "symbol": "\u2318",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8985,
+        "name": "TURNED NOT SIGN",
+        "symbol": "\u2319",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8986,
+        "name": "WATCH",
+        "symbol": "\u231a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8987,
+        "name": "HOURGLASS",
+        "symbol": "\u231b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8988,
+        "name": "TOP LEFT CORNER",
+        "symbol": "\u231c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8989,
+        "name": "TOP RIGHT CORNER",
+        "symbol": "\u231d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8990,
+        "name": "BOTTOM LEFT CORNER",
+        "symbol": "\u231e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8991,
+        "name": "BOTTOM RIGHT CORNER",
+        "symbol": "\u231f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8992,
+        "name": "TOP HALF INTEGRAL",
+        "symbol": "\u2320",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8993,
+        "name": "BOTTOM HALF INTEGRAL",
+        "symbol": "\u2321",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8994,
+        "name": "FROWN",
+        "symbol": "\u2322",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8995,
+        "name": "SMILE",
+        "symbol": "\u2323",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8996,
+        "name": "UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS",
+        "symbol": "\u2324",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8997,
+        "name": "OPTION KEY",
+        "symbol": "\u2325",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8998,
+        "name": "ERASE TO THE RIGHT",
+        "symbol": "\u2326",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8999,
+        "name": "X IN A RECTANGLE BOX",
+        "symbol": "\u2327",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9000,
+        "name": "KEYBOARD",
+        "symbol": "\u2328",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9001,
+        "name": "LEFT POINTING ANGLE BRACKET",
+        "symbol": "\u2329",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9002,
+        "name": "RIGHT POINTING ANGLE BRACKET",
+        "symbol": "\u232a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9003,
+        "name": "ERASE TO THE LEFT",
+        "symbol": "\u232b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9004,
+        "name": "BENZENE RING",
+        "symbol": "\u232c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9005,
+        "name": "CYLINDRICITY",
+        "symbol": "\u232d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9006,
+        "name": "ALL AROUND PROFILE",
+        "symbol": "\u232e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9007,
+        "name": "SYMMETRY",
+        "symbol": "\u232f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9008,
+        "name": "TOTAL RUNOUT",
+        "symbol": "\u2330",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9009,
+        "name": "DIMENSION ORIGIN",
+        "symbol": "\u2331",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9010,
+        "name": "CONICAL TAPER",
+        "symbol": "\u2332",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9011,
+        "name": "SLOPE",
+        "symbol": "\u2333",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9012,
+        "name": "COUNTERBORE",
+        "symbol": "\u2334",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9013,
+        "name": "COUNTERSINK",
+        "symbol": "\u2335",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9014,
+        "name": "APL FUNCTIONAL SYMBOL I BEAM",
+        "symbol": "\u2336",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9015,
+        "name": "APL FUNCTIONAL SYMBOL SQUISH QUAD",
+        "symbol": "\u2337",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9016,
+        "name": "APL FUNCTIONAL SYMBOL QUAD EQUAL",
+        "symbol": "\u2338",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9017,
+        "name": "APL FUNCTIONAL SYMBOL QUAD DIVIDE",
+        "symbol": "\u2339",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9018,
+        "name": "APL FUNCTIONAL SYMBOL QUAD DIAMOND",
+        "symbol": "\u233a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9019,
+        "name": "APL FUNCTIONAL SYMBOL QUAD JOT",
+        "symbol": "\u233b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9020,
+        "name": "APL FUNCTIONAL SYMBOL QUAD CIRCLE",
+        "symbol": "\u233c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9021,
+        "name": "APL FUNCTIONAL SYMBOL CIRCLE STILE",
+        "symbol": "\u233d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9022,
+        "name": "APL FUNCTIONAL SYMBOL CIRCLE JOT",
+        "symbol": "\u233e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9023,
+        "name": "APL FUNCTIONAL SYMBOL SLASH BAR",
+        "symbol": "\u233f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9024,
+        "name": "APL FUNCTIONAL SYMBOL BACKSLASH BAR",
+        "symbol": "\u2340",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9025,
+        "name": "APL FUNCTIONAL SYMBOL QUAD SLASH",
+        "symbol": "\u2341",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9026,
+        "name": "APL FUNCTIONAL SYMBOL QUAD BACKSLASH",
+        "symbol": "\u2342",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9027,
+        "name": "APL FUNCTIONAL SYMBOL QUAD LESS THAN",
+        "symbol": "\u2343",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9028,
+        "name": "APL FUNCTIONAL SYMBOL QUAD GREATER THAN",
+        "symbol": "\u2344",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9029,
+        "name": "APL FUNCTIONAL SYMBOL LEFTWARDS VANE",
+        "symbol": "\u2345",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9030,
+        "name": "APL FUNCTIONAL SYMBOL RIGHTWARDS VANE",
+        "symbol": "\u2346",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9031,
+        "name": "APL FUNCTIONAL SYMBOL QUAD LEFTWARDS ARROW",
+        "symbol": "\u2347",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9032,
+        "name": "APL FUNCTIONAL SYMBOL QUAD RIGHTWARDS ARROW",
+        "symbol": "\u2348",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9033,
+        "name": "APL FUNCTIONAL SYMBOL CIRCLE BACKSLASH",
+        "symbol": "\u2349",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9034,
+        "name": "APL FUNCTIONAL SYMBOL DOWN TACK UNDERBAR",
+        "symbol": "\u234a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9035,
+        "name": "APL FUNCTIONAL SYMBOL DELTA STILE",
+        "symbol": "\u234b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9036,
+        "name": "APL FUNCTIONAL SYMBOL QUAD DOWN CARET",
+        "symbol": "\u234c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9037,
+        "name": "APL FUNCTIONAL SYMBOL QUAD DELTA",
+        "symbol": "\u234d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9038,
+        "name": "APL FUNCTIONAL SYMBOL DOWN TACK JOT",
+        "symbol": "\u234e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9039,
+        "name": "APL FUNCTIONAL SYMBOL UPWARDS VANE",
+        "symbol": "\u234f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9040,
+        "name": "APL FUNCTIONAL SYMBOL QUAD UPWARDS ARROW",
+        "symbol": "\u2350",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9041,
+        "name": "APL FUNCTIONAL SYMBOL UP TACK OVERBAR",
+        "symbol": "\u2351",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9042,
+        "name": "APL FUNCTIONAL SYMBOL DEL STILE",
+        "symbol": "\u2352",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9043,
+        "name": "APL FUNCTIONAL SYMBOL QUAD UP CARET",
+        "symbol": "\u2353",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9044,
+        "name": "APL FUNCTIONAL SYMBOL QUAD DEL",
+        "symbol": "\u2354",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9045,
+        "name": "APL FUNCTIONAL SYMBOL UP TACK JOT",
+        "symbol": "\u2355",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9046,
+        "name": "APL FUNCTIONAL SYMBOL DOWNWARDS VANE",
+        "symbol": "\u2356",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9047,
+        "name": "APL FUNCTIONAL SYMBOL QUAD DOWNWARDS ARROW",
+        "symbol": "\u2357",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9048,
+        "name": "APL FUNCTIONAL SYMBOL QUOTE UNDERBAR",
+        "symbol": "\u2358",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9049,
+        "name": "APL FUNCTIONAL SYMBOL DELTA UNDERBAR",
+        "symbol": "\u2359",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9050,
+        "name": "APL FUNCTIONAL SYMBOL DIAMOND UNDERBAR",
+        "symbol": "\u235a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9051,
+        "name": "APL FUNCTIONAL SYMBOL JOT UNDERBAR",
+        "symbol": "\u235b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9052,
+        "name": "APL FUNCTIONAL SYMBOL CIRCLE UNDERBAR",
+        "symbol": "\u235c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9053,
+        "name": "APL FUNCTIONAL SYMBOL UP SHOE JOT",
+        "symbol": "\u235d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9054,
+        "name": "APL FUNCTIONAL SYMBOL QUOTE QUAD",
+        "symbol": "\u235e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9055,
+        "name": "APL FUNCTIONAL SYMBOL CIRCLE STAR",
+        "symbol": "\u235f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9056,
+        "name": "APL FUNCTIONAL SYMBOL QUAD COLON",
+        "symbol": "\u2360",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9057,
+        "name": "APL FUNCTIONAL SYMBOL UP TACK DIAERESIS",
+        "symbol": "\u2361",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9058,
+        "name": "APL FUNCTIONAL SYMBOL DEL DIAERESIS",
+        "symbol": "\u2362",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9059,
+        "name": "APL FUNCTIONAL SYMBOL STAR DIAERESIS",
+        "symbol": "\u2363",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9060,
+        "name": "APL FUNCTIONAL SYMBOL JOT DIAERESIS",
+        "symbol": "\u2364",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9061,
+        "name": "APL FUNCTIONAL SYMBOL CIRCLE DIAERESIS",
+        "symbol": "\u2365",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9062,
+        "name": "APL FUNCTIONAL SYMBOL DOWN SHOE STILE",
+        "symbol": "\u2366",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9063,
+        "name": "APL FUNCTIONAL SYMBOL LEFT SHOE STILE",
+        "symbol": "\u2367",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9064,
+        "name": "APL FUNCTIONAL SYMBOL TILDE DIAERESIS",
+        "symbol": "\u2368",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9065,
+        "name": "APL FUNCTIONAL SYMBOL GREATER THAN DIAERESIS",
+        "symbol": "\u2369",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9066,
+        "name": "APL FUNCTIONAL SYMBOL COMMA BAR",
+        "symbol": "\u236a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9067,
+        "name": "APL FUNCTIONAL SYMBOL DEL TILDE",
+        "symbol": "\u236b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9068,
+        "name": "APL FUNCTIONAL SYMBOL ZILDE",
+        "symbol": "\u236c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9069,
+        "name": "APL FUNCTIONAL SYMBOL STILE TILDE",
+        "symbol": "\u236d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9070,
+        "name": "APL FUNCTIONAL SYMBOL SEMICOLON UNDERBAR",
+        "symbol": "\u236e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9071,
+        "name": "APL FUNCTIONAL SYMBOL QUAD NOT EQUAL",
+        "symbol": "\u236f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9072,
+        "name": "APL FUNCTIONAL SYMBOL QUAD QUESTION",
+        "symbol": "\u2370",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9073,
+        "name": "APL FUNCTIONAL SYMBOL DOWN CARET TILDE",
+        "symbol": "\u2371",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9074,
+        "name": "APL FUNCTIONAL SYMBOL UP CARET TILDE",
+        "symbol": "\u2372",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9075,
+        "name": "APL FUNCTIONAL SYMBOL IOTA",
+        "symbol": "\u2373",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9076,
+        "name": "APL FUNCTIONAL SYMBOL RHO",
+        "symbol": "\u2374",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9077,
+        "name": "APL FUNCTIONAL SYMBOL OMEGA",
+        "symbol": "\u2375",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9078,
+        "name": "APL FUNCTIONAL SYMBOL ALPHA UNDERBAR",
+        "symbol": "\u2376",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9079,
+        "name": "APL FUNCTIONAL SYMBOL EPSILON UNDERBAR",
+        "symbol": "\u2377",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9080,
+        "name": "APL FUNCTIONAL SYMBOL IOTA UNDERBAR",
+        "symbol": "\u2378",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9081,
+        "name": "APL FUNCTIONAL SYMBOL OMEGA UNDERBAR",
+        "symbol": "\u2379",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9082,
+        "name": "APL FUNCTIONAL SYMBOL ALPHA",
+        "symbol": "\u237a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9083,
+        "name": "NOT CHECK MARK",
+        "symbol": "\u237b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9085,
+        "name": "SHOULDERED OPEN BOX",
+        "symbol": "\u237d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9086,
+        "name": "BELL SYMBOL",
+        "symbol": "\u237e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9087,
+        "name": "VERTICAL LINE WITH MIDDLE DOT",
+        "symbol": "\u237f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9088,
+        "name": "INSERTION SYMBOL",
+        "symbol": "\u2380",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9089,
+        "name": "CONTINUOUS UNDERLINE SYMBOL",
+        "symbol": "\u2381",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9090,
+        "name": "DISCONTINUOUS UNDERLINE SYMBOL",
+        "symbol": "\u2382",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9091,
+        "name": "EMPHASIS SYMBOL",
+        "symbol": "\u2383",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9092,
+        "name": "COMPOSITION SYMBOL",
+        "symbol": "\u2384",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9093,
+        "name": "WHITE SQUARE WITH CENTRE VERTICAL LINE",
+        "symbol": "\u2385",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9094,
+        "name": "ENTER SYMBOL",
+        "symbol": "\u2386",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9095,
+        "name": "ALTERNATIVE KEY SYMBOL",
+        "symbol": "\u2387",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9096,
+        "name": "HELM SYMBOL",
+        "symbol": "\u2388",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9097,
+        "name": "CIRCLED HORIZONTAL BAR WITH NOTCH",
+        "symbol": "\u2389",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9098,
+        "name": "CIRCLED TRIANGLE DOWN",
+        "symbol": "\u238a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9099,
+        "name": "BROKEN CIRCLE WITH NORTHWEST ARROW",
+        "symbol": "\u238b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9100,
+        "name": "UNDO SYMBOL",
+        "symbol": "\u238c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9101,
+        "name": "MONOSTABLE SYMBOL",
+        "symbol": "\u238d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9102,
+        "name": "HYSTERESIS SYMBOL",
+        "symbol": "\u238e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9103,
+        "name": "OPEN CIRCUIT OUTPUT H TYPE SYMBOL",
+        "symbol": "\u238f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9104,
+        "name": "OPEN CIRCUIT OUTPUT L TYPE SYMBOL",
+        "symbol": "\u2390",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9105,
+        "name": "PASSIVE PULL DOWN OUTPUT SYMBOL",
+        "symbol": "\u2391",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9106,
+        "name": "PASSIVE PULL UP OUTPUT SYMBOL",
+        "symbol": "\u2392",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9107,
+        "name": "DIRECT CURRENT SYMBOL FORM TWO",
+        "symbol": "\u2393",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9108,
+        "name": "SOFTWARE FUNCTION SYMBOL",
+        "symbol": "\u2394",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9109,
+        "name": "APL FUNCTIONAL SYMBOL QUAD",
+        "symbol": "\u2395",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9110,
+        "name": "DECIMAL SEPARATOR KEY SYMBOL",
+        "symbol": "\u2396",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9111,
+        "name": "PREVIOUS PAGE",
+        "symbol": "\u2397",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9112,
+        "name": "NEXT PAGE",
+        "symbol": "\u2398",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9113,
+        "name": "PRINT SCREEN SYMBOL",
+        "symbol": "\u2399",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 9114,
+        "name": "CLEAR SCREEN SYMBOL",
+        "symbol": "\u239a",
+        "keywords": [],
+        "symbols": {}
+    }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "unicode": 8304,
+        "name": "SUPERSCRIPT ZERO",
+        "symbol": "\u2070",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8308,
+        "name": "SUPERSCRIPT FOUR",
+        "symbol": "\u2074",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8309,
+        "name": "SUPERSCRIPT FIVE",
+        "symbol": "\u2075",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8310,
+        "name": "SUPERSCRIPT SIX",
+        "symbol": "\u2076",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8311,
+        "name": "SUPERSCRIPT SEVEN",
+        "symbol": "\u2077",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8312,
+        "name": "SUPERSCRIPT EIGHT",
+        "symbol": "\u2078",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8313,
+        "name": "SUPERSCRIPT NINE",
+        "symbol": "\u2079",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8314,
+        "name": "SUPERSCRIPT PLUS SIGN",
+        "symbol": "\u207a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8315,
+        "name": "SUPERSCRIPT MINUS",
+        "symbol": "\u207b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8316,
+        "name": "SUPERSCRIPT EQUALS SIGN",
+        "symbol": "\u207c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8317,
+        "name": "SUPERSCRIPT LEFT PARENTHESIS",
+        "symbol": "\u207d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8318,
+        "name": "SUPERSCRIPT RIGHT PARENTHESIS",
+        "symbol": "\u207e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8319,
+        "name": "SUPERSCRIPT LATIN SMALL LETTER N",
+        "symbol": "\u207f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8320,
+        "name": "SUBSCRIPT ZERO",
+        "symbol": "\u2080",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8321,
+        "name": "SUBSCRIPT ONE",
+        "symbol": "\u2081",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8322,
+        "name": "SUBSCRIPT TWO",
+        "symbol": "\u2082",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8323,
+        "name": "SUBSCRIPT THREE",
+        "symbol": "\u2083",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8324,
+        "name": "SUBSCRIPT FOUR",
+        "symbol": "\u2084",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8325,
+        "name": "SUBSCRIPT FIVE",
+        "symbol": "\u2085",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8326,
+        "name": "SUBSCRIPT SIX",
+        "symbol": "\u2086",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8327,
+        "name": "SUBSCRIPT SEVEN",
+        "symbol": "\u2087",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8328,
+        "name": "SUBSCRIPT EIGHT",
+        "symbol": "\u2088",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8329,
+        "name": "SUBSCRIPT NINE",
+        "symbol": "\u2089",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8330,
+        "name": "SUBSCRIPT PLUS SIGN",
+        "symbol": "\u208a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8331,
+        "name": "SUBSCRIPT MINUS",
+        "symbol": "\u208b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8332,
+        "name": "SUBSCRIPT EQUALS SIGN",
+        "symbol": "\u208c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8333,
+        "name": "SUBSCRIPT LEFT PARENTHESIS",
+        "symbol": "\u208d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 8334,
+        "name": "SUBSCRIPT RIGHT PARENTHESIS",
+        "symbol": "\u208e",
+        "keywords": [],
+        "symbols": {}
+    }
+]

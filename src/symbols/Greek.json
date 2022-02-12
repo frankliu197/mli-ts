@@ -1,0 +1,772 @@
+[
+    {
+        "unicode": 884,
+        "name": "GREEK NUMERAL SIGN",
+        "symbol": "\u0374",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 885,
+        "name": "GREEK LOWER NUMERAL SIGN",
+        "symbol": "\u0375",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 890,
+        "name": "GREEK YPOGEGRAMMENI",
+        "symbol": "\u037a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 894,
+        "name": "GREEK QUESTION MARK",
+        "symbol": "\u037e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 900,
+        "name": "GREEK TONOS",
+        "symbol": "\u0384",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 901,
+        "name": "GREEK DIALYTIKA TONOS",
+        "symbol": "\u0385",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 902,
+        "name": "GREEK CAPITAL LETTER ALPHA WITH TONOS",
+        "symbol": "\u0386",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 903,
+        "name": "GREEK ANO TELEIA",
+        "symbol": "\u0387",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 904,
+        "name": "GREEK CAPITAL LETTER EPSILON WITH TONOS",
+        "symbol": "\u0388",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 905,
+        "name": "GREEK CAPITAL LETTER ETA WITH TONOS",
+        "symbol": "\u0389",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 906,
+        "name": "GREEK CAPITAL LETTER IOTA WITH TONOS",
+        "symbol": "\u038a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 908,
+        "name": "GREEK CAPITAL LETTER OMICRON WITH TONOS",
+        "symbol": "\u038c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 910,
+        "name": "GREEK CAPITAL LETTER UPSILON WITH TONOS",
+        "symbol": "\u038e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 911,
+        "name": "GREEK CAPITAL LETTER OMEGA WITH TONOS",
+        "symbol": "\u038f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 912,
+        "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS",
+        "symbol": "\u0390",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 913,
+        "name": "GREEK CAPITAL LETTER ALPHA",
+        "symbol": "\u0391",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 914,
+        "name": "GREEK CAPITAL LETTER BETA",
+        "symbol": "\u0392",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 915,
+        "name": "GREEK CAPITAL LETTER GAMMA",
+        "symbol": "\u0393",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 916,
+        "name": "GREEK CAPITAL LETTER DELTA",
+        "symbol": "\u0394",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 917,
+        "name": "GREEK CAPITAL LETTER EPSILON",
+        "symbol": "\u0395",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 918,
+        "name": "GREEK CAPITAL LETTER ZETA",
+        "symbol": "\u0396",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 919,
+        "name": "GREEK CAPITAL LETTER ETA",
+        "symbol": "\u0397",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 920,
+        "name": "GREEK CAPITAL LETTER THETA",
+        "symbol": "\u0398",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 921,
+        "name": "GREEK CAPITAL LETTER IOTA",
+        "symbol": "\u0399",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 922,
+        "name": "GREEK CAPITAL LETTER KAPPA",
+        "symbol": "\u039a",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 923,
+        "name": "GREEK CAPITAL LETTER LAMDA",
+        "symbol": "\u039b",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 924,
+        "name": "GREEK CAPITAL LETTER MU",
+        "symbol": "\u039c",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 925,
+        "name": "GREEK CAPITAL LETTER NU",
+        "symbol": "\u039d",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 926,
+        "name": "GREEK CAPITAL LETTER XI",
+        "symbol": "\u039e",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 927,
+        "name": "GREEK CAPITAL LETTER OMICRON",
+        "symbol": "\u039f",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 928,
+        "name": "GREEK CAPITAL LETTER PI",
+        "symbol": "\u03a0",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 929,
+        "name": "GREEK CAPITAL LETTER RHO",
+        "symbol": "\u03a1",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 931,
+        "name": "GREEK CAPITAL LETTER SIGMA",
+        "symbol": "\u03a3",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 932,
+        "name": "GREEK CAPITAL LETTER TAU",
+        "symbol": "\u03a4",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 933,
+        "name": "GREEK CAPITAL LETTER UPSILON",
+        "symbol": "\u03a5",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 934,
+        "name": "GREEK CAPITAL LETTER PHI",
+        "symbol": "\u03a6",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 935,
+        "name": "GREEK CAPITAL LETTER CHI",
+        "symbol": "\u03a7",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 936,
+        "name": "GREEK CAPITAL LETTER PSI",
+        "symbol": "\u03a8",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 937,
+        "name": "GREEK CAPITAL LETTER OMEGA",
+        "symbol": "\u03a9",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 938,
+        "name": "GREEK CAPITAL LETTER IOTA WITH DIALYTIKA",
+        "symbol": "\u03aa",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 939,
+        "name": "GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA",
+        "symbol": "\u03ab",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 940,
+        "name": "GREEK SMALL LETTER ALPHA WITH TONOS",
+        "symbol": "\u03ac",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 941,
+        "name": "GREEK SMALL LETTER EPSILON WITH TONOS",
+        "symbol": "\u03ad",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 942,
+        "name": "GREEK SMALL LETTER ETA WITH TONOS",
+        "symbol": "\u03ae",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 943,
+        "name": "GREEK SMALL LETTER IOTA WITH TONOS",
+        "symbol": "\u03af",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 944,
+        "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS",
+        "symbol": "\u03b0",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 945,
+        "name": "GREEK SMALL LETTER ALPHA",
+        "symbol": "\u03b1",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 946,
+        "name": "GREEK SMALL LETTER BETA",
+        "symbol": "\u03b2",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 947,
+        "name": "GREEK SMALL LETTER GAMMA",
+        "symbol": "\u03b3",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 948,
+        "name": "GREEK SMALL LETTER DELTA",
+        "symbol": "\u03b4",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 949,
+        "name": "GREEK SMALL LETTER EPSILON",
+        "symbol": "\u03b5",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 950,
+        "name": "GREEK SMALL LETTER ZETA",
+        "symbol": "\u03b6",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 951,
+        "name": "GREEK SMALL LETTER ETA",
+        "symbol": "\u03b7",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 952,
+        "name": "GREEK SMALL LETTER THETA",
+        "symbol": "\u03b8",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 953,
+        "name": "GREEK SMALL LETTER IOTA",
+        "symbol": "\u03b9",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 954,
+        "name": "GREEK SMALL LETTER KAPPA",
+        "symbol": "\u03ba",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 955,
+        "name": "GREEK SMALL LETTER LAMDA",
+        "symbol": "\u03bb",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 956,
+        "name": "GREEK SMALL LETTER MU",
+        "symbol": "\u03bc",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 957,
+        "name": "GREEK SMALL LETTER NU",
+        "symbol": "\u03bd",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 958,
+        "name": "GREEK SMALL LETTER XI",
+        "symbol": "\u03be",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 959,
+        "name": "GREEK SMALL LETTER OMICRON",
+        "symbol": "\u03bf",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 960,
+        "name": "GREEK SMALL LETTER PI",
+        "symbol": "\u03c0",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 961,
+        "name": "GREEK SMALL LETTER RHO",
+        "symbol": "\u03c1",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 962,
+        "name": "GREEK SMALL LETTER FINAL SIGMA",
+        "symbol": "\u03c2",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 963,
+        "name": "GREEK SMALL LETTER SIGMA",
+        "symbol": "\u03c3",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 964,
+        "name": "GREEK SMALL LETTER TAU",
+        "symbol": "\u03c4",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 965,
+        "name": "GREEK SMALL LETTER UPSILON",
+        "symbol": "\u03c5",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 966,
+        "name": "GREEK SMALL LETTER PHI",
+        "symbol": "\u03c6",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 967,
+        "name": "GREEK SMALL LETTER CHI",
+        "symbol": "\u03c7",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 968,
+        "name": "GREEK SMALL LETTER PSI",
+        "symbol": "\u03c8",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 969,
+        "name": "GREEK SMALL LETTER OMEGA",
+        "symbol": "\u03c9",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 970,
+        "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA",
+        "symbol": "\u03ca",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 971,
+        "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA",
+        "symbol": "\u03cb",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 972,
+        "name": "GREEK SMALL LETTER OMICRON WITH TONOS",
+        "symbol": "\u03cc",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 973,
+        "name": "GREEK SMALL LETTER UPSILON WITH TONOS",
+        "symbol": "\u03cd",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 974,
+        "name": "GREEK SMALL LETTER OMEGA WITH TONOS",
+        "symbol": "\u03ce",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 976,
+        "name": "GREEK BETA SYMBOL",
+        "symbol": "\u03d0",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 977,
+        "name": "GREEK THETA SYMBOL",
+        "symbol": "\u03d1",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 978,
+        "name": "GREEK UPSILON WITH HOOK SYMBOL",
+        "symbol": "\u03d2",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 979,
+        "name": "GREEK UPSILON WITH ACUTE AND HOOK SYMBOL",
+        "symbol": "\u03d3",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 980,
+        "name": "GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL",
+        "symbol": "\u03d4",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 981,
+        "name": "GREEK PHI SYMBOL",
+        "symbol": "\u03d5",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 982,
+        "name": "GREEK PI SYMBOL",
+        "symbol": "\u03d6",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 983,
+        "name": "GREEK KAI SYMBOL",
+        "symbol": "\u03d7",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 986,
+        "name": "GREEK LETTER STIGMA",
+        "symbol": "\u03da",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 987,
+        "name": "GREEK SMALL LETTER STIGMA",
+        "symbol": "\u03db",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 988,
+        "name": "GREEK LETTER DIGAMMA",
+        "symbol": "\u03dc",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 989,
+        "name": "GREEK SMALL LETTER DIGAMMA",
+        "symbol": "\u03dd",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 990,
+        "name": "GREEK LETTER KOPPA",
+        "symbol": "\u03de",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 991,
+        "name": "GREEK SMALL LETTER KOPPA",
+        "symbol": "\u03df",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 992,
+        "name": "GREEK LETTER SAMPI",
+        "symbol": "\u03e0",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 993,
+        "name": "GREEK SMALL LETTER SAMPI",
+        "symbol": "\u03e1",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 994,
+        "name": "COPTIC CAPITAL LETTER SHEI",
+        "symbol": "\u03e2",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 995,
+        "name": "COPTIC SMALL LETTER SHEI",
+        "symbol": "\u03e3",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 996,
+        "name": "COPTIC CAPITAL LETTER FEI",
+        "symbol": "\u03e4",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 997,
+        "name": "COPTIC SMALL LETTER FEI",
+        "symbol": "\u03e5",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 998,
+        "name": "COPTIC CAPITAL LETTER KHEI",
+        "symbol": "\u03e6",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 999,
+        "name": "COPTIC SMALL LETTER KHEI",
+        "symbol": "\u03e7",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1000,
+        "name": "COPTIC CAPITAL LETTER HORI",
+        "symbol": "\u03e8",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1001,
+        "name": "COPTIC SMALL LETTER HORI",
+        "symbol": "\u03e9",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1002,
+        "name": "COPTIC CAPITAL LETTER GANGIA",
+        "symbol": "\u03ea",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1003,
+        "name": "COPTIC SMALL LETTER GANGIA",
+        "symbol": "\u03eb",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1004,
+        "name": "COPTIC CAPITAL LETTER SHIMA",
+        "symbol": "\u03ec",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1005,
+        "name": "COPTIC SMALL LETTER SHIMA",
+        "symbol": "\u03ed",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1006,
+        "name": "COPTIC CAPITAL LETTER DEI",
+        "symbol": "\u03ee",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1007,
+        "name": "COPTIC SMALL LETTER DEI",
+        "symbol": "\u03ef",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1008,
+        "name": "GREEK KAPPA SYMBOL",
+        "symbol": "\u03f0",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1009,
+        "name": "GREEK RHO SYMBOL",
+        "symbol": "\u03f1",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1010,
+        "name": "GREEK LUNATE SIGMA SYMBOL",
+        "symbol": "\u03f2",
+        "keywords": [],
+        "symbols": {}
+    },
+    {
+        "unicode": 1011,
+        "name": "GREEK LETTER YOT",
+        "symbol": "\u03f3",
+        "keywords": [],
+        "symbols": {}
+    }
+]
