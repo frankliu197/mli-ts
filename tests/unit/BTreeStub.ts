@@ -1,28 +1,23 @@
-import chai, { assert, expect } from 'chai'
-import ChaiSorted from 'chai-sorted'
+import { assert, expect } from 'chai'
 import {BPlusTree, Node} from "@/Recommender/BPlusTree"
 import Character from "@/Recommender/Character"
-chai.use(ChaiSorted)
 
 
 export class StubNode {
 	keys: Array<string>
 	child?: Array<StubNode>
 	_nextNode?: StubNode
-	_values?: Array<Set<Character>>
 }
 
 export class StubTree {
 	keys: Array<string>
 	child?: Array<StubTree>
 	_nextNode: StubNode
-	_values: Array<Set<Character>>
 }
 
-export function createStubTree(stubNode: StubNode, characters: Array<Character>): StubTree {
+export function createStubTree(stubNode: StubNode): StubTree {
   //fills in all the nextNodes
-  addValuesToStubNode(stubNode, characters);
-
+  
   const queue = new Array<{ node: StubNode; depth: number }>();
   let prev = { node: stubNode, depth: 1 };
 
@@ -36,8 +31,7 @@ export function createStubTree(stubNode: StubNode, characters: Array<Character>)
 
   while (queue.length > 0) {
     const curr = queue.shift()!;
-    addValuesToStubNode(curr.node, characters);
-
+    
     if (curr.depth === prev.depth) {
       prev.node._nextNode = curr.node;
     }
@@ -54,28 +48,12 @@ export function createStubTree(stubNode: StubNode, characters: Array<Character>)
   return stubNode as StubTree;
 }
 
-function addValuesToStubNode(stubNode: StubNode, characters: Array<Character>): void {
-  stubNode._values = [];
-  for (const i in stubNode.keys) {
-    stubNode._values.push(new Set<Character>());
-  }
-  for (const c of characters) {
-    for (const k of c.name.split(" ")) {
-      const indexOf = stubNode.keys.indexOf(k);
-      if (indexOf >= 0) {
-        stubNode._values[indexOf].add(c);
-      }
-    }
-  }
-}
-
-export function assertTree(actualTree: BPlusTree, stubNode: StubTree) : void {
+export function assertTree(actualTree: BPlusTree, stubNode: StubTree, characters: Array<Character>) : void {
   //assert root node
   assert.isUndefined(actualTree.root.parent, "root.parent");
   assert.isUndefined(actualTree.root.nextNode, "root.nextNode");
   assert.deepEqual(actualTree.root.keys, stubNode.keys, "root.keys");
-  assert.deepEqual(actualTree.root.values, stubNode._values, "root.values");
-
+  
   //@ts-expect-error: ts not reading sorted
   expect(actualTree.toArray()).to.be.sorted();
 
@@ -91,20 +69,27 @@ export function assertTree(actualTree: BPlusTree, stubNode: StubTree) : void {
     assert.isTrue(actualTree.root.leaf, "root.leaf");
     assert.isEmpty(actualTree.root.child);
   }
+
+	for (const c of characters) {
+    for (const k of c.name.split(" ")) {
+			assert.isDefined(actualTree.values.get(k))
+      assert.isTrue(actualTree.values.get(k)!.has(c))
+    }
+  }
 }
+
 
 function assertNode(actualNode: Node, stubNode: StubNode) {
   if (stubNode._nextNode) {
 		
     assert.isDefined(actualNode.nextNode);
-    //@ts-expect-error: fails to see assertion
-    assert.deepEqual(actualNode.nextNode.keys, stubNode._nextNode.keys, "Assert deep equal keys of next node. Either next node reference is wrong or the keys are wrong on the next node");
+    assert.deepEqual(actualNode.nextNode!.keys, stubNode._nextNode.keys, "Assert deep equal keys of next node. Either next node reference is wrong or the keys are wrong on the next node");
   } else {
     assert.isUndefined(actualNode.nextNode, "nextNode should not exist");
   }
 
   assert.deepEqual(actualNode.keys, stubNode.keys, "child.keys");
-  assert.deepEqual(actualNode.values, stubNode._values, "child.values");
+  //assert.deepEqual(actualNode.values, stubNode._values, "child.values");
 
   if (stubNode.child) {
     assert.lengthOf(actualNode.child, stubNode.child.length, "child.child");
