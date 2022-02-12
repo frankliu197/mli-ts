@@ -1,6 +1,11 @@
 import { createStubTree, assertTree } from "./BTreeStub";
-import {BPlusTree, Node} from "@/Recommender/BPlusTreeCharacter"
+import {BPlusTree, Node} from "@/Recommender/BPlusTree"
+import Character from "@/Recommender/Character";
 import SymbolSets from "@/Recommender/SymbolSet"
+import chai, { assert, expect } from 'chai'
+import ChaiSorted from 'chai-sorted'
+chai.use(ChaiSorted)
+
 
 function insertCharactersToTree(characters: Array<Character>, tree: BPlusTree){
 	for (const c of characters){
@@ -11,6 +16,12 @@ function insertCharactersToTree(characters: Array<Character>, tree: BPlusTree){
 }
 
 describe('BPlusTree', () => {
+	const latinTree = new BPlusTree()
+	
+	before(()=>{
+		const characters = SymbolSets["BasicLatin"]
+		insertCharactersToTree(characters, latinTree)
+	})
 
   it('works as empty tree', () => {
 		const tree = new BPlusTree();
@@ -55,10 +66,10 @@ describe('BPlusTree', () => {
 	})
 	
 	it('works with root merge', ()=> {
-	const tree = new BPlusTree();
+		const tree = new BPlusTree()
 	
-	const characters = SymbolSets["BasicLatin"].slice(0, 5)
-	insertCharactersToTree(characters, tree)
+		const characters = SymbolSets["BasicLatin"].slice(0, 5)
+		insertCharactersToTree(characters, tree)
 		
 		const stubTree = createStubTree({
 			keys: ["NUMBER", "QUOTATION"],
@@ -74,20 +85,43 @@ describe('BPlusTree', () => {
 	})
 
 	
-	it("works with root split with children", () => {
-		const characters = SymbolSets["BasicLatin"].slice(0, 10)
-		
-		/*
-		- [NUMBER]
-	- [ASTERISK, EXCLAMATION]
-		- [AMPERSAND, APOSTROPHE]
-		- [ASTERISK, DOLLAR]
-		- [EXCLAMATION, LEFT, MARK]
-	- [QUOTATION]
-		- [NUMBER, PARENTHESIS, PERCENT]
-		- [QUOTATION, RIGHT, SIGN]*/
-
+	it("works with max children", () => {
+		const tree = new BPlusTree()
+		const characters = SymbolSets["BasicLatin"].slice(0, 9)
+		insertCharactersToTree(characters, tree)
+		const stubTree = createStubTree(
+			{
+				keys: ["EXCLAMATION", "NUMBER", "QUOTATION"],
+				child: [
+					{ keys: ["AMPERSAND", "APOSTROPHE", "DOLLAR"] },
+					{ keys: ["EXCLAMATION", "LEFT", "MARK"] },
+					{ keys: ["NUMBER", "PARENTHESIS", "PERCENT"] },
+					{ keys: ["QUOTATION", "RIGHT", "SIGN"] }
+				]
+			}, characters)	
+		assertTree(tree, stubTree)
 	})
+
+	it("works with searches", ()=> {
+		assert.deepEqual(latinTree.getKeywordSet("A"), ['A', 'ACCENT', 'AMPERSAND', 'APOSTROPHE', 'ASTERISK', 'AT'])
+
+		//collection spanning accross middle of nodes
+		assert.deepEqual(latinTree.getKeywordSet("D"), ['D', 'DIGIT', 'DOLLAR'])
+
+		//search of letters
+		assert.deepEqual(latinTree.getKeywordSet('CO'), ['COLON', 'COMMA', 'COMMERCIAL'])
+		
+		assert.deepEqual(latinTree.getKeywordSet('REVERSE'), ['REVERSE'])
+
+		assert.deepEqual(latinTree.getKeywordSet('ABCDS'), [])
+	})
+	/*it("works with root split with max children", ()=>{
+		const tree = new BPlusTree()
+		const characters = SymbolSets["BasicLatin"].slice(0, 9)
+		insertCharactersToTree(characters, tree)
+		//add it later
+		assertTree(tree, stubTree)
+		
+	})*/
+	
 })
-
-

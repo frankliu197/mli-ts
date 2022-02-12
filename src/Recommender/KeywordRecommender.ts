@@ -1,4 +1,4 @@
-import {BPlusTree} from "./BPlusTreeCharacter"
+import {BPlusTree} from "./BPlusTree"
 import Character from "./Character"
 
 
@@ -23,7 +23,13 @@ export class KeywordRecommender {
 		if (!search){
 			return []
 		}
+		console.log(this.tree.toString())
 		
+		console.log(this.tree.getKeywordSet("CO"))
+		
+		console.log(this.tree.getKeywordSet("REVERSE"))
+		
+		console.log(this.tree.getKeywordSet("ABCDGB"))
 		return this.tree.getCharacterSet(search)
 	}
 }

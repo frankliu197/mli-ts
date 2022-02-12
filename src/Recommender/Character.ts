@@ -3,10 +3,8 @@ export default class {
     public unicode: number
     public symbol: string
     public name: string;
-    
-    constructor() {
-        return
-    }
+    public keywords: Array<string>
+    public symbols: Map<string, number>
 
     public hashcode() : number {
         return this.unicode;
