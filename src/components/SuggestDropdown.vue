@@ -181,10 +181,10 @@ export default Vue.extend({
       return 0 === this.page
     },
     PAGE_ENTRIES: function(){
-      return Globals.PAGE_ENTRIES
+      return Globals.dropdown.PAGE_ENTRIES
     },
     shortcuts: function(){
-      const k = Globals.shortcuts.exact
+      const k = Globals.dropdown.shortcuts
       const shortcuts = {} as any
       shortcuts[k.nextPage] = this.nextPage
       shortcuts[k.prevPage] = this.prevPage
@@ -192,10 +192,11 @@ export default Vue.extend({
       shortcuts[k.prevEntry] = this.prevEntry
       shortcuts[k.toggleCharacterDescription] = this.toggleCharacterDescription
       shortcuts[k.enter] = this.enter
+      shortcuts[k.toggleDropdown] = this.close
       return shortcuts
     },
     SELECT_ENTRY: function(){
-     return Globals.shortcuts.prefix.selectEntry
+     return Globals.dropdown.prefix.selectEntry
     }
   },
   watch: {

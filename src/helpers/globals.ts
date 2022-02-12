@@ -1,18 +1,19 @@
 import Vue from "vue"
 
 export default Vue.observable({
-	shortcuts:{
-		exact: {
+	dropdown:{
+		shortcuts: {
 			nextPage: "Shift ArrowDown",
 			prevPage: "Shift ArrowUp",
 			nextEntry: "ArrowDown",
 			prevEntry: "ArrowUp",
 			toggleCharacterDescription: "Tab",
-			enter: "Enter"
+			enter: "Enter",
+			toggleDropdown: "PageDown"
 		}, 
 		prefix: {
 			selectEntry: "Control " //function keys need to end with space
-		}
+		},
+		PAGE_ENTRIES: 9
 	},
-	PAGE_ENTRIES: 9
 })

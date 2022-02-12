@@ -1,6 +1,6 @@
 <template lang='pug'>
 .input-box
-  textarea(ref="textarea" @keyup.page-down="dropdownShow = !dropdownShow" default="Type Here")
+  textarea(ref="textarea" @keydown="openDropdown" default="Type Here")
   FloatingComponent(v-show="dropdownShow" :position="dropdownPosition")
     SuggestDropdown(:show="dropdownShow" @close="dropdownShow = false" @selected="write($event)")
 
@@ -13,6 +13,8 @@ import "@/Recommender/KeywordRecommender";
 import Vue from "vue";
 import {Position} from "@/helpers/UiComponents"
 import FloatingComponent from "@/components/FloatingComponent.vue"
+import Globals from '@/helpers/globals'
+
 export default Vue.extend({
   name: 'InputBox',
   components: {
@@ -34,6 +36,12 @@ export default Vue.extend({
       el.setRangeText($event, start, end);
       //@ts-expect-error: test
       el.selectionStart += $event.length
+    },
+    openDropdown($event: KeyboardEvent) {
+      if (this.toggleDropdownShortcut === $event.key){
+        this.dropdownShow = true
+        $event.preventDefault()
+      }
     }
   },
   watch: {
@@ -57,6 +65,11 @@ export default Vue.extend({
 
       this.dropdownPosition = {left: `calc(${x}px + ${offset}px)`, top: y + "px"}      
     }
+  }, 
+  computed: {
+    toggleDropdownShortcut: function(){
+      return Globals.dropdown.shortcuts.toggleDropdown
+    }
   }
 })
 </script>
@@ -67,10 +80,6 @@ textarea {
   height: 20px;
   margin: 15px;  
   font-size: 20px;
-}
-
-.absolute-dropdown-location {
-  position: absolute;
 }
 
 .dropdown {
