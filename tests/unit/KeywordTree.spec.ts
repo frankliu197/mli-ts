@@ -1,5 +1,5 @@
 import { createStubTree, assertTree } from "./KeywordTreeStub";
-import {KeywordTree, Node} from "@/Recommender/BPlusTree"
+import {KeywordTree, Node} from "@/Recommender/KeywordTree"
 import Character from "@/Recommender/Character";
 import BL from "@/symbols/json/BasicLatin.json"
 import chai, { assert, expect } from 'chai'

@@ -1,5 +1,5 @@
 
-import {BPlusTree} from "./BPlusTree"
+import {KeywordTree} from "./KeywordTree"
 import Character from "./Character"
 import SymbolSet from './SymbolSet';
 
@@ -8,9 +8,9 @@ import { valueCountPriority, combinePriority , stringMatchPriority} from "./Prio
 
 
 export class KeywordRecommender {
-	tree: BPlusTree
+	tree: KeywordTree
 	constructor(){
-		this.tree = new BPlusTree()
+		this.tree = new KeywordTree()
 	}
 	add(set: SymbolSet) : void{
 		for (const c of set.symbols){

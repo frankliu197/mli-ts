@@ -1,7 +1,7 @@
 import SymbolSet from './SymbolSet';
 import Character from './Character';
 import { KeywordRecommender } from './KeywordRecommender';
-import { SymbolRecommender } from './SymbolRecommender';
+import { SrokeRecommender } from './StrokeRecommender';
 import { combinePriority } from './Priority';
 import * as Storage from "./Storage"
 import { stringSort } from "@/helpers/helpers"
@@ -22,7 +22,7 @@ symbolSet.add(MathOperators)
 
 let keywordRecommender = new KeywordRecommender()
 keywordRecommender.add(symbolSet)
-let symbolRecommender = new SymbolRecommender()
+let symbolRecommender = new SrokeRecommender()
 symbolRecommender.add(symbolSet)
 /**
  * Search with keywords

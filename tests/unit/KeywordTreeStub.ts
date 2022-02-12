@@ -1,5 +1,5 @@
 import { assert, expect } from 'chai'
-import {BPlusTree, Node} from "@/Recommender/BPlusTree"
+import {KeywordTree, Node} from "@/Recommender/KeywordTree"
 import Character from "@/Recommender/Character"
 
 
@@ -48,7 +48,7 @@ export function createStubTree(stubNode: StubNode): StubTree {
   return stubNode as StubTree;
 }
 
-export function assertTree(actualTree: BPlusTree, stubNode: StubTree, characters: Array<Character>) : void {
+export function assertTree(actualTree: KeywordTree, stubNode: StubTree, characters: Array<Character>) : void {
   //assert root node
   assert.isUndefined(actualTree.root.parent, "root.parent");
   assert.isUndefined(actualTree.root.nextNode, "root.nextNode");
