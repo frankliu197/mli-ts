@@ -22,6 +22,7 @@ export class BPlusTree {
       node.values[index - 1].add(value);
       return;
     }
+
     node.keys.splice(index, 0, key);
     const set = new Set<Character>();
     set.add(value);
@@ -109,7 +110,7 @@ export class BPlusTree {
     this.insertRecursive(parent);
   }
 
-  getCharacterSet(key: string): Array<string> {
+  getKeywordSet(key: string): Array<string> {
     let curr: Node | undefined = this.lowerBound(key);
     const end = this.upperBound(key);
     const arr = [];
@@ -137,22 +138,22 @@ export class BPlusTree {
     arr.push(...curr!.keys.slice(0, endIndex));
     return arr;
   }
-  private static addValuesToSet(
-    set: Set<Character>,
-    node: Node,
-    startIndex = 0,
-    endIndex?: number
-  ) {
+
+  private static addValuesToSet(set: Set<Character>, node: Node, startIndex = 0, endIndex?: number) {
+    let s = "["
     endIndex = endIndex ?? node.values.length;
     for (let i = startIndex; i < endIndex; i++) {
       for (const c of node.values[i]) {
         set.add(c);
+        s += c.name + ", "
       }
     }
+    s += "]"
+    console.log(s)
     return set;
   }
-  /*
-	getCharacterSet(key: string): Set<Character> {
+	
+	getCharacterSet(key: string): Array<Character> {
 		let curr: Node | undefined = this.lowerBound(key)
 		const end = this.upperBound(key)
 		const set = new Set<Character>()
@@ -166,18 +167,20 @@ export class BPlusTree {
 		
 		if (curr === end){
 			BPlusTree.addValuesToSet(set, curr, startIndex, endIndex)
+			return Array.from(set)	
 		}
-		BPlusTree.addValuesToSet(set, curr)
+
+		BPlusTree.addValuesToSet(set, curr, startIndex)
 		
 		curr = curr.nextNode
-		while (curr && curr !== end){ //remove
+		while (curr !== end){
 			BPlusTree.addValuesToSet(set, curr!)
 			curr = curr!.nextNode
 		}
 		
 		BPlusTree.addValuesToSet(set, curr!, 0, endIndex)
-		return set
-	}*/
+		return Array.from(set)
+	}
 
   private lowerBound(key: string): Node {
     let curr = this.root;

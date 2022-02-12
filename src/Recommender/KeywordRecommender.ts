@@ -17,14 +17,13 @@ export class KeywordRecommender {
 				this.tree.insert(k, c)
 			}
 		}
-		console.log(this.tree.toString())
-		debugger
+		
 	}	
 	suggest(search: string) : Array<Character>{
 		if (!search){
 			return []
 		}
-		//@ts-expect-error: deal wth later
-		return this.tree.getCharacterSet(search) as string[]
+		
+		return this.tree.getCharacterSet(search)
 	}
 }

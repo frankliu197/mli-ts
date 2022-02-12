@@ -1,7 +1,8 @@
 <template lang='pug'>
 .character-details
-	b {{ startCase(character) }}
-	p keywords: 	
+	b {{ startCase(character.name) }}
+	b {{ character.symbol }}
+	p keywords:
 </template>
 
 <script lang='ts'>
@@ -12,7 +13,7 @@ export default Vue.extend({
   name: 'CharacterDetails',
 	props: {
 		character: {
-			type: String,
+			type: Object as () => Character,
 			required: true
 		}
 	},

@@ -8,7 +8,7 @@
       @click="choose(index)" 
       :class="selectionIndex === index? 'selected': ''"
       @mouseenter="selectionIndex = index"
-    ) {{index + 1}} {{item}}
+    ) {{index + 1}} {{item.symbol}}
     .dropdown-footer(v-if="!isLastPage || !isFirstPage")
       button(@click="page--" :disabled="isFirstPage") prev
       button(@click="page++" :disabled="isLastPage") next
@@ -48,8 +48,7 @@ export default Vue.extend({
       selectionIndex: 0,
       page: 0,
       characterDetails: false,
-      characterPosition: {} as Position,
-
+      characterPosition: {} as Position
     }
   },
   methods: {
@@ -169,8 +168,7 @@ export default Vue.extend({
   },
   computed: {
     suggestions: function() : Array<Character> {
-      const suggestions = recommender(this.search)
-      return suggestions
+      return recommender(this.search)
     },
     isLastPage: function(){
       //@ts-expect-error no support for computed of computed
