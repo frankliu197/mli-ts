@@ -4,7 +4,10 @@ import Character from "./Character";
 import { valueCountPriority, combinePriority , stringMatchPriority} from "./Priority"
 const order = 4;
 
-export class BPlusTree {
+/**
+ * This is a modified BPlusTree
+ */
+export class KeywordTree {
   root: Node
   priorities: Map<string, number>
   values: Map<string, Set<Character>>

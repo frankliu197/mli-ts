@@ -1,15 +1,15 @@
 
-import {SymbolTree} from "./SymbolTree"
+import {StrokeTree} from "./StrokeTree"
 import Character from "./Character"
 import SymbolSet from './SymbolSet';
 
 import { combinePriority } from "./Priority"
 
 
-export class SymbolRecommender {
-	tree: SymbolTree
+export class SrokeRecommender {
+	tree: StrokeTree
 	constructor(){
-		this.tree = new SymbolTree()
+		this.tree = new StrokeTree()
 	}
 	add(set: SymbolSet) : void{
 		for (const c of set.symbols){

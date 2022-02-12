@@ -1,5 +1,5 @@
-import { createStubTree, assertTree } from "./BTreeStub";
-import {BPlusTree, Node} from "@/Recommender/BPlusTree"
+import { createStubTree, assertTree } from "./KeywordTreeStub";
+import {KeywordTree, Node} from "@/Recommender/BPlusTree"
 import Character from "@/Recommender/Character";
 import BL from "@/symbols/json/BasicLatin.json"
 import chai, { assert, expect } from 'chai'
@@ -7,7 +7,7 @@ import ChaiSorted from 'chai-sorted'
 chai.use(ChaiSorted)
 
 const BasicLatin = BL as unknown as Character[]
-function insertCharactersToTree(characters: Array<Character>, tree: BPlusTree){
+function insertCharactersToTree(characters: Array<Character>, tree: KeywordTree){
 	for (const c of characters){
 		for (const k of c.name.split(" ")){
 			tree.insert(k, c)
@@ -15,8 +15,8 @@ function insertCharactersToTree(characters: Array<Character>, tree: BPlusTree){
 	}
 }
 
-describe('BPlusTree', () => {
-	const latinTree = new BPlusTree()
+describe('KeywordTree', () => {
+	const latinTree = new KeywordTree()
 	
 	before(()=>{
 		const characters = BasicLatin
@@ -24,7 +24,7 @@ describe('BPlusTree', () => {
 	})
 
   it('works as empty tree', () => {
-		const tree = new BPlusTree();
+		const tree = new KeywordTree();
 
 		const stubTree = createStubTree({
 			keys: []
@@ -34,7 +34,7 @@ describe('BPlusTree', () => {
 	})
 
 	it('works with only root node', ()=> {
-		const tree = new BPlusTree();
+		const tree = new KeywordTree();
 
 		const characters =  BasicLatin.slice(0, 2)
 		insertCharactersToTree(characters, tree)
@@ -48,7 +48,7 @@ describe('BPlusTree', () => {
 
 	
 	it('works with root split', ()=> {
-		const tree = new BPlusTree();
+		const tree = new KeywordTree();
 
 		const characters =  BasicLatin.slice(0, 4)
 		insertCharactersToTree(characters, tree)
@@ -66,7 +66,7 @@ describe('BPlusTree', () => {
 	})
 	
 	it('works with root merge', ()=> {
-		const tree = new BPlusTree()
+		const tree = new KeywordTree()
 	
 		const characters = BasicLatin.slice(0, 5)
 		insertCharactersToTree(characters, tree)
@@ -86,7 +86,7 @@ describe('BPlusTree', () => {
 
 	
 	it("works with max children", () => {
-		const tree = new BPlusTree()
+		const tree = new KeywordTree()
 		const characters = BasicLatin.slice(0, 9)
 		insertCharactersToTree(characters, tree)
 		const stubTree = createStubTree(

@@ -7,7 +7,7 @@ import { Queue } from "typescript-collections"
 
 
 
-export class SymbolTree {
+export class StrokeTree {
   root: Node
   values: Map<string, Set<Character>>
 	nodes: Map<string, Node>
