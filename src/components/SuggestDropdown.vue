@@ -10,8 +10,8 @@
       @mouseenter="selectionIndex = index"
     ) {{index + 1}} {{item.symbol}}
     .dropdown-footer(v-if="!isLastPage || !isFirstPage")
-      button(@click="page--" :disabled="isFirstPage") prev
-      button(@click="page++" :disabled="isLastPage") next
+      button(@click="_prevPage" :disabled="isFirstPage") prev
+      button(@click="_nextPage" :disabled="isLastPage") next
   FloatingComponent(v-show="characterDetails" :position="characterPosition")
     CharacterDetails(v-if="getSuggestion(page, selectionIndex)" :character="getSuggestion(page, selectionIndex)")
 
@@ -130,12 +130,20 @@ export default Vue.extend({
         this.selectionIndex = 0
       }
     },
+    _prevPage(){
+      this.page--
+      this.selectionIndex = this.PAGE_ENTRIES - 1
+    },
     nextPage(){
       if (!this.isLastPage){
         this.page++
       } else {
         this.selectionIndex = Math.min(this.PAGE_ENTRIES - 1, this.pageEntriesLength() - 1)
       }
+    },
+    _nextPage(){
+      this.page++
+      this.selectionIndex = 0
     },
     pageEntriesLength(): number {
       if (this.isLastPage){
