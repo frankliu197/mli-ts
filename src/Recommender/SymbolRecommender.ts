@@ -12,13 +12,8 @@ export class SymbolRecommender {
 	}
 	addSymbolSet(characters: Character[]) : void{
 		for (const c of characters){
-			/*for (const k of c.strokes){
-				this.tree.insert(k, c)
-			}*/
+			this.tree.insert(c)
 		}
-		console.log(this.tree)
-		debugger
-
 	}	
 
 	suggest(search: string) : Map<Character, number>{

@@ -169,7 +169,7 @@ export class BPlusTree {
    */
   private addValuesToMap(map: Map<Character, number>, node: Node, search: string, startIndex = 0, endIndex?: number) {
     //endIndex = endIndex ?? node.values.length; does not work for testing
-    if (!endIndex){
+    if (isUndefined(endIndex)){
       endIndex = node.keys.length
     }
     

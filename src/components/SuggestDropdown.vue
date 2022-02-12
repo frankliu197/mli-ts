@@ -20,7 +20,7 @@
 
 <script lang='ts'>
 import Globals from '@/helpers/globals'
-import recommender from '@/Recommender/Recommender'
+import {boost, suggest} from '@/Recommender/Recommender'
 import Character from '@/Recommender/Character';
 import CharacterDetails from "@/components/CharacterDetails.vue"
 import "@/Recommender/KeywordRecommender";
@@ -56,11 +56,14 @@ export default Vue.extend({
       this.$emit('close')
     }, 
     choose(index: number) {
-      this.$emit('selected', this.getSuggestion(this.page, index))
-      this.close()
+      this.selected(this.getSuggestion(this.page, index))
     },
     enter() {
-      this.$emit('selected', this.getSuggestion(this.page, this.selectionIndex))
+      this.selected(this.getSuggestion(this.page, this.selectionIndex))
+    },
+    selected(c: Character) {
+      boost(c)
+      this.$emit('selected', c)
       this.close()
     },
     toggleCharacterDescription(){
@@ -176,7 +179,7 @@ export default Vue.extend({
   },
   computed: {
     suggestions: function() : Array<Character> {
-      return recommender(this.search)
+      return suggest(this.search)
     },
     isLastPage: function(){
       //@ts-expect-error no support for computed of computed

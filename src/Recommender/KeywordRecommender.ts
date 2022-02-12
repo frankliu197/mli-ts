@@ -19,7 +19,6 @@ export class KeywordRecommender {
 		this.tree.updatePriorities()
 	}	
 	suggest(search: Array<string>) : Map<Character, number>{
-
 		//add only matching elements in prev map and character set from this search time to nextMap
 		//this way next map matches all search terms
 		let map = this.tree.getCharacterSet(search[0])

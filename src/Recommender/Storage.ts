@@ -1,11 +1,11 @@
 import Character from "./Character";
 
-export function boost(c: Character){
+export function boost(c: Character): void{
 	c.boost++
 	localStorage.setItem(c.symbol, c.boost + "")
 }
 
-export function setBoosts(characters: Array<Character>) {
+export function setBoosts(characters: Array<Character>) : void{
 	for (const c of characters){
 		if (localStorage.getItem(c.symbol)){
 			c.boost = Number(localStorage.getItem(c.symbol))
@@ -13,6 +13,6 @@ export function setBoosts(characters: Array<Character>) {
 	}
 }
 
-export function clear(){
+export function clear() : void{
 	localStorage.clear()
 }

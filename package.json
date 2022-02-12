@@ -60,7 +60,8 @@
     "rules": {
       "no-console": 1,
       "no-debugger": 1,
-      "prefer-const": 1
+      "prefer-const": 1,
+      "no-constant-condition": 1
     },
     "overrides": [
       {

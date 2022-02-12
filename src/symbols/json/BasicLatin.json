@@ -4,7 +4,7 @@
         "name": "exclamation mark",
         "symbol": "!",
         "keywords": [],
-        "strokes": "",
+        "strokes": "!--",
         "boost": 1
     },
     {
@@ -12,7 +12,7 @@
         "name": "quotation mark",
         "symbol": "\"",
         "keywords": [],
-        "strokes": "",
+        "strokes": "!-",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "number sign",
         "symbol": "#",
         "keywords": [],
-        "strokes": "",
+        "strokes": "//__",
         "boost": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "dollar sign",
         "symbol": "$",
         "keywords": [],
-        "strokes": "",
+        "strokes": "|S",
         "boost": 1
     },
     {
@@ -36,13 +36,13 @@
         "name": "percent sign",
         "symbol": "%",
         "keywords": [],
-        "strokes": "",
+        "strokes": "o/o",
         "boost": 1
     },
     {
         "unicode": 38,
         "name": "ampersand",
-        "symbol": "&amp;",
+        "symbol": "&",
         "keywords": [],
         "strokes": "",
         "boost": 1

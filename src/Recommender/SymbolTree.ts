@@ -1,32 +1,9 @@
 import { isUndefined } from "typescript-collections/dist/lib/util";
-import { enumerate } from "@/helpers/helpers";
+import { stripLetter } from "@/helpers/helpers";
 import Character from "./Character";
 import { valueCountPriority, combinePriority , stringMatchPriority} from "./Priority"
-import { Queue } from "typescript-collections";
+import { Queue } from "typescript-collections"
 
-//https://stackoverflow.com/questions/39927452/recursively-print-all-permutations-of-a-string-javascript
-function findPermutations(keyword: string) : Array<string>{
-  if (keyword.length < 2 ){
-    return [keyword]
-  }
-
-  let permutations = [] 
-   
-  for (let i = 0; i < keyword.length; i++){
-    let char = keyword[i]
-
-    if (keyword.indexOf(char) != i) {
-			continue
-		}
-    
-    let remainingChars = keyword.slice(0, i) + keyword.slice(i + 1, keyword.length)
-
-    for (const p of findPermutations(remainingChars)){
-      permutations.push(char + p) 
-		}
-  }
-  return permutations
-}
 
 
 
@@ -42,29 +19,46 @@ export class SymbolTree {
 		this.nodes.set("", this.root)
   }
 
-  private appendToValues(key: string, value: Character){
-    const set = this.values.get(key)!
-    set.add(value)
-  }
 
-  insert(key: string, value: Character): void {
-    if (this.values.has(key)){
-      this.appendToValues(key, value)
+
+/*let strokeArr = c.strokes.split("").sort()
+		let strokeVal = strokeArr.join()
+
+    */
+  insert(c: Character): void {
+		if (this.values.has(c.strokes)){
+      const set = this.values.get(c.strokes)!
+			set.add(c)
       return
     }
-		debugger
-		let prev = new Node(key)
-		key = key.slice(0, -1)
-		for (let k of findPermutations(key)){
-			if (this.nodes.has(k)){
-				break
-			}
-			const curr = new Node(k)
-			curr.child.set(k, prev)
-			prev = curr
-			k = k.slice(0, -1)
+		
+		let currNode = new Node(c.strokes)
+		this.nodes.set(c.strokes, currNode)
+
+		const set = new Set<Character>()
+		set.add(c)
+		this.values.set(c.strokes, set)
+
+		for (const s of stripLetter(c.strokes)){
+			this.insertRecursive(currNode, s)
 		}
   }
+
+	insertRecursive(childNode: Node, stroke: string) : void{
+		if (this.nodes.has(stroke)){
+			this.nodes.get(stroke)?.child.push(childNode)
+			return
+		}
+
+		const currNode = new Node(stroke)
+		this.nodes.set(stroke, currNode)
+		this.values.set(stroke, new Set())
+		currNode.child.push(childNode)
+		
+		for (const s of stripLetter(stroke)){
+			this.insertRecursive(currNode, s)
+		}
+	}
 
 	
 	getCharacterSet(search: string): Map<Character, number> {
@@ -81,16 +75,16 @@ export class SymbolTree {
 
 		while (queue.size() > 0) {
 			const curr = queue.dequeue()!
-			const p = stringMatchPriority(search, curr.key)
+			const p = stringMatchPriority(search, curr.stroke)
 
-			for (const c of this.values.get(curr.key)!){
+			for (const c of this.values.get(curr.stroke)!){
 				//only set the first time, because that time is the closest to the node that has been search
 				if (!map.has(c)){
 					map.set(c, p)
 				}
 			}
 
-			for (const n of curr.child.values()){
+			for (const n of curr.child){
 				if (!visited.has(n)){
 					visited.add(n)
 					queue.enqueue(n)
@@ -100,16 +94,17 @@ export class SymbolTree {
 		return map
 	}
 }
+
 export class Node {
-	key: string
-  child: Map<string, Node>;
+	stroke: string
+  child: Array<Node>;
   
-  constructor(key: string) {
-		this.key = key
-    this.child = new Map<string, Node>()
+  constructor(stroke: string) {
+		this.stroke = stroke
+    this.child = new Array<Node>()
   }
 
 	toString():string {
-		return this.key
+		return this.stroke
 	}
 }
