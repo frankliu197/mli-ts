@@ -23,5 +23,6 @@ export default function suggest(search : string) : Array<Character> { //: Charac
   /*if (!search){
     return []
   }*/
-  return keywordRecommender.suggest(search)
+  const map = keywordRecommender.suggest(search)
+  return Array.from(map.keys())
 }

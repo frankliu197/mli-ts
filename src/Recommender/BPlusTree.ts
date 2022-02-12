@@ -1,14 +1,38 @@
 import { isUndefined } from "typescript-collections/dist/lib/util";
 import { enumerate } from "@/helpers/helpers";
 import Character from "./Character";
-
+import { valueCountPriority, combinePriority , stringMatchPriority} from "./Priority"
 const order = 4;
 
 export class BPlusTree {
   root: Node;
+  priorities: Map<string, number>;
 
   constructor() {
     this.root = new Node();
+    this.priorities = new Map<string, number>()
+  }
+
+  /**
+   * Once you are done inserting everything, this will update the priority of each keyword in each node
+   */
+  updatePriorities() : void{
+    this.priorities = new Map<string, number>()
+    let curr = this.root;
+    while (!curr.leaf) {
+      curr = curr.child[0];
+    }
+
+    for (const i in curr.keys){
+      this.priorities.set(curr.keys[i], valueCountPriority(curr.values[i].size)) 
+    }
+
+    while (curr.nextNode) {
+      curr = curr.nextNode;
+      for (const i in curr.keys){
+        this.priorities.set(curr.keys[i], valueCountPriority(curr.values[i].size)) 
+      }
+    }
   }
 
   insert(key: string, value: Character): void {
@@ -137,47 +161,61 @@ export class BPlusTree {
     return arr;
   }
 
-  private static addValuesToSet(set: Set<Character>, node: Node, startIndex = 0, endIndex?: number) {
+  /**
+   * 
+   * @param map 
+   * @param node 
+   * @param search search string (for priority)
+   * @param startIndex 
+   * @param endIndex 
+   */
+  private addValuesToMap(map: Map<Character, number>, node: Node, search: string, startIndex = 0, endIndex?: number) {
     //endIndex = endIndex ?? node.values.length; does not work for testing
     if (!endIndex){
       endIndex = node.values.length
     }
-
+    
     for (let i = startIndex; i < endIndex; i++) {
-      for (const c of node.values[i]) {
-        set.add(c);
+      const k = stringMatchPriority(search, node.keys[i])
+      const p = combinePriority(k, this.priorities.get(node.keys[i])!)
+      
+      for (const c of node.values[i]){
+        if (map.has(c)){
+          map.set(c, combinePriority(p, map.get(c)!)) 
+        } else {
+          map.set(c, p) 
+        }
       }
     }
-    return set;
   }
 	
-	getCharacterSet(key: string): Array<Character> {
-		let curr: Node | undefined = this.lowerBound(key)
-		const end = this.upperBound(key)
-		const set = new Set<Character>()
+	getCharacterSet(search: string): Map<Character, number> {
+		let curr: Node | undefined = this.lowerBound(search)
+		const end = this.upperBound(search)
+		const map = new Map<Character, number>()
 		
-		let startIndex = curr.lowerBound(key)
-		if (curr.keys[startIndex - 1] === key){
+		let startIndex = curr.lowerBound(search)
+		if (curr.keys[startIndex - 1] === search){
 			startIndex--
 		}
 
-		const endIndex = end.upperBound(key)
+		const endIndex = end.upperBound(search)
 		
 		if (curr === end){
-			BPlusTree.addValuesToSet(set, curr, startIndex, endIndex)
-			return Array.from(set)	
+			this.addValuesToMap(map, curr, search, startIndex, endIndex)
+			return map
 		}
 
-		BPlusTree.addValuesToSet(set, curr, startIndex)
+		this.addValuesToMap(map, curr, search, startIndex)
 		
 		curr = curr.nextNode
 		while (curr !== end){
-			BPlusTree.addValuesToSet(set, curr!)
+			this.addValuesToMap(map, curr!, search)
 			curr = curr!.nextNode
 		}
 		
-		BPlusTree.addValuesToSet(set, curr!, 0, endIndex)
-		return Array.from(set)
+		this.addValuesToMap(map, curr!, search, 0, endIndex)
+		return map
 	}
 
   private lowerBound(key: string): Node {
@@ -262,11 +300,12 @@ export class Node {
   parent?: Node;
 
   constructor(leaf = true) {
-    this.leaf = leaf;
-    this.keys = [];
-    this.values = [];
-    this.child = [];
+    this.leaf = leaf
+    this.keys = []
+    this.values = []
+    this.child = []
   }
+
 
   /**
    * The index location of the given key
@@ -284,7 +323,7 @@ export class Node {
   index(key: string): number {
     for (const [i, k] of enumerate(this.keys)) {
       if (key < k) {
-        return i;
+        return i
       }
     }
     return this.keys.length;
@@ -312,75 +351,3 @@ export class Node {
     return `[${this.keys.join(", ")}]`;
   }
 }
-
-export class StubNode {
-  keys: Array<string>;
-  child?: Array<StubNode>;
-  _nextNode?: StubNode;
-  _values?: Array<Set<Character>>;
-}
-
-export class StubTree {
-  keys: Array<string>;
-  child?: Array<StubNode>;
-  _nextNode: StubNode;
-  _values: Array<Set<Character>>;
-}
-
-export function createStubTree(
-  stubNode: StubNode,
-  characters: Array<Character>
-): StubTree {
-  //fills in all the nextNodes
-  addValuesToStubNode(stubNode, characters);
-
-  const queue = new Array<{ node: StubNode; depth: number }>();
-  let prev = { node: stubNode, depth: 1 };
-
-  if (!stubNode.child) {
-    return stubNode as StubTree;
-  }
-
-  for (const i of stubNode.child) {
-    queue.push({ node: i, depth: 2 });
-  }
-
-  while (queue.length > 0) {
-    const curr = queue.shift()!;
-    addValuesToStubNode(curr.node, characters);
-
-    if (curr.depth === prev.depth) {
-      prev.node._nextNode = curr.node;
-    }
-    
-		if (curr.node.child){
-			for (const i of curr.node.child) {
-				queue.push({ node: i, depth: curr.depth + 1 });
-			}
-		}
-		
-
-		prev = curr;
-  }
-  return stubNode as StubTree;
-}
-
-function addValuesToStubNode(
-  stubNode: StubNode,
-  characters: Array<Character>
-): void {
-  stubNode._values = [];
-  for (const i in stubNode.keys) {
-    stubNode._values.push(new Set<Character>());
-  }
-  for (const c of characters) {
-    for (const k of c.name.split(" ")) {
-      const indexOf = stubNode.keys.indexOf(k);
-      if (indexOf >= 0) {
-        stubNode._values[indexOf].add(c);
-      }
-    }
-  }
-}
-
-
