@@ -1,0 +1,243 @@
+<template lang='pug'>
+.dropdown(v-click-outside="close")
+  .input-section
+    input(ref="input" v-model="search"  v-autowidth="{maxWidth:'960px', minWidth: `${50}px`, comfortZone: 10}" @keydown="handleDropdown")
+  .dropdown-section(ref="dropdown")
+    button.dropdown-element(
+      v-for="(item, index) of pageEntries()"
+      @click="choose(index)" 
+      :class="selectionIndex === index? 'selected': ''"
+      @mouseenter="selectionIndex = index"
+    ) {{index + 1}} {{item}}
+    .dropdown-footer(v-if="!isLastPage || !isFirstPage")
+      button(@click="page--" :disabled="isFirstPage") prev
+      button(@click="page++" :disabled="isLastPage") next
+  FloatingComponent(v-show="characterDetails" :position="characterPosition")
+    CharacterDetails(v-if="getSuggestion(page, selectionIndex)" :character="getSuggestion(page, selectionIndex)")
+
+</template>
+
+
+<script lang='ts'>
+import Globals from '@/helpers/globals'
+import recommender from '@/Recommender/Recommender'
+import Character from '@/Recommender/Character';
+import CharacterDetails from "@/components/CharacterDetails.vue"
+import "@/Recommender/KeywordRecommender";
+import Vue from "vue";
+
+import FloatingComponent from "@/components/FloatingComponent.vue"
+import {toSafeInteger} from "lodash"
+import {Position} from "@/helpers/UiComponents"
+
+export default Vue.extend({
+  name: 'SuggestDropdown',
+  components: {
+    CharacterDetails,
+    FloatingComponent
+  },
+  props: {
+    show: {
+      type: Boolean,
+      required: true
+    }
+  },
+  data: function() {
+    return {
+      search: "",
+      selectionIndex: 0,
+      page: 0,
+      characterDetails: false,
+      characterPosition: {} as Position,
+
+    }
+  },
+  methods: {
+    close() {
+      this.$emit('close')
+    }, 
+    choose(index: number) {
+      this.$emit('selected', this.getSuggestion(this.page, index))
+      this.close()
+    },
+    enter() {
+      this.$emit('selected', this.getSuggestion(this.page, this.selectionIndex))
+      this.close()
+    },
+    toggleCharacterDescription(){
+      this.characterDetails = !this.characterDetails
+    },
+    handleDropdown($event: KeyboardEvent){
+
+      let functionKey = ""
+      if ($event.ctrlKey){
+        functionKey += "Control "
+      }
+      
+      if ($event.altKey){
+        functionKey += "Alt "
+      }
+      
+      if ($event.shiftKey){
+        functionKey += "Shift "
+      }
+      
+      if (this.SELECT_ENTRY === functionKey && toSafeInteger($event.key) !== 0){
+        this.choose(Number($event.key) - 1)  
+        $event.preventDefault()
+        return
+      }
+      
+      const shortcutCode = functionKey + $event.key;
+      if (this.shortcuts[shortcutCode]){
+        this.shortcuts[shortcutCode]()
+        $event.preventDefault()
+      }
+
+    },
+    nextEntry() {
+			if (this.search === "") {
+        return
+      }
+      if (this.selectionIndex === this.PAGE_ENTRIES && !this.isLastPage){
+        this.selectionIndex = 0
+        this.page++
+        return
+      }
+
+      if (this.selectionIndex < this.pageEntriesLength() - 1){
+        this.selectionIndex++
+      }
+		},
+    prevEntry() {
+			if (this.search === "") {
+        return
+      }
+      if (this.selectionIndex === 0 && !this.isFirstPage){
+        this.selectionIndex = this.PAGE_ENTRIES - 1
+        this.page--
+        return
+      }
+
+      if (this.selectionIndex > 0){
+        this.selectionIndex--
+      }
+    },
+    prevPage(){
+      if (!this.isFirstPage){
+        this.page--
+        this.selectionIndex = Math.min(this.selectionIndex, this.pageEntriesLength() - 1)
+      } else {
+        this.selectionIndex = 0
+      }
+    },
+    nextPage(){
+      if (!this.isLastPage){
+        this.page++
+      } else {
+        this.selectionIndex = Math.min(this.PAGE_ENTRIES - 1, this.pageEntriesLength() - 1)
+      }
+    },
+    pageEntriesLength(): number {
+      if (this.isLastPage){
+        return this.suggestions.length % this.PAGE_ENTRIES
+      } else {
+        return this.PAGE_ENTRIES
+      }
+    },
+    pageEntries(): Array<Character> {
+      const start = this.PAGE_ENTRIES * this.page
+      return this.suggestions.slice(start, start + this.PAGE_ENTRIES)
+    },
+    getSuggestion(page: number, index: number): Character {
+      return this.suggestions[this.PAGE_ENTRIES * page + index]
+    }
+    /*
+    onPageChange($event){
+      
+    // if SHIFT key is held to navigate backwards, exit through this gate
+    if ($event.shiftKey) {
+        console.log('halting event due to SHIFT+TAB');
+        return;
+    }
+
+    // otherwise, execute normal logic
+    console.log('tab was pressed', someData);
+},
+    }
+    */
+  },
+  computed: {
+    suggestions: function() : Array<Character> {
+      const suggestions = recommender(this.search)
+      return suggestions
+    },
+    isLastPage: function(){
+      //@ts-expect-error no support for computed of computed
+      return Math.floor(this.suggestions.length / this.PAGE_ENTRIES) === this.page
+    },
+    isFirstPage: function(){
+      //@ts-expect-error no support for computed of computed
+      return 0 === this.page
+    },
+    PAGE_ENTRIES: function(){
+      return Globals.PAGE_ENTRIES
+    },
+    shortcuts: function(){
+      const k = Globals.shortcuts.exact
+      const shortcuts = {} as any
+      shortcuts[k.nextPage] = this.nextPage
+      shortcuts[k.prevPage] = this.prevPage
+      shortcuts[k.nextEntry] = this.nextEntry
+      shortcuts[k.prevEntry] = this.prevEntry
+      shortcuts[k.toggleCharacterDescription] = this.toggleCharacterDescription
+      shortcuts[k.enter] = this.enter
+      return shortcuts
+    },
+    SELECT_ENTRY: function(){
+     return Globals.shortcuts.prefix.selectEntry
+    }
+  },
+  watch: {
+    show: function(val) {
+      const input = this.$refs.input as HTMLInputElement
+      
+      if (!val) {
+        input.blur()
+        this.search = ""
+        this.page = 0
+        this.selectionIndex = 0
+        return 
+      }
+
+      this.$nextTick(()=>{
+        input.focus()
+      })
+    },
+    characterDetails: function(val){
+      if (!val){
+        return
+      }
+      const dropdown = this.$refs.dropdown as HTMLDivElement
+      
+      let {right} = dropdown.getBoundingClientRect()
+      this.characterPosition = {left: right + "px", top: 0 + "px"}   
+
+    }
+  }
+})
+</script>
+
+<style lang='scss' scoped>
+.dropdown {
+  padding: 10px;
+  min-width: 70px;
+  .dropdown-element {
+    display: block;
+    
+    &.selected {
+      color: red;
+    }
+  }
+}
+</style>

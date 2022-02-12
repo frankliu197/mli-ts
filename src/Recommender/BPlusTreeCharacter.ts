@@ -1,7 +1,7 @@
 //import Character from './Character';
 //readonly order: number
 import { isUndefined } from "typescript-collections/dist/lib/util"
-import {enumerate} from "./Helper"
+import {enumerate} from "@/helpers/helpers"
 import Character from "./Character"
 import SymbolSet from "./SymbolSet"
 const order = 4
@@ -70,6 +70,7 @@ export class BPlusTree {
 			if (left.child.length + right.child.length > order){
 				right.keys.splice(0, 1)
 				right.values.splice(0, 1)
+				
 				left.child.push(...right.child.splice(0, 1))
 			}
 				
@@ -371,20 +372,20 @@ let i = 0
 			i++
 			for (const k of c.name.split(" ")){
 				if (i === 42){
-					console.log(k)
-					console.log(tree)
-				console.log(tree.toString())
-				debugger
+					//console.log(k)
+					//console.log(tree)
+				//console.log(tree.toString())
+				//debugger
 				}
 				
 				tree.insert(k, c)
 				
 			}
 		}
-		console.log(tree)
-		console.log(tree.toString())
-		console.log(tree.toArray())
-console.log("character set", tree.getCharacterSet("M"))
+		//console.log(tree)
+		//console.log(tree.toString())
+		//console.log(tree.toArray())
+//console.log("character set", tree.getCharacterSet("M"))
 		
 
 

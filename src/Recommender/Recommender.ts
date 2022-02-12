@@ -1,8 +1,10 @@
 import SymbolSet from './SymbolSet';
 import Character from './Character';
-import KeywordRecommender from './KeywordRecommender';
+import { KeywordRecommender } from './KeywordRecommender';
 
-KeywordRecommender.addSymbolSet(SymbolSet["BasicLatin"])
+
+let keywordRecommender = new KeywordRecommender();
+keywordRecommender.addSymbolSet(SymbolSet["BasicLatin"])
 /*
 const index = lunr(function(){
     // @ts-expect-error: javascript
@@ -17,21 +19,9 @@ const index = lunr(function(){
     }, this)
 })*/
 
-export default function(search : string) : Set<Character> { //: Character[] cast into character
-    //console.log(index.search(search))
-    //console.log(fuse.search(search))
-    //const suggestions = new Set<Character>();
-    //search word corospondence only if length > 3
-    /*const suggestions = new Set<Character>();
-    if (search.length > 3) {
-        const terms = search.toLocaleUpperCase().split("_")
-        for (const i of BasicLatin){
-            if (terms.every(term => i.name.includes(term))){
-                suggestions.add(i as unknown as Character)
-            }
-        }
-    } else {
-        return suggestions
-    }*/
-   return new Set<Character>()
+export default function suggest(search : string) : Array<Character> { //: Character[] cast into character
+  /*if (!search){
+    return []
+  }*/
+  return keywordRecommender.suggest(search)
 }
