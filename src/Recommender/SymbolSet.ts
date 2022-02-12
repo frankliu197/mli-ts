@@ -7,7 +7,13 @@ import NumberForms from "../symbols/json/NumberForms.json"
 import SmallFormVariants from "../symbols/json/SmallFormVariants.json"
 import SuperscriptsAndSubscripts from "../symbols/json/SuperscriptsAndSubscripts.json"
 import Character from "./Character"
+import { setBoosts } from "./Storage"
 
+function create(s: any): Array<Character>{
+	const set = s as unknown as Array<Character>
+	setBoosts(set)
+	return set
+}
 export default {
-	"BasicLatin": BasicLatin as unknown as Character[]
+	"BasicLatin": create(BasicLatin)
 }

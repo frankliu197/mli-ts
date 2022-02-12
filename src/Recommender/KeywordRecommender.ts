@@ -18,15 +18,14 @@ export class KeywordRecommender {
 		}
 		this.tree.updatePriorities()
 	}	
-	suggest(search: string) : Map<Character, number>{
-		const terms = search.split(" ");
+	suggest(search: Array<string>) : Map<Character, number>{
 
 		//add only matching elements in prev map and character set from this search time to nextMap
 		//this way next map matches all search terms
-		let map = this.tree.getCharacterSet(terms[0])
+		let map = this.tree.getCharacterSet(search[0])
 		let nextMap = new Map<Character, number>()
-		for (let i = 0; i < terms.length; i++){
-			for (const [c, p] of this.tree.getCharacterSet(terms[i]).entries()){
+		for (let i = 0; i < search.length; i++){
+			for (const [c, p] of this.tree.getCharacterSet(search[i]).entries()){
 				if (map.has(c)){
           nextMap.set(c, combinePriority(p, map.get(c)!)) 
         }

@@ -4,7 +4,8 @@ export default class {
     public symbol: string
     public name: string;
     public keywords: Array<string>
-    public symbols: Map<string, number>
+    public strokes: string
+    public boost: number
 
     public hashcode() : number {
         return this.unicode;
