@@ -17,6 +17,8 @@ export class KeywordRecommender {
 				this.tree.insert(k, c)
 			}
 		}
+		console.log(this.tree.toString())
+		debugger
 	}	
 	suggest(search: string) : Array<Character>{
 		if (!search){
