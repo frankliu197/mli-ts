@@ -11,17 +11,23 @@ import { stringSort } from "@/helpers/helpers"
 
 
 let keywordRecommender = new KeywordRecommender()
-keywordRecommender.addSymbolSet(SymbolSet["BasicLatin"])
-
+keywordRecommender.addSymbolSet(SymbolSet.get("BasicLatin")!)
 let symbolRecommender = new SymbolRecommender()
-symbolRecommender.addSymbolSet(SymbolSet["BasicLatin"])
+symbolRecommender.addSymbolSet(SymbolSet.get("BasicLatin")!)
 
+/**
+ * Search with keywords
+ * Search with strokes (if no spaces)
+ * Search exact char (if search.length === 1)
+ * @param search 
+ * @returns 
+ */
 export function suggest(search : string) : Array<Character> { //: Character[] cast into character
   search = search.trim()
   if (!search){
     return []
   }
-  const keywords = search.toLowerCase().split(" ")
+  const keywords = search.toLowerCase().split(" ").filter(Boolean)
   const map = keywordRecommender.suggest(keywords)
   if (keywords.length === 1){
     const symbolMap = symbolRecommender.suggest(stringSort(search))
@@ -33,6 +39,10 @@ export function suggest(search : string) : Array<Character> { //: Character[] ca
         map.set(c, p)
       }
     }
+  }
+
+  if (search.length === 1 && SymbolSet.getCharacter(search)!){
+    map.set(SymbolSet.getCharacter(search)!, Number.MAX_VALUE) 
   }
   
   //boost

@@ -9,11 +9,35 @@ import SuperscriptsAndSubscripts from "../symbols/json/SuperscriptsAndSubscripts
 import Character from "./Character"
 import { setBoosts } from "./Storage"
 
-function create(s: any): Array<Character>{
-	const set = s as unknown as Array<Character>
-	setBoosts(set)
-	return set
+class SymbolSet {
+	sets: Map<string, Array<Character>>
+	symbols: Map<string, Character>
+
+	constructor(){
+		this.sets = new Map()
+		this.symbols = new Map()
+	}
+
+	_add(name: string, s: any) {
+		const set = s as unknown as Array<Character>
+		for (const c of set){
+			setBoosts(c)
+			this.symbols.set(c.symbol, c)
+		}
+
+		this.sets.set(name, set)
+	}
+
+	get(name: string){
+		return this.sets.get(name)
+	}
+
+	getCharacter(symbol: string) : Character | undefined {
+		return this.symbols.get(symbol)
+	}
+	
 }
-export default {
-	"BasicLatin": create(BasicLatin)
-}
+
+const symbolSet = new SymbolSet()
+symbolSet._add("BasicLatin", BasicLatin)
+export default symbolSet
