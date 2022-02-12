@@ -2,39 +2,14 @@ import { isUndefined } from "typescript-collections/dist/lib/util";
 import { enumerate } from "@/helpers/helpers";
 import Character from "./Character";
 import { valueCountPriority, combinePriority , stringMatchPriority} from "./Priority"
-const order = 4;
 
-export class BPlusTree {
+export class SymbolTree {
   root: Node;
-  priorities: Map<string, number>;
-  values: Map<string, Set<Character>>; //values of the keys. only used on leaf nodes
+  values: Map<string, Set<Character>>;
 
   constructor() {
-    this.root = new Node();
-    this.priorities = new Map<string, number>()
+    this.root = new Node()
     this.values = new Map<string, Set<Character>>()
-  }
-
-  /**
-   * Once you are done inserting everything, this will update the priority of each keyword in each node
-   */
-  updatePriorities() : void{
-    this.priorities = new Map<string, number>()
-    let curr = this.root;
-    while (!curr.leaf) {
-      curr = curr.child[0];
-    }
-
-    for (const key of curr.keys){
-      this.priorities.set(key, valueCountPriority(this.values.get(key)!.size)) 
-    }
-
-    while (curr.nextNode) {
-      curr = curr.nextNode;
-      for (const key of curr.keys){
-        this.priorities.set(key, valueCountPriority(this.values.get(key)!.size)) 
-      }
-    }
   }
 
   private appendToValues(key: string, value: Character){
@@ -42,12 +17,18 @@ export class BPlusTree {
     set.add(value)
   }
 
-  insert(key: string, value: Character): void {
+  /*insert(key: string, value: Character): void {
     if (this.values.has(key)){
       this.appendToValues(key, value)
       return
     }
 
+		let curr = this.root;
+		while (!curr.child) {
+			const index = curr.index(key);
+			curr = curr.child[index];
+		}
+		
     const node = this.searchNode(key);
     const index = node.index(key);
 
@@ -166,7 +147,7 @@ export class BPlusTree {
    * @param search search string (for priority)
    * @param startIndex 
    * @param endIndex 
-   */
+   *
   private addValuesToMap(map: Map<Character, number>, node: Node, search: string, startIndex = 0, endIndex?: number) {
     //endIndex = endIndex ?? node.values.length; does not work for testing
     if (!endIndex){
@@ -286,62 +267,12 @@ export class BPlusTree {
 
 /**
  * When splitting, set the parent key to left-most key of the right child node
- */
+ *
 export class Node {
-  leaf: boolean;
-  keys: Array<string>;
-  child: Array<Node>;
-  nextNode?: Node;
-  parent?: Node;
-
-  constructor(leaf = true) {
-    this.leaf = leaf
-    this.keys = []
-    this.child = []
+  child: Map<string, Node>;
+  
+  constructor() {
+    this.child = new Map<string, Node>()
   }
-
-
-  /**
-   * The index location of the given key
-   * e.g. node.keys = [2, 5]
-   * if key < 2, index(key) = 0
-   * if key < 5, index(key) = 1
-   * if key >= 5, index(key) = 2
-   *
-   * For a node of n keys, there are n+1 childrens,
-   * thus curr.child[index(key)] will never be out of bounds if node is not leaf
-   * @param key
-   * @param node
-   * @returns
-   */
-  index(key: string): number {
-    for (const [i, k] of enumerate(this.keys)) {
-      if (key < k) {
-        return i
-      }
-    }
-    return this.keys.length;
-  }
-
-  lowerBound(key: string): number {
-    for (const [i, k] of enumerate(this.keys)) {
-      if (key < k) {
-        return i;
-      }
-    }
-    return this.keys.length;
-  }
-
-  upperBound(key: string): number {
-    for (const [i, k] of enumerate(this.keys)) {
-      if (!(key > k || k.startsWith(key))) {
-        return i;
-      }
-    }
-    return this.keys.length;
-  }
-
-  toString(): string {
-    return `[${this.keys.join(", ")}]`;
-  }
+}*/
 }

@@ -28,9 +28,9 @@ describe('BPlusTree', () => {
 
 		const stubTree = createStubTree({
 			keys: []
-		}, [])
+		})
 
-		assertTree(tree, stubTree)
+		assertTree(tree, stubTree, [])
 	})
 
 	it('works with only root node', ()=> {
@@ -41,9 +41,9 @@ describe('BPlusTree', () => {
 		
 		const stubTree = createStubTree({
 			keys: ["EXCLAMATION", "MARK", "QUOTATION"]
-		}, characters)
+		})
 
-		assertTree(tree, stubTree)
+		assertTree(tree, stubTree, characters)
 	})
 
 	
@@ -60,9 +60,9 @@ describe('BPlusTree', () => {
 			}, {
 				keys: ["NUMBER", "QUOTATION", "SIGN"]
 			}]
-		}, characters)
+		})
 
-		assertTree(tree, stubTree)
+		assertTree(tree, stubTree, characters)
 	})
 	
 	it('works with root merge', ()=> {
@@ -80,8 +80,8 @@ describe('BPlusTree', () => {
 			}, {
 				keys: ["QUOTATION", "SIGN"]
 			}]
-		}, characters)
-		assertTree(tree, stubTree)
+		})
+		assertTree(tree, stubTree, characters)
 	})
 
 	
@@ -98,8 +98,8 @@ describe('BPlusTree', () => {
 					{ keys: ["NUMBER", "PARENTHESIS", "PERCENT"] },
 					{ keys: ["QUOTATION", "RIGHT", "SIGN"] }
 				]
-			}, characters)	
-		assertTree(tree, stubTree)
+			})	
+		assertTree(tree, stubTree, characters)
 	})
 
 	it("works with searches", ()=> {
