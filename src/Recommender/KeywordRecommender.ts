@@ -26,16 +26,19 @@ export class KeywordRecommender {
 			return new Map()
 		}
 		const terms = search.split(" ");
-		const map = this.tree.getCharacterSet(terms[0])
+
+		//add only matching elements in prev map and character set from this search time to nextMap
+		//this way next map matches all search terms
+		let prevMap = this.tree.getCharacterSet(terms[0])
+		let nextMap = new Map<Character, number>()
 		for (let i = 0; i < terms.length; i++){
-			const temp = this.tree.getCharacterSet(terms[i])
-			for (const [c, p] of temp.entries()){
-				if (map.has(c)){
-          map.set(c, combinePriority(p, map.get(c)!)) 
-        } else {
-          map.set(c, p) 
+			for (const [c, p] of this.tree.getCharacterSet(terms[i]).entries()){
+				if (prevMap.has(c)){
+          nextMap.set(c, combinePriority(p, prevMap.get(c)!)) 
         }
 			}
+			prevMap = nextMap
+			nextMap = new Map<Character, number>()
 		}
 		//let start = new Date().getTime();
 
@@ -45,6 +48,6 @@ export class KeywordRecommender {
 		//console.log(start)
 		//console.log('Execution time (ms): ' + time);
 		//todo sort
-		return map
+		return prevMap
 	}
 }

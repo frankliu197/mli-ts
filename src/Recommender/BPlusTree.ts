@@ -176,8 +176,7 @@ export class BPlusTree {
     }
     
     for (let i = startIndex; i < endIndex; i++) {
-      const k = stringMatchPriority(search, node.keys[i])
-      const p = combinePriority(k, this.priorities.get(node.keys[i])!)
+      const p = combinePriority(stringMatchPriority(search, node.keys[i]), this.priorities.get(node.keys[i])!)
       
       for (const c of node.values[i]){
         if (map.has(c)){
