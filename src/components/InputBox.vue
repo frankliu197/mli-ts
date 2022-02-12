@@ -32,10 +32,8 @@ export default Vue.extend({
       const el = this.$refs.textarea as HTMLTextAreaElement
       const [start, end] = [el.selectionStart, el.selectionEnd];
       
-      //@ts-expect-error: test
-      el.setRangeText($event, start, end);
-      //@ts-expect-error: test
-      el.selectionStart += $event.length
+      el.setRangeText($event.symbol, start, end);
+      el.selectionStart += $event.symbol.length
     },
     openDropdown($event: KeyboardEvent) {
       if (this.toggleDropdownShortcut === $event.key){
