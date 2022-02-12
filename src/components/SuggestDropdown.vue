@@ -162,20 +162,6 @@ export default Vue.extend({
     getSuggestion(page: number, index: number): Character {
       return this.suggestions[this.PAGE_ENTRIES * page + index]
     }
-    /*
-    onPageChange($event){
-      
-    // if SHIFT key is held to navigate backwards, exit through this gate
-    if ($event.shiftKey) {
-        console.log('halting event due to SHIFT+TAB');
-        return;
-    }
-
-    // otherwise, execute normal logic
-    console.log('tab was pressed', someData);
-},
-    }
-    */
   },
   computed: {
     suggestions: function() : Array<Character> {
@@ -232,9 +218,9 @@ export default Vue.extend({
       
       let {right} = dropdown.getBoundingClientRect()
       this.characterPosition = {left: right + "px", top: 0 + "px"}   
-
     }
-  }
+  },
+ 
 })
 </script>
 

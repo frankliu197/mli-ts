@@ -5,14 +5,14 @@ import { valueCountPriority, combinePriority , stringMatchPriority} from "./Prio
 const order = 4;
 
 export class BPlusTree {
-  root: Node;
-  priorities: Map<string, number>;
-  values: Map<string, Set<Character>>; //values of the keys. only used on leaf nodes
+  root: Node
+  priorities: Map<string, number>
+  values: Map<string, Set<Character>>
 
   constructor() {
     this.root = new Node();
-    this.priorities = new Map<string, number>()
-    this.values = new Map<string, Set<Character>>()
+    this.priorities = new Map()
+    this.values = new Map()
   }
 
   /**
@@ -37,14 +37,12 @@ export class BPlusTree {
     }
   }
 
-  private appendToValues(key: string, value: Character){
-    const set = this.values.get(key)!
-    set.add(value)
-  }
+
 
   insert(key: string, value: Character): void {
     if (this.values.has(key)){
-      this.appendToValues(key, value)
+      const set = this.values.get(key)!
+      set.add(value)
       return
     }
 
@@ -52,8 +50,9 @@ export class BPlusTree {
     const index = node.index(key);
 
     node.keys.splice(index, 0, key);
-    this.values.set(key, new Set<Character>())
-    this.appendToValues(key, value)
+    const set = new Set<Character>()
+    set.add(value)
+    this.values.set(key, set)
 
     this.insertRecursive(node);
   }
@@ -253,7 +252,7 @@ export class BPlusTree {
     return s;
   }
 
-  _toArray(): Array<Node> {
+  private _toArray(): Array<Node> {
     const arr = new Array<Node>();
     let curr = this.root;
     while (!curr.leaf) {
@@ -284,9 +283,7 @@ export class BPlusTree {
   }
 }
 
-/**
- * When splitting, set the parent key to left-most key of the right child node
- */
+
 export class Node {
   leaf: boolean;
   keys: Array<string>;
