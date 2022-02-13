@@ -210,17 +210,16 @@ export default Vue.extend({
         input.focus()
       })
     },
-    characterDetails: function(val){
-      if (!val){
-        return
-      }
+    search: function(){
+      this.selectionIndex = 0
+      
       const dropdown = this.$refs.dropdown as HTMLDivElement
       
       let {right} = dropdown.getBoundingClientRect()
       this.characterPosition = {left: right + "px", top: 0 + "px"}   
     }
   },
- 
+      
 })
 </script>
 
