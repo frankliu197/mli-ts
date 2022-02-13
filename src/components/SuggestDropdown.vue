@@ -219,7 +219,11 @@ export default Vue.extend({
       this.characterPosition = {left: right + "px", top: 0 + "px"}   
     }
   },
+<<<<<<< HEAD
       
+=======
+ 
+>>>>>>> 4a0248db3e8255e1ad9b785de8499691e56cd405
 })
 </script>
 
