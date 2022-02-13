@@ -28,7 +28,7 @@
         "name": "dollar sign",
         "symbol": "$",
         "keywords": [],
-        "strokes": "|S",
+        "strokes": "S|",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "percent sign",
         "symbol": "%",
         "keywords": [],
-        "strokes": "o/o",
+        "strokes": "/oo",
         "boost": 1
     },
     {
