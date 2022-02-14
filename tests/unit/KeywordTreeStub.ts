@@ -8,20 +8,15 @@ export class StubNode {
   _nextNode?: StubNode;
 }
 
-export class StubTree {
-  keys: Array<string>;
-  child?: Array<StubTree>;
-  _nextNode: StubNode;
-}
 
-export function createStubTree(stubNode: StubNode): StubTree {
+export function createStubTree(stubNode: StubNode) {
   //fills in all the nextNodes
 
   const queue = new Array<{ node: StubNode; depth: number }>();
   let prev = { node: stubNode, depth: 1 };
 
   if (!stubNode.child) {
-    return stubNode as StubTree;
+    return stubNode;
   }
 
   for (const i of stubNode.child) {
@@ -43,10 +38,10 @@ export function createStubTree(stubNode: StubNode): StubTree {
 
     prev = curr;
   }
-  return stubNode as StubTree;
+  return stubNode;
 }
 
-export function assertTree(actualTree: KeywordTree, stubNode: StubTree, characters: Array<Character>): void {
+export function assertTree(actualTree: KeywordTree, stubNode: StubNode, characters: Array<Character>): void {
   //assert root node
   assert.isUndefined(actualTree.root.parent, "root.parent");
   assert.isUndefined(actualTree.root.nextNode, "root.nextNode");
