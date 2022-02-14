@@ -2,6 +2,7 @@ import { isUndefined } from "typescript-collections/dist/lib/util";
 import { enumerate } from "@/helpers/helpers";
 import Character from "./Character";
 import { valueCountPriority, combinePriority , stringMatchPriority} from "./Priority"
+import { Queue } from "typescript-collections";
 const order = 4;
 
 /**
