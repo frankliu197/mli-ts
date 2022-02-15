@@ -4,9 +4,6 @@ import Character from "./Character";
 import { valueCountPriority, combinePriority , stringMatchPriority} from "./Priority"
 import { Queue } from "typescript-collections"
 
-
-
-
 export class StrokeTree {
   root: Node
   values: Map<string, Set<Character>>
@@ -19,12 +16,6 @@ export class StrokeTree {
 		this.nodes.set("", this.root)
   }
 
-
-
-/*let strokeArr = c.strokes.split("").sort()
-		let strokeVal = strokeArr.join()
-
-    */
   insert(c: Character): void {
 		if (this.values.has(c.strokes)){
       const set = this.values.get(c.strokes)!

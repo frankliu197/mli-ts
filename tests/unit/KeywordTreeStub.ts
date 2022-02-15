@@ -8,10 +8,13 @@ export class StubNode {
   _nextNode?: StubNode;
 }
 
-
-export function createStubTree(stubNode: StubNode) {
-  //fills in all the nextNodes
-
+/**
+ * Takes in a tree of stub nodes with keys, and child params filled out. This function then connects the _nextNode? values of the StubNode
+ * to be used as validation in assertTree
+ * @param stubNode 
+ * @returns 
+ */
+export function createStubTree(stubNode: StubNode) : StubNode {
   const queue = new Array<{ node: StubNode; depth: number }>();
   let prev = { node: stubNode, depth: 1 };
 
@@ -84,8 +87,7 @@ function assertNode(actualNode: Node, stubNode: StubNode) {
   }
 
   assert.deepEqual(actualNode.keys, stubNode.keys, "child.keys");
-  //assert.deepEqual(actualNode.values, stubNode._values, "child.values");
-
+ 
   if (stubNode.child) {
     assert.lengthOf(actualNode.child, stubNode.child.length, "child.child");
     assert.isFalse(actualNode.leaf, "child.leaf");

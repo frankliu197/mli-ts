@@ -24,3 +24,12 @@ export function *stripLetter(keyword: string) : Iterable<string>{
 export function stringSort(s: string) : string{
 	return s.split("").sort().join("")
 }
+
+/*
+		//let start = new Date().getTime();
+
+		
+		//const end = new Date().getTime();
+		//const time = end - start;
+		//console.log(start)
+		//console.log('Execution time (ms): ' + time);*/

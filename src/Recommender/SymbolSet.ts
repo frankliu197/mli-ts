@@ -27,6 +27,5 @@ export default class SymbolSet {
 	getCharacter(symbol: string) : Character | undefined {
 		return this.map.get(symbol)
 	}
-	
 }
 

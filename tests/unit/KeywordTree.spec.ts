@@ -18,7 +18,7 @@ function insertCharactersToTree(
   }
 }
 
-describe("KeywordTree", () => {
+describe("KeywordTree structure", () => {
   const latinTree = new KeywordTree();
 
   before(() => {
@@ -135,12 +135,5 @@ describe("KeywordTree", () => {
 
     assert.deepEqual(latinTree.getKeywordSet("!"), []);
   });
-  /*it("works with root split with max children", ()=>{
-		const tree = new BPlusTree()
-		const characters = SymbolSets["BasicLatin"].slice(0, 9)
-		insertCharactersToTree(characters, tree)
-		//add it later
-		assertTree(tree, stubTree)
-		
-	})*/
+
 });

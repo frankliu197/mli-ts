@@ -96,6 +96,10 @@ export default Vue.extend({
         $event.preventDefault()
       }
 
+      //prevent defaults of keys in case user rebinds tabs/enters to another key
+      if ($event.key === "Tab" || $event.key === "Enter") {
+        $event.preventDefault()
+      }
     },
     nextEntry() {
 			if (this.search === "") {
