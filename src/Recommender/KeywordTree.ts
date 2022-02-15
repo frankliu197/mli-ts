@@ -1,63 +1,63 @@
-import { isUndefined } from "typescript-collections/dist/lib/util";
-import { enumerate } from "@/helpers/helpers";
-import Character from "./Character";
-import { valueCountPriority, combinePriority , stringMatchPriority} from "./Priority"
-import { Queue } from "typescript-collections";
+import { isUndefined } from "typescript-collections/dist/lib/util"
+import { enumerate } from "@/helpers/helpers"
+import Character from "./Character"
+import { valueCountPriority, combinePriority, stringMatchPriority } from "./Priority"
 const order = 4;
 
 /**
  * This is a modified BPlusTree
- * 
+ *
  */
 export class KeywordTree {
-  root: Node
-  priorities: Map<string, number>
-  values: Map<string, Set<Character>>
+  root: Node;
+  priorities: Map<string, number>;
+  values: Map<string, Set<Character>>;
 
   constructor() {
     this.root = new Node();
-    this.priorities = new Map()
-    this.values = new Map()
+    this.priorities = new Map();
+    this.values = new Map();
   }
 
   /**
    * Once you are done inserting everything, this will update the priority of each keyword in each node
    */
-  updatePriorities() : void{
-    this.priorities = new Map<string, number>()
+  updatePriorities(): void {
+    this.priorities = new Map<string, number>();
     let curr = this.root;
     while (!curr.leaf) {
       curr = curr.child[0];
     }
 
-    for (const key of curr.keys){
-      this.priorities.set(key, valueCountPriority(this.values.get(key)!.size)) 
+    for (const key of curr.keys) {
+      this.priorities.set(key, valueCountPriority(this.values.get(key)!.size));
     }
 
     while (curr.nextNode) {
       curr = curr.nextNode;
-      for (const key of curr.keys){
-        this.priorities.set(key, valueCountPriority(this.values.get(key)!.size)) 
+      for (const key of curr.keys) {
+        this.priorities.set(
+          key,
+          valueCountPriority(this.values.get(key)!.size)
+        );
       }
     }
   }
 
-
-
   insert(key: string, value: Character): void {
-    if (this.values.has(key)){
-      const set = this.values.get(key)!
-      set.add(value)
-      return
+    if (this.values.has(key)) {
+      const set = this.values.get(key)!;
+      set.add(value);
+      return;
     }
 
     const node = this.searchNode(key);
     const index = node.index(key);
 
     node.keys.splice(index, 0, key);
-    const set = new Set<Character>()
-    set.add(value)
-    this.values.set(key, set)
+    const set = new Set<Character>();
+    set.add(value);
+    this.values.set(key, set);
 
     this.insertRecursive(node);
   }
@@ -97,10 +97,10 @@ export class KeywordTree {
       parent.keys = [right.keys[0]];
 
       if (left.child.length + right.child.length > order) {
-				//remove duplicate right key and move a node over to left
+        //remove duplicate right key and move a node over to left
         right.keys.splice(0, 1);
-				const temp = right.child.splice(0, 1)[0]
-				temp.parent = left
+        const temp = right.child.splice(0, 1)[0];
+        temp.parent = left;
         left.child.push(temp);
       }
 
@@ -123,9 +123,9 @@ export class KeywordTree {
 
     if (left.child.length + right.child.length > order) {
       right.keys.splice(0, 1);
-			const temp = right.child.splice(0, 1)[0]
-			temp.parent = left
-			left.child.push(temp);
+      const temp = right.child.splice(0, 1)[0];
+      temp.parent = left;
+      left.child.push(temp);
     }
 
     left.parent = parent;
@@ -164,59 +164,68 @@ export class KeywordTree {
   }
 
   /**
-   * 
-   * @param map 
-   * @param node 
+   *
+   * @param map
+   * @param node
    * @param search search string (for priority)
-   * @param startIndex 
-   * @param endIndex 
+   * @param startIndex
+   * @param endIndex
    */
-  private addValuesToMap(map: Map<Character, number>, node: Node, search: string, startIndex = 0, endIndex?: number) {
+  private addValuesToMap(
+    map: Map<Character, number>,
+    node: Node,
+    search: string,
+    startIndex = 0,
+    endIndex?: number
+  ) {
     //endIndex = endIndex ?? node.values.length; does not work for testing
-    if (isUndefined(endIndex)){
-      endIndex = node.keys.length
+    if (isUndefined(endIndex)) {
+      endIndex = node.keys.length;
     }
-    
+
     for (let i = startIndex; i < endIndex; i++) {
-      const p = combinePriority(stringMatchPriority(search, node.keys[i]), this.priorities.get(node.keys[i])!)
-      for (const c of this.values.get(node.keys[i])!){
-        if (map.has(c)){
-          map.set(c, combinePriority(p, map.get(c)!)) 
+      const p = combinePriority(
+        stringMatchPriority(search, node.keys[i]),
+        this.priorities.get(node.keys[i])!
+      );
+      for (const c of this.values.get(node.keys[i])!) {
+        if (map.has(c)) {
+          map.set(c, combinePriority(p, map.get(c)!));
         } else {
-          map.set(c, p) 
+          map.set(c, p);
         }
       }
     }
   }
-	
-	getCharacterSet(search: string): Map<Character, number> {
-		let curr: Node | undefined = this.lowerBound(search)
-		const end = this.upperBound(search)
-		const map = new Map<Character, number>()
-		
-		let startIndex = curr.lowerBound(search)
-		if (curr.keys[startIndex - 1] === search){
-			startIndex--
-		}
 
-		const endIndex = end.upperBound(search)
-		
-		if (curr === end){
-			this.addValuesToMap(map, curr, search, startIndex, endIndex)
-			return map
-		}
+  getCharacterSet(search: string): Map<Character, number> {
+    let curr: Node | undefined = this.lowerBound(search);
+    const end = this.upperBound(search);
+    const map = new Map<Character, number>();
 
-		this.addValuesToMap(map, curr, search, startIndex)
-		
-		curr = curr.nextNode
-		while (curr !== end){
-			this.addValuesToMap(map, curr!, search)
-			curr = curr!.nextNode
-		}
-		
-		this.addValuesToMap(map, curr!, search, 0, endIndex)
-		return map
-	}
+    let startIndex = curr.lowerBound(search);
+    if (curr.keys[startIndex - 1] === search) {
+      startIndex--;
+    }
+
+    const endIndex = end.upperBound(search);
+
+    if (curr === end) {
+      this.addValuesToMap(map, curr, search, startIndex, endIndex);
+      return map;
+    }
+
+    this.addValuesToMap(map, curr, search, startIndex);
+
+    curr = curr.nextNode;
+    while (curr !== end) {
+      this.addValuesToMap(map, curr!, search);
+      curr = curr!.nextNode;
+    }
+
+    this.addValuesToMap(map, curr!, search, 0, endIndex);
+    return map;
+  }
 
   private lowerBound(key: string): Node {
     let curr = this.root;
@@ -288,7 +297,6 @@ export class KeywordTree {
   }
 }
 
-
 export class Node {
   leaf: boolean;
   keys: Array<string>;
@@ -297,11 +305,10 @@ export class Node {
   parent?: Node;
 
   constructor(leaf = true) {
-    this.leaf = leaf
-    this.keys = []
-    this.child = []
+    this.leaf = leaf;
+    this.keys = [];
+    this.child = [];
   }
-
 
   /**
    * The index location of the given key
@@ -319,7 +326,7 @@ export class Node {
   index(key: string): number {
     for (const [i, k] of enumerate(this.keys)) {
       if (key < k) {
-        return i
+        return i;
       }
     }
     return this.keys.length;
