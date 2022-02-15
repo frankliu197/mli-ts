@@ -228,6 +228,17 @@ export default Vue.extend({
 </script>
 
 <style lang='scss' scoped>
+
+.input-section {
+  background-color: white;
+}
+
+.dropdown-section {
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
 .dropdown {
   padding: 10px;
   min-width: 70px;
