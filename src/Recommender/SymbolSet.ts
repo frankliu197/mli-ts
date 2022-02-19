@@ -1,6 +1,6 @@
 import Character from "./Character";
 import { setBoosts } from "./Storage";
-export default class SymbolSet {
+export default class SymbolSets {
   symbols: Array<Character>;
   map: Map<string, Character>;
 

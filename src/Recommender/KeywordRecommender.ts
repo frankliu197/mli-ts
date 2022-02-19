@@ -1,6 +1,6 @@
 import { KeywordTree } from "./KeywordTree"
 import Character from "./Character"
-import SymbolSet from "./SymbolSet"
+import SymbolSets from "./SymbolSet"
 import { combinePriority } from "./Priority"
 
 export class KeywordRecommender {
@@ -8,11 +8,9 @@ export class KeywordRecommender {
   constructor() {
     this.tree = new KeywordTree();
   }
-  add(set: SymbolSet): void {
+  add(set: SymbolSets): void {
     for (const c of set.symbols) {
-      for (const k of c.name.split(" ")) {
-        this.tree.insert(k, c);
-      }
+      this.tree.insert(c)
     }
     this.tree.updatePriorities();
   }

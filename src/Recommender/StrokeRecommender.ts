@@ -1,13 +1,13 @@
 import { StrokeTree } from "./StrokeTree";
 import Character from "./Character";
-import SymbolSet from "./SymbolSet";
+import SymbolSets from "./SymbolSet";
 
 export class StrokeRecommender {
   tree: StrokeTree;
   constructor() {
     this.tree = new StrokeTree();
   }
-  add(set: SymbolSet): void {
+  add(set: SymbolSets): void {
     for (const c of set.symbols) {
       this.tree.insert(c);
     }
@@ -17,3 +17,4 @@ export class StrokeRecommender {
     return this.tree.getCharacterSet(search);
   }
 }
+

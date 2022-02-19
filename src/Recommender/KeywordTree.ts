@@ -44,7 +44,13 @@ export class KeywordTree {
     }
   }
 
-  insert(key: string, value: Character): void {
+  insert(character: Character) : void {
+    for (const k of character.name.split(" ")) {
+      this._insert(k, character);
+    }
+  }
+  
+  private _insert(key: string, value: Character): void {
     if (this.values.has(key)) {
       const set = this.values.get(key)!;
       set.add(value);
