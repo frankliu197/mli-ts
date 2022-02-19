@@ -25,21 +25,4 @@ export default {
   padding-right: 18%
 }
 
-.input-box {
-  padding-left: 5%;
-}
-
-.input-box > textarea:nth-child(1) {
-  background: white;
-  font-family: 'Poppins';
-  font-size: 35px;
-  padding: 10px;
-  height: 75px;
-  resize: none;
-  overflow: hidden;
-  border-radius: 10px;
-  border: double 3px #133257;
-  box-shadow: 0 0 10px 1px rgb(96, 213, 248);
-}
-
 </style>

@@ -61,7 +61,7 @@ export default Vue.extend({
       y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
 
-      this.dropdownPosition = {left: `calc(${x}px + ${offset}px)`, top: y + "px"}      
+      this.dropdownPosition = {left: `calc(${x}px + ${offset}px)`, top: y + "px"}
     }
   }, 
   computed: {
@@ -73,11 +73,22 @@ export default Vue.extend({
 </script>
 
 <style lang='scss' scoped>
+
 textarea {
-  width: 90%;
-  height: 20px;
-  margin: 15px;  
-  font-size: 20px;
+  background: white;
+  font-family: 'Poppins';
+  font-size: 35px;
+  padding: 10px;
+  min-height: 75px;
+  width: 80%;
+  overflow: hidden;
+  border-radius: 10px;
+  border: double 3px #133257;
+  box-shadow: 0 0 10px 1px rgb(96, 213, 248);
+}
+
+.input-box {
+  text-align: center;
 }
 
 .dropdown {

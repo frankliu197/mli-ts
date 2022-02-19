@@ -8,7 +8,6 @@
   .header-margin(style="height: 100px")
 </template>
 
-
 <script lang="ts">
 import Vue from "vue"
 export default Vue.extend({
@@ -33,6 +32,10 @@ export default Vue.extend({
   background-color: #133257;
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.v-btn__content {
+  width: 200px;
 }
 
 .title {
