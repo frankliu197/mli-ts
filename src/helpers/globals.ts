@@ -16,4 +16,4 @@ export default Vue.observable({
 		},
 		PAGE_ENTRIES: 9
 	},
-})
+}) 

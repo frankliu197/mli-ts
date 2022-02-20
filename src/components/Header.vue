@@ -1,4 +1,4 @@
-<template lang="pug">
+<template lang="pug"> 
 .header
   v-app-bar(:height=56 fixed)
     <v-app-bar-icon><img src="../assets/headerpic.jpg" alt=""></v-app-bar-icon>
@@ -35,3 +35,4 @@ body{
          }
 </style>
 
+ 

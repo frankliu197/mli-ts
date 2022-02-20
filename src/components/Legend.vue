@@ -5,36 +5,71 @@
             <div> Next page:</div>
             <div id="imagebox"><img src="../assets/up-down.png" alt=""></div>
             <div><span>Shift</span> + <span>ArrowDown</span></div>
+            <div class="eventhandleShiftArrowDown">
+              
+
+             <v-btn>Shift + ArrowDown</v-btn>
+             </div>
         </div>
         <div id="legend-box" class="border-left">
             <div> Prev Page:</div>
             <div id="imagebox"><img src="../assets/twoarrow.png" alt=""></div>
             <div> <span>Shift</span> + <span>ArrowUp</span></div>
+            <div class="eventhandleShiftArrowUp">
+              
+
+             <v-btn>Shift + ArrowUp</v-btn>
+             </div>
         </div> 
         <div id="legend-box" class="border-left">
             <div> Next Entry:</div> 
             <div id="imagebox"><img src="../assets/arrowdown32.png" alt=""></div> 
             <div> <span>     </span>      <span>ArrowDown</span></div>
+            <div class="eventhandleArrowDown">
+             <v-btn>ArrowDown</v-btn>
+             </div>
         </div>
         <div id="legend-box" class="border-left"> 
             <div> Prev Entry:</div>
             <div id="imagebox"><img src="../assets/arrowup32.png" alt=""></div>
             <div> <span>    </span>   <span>ArrowUp</span></div>
+            <div class="eventhandleArrowUp">
+              
+
+             <v-btn>ArrowUp</v-btn>
+             </div>
         </div>
         <div id="legend-box" class="border-left">
             <div>Description:</div>
             <div id="imagebox"><img src="../assets/tab32.png" alt=""></div>
             <div> <span>    </span>   <span>Tab</span></div>
+            <div class="eventhandleTab">
+              
+
+             <v-btn>Tab</v-btn>
+             </div>
         </div>
         <div id="legend-box" class="border-left">
             <div> Enter:</div>
             <div id="imagebox"><img src="../assets/enter.png" alt=""></div>
             <div> <span>    </span>   <span>Enter</span></div>
+            <div class="eventhandleEnter">
+              
+             <v-btn>Enter</v-btn>
+        </div>
         </div>
         <div id="legend-box" class="border-left">
         <div>Toggledropdown:</div>
             <div id="imagebox"><img src="../assets/pagedown.png" alt=""></div>
-            <div> <span>    </span>   <span>PageDown</span></div> 
+            <div> <span>    </span>   <span>PageDown</span></div>
+
+            <div class="eventhandleToggledropDown">
+              
+
+             <v-btn>PageDown</v-btn>
+
+
+    </div>  
         </div> 
     </div>
 </template>   
@@ -86,3 +121,4 @@ export default Vue.extend({
    
 </style>
 
+  
