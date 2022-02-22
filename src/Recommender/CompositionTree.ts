@@ -4,7 +4,7 @@ import Character from "./Character";
 import { stringMatchPriority } from "./Priority";
 import { Queue } from "typescript-collections";
 
-export class StrokeTree {
+export class CompositionTree {
   root: Node;
   values: Map<string, Set<Character>>;
   nodes: Map<string, Node>;
@@ -17,36 +17,36 @@ export class StrokeTree {
   }
 
   insert(c: Character): void {
-    if (this.values.has(c.strokes)) {
-      const set = this.values.get(c.strokes)!;
+    if (this.nodes.has(c.composition)) {
+      const set = this.values.get(c.composition)!;
       set.add(c);
       return;
     }
 
-    let currNode = new Node(c.strokes);
-    this.nodes.set(c.strokes, currNode);
+    let currNode = new Node(c.composition);
+    this.nodes.set(c.composition, currNode);
 
     const set = new Set<Character>();
     set.add(c);
-    this.values.set(c.strokes, set);
+    this.values.set(c.composition, set);
 
-    for (const s of stripLetter(c.strokes)) {
+    for (const s of stripLetter(c.composition)) {
       this.insertRecursive(currNode, s);
     }
   }
 
-  insertRecursive(childNode: Node, stroke: string): void {
-    if (this.nodes.has(stroke)) {
-      this.nodes.get(stroke)?.child.push(childNode);
+  insertRecursive(childNode: Node, composition: string): void {
+    if (this.nodes.has(composition)) { 
+      this.nodes.get(composition)!.child.push(childNode); 
       return;
     }
 
-    const currNode = new Node(stroke);
-    this.nodes.set(stroke, currNode);
-    this.values.set(stroke, new Set());
+    const currNode = new Node(composition);
+    this.nodes.set(composition, currNode);
+    this.values.set(composition, new Set());
     currNode.child.push(childNode);
 
-    for (const s of stripLetter(stroke)) {
+    for (const s of stripLetter(composition)) {
       this.insertRecursive(currNode, s);
     }
   }
@@ -65,9 +65,9 @@ export class StrokeTree {
 
     while (queue.size() > 0) {
       const curr = queue.dequeue()!;
-      const p = stringMatchPriority(search, curr.stroke);
+      const p = stringMatchPriority(search, curr.composition);
 
-      for (const c of this.values.get(curr.stroke)!) {
+      for (const c of this.values.get(curr.composition)!) {
         //only set the first time, because that time is the closest to the node that has been search
         if (!map.has(c)) {
           map.set(c, p);
@@ -86,15 +86,15 @@ export class StrokeTree {
 }
 
 export class Node {
-  stroke: string;
+  composition: string;
   child: Array<Node>;
 
   constructor(stroke: string) {
-    this.stroke = stroke;
+    this.composition = stroke;
     this.child = new Array<Node>();
   }
 
   toString(): string {
-    return this.stroke;
+    return this.composition;
   }
 }

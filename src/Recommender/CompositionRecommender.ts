@@ -1,11 +1,11 @@
-import { StrokeTree } from "./StrokeTree";
+import { CompositionTree } from "./CompositionTree";
 import Character from "./Character";
 import SymbolSets from "./SymbolSet";
 
-export class StrokeRecommender {
-  tree: StrokeTree;
+export class CompositionRecommender {
+  tree: CompositionTree;
   constructor() {
-    this.tree = new StrokeTree();
+    this.tree = new CompositionTree();
   }
   add(set: SymbolSets): void {
     for (const c of set.symbols) {

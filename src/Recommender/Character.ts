@@ -3,7 +3,7 @@ export default class {
   public symbol: string;
   public name: string;
   public keywords: Array<string>;
-  public strokes: string;
+  public composition: string;
   public boost: number;
 
   public hashcode(): number {

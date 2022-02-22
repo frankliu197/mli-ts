@@ -5,6 +5,23 @@ export function* enumerate<T>(array: Array<T>, start = 0): Iterable<[number, T]>
   }
 }
 
+
+/**
+ * Execution since the last call of timer in mileseconds
+ * @returns 
+ */
+export function* timer(): Iterable<number> {
+  let start = new Date().getTime();
+  
+  yield 0;
+
+	while (true){
+    let end = new Date().getTime();
+    yield end - start
+    start = end
+  }	
+}
+
 /**
  * set of all possible strings with one less letter in the same order
  * @param keyword
@@ -21,15 +38,9 @@ export function* stripLetter(keyword: string): Iterable<string> {
   }
 }
 
+//inside helpers.ts
 export function stringSort(s: string): string {
   return s.split("").sort().join("");
 }
 
-/*
-		//let start = new Date().getTime();
 
-		
-		//const end = new Date().getTime();
-		//const time = end - start;
-		//console.log(start)
-		//console.log('Execution time (ms): ' + time);*/
