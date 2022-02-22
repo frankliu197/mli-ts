@@ -1,7 +1,7 @@
 <template lang='pug'>
 .dropdown(v-click-outside="close")
   .input-section
-    input(ref="input" v-model="search"  v-autowidth="{maxWidth:'960px', minWidth: `${50}px`, comfortZone: 10}" @keydown="handleDropdown")
+    input(ref="input" id="suggest_dropdown" v-model="search"  v-autowidth="{maxWidth:'960px', minWidth: `${50}px`, comfortZone: 10}" @keydown="handleDropdown")
   .dropdown-section(ref="dropdown")
     button.dropdown-element(
       v-for="(item, index) of pageEntries()"
@@ -52,8 +52,10 @@ export default Vue.extend({
     }
   },
   methods: {
-    close() {
-      this.$emit('close')
+    close(event) {
+      //alert(event.target.tagName);
+      if(event.target.tagName != "SPAN")
+        this.$emit('close')
     }, 
     choose(index: number) {
       this.selected(this.getSuggestion(this.page, index))
@@ -70,7 +72,8 @@ export default Vue.extend({
       this.characterDetails = !this.characterDetails
     },
     handleDropdown($event: KeyboardEvent){
-
+     // alert('dropdown');
+      //alert($event.key);
       let functionKey = ""
       if ($event.ctrlKey){
         functionKey += "Control "
@@ -155,7 +158,7 @@ export default Vue.extend({
         return this.PAGE_ENTRIES
       }
     },
-    pageEntries(): Array<Character> {
+    pageEntries(): Array<Character> { 
       const start = this.PAGE_ENTRIES * this.page
       return this.suggestions.slice(start, start + this.PAGE_ENTRIES)
     },
@@ -196,6 +199,8 @@ export default Vue.extend({
   },
   watch: {
     show: function(val) {
+     // alert("show");
+     // alert(val);
       const input = this.$refs.input as HTMLInputElement
       
       if (!val) {

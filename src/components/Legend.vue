@@ -1,6 +1,6 @@
-<template lang =  "pug"> 
+<template lang =  "pug">   
            
-    <div id="legend">           
+    <div id="legend">          
         <div id="legend-box">
             <div> Next page:</div>
             <div id="imagebox"><img src="../assets/up-down.png" alt=""></div>
@@ -8,17 +8,17 @@
             <div class="eventhandleShiftArrowDown">
               
 
-             <v-btn>Shift + ArrowDown</v-btn>
+             <v-btn @mousedown="keep_focus" @click="shift_arrowdown">Shift + ArrowDown</v-btn>
              </div>
         </div>
-        <div id="legend-box" class="border-left">
+        <div id="legend-box" class="border-left"> 
             <div> Prev Page:</div>
             <div id="imagebox"><img src="../assets/twoarrow.png" alt=""></div>
             <div> <span>Shift</span> + <span>ArrowUp</span></div>
             <div class="eventhandleShiftArrowUp">
               
 
-             <v-btn>Shift + ArrowUp</v-btn>
+             <v-btn @click="shift_arrow_up">Shift + ArrowUp</v-btn>
              </div>
         </div> 
         <div id="legend-box" class="border-left">
@@ -26,7 +26,7 @@
             <div id="imagebox"><img src="../assets/arrowdown32.png" alt=""></div> 
             <div> <span>     </span>      <span>ArrowDown</span></div>
             <div class="eventhandleArrowDown">
-             <v-btn>ArrowDown</v-btn>
+             <v-btn @mousedown="keep_focus" @click="arrow_down" >ArrowDown</v-btn>
              </div>
         </div>
         <div id="legend-box" class="border-left"> 
@@ -36,7 +36,7 @@
             <div class="eventhandleArrowUp">
               
 
-             <v-btn>ArrowUp</v-btn>
+             <v-btn @click="arrow_up">ArrowUp</v-btn>
              </div>
         </div>
         <div id="legend-box" class="border-left">
@@ -46,7 +46,7 @@
             <div class="eventhandleTab">
               
 
-             <v-btn>Tab</v-btn>
+             <v-btn @click="tab" >Tab</v-btn>
              </div>
         </div>
         <div id="legend-box" class="border-left">
@@ -55,7 +55,7 @@
             <div> <span>    </span>   <span>Enter</span></div>
             <div class="eventhandleEnter">
               
-             <v-btn>Enter</v-btn>
+             <v-btn @click="enter">Enter</v-btn>
         </div>
         </div>
         <div id="legend-box" class="border-left">
@@ -66,7 +66,7 @@
             <div class="eventhandleToggledropDown">
               
 
-             <v-btn>PageDown</v-btn>
+             <v-btn @click="page_down">PageDown</v-btn>
 
 
     </div>  
@@ -74,10 +74,86 @@
     </div>
 </template>   
 
+
 <script lang="ts">
 import Vue from "vue"
 export default Vue.extend({
-  name: "Legend"
+  name: "Legend",
+  methods : {
+      keep_focus(e){
+          e.preventDefault();
+      },
+      enter(){
+           var element = document.getElementById("suggest_dropdown");
+
+        element?.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'Enter',
+        }));
+
+        //event.preventDefault();
+      },
+      page_down(){
+           var element = document.getElementById("input_box");
+
+        element?.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'PageDown',
+        }));
+
+        //event.preventDefault();
+      },
+      tab(){
+           var element = document.getElementById("suggest_dropdown");
+
+        element?.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'Tab',
+        }));
+
+       // event.preventDefault();
+      },
+      shift_arrow_up(){
+           var element = document.getElementById("suggest_dropdown");
+
+        element?.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'ArrowUp',
+            shiftKey: true,
+        }));
+
+
+      },
+      arrow_up(){
+           var element = document.getElementById("suggest_dropdown");
+
+        element?.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'ArrowUp',
+        }));
+      },
+      arrow_down(event){
+           // alert("arown_down");
+        var element = document.getElementById("suggest_dropdown");
+
+        element?.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'ArrowDown',
+        }));
+
+        event.preventDefault();
+
+      },
+      shift_arrowdown(e){
+
+        e.preventDefault();
+
+        //var element = document.getElementById("input_box");
+        var element = document.getElementById("suggest_dropdown");
+
+        element?.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'ArrowDown',
+            shiftKey: true
+        }));        
+    },
+    shift_arrowup(){
+        alert("shift_arrowup");
+    }
+}
 });
 </script>
 
@@ -120,5 +196,3 @@ export default Vue.extend({
 
    
 </style>
-
-  

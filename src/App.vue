@@ -17,7 +17,7 @@ export default Vue.extend({
   components: {
     Header,
     Home,
-    Legend
+    Legend 
     
   }
 })

@@ -1,10 +1,10 @@
 <template lang='pug'>
 .input-box
-  textarea(ref="textarea" @keydown="openDropdown" default="Type Here")
+  textarea(ref="textarea" @keydown="openDropdown" default="Type Here" id="input_box")
   FloatingComponent(v-show="dropdownShow" :position="dropdownPosition")
     SuggestDropdown(:show="dropdownShow" @close="dropdownShow = false" @selected="write($event)")
 
-</template>
+</template> 
 
 <script lang='ts'>
 import Character from '@/Recommender/Character';
