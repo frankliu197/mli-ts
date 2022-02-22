@@ -21,7 +21,7 @@ export default Vue.extend({
 .app {
   width: 100vw;
   min-height: 100vh;
-  background: #f5f5f5;
+  background: #0f2944;
   transition: background 0.3s ease-in-out;
 }
 </style>

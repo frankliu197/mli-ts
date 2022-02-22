@@ -4,7 +4,7 @@
         "name": "latin capital letter a with macron",
         "symbol": "\u0100",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -12,7 +12,7 @@
         "name": "latin small letter a with macron",
         "symbol": "\u0101",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "latin capital letter a with breve",
         "symbol": "\u0102",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "latin small letter a with breve",
         "symbol": "\u0103",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "latin capital letter a with ogonek",
         "symbol": "\u0104",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -44,7 +44,7 @@
         "name": "latin small letter a with ogonek",
         "symbol": "\u0105",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -52,7 +52,7 @@
         "name": "latin capital letter c with acute",
         "symbol": "\u0106",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -60,7 +60,7 @@
         "name": "latin small letter c with acute",
         "symbol": "\u0107",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -68,7 +68,7 @@
         "name": "latin capital letter c with circumflex",
         "symbol": "\u0108",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -76,7 +76,7 @@
         "name": "latin small letter c with circumflex",
         "symbol": "\u0109",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -84,7 +84,7 @@
         "name": "latin capital letter c with dot above",
         "symbol": "\u010a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -92,7 +92,7 @@
         "name": "latin small letter c with dot above",
         "symbol": "\u010b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -100,7 +100,7 @@
         "name": "latin capital letter c with caron",
         "symbol": "\u010c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -108,7 +108,7 @@
         "name": "latin small letter c with caron",
         "symbol": "\u010d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -116,7 +116,7 @@
         "name": "latin capital letter d with caron",
         "symbol": "\u010e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -124,7 +124,7 @@
         "name": "latin small letter d with caron",
         "symbol": "\u010f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -132,7 +132,7 @@
         "name": "latin capital letter d with stroke",
         "symbol": "\u0110",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -140,7 +140,7 @@
         "name": "latin small letter d with stroke",
         "symbol": "\u0111",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -148,7 +148,7 @@
         "name": "latin capital letter e with macron",
         "symbol": "\u0112",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -156,7 +156,7 @@
         "name": "latin small letter e with macron",
         "symbol": "\u0113",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -164,7 +164,7 @@
         "name": "latin capital letter e with breve",
         "symbol": "\u0114",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -172,7 +172,7 @@
         "name": "latin small letter e with breve",
         "symbol": "\u0115",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -180,7 +180,7 @@
         "name": "latin capital letter e with dot above",
         "symbol": "\u0116",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -188,7 +188,7 @@
         "name": "latin small letter e with dot above",
         "symbol": "\u0117",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -196,7 +196,7 @@
         "name": "latin capital letter e with ogonek",
         "symbol": "\u0118",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -204,7 +204,7 @@
         "name": "latin small letter e with ogonek",
         "symbol": "\u0119",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "latin capital letter e with caron",
         "symbol": "\u011a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -220,7 +220,7 @@
         "name": "latin small letter e with caron",
         "symbol": "\u011b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -228,7 +228,7 @@
         "name": "latin capital letter g with circumflex",
         "symbol": "\u011c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -236,7 +236,7 @@
         "name": "latin small letter g with circumflex",
         "symbol": "\u011d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -244,7 +244,7 @@
         "name": "latin capital letter g with breve",
         "symbol": "\u011e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -252,7 +252,7 @@
         "name": "latin small letter g with breve",
         "symbol": "\u011f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -260,7 +260,7 @@
         "name": "latin capital letter g with dot above",
         "symbol": "\u0120",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -268,7 +268,7 @@
         "name": "latin small letter g with dot above",
         "symbol": "\u0121",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -276,7 +276,7 @@
         "name": "latin capital letter g with cedilla",
         "symbol": "\u0122",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -284,7 +284,7 @@
         "name": "latin small letter g with cedilla",
         "symbol": "\u0123",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -292,7 +292,7 @@
         "name": "latin capital letter h with circumflex",
         "symbol": "\u0124",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -300,7 +300,7 @@
         "name": "latin small letter h with circumflex",
         "symbol": "\u0125",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -308,7 +308,7 @@
         "name": "latin capital letter h with stroke",
         "symbol": "\u0126",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -316,7 +316,7 @@
         "name": "latin small letter h with stroke",
         "symbol": "\u0127",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -324,7 +324,7 @@
         "name": "latin capital letter i with tilde",
         "symbol": "\u0128",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -332,7 +332,7 @@
         "name": "latin small letter i with tilde",
         "symbol": "\u0129",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -340,7 +340,7 @@
         "name": "latin capital letter i with macron",
         "symbol": "\u012a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -348,7 +348,7 @@
         "name": "latin small letter i with macron",
         "symbol": "\u012b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -356,7 +356,7 @@
         "name": "latin capital letter i with breve",
         "symbol": "\u012c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -364,7 +364,7 @@
         "name": "latin small letter i with breve",
         "symbol": "\u012d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -372,7 +372,7 @@
         "name": "latin capital letter i with ogonek",
         "symbol": "\u012e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -380,7 +380,7 @@
         "name": "latin small letter i with ogonek",
         "symbol": "\u012f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -388,7 +388,7 @@
         "name": "latin capital letter i with dot above",
         "symbol": "\u0130",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -396,7 +396,7 @@
         "name": "latin small letter dotless i",
         "symbol": "\u0131",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -404,7 +404,7 @@
         "name": "latin capital ligature ij",
         "symbol": "\u0132",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -412,7 +412,7 @@
         "name": "latin small ligature ij",
         "symbol": "\u0133",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -420,7 +420,7 @@
         "name": "latin capital letter j with circumflex",
         "symbol": "\u0134",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -428,7 +428,7 @@
         "name": "latin small letter j with circumflex",
         "symbol": "\u0135",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -436,7 +436,7 @@
         "name": "latin capital letter k with cedilla",
         "symbol": "\u0136",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -444,7 +444,7 @@
         "name": "latin small letter k with cedilla",
         "symbol": "\u0137",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -452,7 +452,7 @@
         "name": "latin small letter kra",
         "symbol": "\u0138",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -460,7 +460,7 @@
         "name": "latin capital letter l with acute",
         "symbol": "\u0139",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -468,7 +468,7 @@
         "name": "latin small letter l with acute",
         "symbol": "\u013a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -476,7 +476,7 @@
         "name": "latin capital letter l with cedilla",
         "symbol": "\u013b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -484,7 +484,7 @@
         "name": "latin small letter l with cedilla",
         "symbol": "\u013c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -492,7 +492,7 @@
         "name": "latin capital letter l with caron",
         "symbol": "\u013d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -500,7 +500,7 @@
         "name": "latin small letter l with caron",
         "symbol": "\u013e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -508,7 +508,7 @@
         "name": "latin capital letter l with middle dot",
         "symbol": "\u013f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -516,7 +516,7 @@
         "name": "latin small letter l with middle dot",
         "symbol": "\u0140",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -524,7 +524,7 @@
         "name": "latin capital letter l with stroke",
         "symbol": "\u0141",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -532,7 +532,7 @@
         "name": "latin small letter l with stroke",
         "symbol": "\u0142",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -540,7 +540,7 @@
         "name": "latin capital letter n with acute",
         "symbol": "\u0143",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -548,7 +548,7 @@
         "name": "latin small letter n with acute",
         "symbol": "\u0144",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -556,7 +556,7 @@
         "name": "latin capital letter n with cedilla",
         "symbol": "\u0145",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -564,7 +564,7 @@
         "name": "latin small letter n with cedilla",
         "symbol": "\u0146",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -572,7 +572,7 @@
         "name": "latin capital letter n with caron",
         "symbol": "\u0147",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -580,7 +580,7 @@
         "name": "latin small letter n with caron",
         "symbol": "\u0148",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -588,7 +588,7 @@
         "name": "latin small letter n preceded by apostrophe",
         "symbol": "\u0149",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -596,7 +596,7 @@
         "name": "latin capital letter eng",
         "symbol": "\u014a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -604,7 +604,7 @@
         "name": "latin small letter eng",
         "symbol": "\u014b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -612,7 +612,7 @@
         "name": "latin capital letter o with macron",
         "symbol": "\u014c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -620,7 +620,7 @@
         "name": "latin small letter o with macron",
         "symbol": "\u014d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -628,7 +628,7 @@
         "name": "latin capital letter o with breve",
         "symbol": "\u014e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -636,7 +636,7 @@
         "name": "latin small letter o with breve",
         "symbol": "\u014f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -644,7 +644,7 @@
         "name": "latin capital letter o with double acute",
         "symbol": "\u0150",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -652,7 +652,7 @@
         "name": "latin small letter o with double acute",
         "symbol": "\u0151",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -660,7 +660,7 @@
         "name": "latin capital ligature oe",
         "symbol": "\u0152",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -668,7 +668,7 @@
         "name": "latin small ligature oe",
         "symbol": "\u0153",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -676,7 +676,7 @@
         "name": "latin capital letter r with acute",
         "symbol": "\u0154",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -684,7 +684,7 @@
         "name": "latin small letter r with acute",
         "symbol": "\u0155",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -692,7 +692,7 @@
         "name": "latin capital letter r with cedilla",
         "symbol": "\u0156",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -700,7 +700,7 @@
         "name": "latin small letter r with cedilla",
         "symbol": "\u0157",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -708,7 +708,7 @@
         "name": "latin capital letter r with caron",
         "symbol": "\u0158",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -716,7 +716,7 @@
         "name": "latin small letter r with caron",
         "symbol": "\u0159",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -724,7 +724,7 @@
         "name": "latin capital letter s with acute",
         "symbol": "\u015a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -732,7 +732,7 @@
         "name": "latin small letter s with acute",
         "symbol": "\u015b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -740,7 +740,7 @@
         "name": "latin capital letter s with circumflex",
         "symbol": "\u015c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -748,7 +748,7 @@
         "name": "latin small letter s with circumflex",
         "symbol": "\u015d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -756,7 +756,7 @@
         "name": "latin capital letter s with cedilla",
         "symbol": "\u015e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -764,7 +764,7 @@
         "name": "latin small letter s with cedilla",
         "symbol": "\u015f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -772,7 +772,7 @@
         "name": "latin capital letter s with caron",
         "symbol": "\u0160",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -780,7 +780,7 @@
         "name": "latin small letter s with caron",
         "symbol": "\u0161",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -788,7 +788,7 @@
         "name": "latin capital letter t with cedilla",
         "symbol": "\u0162",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -796,7 +796,7 @@
         "name": "latin small letter t with cedilla",
         "symbol": "\u0163",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -804,7 +804,7 @@
         "name": "latin capital letter t with caron",
         "symbol": "\u0164",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -812,7 +812,7 @@
         "name": "latin small letter t with caron",
         "symbol": "\u0165",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -820,7 +820,7 @@
         "name": "latin capital letter t with stroke",
         "symbol": "\u0166",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -828,7 +828,7 @@
         "name": "latin small letter t with stroke",
         "symbol": "\u0167",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -836,7 +836,7 @@
         "name": "latin capital letter u with tilde",
         "symbol": "\u0168",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -844,7 +844,7 @@
         "name": "latin small letter u with tilde",
         "symbol": "\u0169",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -852,7 +852,7 @@
         "name": "latin capital letter u with macron",
         "symbol": "\u016a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -860,7 +860,7 @@
         "name": "latin small letter u with macron",
         "symbol": "\u016b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -868,7 +868,7 @@
         "name": "latin capital letter u with breve",
         "symbol": "\u016c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -876,7 +876,7 @@
         "name": "latin small letter u with breve",
         "symbol": "\u016d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -884,7 +884,7 @@
         "name": "latin capital letter u with ring above",
         "symbol": "\u016e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -892,7 +892,7 @@
         "name": "latin small letter u with ring above",
         "symbol": "\u016f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -900,7 +900,7 @@
         "name": "latin capital letter u with double acute",
         "symbol": "\u0170",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -908,7 +908,7 @@
         "name": "latin small letter u with double acute",
         "symbol": "\u0171",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -916,7 +916,7 @@
         "name": "latin capital letter u with ogonek",
         "symbol": "\u0172",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -924,7 +924,7 @@
         "name": "latin small letter u with ogonek",
         "symbol": "\u0173",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -932,7 +932,7 @@
         "name": "latin capital letter w with circumflex",
         "symbol": "\u0174",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -940,7 +940,7 @@
         "name": "latin small letter w with circumflex",
         "symbol": "\u0175",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -948,7 +948,7 @@
         "name": "latin capital letter y with circumflex",
         "symbol": "\u0176",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -956,7 +956,7 @@
         "name": "latin small letter y with circumflex",
         "symbol": "\u0177",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -964,7 +964,7 @@
         "name": "latin capital letter y with diaeresis",
         "symbol": "\u0178",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -972,7 +972,7 @@
         "name": "latin capital letter z with acute",
         "symbol": "\u0179",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -980,7 +980,7 @@
         "name": "latin small letter z with acute",
         "symbol": "\u017a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -988,7 +988,7 @@
         "name": "latin capital letter z with dot above",
         "symbol": "\u017b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -996,7 +996,7 @@
         "name": "latin small letter z with dot above",
         "symbol": "\u017c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1004,7 +1004,7 @@
         "name": "latin capital letter z with caron",
         "symbol": "\u017d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1012,7 +1012,7 @@
         "name": "latin small letter z with caron",
         "symbol": "\u017e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1020,7 +1020,7 @@
         "name": "latin small letter long s",
         "symbol": "\u017f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1028,7 +1028,7 @@
         "name": "latin small letter b with stroke",
         "symbol": "\u0180",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1036,7 +1036,7 @@
         "name": "latin capital letter b with hook",
         "symbol": "\u0181",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1044,7 +1044,7 @@
         "name": "latin capital letter b with topbar",
         "symbol": "\u0182",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1052,7 +1052,7 @@
         "name": "latin small letter b with topbar",
         "symbol": "\u0183",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1060,7 +1060,7 @@
         "name": "latin capital letter tone six",
         "symbol": "\u0184",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1068,7 +1068,7 @@
         "name": "latin small letter tone six",
         "symbol": "\u0185",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1076,7 +1076,7 @@
         "name": "latin capital letter open o",
         "symbol": "\u0186",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1084,7 +1084,7 @@
         "name": "latin capital letter c with hook",
         "symbol": "\u0187",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1092,7 +1092,7 @@
         "name": "latin small letter c with hook",
         "symbol": "\u0188",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1100,7 +1100,7 @@
         "name": "latin capital letter african d",
         "symbol": "\u0189",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1108,7 +1108,7 @@
         "name": "latin capital letter d with hook",
         "symbol": "\u018a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1116,7 +1116,7 @@
         "name": "latin capital letter d with topbar",
         "symbol": "\u018b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1124,7 +1124,7 @@
         "name": "latin small letter d with topbar",
         "symbol": "\u018c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1132,7 +1132,7 @@
         "name": "latin small letter turned delta",
         "symbol": "\u018d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1140,7 +1140,7 @@
         "name": "latin capital letter reversed e",
         "symbol": "\u018e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1148,7 +1148,7 @@
         "name": "latin capital letter schwa",
         "symbol": "\u018f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1156,7 +1156,7 @@
         "name": "latin capital letter open e",
         "symbol": "\u0190",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1164,7 +1164,7 @@
         "name": "latin capital letter f with hook",
         "symbol": "\u0191",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1172,7 +1172,7 @@
         "name": "latin small letter f with hook",
         "symbol": "\u0192",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1180,7 +1180,7 @@
         "name": "latin capital letter g with hook",
         "symbol": "\u0193",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1188,7 +1188,7 @@
         "name": "latin capital letter gamma",
         "symbol": "\u0194",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1196,7 +1196,7 @@
         "name": "latin small letter hv",
         "symbol": "\u0195",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1204,7 +1204,7 @@
         "name": "latin capital letter iota",
         "symbol": "\u0196",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1212,7 +1212,7 @@
         "name": "latin capital letter i with stroke",
         "symbol": "\u0197",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1220,7 +1220,7 @@
         "name": "latin capital letter k with hook",
         "symbol": "\u0198",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1228,7 +1228,7 @@
         "name": "latin small letter k with hook",
         "symbol": "\u0199",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1236,7 +1236,7 @@
         "name": "latin small letter l with bar",
         "symbol": "\u019a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1244,7 +1244,7 @@
         "name": "latin small letter lambda with stroke",
         "symbol": "\u019b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1252,7 +1252,7 @@
         "name": "latin capital letter turned m",
         "symbol": "\u019c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1260,7 +1260,7 @@
         "name": "latin capital letter n with left hook",
         "symbol": "\u019d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1268,7 +1268,7 @@
         "name": "latin small letter n with long right leg",
         "symbol": "\u019e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1276,7 +1276,7 @@
         "name": "latin capital letter o with middle tilde",
         "symbol": "\u019f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1284,7 +1284,7 @@
         "name": "latin capital letter o with horn",
         "symbol": "\u01a0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1292,7 +1292,7 @@
         "name": "latin small letter o with horn",
         "symbol": "\u01a1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1300,7 +1300,7 @@
         "name": "latin capital letter oi",
         "symbol": "\u01a2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1308,7 +1308,7 @@
         "name": "latin small letter oi",
         "symbol": "\u01a3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1316,7 +1316,7 @@
         "name": "latin capital letter p with hook",
         "symbol": "\u01a4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1324,7 +1324,7 @@
         "name": "latin small letter p with hook",
         "symbol": "\u01a5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1332,7 +1332,7 @@
         "name": "latin letter yr",
         "symbol": "\u01a6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1340,7 +1340,7 @@
         "name": "latin capital letter tone two",
         "symbol": "\u01a7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1348,7 +1348,7 @@
         "name": "latin small letter tone two",
         "symbol": "\u01a8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1356,7 +1356,7 @@
         "name": "latin capital letter esh",
         "symbol": "\u01a9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1364,7 +1364,7 @@
         "name": "latin letter reversed esh loop",
         "symbol": "\u01aa",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1372,7 +1372,7 @@
         "name": "latin small letter t with palatal hook",
         "symbol": "\u01ab",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1380,7 +1380,7 @@
         "name": "latin capital letter t with hook",
         "symbol": "\u01ac",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1388,7 +1388,7 @@
         "name": "latin small letter t with hook",
         "symbol": "\u01ad",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1396,7 +1396,7 @@
         "name": "latin capital letter t with retroflex hook",
         "symbol": "\u01ae",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1404,7 +1404,7 @@
         "name": "latin capital letter u with horn",
         "symbol": "\u01af",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1412,7 +1412,7 @@
         "name": "latin small letter u with horn",
         "symbol": "\u01b0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1420,7 +1420,7 @@
         "name": "latin capital letter upsilon",
         "symbol": "\u01b1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1428,7 +1428,7 @@
         "name": "latin capital letter v with hook",
         "symbol": "\u01b2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1436,7 +1436,7 @@
         "name": "latin capital letter y with hook",
         "symbol": "\u01b3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1444,7 +1444,7 @@
         "name": "latin small letter y with hook",
         "symbol": "\u01b4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1452,7 +1452,7 @@
         "name": "latin capital letter z with stroke",
         "symbol": "\u01b5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1460,7 +1460,7 @@
         "name": "latin small letter z with stroke",
         "symbol": "\u01b6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1468,7 +1468,7 @@
         "name": "latin capital letter ezh",
         "symbol": "\u01b7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1476,7 +1476,7 @@
         "name": "latin capital letter ezh reversed",
         "symbol": "\u01b8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1484,7 +1484,7 @@
         "name": "latin small letter ezh reversed",
         "symbol": "\u01b9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1492,7 +1492,7 @@
         "name": "latin small letter ezh with tail",
         "symbol": "\u01ba",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1500,7 +1500,7 @@
         "name": "latin letter two with stroke",
         "symbol": "\u01bb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1508,7 +1508,7 @@
         "name": "latin capital letter tone five",
         "symbol": "\u01bc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1516,7 +1516,7 @@
         "name": "latin small letter tone five",
         "symbol": "\u01bd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1524,7 +1524,7 @@
         "name": "latin letter inverted glottal stop with stroke",
         "symbol": "\u01be",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1532,7 +1532,7 @@
         "name": "latin letter wynn",
         "symbol": "\u01bf",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1540,7 +1540,7 @@
         "name": "latin letter dental click",
         "symbol": "\u01c0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1548,7 +1548,7 @@
         "name": "latin letter lateral click",
         "symbol": "\u01c1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1556,7 +1556,7 @@
         "name": "latin letter alveolar click",
         "symbol": "\u01c2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1564,7 +1564,7 @@
         "name": "latin letter retroflex click",
         "symbol": "\u01c3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1572,7 +1572,7 @@
         "name": "latin capital letter dz with caron",
         "symbol": "\u01c4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1580,7 +1580,7 @@
         "name": "latin capital letter d with small letter z with caron",
         "symbol": "\u01c5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1588,7 +1588,7 @@
         "name": "latin small letter dz with caron",
         "symbol": "\u01c6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1596,7 +1596,7 @@
         "name": "latin capital letter lj",
         "symbol": "\u01c7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1604,7 +1604,7 @@
         "name": "latin capital letter l with small letter j",
         "symbol": "\u01c8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1612,7 +1612,7 @@
         "name": "latin small letter lj",
         "symbol": "\u01c9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1620,7 +1620,7 @@
         "name": "latin capital letter nj",
         "symbol": "\u01ca",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1628,7 +1628,7 @@
         "name": "latin capital letter n with small letter j",
         "symbol": "\u01cb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1636,7 +1636,7 @@
         "name": "latin small letter nj",
         "symbol": "\u01cc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1644,7 +1644,7 @@
         "name": "latin capital letter a with caron",
         "symbol": "\u01cd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1652,7 +1652,7 @@
         "name": "latin small letter a with caron",
         "symbol": "\u01ce",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1660,7 +1660,7 @@
         "name": "latin capital letter i with caron",
         "symbol": "\u01cf",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1668,7 +1668,7 @@
         "name": "latin small letter i with caron",
         "symbol": "\u01d0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1676,7 +1676,7 @@
         "name": "latin capital letter o with caron",
         "symbol": "\u01d1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1684,7 +1684,7 @@
         "name": "latin small letter o with caron",
         "symbol": "\u01d2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1692,7 +1692,7 @@
         "name": "latin capital letter u with caron",
         "symbol": "\u01d3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1700,7 +1700,7 @@
         "name": "latin small letter u with caron",
         "symbol": "\u01d4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1708,7 +1708,7 @@
         "name": "latin capital letter u with diaeresis and macron",
         "symbol": "\u01d5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1716,7 +1716,7 @@
         "name": "latin small letter u with diaeresis and macron",
         "symbol": "\u01d6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1724,7 +1724,7 @@
         "name": "latin capital letter u with diaeresis and acute",
         "symbol": "\u01d7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1732,7 +1732,7 @@
         "name": "latin small letter u with diaeresis and acute",
         "symbol": "\u01d8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1740,7 +1740,7 @@
         "name": "latin capital letter u with diaeresis and caron",
         "symbol": "\u01d9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1748,7 +1748,7 @@
         "name": "latin small letter u with diaeresis and caron",
         "symbol": "\u01da",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1756,7 +1756,7 @@
         "name": "latin capital letter u with diaeresis and grave",
         "symbol": "\u01db",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1764,7 +1764,7 @@
         "name": "latin small letter u with diaeresis and grave",
         "symbol": "\u01dc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1772,7 +1772,7 @@
         "name": "latin small letter turned e",
         "symbol": "\u01dd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1780,7 +1780,7 @@
         "name": "latin capital letter a with diaeresis and macron",
         "symbol": "\u01de",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1788,7 +1788,7 @@
         "name": "latin small letter a with diaeresis and macron",
         "symbol": "\u01df",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1796,7 +1796,7 @@
         "name": "latin capital letter a with dot above and macron",
         "symbol": "\u01e0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1804,7 +1804,7 @@
         "name": "latin small letter a with dot above and macron",
         "symbol": "\u01e1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1812,7 +1812,7 @@
         "name": "latin capital letter ae with macron",
         "symbol": "\u01e2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1820,7 +1820,7 @@
         "name": "latin small letter ae with macron",
         "symbol": "\u01e3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1828,7 +1828,7 @@
         "name": "latin capital letter g with stroke",
         "symbol": "\u01e4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1836,7 +1836,7 @@
         "name": "latin small letter g with stroke",
         "symbol": "\u01e5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1844,7 +1844,7 @@
         "name": "latin capital letter g with caron",
         "symbol": "\u01e6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1852,7 +1852,7 @@
         "name": "latin small letter g with caron",
         "symbol": "\u01e7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1860,7 +1860,7 @@
         "name": "latin capital letter k with caron",
         "symbol": "\u01e8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1868,7 +1868,7 @@
         "name": "latin small letter k with caron",
         "symbol": "\u01e9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1876,7 +1876,7 @@
         "name": "latin capital letter o with ogonek",
         "symbol": "\u01ea",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1884,7 +1884,7 @@
         "name": "latin small letter o with ogonek",
         "symbol": "\u01eb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1892,7 +1892,7 @@
         "name": "latin capital letter o with ogonek and macron",
         "symbol": "\u01ec",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1900,7 +1900,7 @@
         "name": "latin small letter o with ogonek and macron",
         "symbol": "\u01ed",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1908,7 +1908,7 @@
         "name": "latin capital letter ezh with caron",
         "symbol": "\u01ee",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1916,7 +1916,7 @@
         "name": "latin small letter ezh with caron",
         "symbol": "\u01ef",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1924,7 +1924,7 @@
         "name": "latin small letter j with caron",
         "symbol": "\u01f0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1932,7 +1932,7 @@
         "name": "latin capital letter dz",
         "symbol": "\u01f1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1940,7 +1940,7 @@
         "name": "latin capital letter d with small letter z",
         "symbol": "\u01f2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1948,7 +1948,7 @@
         "name": "latin small letter dz",
         "symbol": "\u01f3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1956,7 +1956,7 @@
         "name": "latin capital letter g with acute",
         "symbol": "\u01f4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1964,7 +1964,7 @@
         "name": "latin small letter g with acute",
         "symbol": "\u01f5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1972,7 +1972,7 @@
         "name": "latin capital letter hwair",
         "symbol": "\u01f6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1980,7 +1980,7 @@
         "name": "latin capital letter wynn",
         "symbol": "\u01f7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1988,7 +1988,7 @@
         "name": "latin capital letter n with grave",
         "symbol": "\u01f8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -1996,7 +1996,7 @@
         "name": "latin small letter n with grave",
         "symbol": "\u01f9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2004,7 +2004,7 @@
         "name": "latin capital letter a with ring above and acute",
         "symbol": "\u01fa",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2012,7 +2012,7 @@
         "name": "latin small letter a with ring above and acute",
         "symbol": "\u01fb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2020,7 +2020,7 @@
         "name": "latin capital letter ae with acute",
         "symbol": "\u01fc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2028,7 +2028,7 @@
         "name": "latin small letter ae with acute",
         "symbol": "\u01fd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2036,7 +2036,7 @@
         "name": "latin capital letter o with stroke and acute",
         "symbol": "\u01fe",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2044,7 +2044,7 @@
         "name": "latin small letter o with stroke and acute",
         "symbol": "\u01ff",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2052,7 +2052,7 @@
         "name": "latin capital letter a with double grave",
         "symbol": "\u0200",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2060,7 +2060,7 @@
         "name": "latin small letter a with double grave",
         "symbol": "\u0201",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2068,7 +2068,7 @@
         "name": "latin capital letter a with inverted breve",
         "symbol": "\u0202",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2076,7 +2076,7 @@
         "name": "latin small letter a with inverted breve",
         "symbol": "\u0203",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2084,7 +2084,7 @@
         "name": "latin capital letter e with double grave",
         "symbol": "\u0204",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2092,7 +2092,7 @@
         "name": "latin small letter e with double grave",
         "symbol": "\u0205",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2100,7 +2100,7 @@
         "name": "latin capital letter e with inverted breve",
         "symbol": "\u0206",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2108,7 +2108,7 @@
         "name": "latin small letter e with inverted breve",
         "symbol": "\u0207",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2116,7 +2116,7 @@
         "name": "latin capital letter i with double grave",
         "symbol": "\u0208",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2124,7 +2124,7 @@
         "name": "latin small letter i with double grave",
         "symbol": "\u0209",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2132,7 +2132,7 @@
         "name": "latin capital letter i with inverted breve",
         "symbol": "\u020a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2140,7 +2140,7 @@
         "name": "latin small letter i with inverted breve",
         "symbol": "\u020b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2148,7 +2148,7 @@
         "name": "latin capital letter o with double grave",
         "symbol": "\u020c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2156,7 +2156,7 @@
         "name": "latin small letter o with double grave",
         "symbol": "\u020d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2164,7 +2164,7 @@
         "name": "latin capital letter o with inverted breve",
         "symbol": "\u020e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2172,7 +2172,7 @@
         "name": "latin small letter o with inverted breve",
         "symbol": "\u020f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2180,7 +2180,7 @@
         "name": "latin capital letter r with double grave",
         "symbol": "\u0210",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2188,7 +2188,7 @@
         "name": "latin small letter r with double grave",
         "symbol": "\u0211",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2196,7 +2196,7 @@
         "name": "latin capital letter r with inverted breve",
         "symbol": "\u0212",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2204,7 +2204,7 @@
         "name": "latin small letter r with inverted breve",
         "symbol": "\u0213",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2212,7 +2212,7 @@
         "name": "latin capital letter u with double grave",
         "symbol": "\u0214",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2220,7 +2220,7 @@
         "name": "latin small letter u with double grave",
         "symbol": "\u0215",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2228,7 +2228,7 @@
         "name": "latin capital letter u with inverted breve",
         "symbol": "\u0216",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2236,7 +2236,7 @@
         "name": "latin small letter u with inverted breve",
         "symbol": "\u0217",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2244,7 +2244,7 @@
         "name": "latin capital letter s with comma below",
         "symbol": "\u0218",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2252,7 +2252,7 @@
         "name": "latin small letter s with comma below",
         "symbol": "\u0219",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2260,7 +2260,7 @@
         "name": "latin capital letter t with comma below",
         "symbol": "\u021a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2268,7 +2268,7 @@
         "name": "latin small letter t with comma below",
         "symbol": "\u021b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2276,7 +2276,7 @@
         "name": "latin capital letter yogh",
         "symbol": "\u021c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2284,7 +2284,7 @@
         "name": "latin small letter yogh",
         "symbol": "\u021d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2292,7 +2292,7 @@
         "name": "latin capital letter h with caron",
         "symbol": "\u021e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2300,7 +2300,7 @@
         "name": "latin small letter h with caron",
         "symbol": "\u021f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2308,7 +2308,7 @@
         "name": "latin capital letter ou",
         "symbol": "\u0222",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2316,7 +2316,7 @@
         "name": "latin small letter ou",
         "symbol": "\u0223",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2324,7 +2324,7 @@
         "name": "latin capital letter z with hook",
         "symbol": "\u0224",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2332,7 +2332,7 @@
         "name": "latin small letter z with hook",
         "symbol": "\u0225",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2340,7 +2340,7 @@
         "name": "latin capital letter a with dot above",
         "symbol": "\u0226",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2348,7 +2348,7 @@
         "name": "latin small letter a with dot above",
         "symbol": "\u0227",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2356,7 +2356,7 @@
         "name": "latin capital letter e with cedilla",
         "symbol": "\u0228",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2364,7 +2364,7 @@
         "name": "latin small letter e with cedilla",
         "symbol": "\u0229",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2372,7 +2372,7 @@
         "name": "latin capital letter o with diaeresis and macron",
         "symbol": "\u022a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2380,7 +2380,7 @@
         "name": "latin small letter o with diaeresis and macron",
         "symbol": "\u022b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2388,7 +2388,7 @@
         "name": "latin capital letter o with tilde and macron",
         "symbol": "\u022c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2396,7 +2396,7 @@
         "name": "latin small letter o with tilde and macron",
         "symbol": "\u022d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2404,7 +2404,7 @@
         "name": "latin capital letter o with dot above",
         "symbol": "\u022e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2412,7 +2412,7 @@
         "name": "latin small letter o with dot above",
         "symbol": "\u022f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2420,7 +2420,7 @@
         "name": "latin capital letter o with dot above and macron",
         "symbol": "\u0230",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2428,7 +2428,7 @@
         "name": "latin small letter o with dot above and macron",
         "symbol": "\u0231",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2436,7 +2436,7 @@
         "name": "latin capital letter y with macron",
         "symbol": "\u0232",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2444,7 +2444,7 @@
         "name": "latin small letter y with macron",
         "symbol": "\u0233",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2452,7 +2452,7 @@
         "name": "latin capital letter a with ring below",
         "symbol": "\u1e00",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2460,7 +2460,7 @@
         "name": "latin small letter a with ring below",
         "symbol": "\u1e01",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2468,7 +2468,7 @@
         "name": "latin capital letter b with dot above",
         "symbol": "\u1e02",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2476,7 +2476,7 @@
         "name": "latin small letter b with dot above",
         "symbol": "\u1e03",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2484,7 +2484,7 @@
         "name": "latin capital letter b with dot below",
         "symbol": "\u1e04",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2492,7 +2492,7 @@
         "name": "latin small letter b with dot below",
         "symbol": "\u1e05",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2500,7 +2500,7 @@
         "name": "latin capital letter b with line below",
         "symbol": "\u1e06",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2508,7 +2508,7 @@
         "name": "latin small letter b with line below",
         "symbol": "\u1e07",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2516,7 +2516,7 @@
         "name": "latin capital letter c with cedilla and acute",
         "symbol": "\u1e08",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2524,7 +2524,7 @@
         "name": "latin small letter c with cedilla and acute",
         "symbol": "\u1e09",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2532,7 +2532,7 @@
         "name": "latin capital letter d with dot above",
         "symbol": "\u1e0a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2540,7 +2540,7 @@
         "name": "latin small letter d with dot above",
         "symbol": "\u1e0b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2548,7 +2548,7 @@
         "name": "latin capital letter d with dot below",
         "symbol": "\u1e0c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2556,7 +2556,7 @@
         "name": "latin small letter d with dot below",
         "symbol": "\u1e0d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2564,7 +2564,7 @@
         "name": "latin capital letter d with line below",
         "symbol": "\u1e0e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2572,7 +2572,7 @@
         "name": "latin small letter d with line below",
         "symbol": "\u1e0f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2580,7 +2580,7 @@
         "name": "latin capital letter d with cedilla",
         "symbol": "\u1e10",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2588,7 +2588,7 @@
         "name": "latin small letter d with cedilla",
         "symbol": "\u1e11",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2596,7 +2596,7 @@
         "name": "latin capital letter d with circumflex below",
         "symbol": "\u1e12",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2604,7 +2604,7 @@
         "name": "latin small letter d with circumflex below",
         "symbol": "\u1e13",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2612,7 +2612,7 @@
         "name": "latin capital letter e with macron and grave",
         "symbol": "\u1e14",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2620,7 +2620,7 @@
         "name": "latin small letter e with macron and grave",
         "symbol": "\u1e15",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2628,7 +2628,7 @@
         "name": "latin capital letter e with macron and acute",
         "symbol": "\u1e16",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2636,7 +2636,7 @@
         "name": "latin small letter e with macron and acute",
         "symbol": "\u1e17",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2644,7 +2644,7 @@
         "name": "latin capital letter e with circumflex below",
         "symbol": "\u1e18",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2652,7 +2652,7 @@
         "name": "latin small letter e with circumflex below",
         "symbol": "\u1e19",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2660,7 +2660,7 @@
         "name": "latin capital letter e with tilde below",
         "symbol": "\u1e1a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2668,7 +2668,7 @@
         "name": "latin small letter e with tilde below",
         "symbol": "\u1e1b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2676,7 +2676,7 @@
         "name": "latin capital letter e with cedilla and breve",
         "symbol": "\u1e1c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2684,7 +2684,7 @@
         "name": "latin small letter e with cedilla and breve",
         "symbol": "\u1e1d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2692,7 +2692,7 @@
         "name": "latin capital letter f with dot above",
         "symbol": "\u1e1e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2700,7 +2700,7 @@
         "name": "latin small letter f with dot above",
         "symbol": "\u1e1f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2708,7 +2708,7 @@
         "name": "latin capital letter g with macron",
         "symbol": "\u1e20",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2716,7 +2716,7 @@
         "name": "latin small letter g with macron",
         "symbol": "\u1e21",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2724,7 +2724,7 @@
         "name": "latin capital letter h with dot above",
         "symbol": "\u1e22",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2732,7 +2732,7 @@
         "name": "latin small letter h with dot above",
         "symbol": "\u1e23",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2740,7 +2740,7 @@
         "name": "latin capital letter h with dot below",
         "symbol": "\u1e24",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2748,7 +2748,7 @@
         "name": "latin small letter h with dot below",
         "symbol": "\u1e25",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2756,7 +2756,7 @@
         "name": "latin capital letter h with diaeresis",
         "symbol": "\u1e26",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2764,7 +2764,7 @@
         "name": "latin small letter h with diaeresis",
         "symbol": "\u1e27",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2772,7 +2772,7 @@
         "name": "latin capital letter h with cedilla",
         "symbol": "\u1e28",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2780,7 +2780,7 @@
         "name": "latin small letter h with cedilla",
         "symbol": "\u1e29",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2788,7 +2788,7 @@
         "name": "latin capital letter h with breve below",
         "symbol": "\u1e2a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2796,7 +2796,7 @@
         "name": "latin small letter h with breve below",
         "symbol": "\u1e2b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2804,7 +2804,7 @@
         "name": "latin capital letter i with tilde below",
         "symbol": "\u1e2c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2812,7 +2812,7 @@
         "name": "latin small letter i with tilde below",
         "symbol": "\u1e2d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2820,7 +2820,7 @@
         "name": "latin capital letter i with diaeresis and acute",
         "symbol": "\u1e2e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2828,7 +2828,7 @@
         "name": "latin small letter i with diaeresis and acute",
         "symbol": "\u1e2f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2836,7 +2836,7 @@
         "name": "latin capital letter k with acute",
         "symbol": "\u1e30",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2844,7 +2844,7 @@
         "name": "latin small letter k with acute",
         "symbol": "\u1e31",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2852,7 +2852,7 @@
         "name": "latin capital letter k with dot below",
         "symbol": "\u1e32",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2860,7 +2860,7 @@
         "name": "latin small letter k with dot below",
         "symbol": "\u1e33",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2868,7 +2868,7 @@
         "name": "latin capital letter k with line below",
         "symbol": "\u1e34",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2876,7 +2876,7 @@
         "name": "latin small letter k with line below",
         "symbol": "\u1e35",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2884,7 +2884,7 @@
         "name": "latin capital letter l with dot below",
         "symbol": "\u1e36",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2892,7 +2892,7 @@
         "name": "latin small letter l with dot below",
         "symbol": "\u1e37",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2900,7 +2900,7 @@
         "name": "latin capital letter l with dot below and macron",
         "symbol": "\u1e38",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2908,7 +2908,7 @@
         "name": "latin small letter l with dot below and macron",
         "symbol": "\u1e39",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2916,7 +2916,7 @@
         "name": "latin capital letter l with line below",
         "symbol": "\u1e3a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2924,7 +2924,7 @@
         "name": "latin small letter l with line below",
         "symbol": "\u1e3b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2932,7 +2932,7 @@
         "name": "latin capital letter l with circumflex below",
         "symbol": "\u1e3c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2940,7 +2940,7 @@
         "name": "latin small letter l with circumflex below",
         "symbol": "\u1e3d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2948,7 +2948,7 @@
         "name": "latin capital letter m with acute",
         "symbol": "\u1e3e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2956,7 +2956,7 @@
         "name": "latin small letter m with acute",
         "symbol": "\u1e3f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2964,7 +2964,7 @@
         "name": "latin capital letter m with dot above",
         "symbol": "\u1e40",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2972,7 +2972,7 @@
         "name": "latin small letter m with dot above",
         "symbol": "\u1e41",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2980,7 +2980,7 @@
         "name": "latin capital letter m with dot below",
         "symbol": "\u1e42",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2988,7 +2988,7 @@
         "name": "latin small letter m with dot below",
         "symbol": "\u1e43",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -2996,7 +2996,7 @@
         "name": "latin capital letter n with dot above",
         "symbol": "\u1e44",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3004,7 +3004,7 @@
         "name": "latin small letter n with dot above",
         "symbol": "\u1e45",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3012,7 +3012,7 @@
         "name": "latin capital letter n with dot below",
         "symbol": "\u1e46",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3020,7 +3020,7 @@
         "name": "latin small letter n with dot below",
         "symbol": "\u1e47",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3028,7 +3028,7 @@
         "name": "latin capital letter n with line below",
         "symbol": "\u1e48",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3036,7 +3036,7 @@
         "name": "latin small letter n with line below",
         "symbol": "\u1e49",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3044,7 +3044,7 @@
         "name": "latin capital letter n with circumflex below",
         "symbol": "\u1e4a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3052,7 +3052,7 @@
         "name": "latin small letter n with circumflex below",
         "symbol": "\u1e4b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3060,7 +3060,7 @@
         "name": "latin capital letter o with tilde and acute",
         "symbol": "\u1e4c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3068,7 +3068,7 @@
         "name": "latin small letter o with tilde and acute",
         "symbol": "\u1e4d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3076,7 +3076,7 @@
         "name": "latin capital letter o with tilde and diaeresis",
         "symbol": "\u1e4e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3084,7 +3084,7 @@
         "name": "latin small letter o with tilde and diaeresis",
         "symbol": "\u1e4f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3092,7 +3092,7 @@
         "name": "latin capital letter o with macron and grave",
         "symbol": "\u1e50",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3100,7 +3100,7 @@
         "name": "latin small letter o with macron and grave",
         "symbol": "\u1e51",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3108,7 +3108,7 @@
         "name": "latin capital letter o with macron and acute",
         "symbol": "\u1e52",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3116,7 +3116,7 @@
         "name": "latin small letter o with macron and acute",
         "symbol": "\u1e53",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3124,7 +3124,7 @@
         "name": "latin capital letter p with acute",
         "symbol": "\u1e54",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3132,7 +3132,7 @@
         "name": "latin small letter p with acute",
         "symbol": "\u1e55",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3140,7 +3140,7 @@
         "name": "latin capital letter p with dot above",
         "symbol": "\u1e56",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3148,7 +3148,7 @@
         "name": "latin small letter p with dot above",
         "symbol": "\u1e57",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3156,7 +3156,7 @@
         "name": "latin capital letter r with dot above",
         "symbol": "\u1e58",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3164,7 +3164,7 @@
         "name": "latin small letter r with dot above",
         "symbol": "\u1e59",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3172,7 +3172,7 @@
         "name": "latin capital letter r with dot below",
         "symbol": "\u1e5a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3180,7 +3180,7 @@
         "name": "latin small letter r with dot below",
         "symbol": "\u1e5b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3188,7 +3188,7 @@
         "name": "latin capital letter r with dot below and macron",
         "symbol": "\u1e5c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3196,7 +3196,7 @@
         "name": "latin small letter r with dot below and macron",
         "symbol": "\u1e5d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3204,7 +3204,7 @@
         "name": "latin capital letter r with line below",
         "symbol": "\u1e5e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3212,7 +3212,7 @@
         "name": "latin small letter r with line below",
         "symbol": "\u1e5f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3220,7 +3220,7 @@
         "name": "latin capital letter s with dot above",
         "symbol": "\u1e60",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3228,7 +3228,7 @@
         "name": "latin small letter s with dot above",
         "symbol": "\u1e61",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3236,7 +3236,7 @@
         "name": "latin capital letter s with dot below",
         "symbol": "\u1e62",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3244,7 +3244,7 @@
         "name": "latin small letter s with dot below",
         "symbol": "\u1e63",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3252,7 +3252,7 @@
         "name": "latin capital letter s with acute and dot above",
         "symbol": "\u1e64",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3260,7 +3260,7 @@
         "name": "latin small letter s with acute and dot above",
         "symbol": "\u1e65",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3268,7 +3268,7 @@
         "name": "latin capital letter s with caron and dot above",
         "symbol": "\u1e66",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3276,7 +3276,7 @@
         "name": "latin small letter s with caron and dot above",
         "symbol": "\u1e67",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3284,7 +3284,7 @@
         "name": "latin capital letter s with dot below and dot above",
         "symbol": "\u1e68",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3292,7 +3292,7 @@
         "name": "latin small letter s with dot below and dot above",
         "symbol": "\u1e69",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3300,7 +3300,7 @@
         "name": "latin capital letter t with dot above",
         "symbol": "\u1e6a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3308,7 +3308,7 @@
         "name": "latin small letter t with dot above",
         "symbol": "\u1e6b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3316,7 +3316,7 @@
         "name": "latin capital letter t with dot below",
         "symbol": "\u1e6c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3324,7 +3324,7 @@
         "name": "latin small letter t with dot below",
         "symbol": "\u1e6d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3332,7 +3332,7 @@
         "name": "latin capital letter t with line below",
         "symbol": "\u1e6e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3340,7 +3340,7 @@
         "name": "latin small letter t with line below",
         "symbol": "\u1e6f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3348,7 +3348,7 @@
         "name": "latin capital letter t with circumflex below",
         "symbol": "\u1e70",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3356,7 +3356,7 @@
         "name": "latin small letter t with circumflex below",
         "symbol": "\u1e71",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3364,7 +3364,7 @@
         "name": "latin capital letter u with diaeresis below",
         "symbol": "\u1e72",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3372,7 +3372,7 @@
         "name": "latin small letter u with diaeresis below",
         "symbol": "\u1e73",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3380,7 +3380,7 @@
         "name": "latin capital letter u with tilde below",
         "symbol": "\u1e74",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3388,7 +3388,7 @@
         "name": "latin small letter u with tilde below",
         "symbol": "\u1e75",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3396,7 +3396,7 @@
         "name": "latin capital letter u with circumflex below",
         "symbol": "\u1e76",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3404,7 +3404,7 @@
         "name": "latin small letter u with circumflex below",
         "symbol": "\u1e77",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3412,7 +3412,7 @@
         "name": "latin capital letter u with tilde and acute",
         "symbol": "\u1e78",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3420,7 +3420,7 @@
         "name": "latin small letter u with tilde and acute",
         "symbol": "\u1e79",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3428,7 +3428,7 @@
         "name": "latin capital letter u with macron and diaeresis",
         "symbol": "\u1e7a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3436,7 +3436,7 @@
         "name": "latin small letter u with macron and diaeresis",
         "symbol": "\u1e7b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3444,7 +3444,7 @@
         "name": "latin capital letter v with tilde",
         "symbol": "\u1e7c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3452,7 +3452,7 @@
         "name": "latin small letter v with tilde",
         "symbol": "\u1e7d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3460,7 +3460,7 @@
         "name": "latin capital letter v with dot below",
         "symbol": "\u1e7e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3468,7 +3468,7 @@
         "name": "latin small letter v with dot below",
         "symbol": "\u1e7f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3476,7 +3476,7 @@
         "name": "latin capital letter w with grave",
         "symbol": "\u1e80",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3484,7 +3484,7 @@
         "name": "latin small letter w with grave",
         "symbol": "\u1e81",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3492,7 +3492,7 @@
         "name": "latin capital letter w with acute",
         "symbol": "\u1e82",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3500,7 +3500,7 @@
         "name": "latin small letter w with acute",
         "symbol": "\u1e83",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3508,7 +3508,7 @@
         "name": "latin capital letter w with diaeresis",
         "symbol": "\u1e84",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3516,7 +3516,7 @@
         "name": "latin small letter w with diaeresis",
         "symbol": "\u1e85",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3524,7 +3524,7 @@
         "name": "latin capital letter w with dot above",
         "symbol": "\u1e86",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3532,7 +3532,7 @@
         "name": "latin small letter w with dot above",
         "symbol": "\u1e87",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3540,7 +3540,7 @@
         "name": "latin capital letter w with dot below",
         "symbol": "\u1e88",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3548,7 +3548,7 @@
         "name": "latin small letter w with dot below",
         "symbol": "\u1e89",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3556,7 +3556,7 @@
         "name": "latin capital letter x with dot above",
         "symbol": "\u1e8a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3564,7 +3564,7 @@
         "name": "latin small letter x with dot above",
         "symbol": "\u1e8b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3572,7 +3572,7 @@
         "name": "latin capital letter x with diaeresis",
         "symbol": "\u1e8c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3580,7 +3580,7 @@
         "name": "latin small letter x with diaeresis",
         "symbol": "\u1e8d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3588,7 +3588,7 @@
         "name": "latin capital letter y with dot above",
         "symbol": "\u1e8e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3596,7 +3596,7 @@
         "name": "latin small letter y with dot above",
         "symbol": "\u1e8f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3604,7 +3604,7 @@
         "name": "latin capital letter z with circumflex",
         "symbol": "\u1e90",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3612,7 +3612,7 @@
         "name": "latin small letter z with circumflex",
         "symbol": "\u1e91",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3620,7 +3620,7 @@
         "name": "latin capital letter z with dot below",
         "symbol": "\u1e92",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3628,7 +3628,7 @@
         "name": "latin small letter z with dot below",
         "symbol": "\u1e93",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3636,7 +3636,7 @@
         "name": "latin capital letter z with line below",
         "symbol": "\u1e94",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3644,7 +3644,7 @@
         "name": "latin small letter z with line below",
         "symbol": "\u1e95",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3652,7 +3652,7 @@
         "name": "latin small letter h with line below",
         "symbol": "\u1e96",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3660,7 +3660,7 @@
         "name": "latin small letter t with diaeresis",
         "symbol": "\u1e97",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3668,7 +3668,7 @@
         "name": "latin small letter w with ring above",
         "symbol": "\u1e98",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3676,7 +3676,7 @@
         "name": "latin small letter y with ring above",
         "symbol": "\u1e99",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3684,7 +3684,7 @@
         "name": "latin small letter a with right half ring",
         "symbol": "\u1e9a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3692,7 +3692,7 @@
         "name": "latin small letter long s with dot above",
         "symbol": "\u1e9b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3700,7 +3700,7 @@
         "name": "latin capital letter a with dot below",
         "symbol": "\u1ea0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3708,7 +3708,7 @@
         "name": "latin small letter a with dot below",
         "symbol": "\u1ea1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3716,7 +3716,7 @@
         "name": "latin capital letter a with hook above",
         "symbol": "\u1ea2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3724,7 +3724,7 @@
         "name": "latin small letter a with hook above",
         "symbol": "\u1ea3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3732,7 +3732,7 @@
         "name": "latin capital letter a with circumflex and acute",
         "symbol": "\u1ea4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3740,7 +3740,7 @@
         "name": "latin small letter a with circumflex and acute",
         "symbol": "\u1ea5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3748,7 +3748,7 @@
         "name": "latin capital letter a with circumflex and grave",
         "symbol": "\u1ea6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3756,7 +3756,7 @@
         "name": "latin small letter a with circumflex and grave",
         "symbol": "\u1ea7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3764,7 +3764,7 @@
         "name": "latin capital letter a with circumflex and hook above",
         "symbol": "\u1ea8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3772,7 +3772,7 @@
         "name": "latin small letter a with circumflex and hook above",
         "symbol": "\u1ea9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3780,7 +3780,7 @@
         "name": "latin capital letter a with circumflex and tilde",
         "symbol": "\u1eaa",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3788,7 +3788,7 @@
         "name": "latin small letter a with circumflex and tilde",
         "symbol": "\u1eab",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3796,7 +3796,7 @@
         "name": "latin capital letter a with circumflex and dot below",
         "symbol": "\u1eac",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3804,7 +3804,7 @@
         "name": "latin small letter a with circumflex and dot below",
         "symbol": "\u1ead",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3812,7 +3812,7 @@
         "name": "latin capital letter a with breve and acute",
         "symbol": "\u1eae",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3820,7 +3820,7 @@
         "name": "latin small letter a with breve and acute",
         "symbol": "\u1eaf",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3828,7 +3828,7 @@
         "name": "latin capital letter a with breve and grave",
         "symbol": "\u1eb0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3836,7 +3836,7 @@
         "name": "latin small letter a with breve and grave",
         "symbol": "\u1eb1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3844,7 +3844,7 @@
         "name": "latin capital letter a with breve and hook above",
         "symbol": "\u1eb2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3852,7 +3852,7 @@
         "name": "latin small letter a with breve and hook above",
         "symbol": "\u1eb3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3860,7 +3860,7 @@
         "name": "latin capital letter a with breve and tilde",
         "symbol": "\u1eb4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3868,7 +3868,7 @@
         "name": "latin small letter a with breve and tilde",
         "symbol": "\u1eb5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3876,7 +3876,7 @@
         "name": "latin capital letter a with breve and dot below",
         "symbol": "\u1eb6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3884,7 +3884,7 @@
         "name": "latin small letter a with breve and dot below",
         "symbol": "\u1eb7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3892,7 +3892,7 @@
         "name": "latin capital letter e with dot below",
         "symbol": "\u1eb8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3900,7 +3900,7 @@
         "name": "latin small letter e with dot below",
         "symbol": "\u1eb9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3908,7 +3908,7 @@
         "name": "latin capital letter e with hook above",
         "symbol": "\u1eba",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3916,7 +3916,7 @@
         "name": "latin small letter e with hook above",
         "symbol": "\u1ebb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3924,7 +3924,7 @@
         "name": "latin capital letter e with tilde",
         "symbol": "\u1ebc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3932,7 +3932,7 @@
         "name": "latin small letter e with tilde",
         "symbol": "\u1ebd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3940,7 +3940,7 @@
         "name": "latin capital letter e with circumflex and acute",
         "symbol": "\u1ebe",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3948,7 +3948,7 @@
         "name": "latin small letter e with circumflex and acute",
         "symbol": "\u1ebf",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3956,7 +3956,7 @@
         "name": "latin capital letter e with circumflex and grave",
         "symbol": "\u1ec0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3964,7 +3964,7 @@
         "name": "latin small letter e with circumflex and grave",
         "symbol": "\u1ec1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3972,7 +3972,7 @@
         "name": "latin capital letter e with circumflex and hook above",
         "symbol": "\u1ec2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3980,7 +3980,7 @@
         "name": "latin small letter e with circumflex and hook above",
         "symbol": "\u1ec3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3988,7 +3988,7 @@
         "name": "latin capital letter e with circumflex and tilde",
         "symbol": "\u1ec4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -3996,7 +3996,7 @@
         "name": "latin small letter e with circumflex and tilde",
         "symbol": "\u1ec5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4004,7 +4004,7 @@
         "name": "latin capital letter e with circumflex and dot below",
         "symbol": "\u1ec6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4012,7 +4012,7 @@
         "name": "latin small letter e with circumflex and dot below",
         "symbol": "\u1ec7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4020,7 +4020,7 @@
         "name": "latin capital letter i with hook above",
         "symbol": "\u1ec8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4028,7 +4028,7 @@
         "name": "latin small letter i with hook above",
         "symbol": "\u1ec9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4036,7 +4036,7 @@
         "name": "latin capital letter i with dot below",
         "symbol": "\u1eca",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4044,7 +4044,7 @@
         "name": "latin small letter i with dot below",
         "symbol": "\u1ecb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4052,7 +4052,7 @@
         "name": "latin capital letter o with dot below",
         "symbol": "\u1ecc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4060,7 +4060,7 @@
         "name": "latin small letter o with dot below",
         "symbol": "\u1ecd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4068,7 +4068,7 @@
         "name": "latin capital letter o with hook above",
         "symbol": "\u1ece",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4076,7 +4076,7 @@
         "name": "latin small letter o with hook above",
         "symbol": "\u1ecf",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4084,7 +4084,7 @@
         "name": "latin capital letter o with circumflex and acute",
         "symbol": "\u1ed0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4092,7 +4092,7 @@
         "name": "latin small letter o with circumflex and acute",
         "symbol": "\u1ed1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4100,7 +4100,7 @@
         "name": "latin capital letter o with circumflex and grave",
         "symbol": "\u1ed2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4108,7 +4108,7 @@
         "name": "latin small letter o with circumflex and grave",
         "symbol": "\u1ed3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4116,7 +4116,7 @@
         "name": "latin capital letter o with circumflex and hook above",
         "symbol": "\u1ed4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4124,7 +4124,7 @@
         "name": "latin small letter o with circumflex and hook above",
         "symbol": "\u1ed5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4132,7 +4132,7 @@
         "name": "latin capital letter o with circumflex and tilde",
         "symbol": "\u1ed6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4140,7 +4140,7 @@
         "name": "latin small letter o with circumflex and tilde",
         "symbol": "\u1ed7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4148,7 +4148,7 @@
         "name": "latin capital letter o with circumflex and dot below",
         "symbol": "\u1ed8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4156,7 +4156,7 @@
         "name": "latin small letter o with circumflex and dot below",
         "symbol": "\u1ed9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4164,7 +4164,7 @@
         "name": "latin capital letter o with horn and acute",
         "symbol": "\u1eda",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4172,7 +4172,7 @@
         "name": "latin small letter o with horn and acute",
         "symbol": "\u1edb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4180,7 +4180,7 @@
         "name": "latin capital letter o with horn and grave",
         "symbol": "\u1edc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4188,7 +4188,7 @@
         "name": "latin small letter o with horn and grave",
         "symbol": "\u1edd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4196,7 +4196,7 @@
         "name": "latin capital letter o with horn and hook above",
         "symbol": "\u1ede",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4204,7 +4204,7 @@
         "name": "latin small letter o with horn and hook above",
         "symbol": "\u1edf",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4212,7 +4212,7 @@
         "name": "latin capital letter o with horn and tilde",
         "symbol": "\u1ee0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4220,7 +4220,7 @@
         "name": "latin small letter o with horn and tilde",
         "symbol": "\u1ee1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4228,7 +4228,7 @@
         "name": "latin capital letter o with horn and dot below",
         "symbol": "\u1ee2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4236,7 +4236,7 @@
         "name": "latin small letter o with horn and dot below",
         "symbol": "\u1ee3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4244,7 +4244,7 @@
         "name": "latin capital letter u with dot below",
         "symbol": "\u1ee4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4252,7 +4252,7 @@
         "name": "latin small letter u with dot below",
         "symbol": "\u1ee5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4260,7 +4260,7 @@
         "name": "latin capital letter u with hook above",
         "symbol": "\u1ee6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4268,7 +4268,7 @@
         "name": "latin small letter u with hook above",
         "symbol": "\u1ee7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4276,7 +4276,7 @@
         "name": "latin capital letter u with horn and acute",
         "symbol": "\u1ee8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4284,7 +4284,7 @@
         "name": "latin small letter u with horn and acute",
         "symbol": "\u1ee9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4292,7 +4292,7 @@
         "name": "latin capital letter u with horn and grave",
         "symbol": "\u1eea",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4300,7 +4300,7 @@
         "name": "latin small letter u with horn and grave",
         "symbol": "\u1eeb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4308,7 +4308,7 @@
         "name": "latin capital letter u with horn and hook above",
         "symbol": "\u1eec",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4316,7 +4316,7 @@
         "name": "latin small letter u with horn and hook above",
         "symbol": "\u1eed",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4324,7 +4324,7 @@
         "name": "latin capital letter u with horn and tilde",
         "symbol": "\u1eee",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4332,7 +4332,7 @@
         "name": "latin small letter u with horn and tilde",
         "symbol": "\u1eef",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4340,7 +4340,7 @@
         "name": "latin capital letter u with horn and dot below",
         "symbol": "\u1ef0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4348,7 +4348,7 @@
         "name": "latin small letter u with horn and dot below",
         "symbol": "\u1ef1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4356,7 +4356,7 @@
         "name": "latin capital letter y with grave",
         "symbol": "\u1ef2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4364,7 +4364,7 @@
         "name": "latin small letter y with grave",
         "symbol": "\u1ef3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4372,7 +4372,7 @@
         "name": "latin capital letter y with dot below",
         "symbol": "\u1ef4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4380,7 +4380,7 @@
         "name": "latin small letter y with dot below",
         "symbol": "\u1ef5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4388,7 +4388,7 @@
         "name": "latin capital letter y with hook above",
         "symbol": "\u1ef6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4396,7 +4396,7 @@
         "name": "latin small letter y with hook above",
         "symbol": "\u1ef7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4404,7 +4404,7 @@
         "name": "latin capital letter y with tilde",
         "symbol": "\u1ef8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -4412,7 +4412,7 @@
         "name": "latin small letter y with tilde",
         "symbol": "\u1ef9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     }
 ]

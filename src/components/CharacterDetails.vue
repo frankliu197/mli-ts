@@ -26,6 +26,11 @@ export default Vue.extend({
 </script>
 
 <style lang='scss' scoped>
+
+.character-details {
+	background-color: white;
+	padding: 10px;
+}
 .floating-component {
   position: absolute;
 }
