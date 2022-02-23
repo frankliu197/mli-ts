@@ -7,14 +7,9 @@ import ChaiSorted from "chai-sorted";
 chai.use(ChaiSorted);
 
 const BasicLatin = BL as unknown as Character[];
-function insertCharactersToTree(
-  characters: Array<Character>,
-  tree: KeywordTree
-) {
+function insertCharactersToTree(characters: Array<Character>, tree: KeywordTree) {
   for (const c of characters) {
-    for (const k of c.name.split(" ")) {
-      tree.insert(k, c);
-    }
+    tree.insert(c);
   }
 }
 

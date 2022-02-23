@@ -4,7 +4,7 @@
         "name": "superscript zero",
         "symbol": "\u2070",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -12,7 +12,7 @@
         "name": "superscript four",
         "symbol": "\u2074",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "superscript five",
         "symbol": "\u2075",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "superscript six",
         "symbol": "\u2076",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "superscript seven",
         "symbol": "\u2077",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -44,7 +44,7 @@
         "name": "superscript eight",
         "symbol": "\u2078",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -52,7 +52,7 @@
         "name": "superscript nine",
         "symbol": "\u2079",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -60,7 +60,7 @@
         "name": "superscript plus sign",
         "symbol": "\u207a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -68,7 +68,7 @@
         "name": "superscript minus",
         "symbol": "\u207b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -76,7 +76,7 @@
         "name": "superscript equals sign",
         "symbol": "\u207c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -84,7 +84,7 @@
         "name": "superscript left parenthesis",
         "symbol": "\u207d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -92,7 +92,7 @@
         "name": "superscript right parenthesis",
         "symbol": "\u207e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -100,7 +100,7 @@
         "name": "superscript latin small letter n",
         "symbol": "\u207f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -108,7 +108,7 @@
         "name": "subscript zero",
         "symbol": "\u2080",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -116,7 +116,7 @@
         "name": "subscript one",
         "symbol": "\u2081",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -124,7 +124,7 @@
         "name": "subscript two",
         "symbol": "\u2082",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -132,7 +132,7 @@
         "name": "subscript three",
         "symbol": "\u2083",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -140,7 +140,7 @@
         "name": "subscript four",
         "symbol": "\u2084",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -148,7 +148,7 @@
         "name": "subscript five",
         "symbol": "\u2085",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -156,7 +156,7 @@
         "name": "subscript six",
         "symbol": "\u2086",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -164,7 +164,7 @@
         "name": "subscript seven",
         "symbol": "\u2087",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -172,7 +172,7 @@
         "name": "subscript eight",
         "symbol": "\u2088",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -180,7 +180,7 @@
         "name": "subscript nine",
         "symbol": "\u2089",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -188,7 +188,7 @@
         "name": "subscript plus sign",
         "symbol": "\u208a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -196,7 +196,7 @@
         "name": "subscript minus",
         "symbol": "\u208b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -204,7 +204,7 @@
         "name": "subscript equals sign",
         "symbol": "\u208c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "subscript left parenthesis",
         "symbol": "\u208d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -220,7 +220,7 @@
         "name": "subscript right parenthesis",
         "symbol": "\u208e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     }
 ]
