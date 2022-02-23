@@ -79,7 +79,7 @@ textarea {
   font-family: 'Poppins';
   font-size: 35px;
   padding: 10px;
-  min-height: 75px;
+  height: 73px;
   width: 80%;
   overflow: hidden;
   border-radius: 10px;
