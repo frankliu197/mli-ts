@@ -1,6 +1,6 @@
 import { KeywordTree } from "./KeywordTree"
 import Character from "./Character"
-import SymbolSets from "./SymbolSet"
+import SymbolSets from "./SymbolSets"
 import { combinePriority } from "./Priority"
 
 export class KeywordRecommender {

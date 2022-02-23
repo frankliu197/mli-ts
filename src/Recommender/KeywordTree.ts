@@ -49,7 +49,7 @@ export class KeywordTree {
       this._insert(k, character);
     }
   }
-  
+
   private _insert(key: string, value: Character): void {
     if (this.values.has(key)) {
       const set = this.values.get(key)!;
