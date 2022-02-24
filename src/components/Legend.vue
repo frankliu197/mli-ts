@@ -42,19 +42,19 @@
             </div>
              <a @click="tab" ></a>
         </div>
-        <div id="legend-box" class="border-left">
+        <div id="legend-box" class="border-left"> 
             <div>
                 <div> Enter:</div>
-                <div id="imagebox"><img src="../assets/enter.png" alt=""></div> 
+                <div id="imagebox"><img src="../assets/enter.png" alt=""></div>  
                 <div> <span>    </span>   <span>Enter</span></div>
             </div>
              <a @click="enter"></a>
         </div>
-        <div id="legend-box" class="border-left"> 
+        <div id="legend-box" class="border-left">  
             <div>
                 <div>Toggledropdown:</div>
-                <div id="imagebox"><img src="../assets/pagedown.png" alt=""></div>
-                <div> <span>    </span>   <span>PageDown</span></div>
+                <div id="imagebox"><img src="../assets/pagedown.png" alt=""></div> 
+                <div> <span>    </span>   <span>PageDown</span></div> 
             </div>
              <a @click="page_down"></a>
         </div> 
