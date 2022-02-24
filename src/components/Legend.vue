@@ -1,75 +1,62 @@
 <template lang =  "pug">   
            
     <div id="legend">          
-        <div id="legend-box">
-            <div> Next page:</div>
-            <div id="imagebox"><img src="../assets/up-down.png" alt=""></div>
-            <div><span>Shift</span> + <span>ArrowDown</span></div>
-            <div class="eventhandleShiftArrowDown">
-              
-
-             <v-btn @mousedown="keep_focus" @click="shift_arrowdown">Shift + ArrowDown</v-btn>
-             </div>
+        <div id="legend-box"> 
+            <div> 
+                <div> Next page:</div>
+                <div id="imagebox"><img src="../assets/up-down.png" alt=""></div>
+                <div><span>Shift</span> + <span>ArrowDown</span></div>
+                <a @mousedown="keep_focus" @click="shift_arrowdown">
+                </a>
+            </div>
         </div>
-        <div id="legend-box" class="border-left"> 
-            <div> Prev Page:</div>
-            <div id="imagebox"><img src="../assets/twoarrow.png" alt=""></div>
-            <div> <span>Shift</span> + <span>ArrowUp</span></div>
-            <div class="eventhandleShiftArrowUp">
-              
-
-             <v-btn @click="shift_arrow_up">Shift + ArrowUp</v-btn>
-             </div>
+        <div id="legend-box" class="border-left">
+            <div>
+                <div> Prev Page:</div>
+                <div id="imagebox"><img src="../assets/twoarrow.png" alt=""></div>
+                <div> <span>Shift</span> + <span>ArrowUp</span></div>
+            </div> 
+             <a @click="shift_arrow_up"></a>
         </div> 
-        <div id="legend-box" class="border-left">
-            <div> Next Entry:</div> 
-            <div id="imagebox"><img src="../assets/arrowdown32.png" alt=""></div> 
-            <div> <span>     </span>      <span>ArrowDown</span></div>
-            <div class="eventhandleArrowDown">
-             <v-btn @mousedown="keep_focus" @click="arrow_down" >ArrowDown</v-btn>
-             </div>
+        <div id="legend-box" class="border-left"> 
+            <div>
+                <div> Next Entry:</div> 
+                <div id="imagebox"><img src="../assets/arrowdown32.png" alt=""></div> 
+                <div> <span>     </span>      <span>ArrowDown</span></div>
+            </div>
+             <a @mousedown="keep_focus" @click="arrow_down" ></a>
         </div>
         <div id="legend-box" class="border-left"> 
-            <div> Prev Entry:</div>
-            <div id="imagebox"><img src="../assets/arrowup32.png" alt=""></div>
-            <div> <span>    </span>   <span>ArrowUp</span></div>
-            <div class="eventhandleArrowUp">
-              
-
-             <v-btn @click="arrow_up">ArrowUp</v-btn>
-             </div>
+            <div>
+                <div> Prev Entry:</div>
+                <div id="imagebox"><img src="../assets/arrowup32.png" alt=""></div>
+                <div> <span>    </span>   <span>ArrowUp</span></div>
+            </div>
+             <a @click="arrow_up"></a>
         </div>
         <div id="legend-box" class="border-left">
-            <div>Description:</div>
-            <div id="imagebox"><img src="../assets/tab32.png" alt=""></div>
-            <div> <span>    </span>   <span>Tab</span></div>
-            <div class="eventhandleTab">
-              
-
-             <v-btn @click="tab" >Tab</v-btn>
-             </div>
+            <div>
+                <div>Description:</div>
+                <div id="imagebox"><img src="../assets/tab32.png" alt=""></div>
+                <div> <span>    </span>   <span>Tab</span></div>
+            </div>
+             <a @click="tab" ></a>
         </div>
         <div id="legend-box" class="border-left">
-            <div> Enter:</div>
-            <div id="imagebox"><img src="../assets/enter.png" alt=""></div>
-            <div> <span>    </span>   <span>Enter</span></div>
-            <div class="eventhandleEnter">
-              
-             <v-btn @click="enter">Enter</v-btn>
+            <div>
+                <div> Enter:</div>
+                <div id="imagebox"><img src="../assets/enter.png" alt=""></div> 
+                <div> <span>    </span>   <span>Enter</span></div>
+            </div>
+             <a @click="enter"></a>
         </div>
-        </div>
-        <div id="legend-box" class="border-left">
-        <div>Toggledropdown:</div>
-            <div id="imagebox"><img src="../assets/pagedown.png" alt=""></div>
-            <div> <span>    </span>   <span>PageDown</span></div>
-
-            <div class="eventhandleToggledropDown">
-              
-
-             <v-btn @click="page_down">PageDown</v-btn>
-
-
-    </div>  
+        <div id="legend-box" class="border-left"> 
+            <div>
+                <div>Toggledropdown:</div>
+                <div id="imagebox"><img src="../assets/pagedown.png" alt=""></div>
+                <div> <span>    </span>   <span>PageDown</span></div>
+            </div>
+             <a @click="page_down"></a>
         </div> 
     </div>
 </template>   
@@ -80,7 +67,7 @@ import Vue from "vue"
 export default Vue.extend({
   name: "Legend",
   methods : {
-      keep_focus(e){
+      keep_focus(e:any){
           e.preventDefault();
       },
       enter(){
@@ -90,7 +77,7 @@ export default Vue.extend({
             key: 'Enter',
         }));
 
-        //event.preventDefault();
+        //event.preventDefault(); 
       },
       page_down(){
            var element = document.getElementById("input_box");
@@ -125,9 +112,9 @@ export default Vue.extend({
 
         element?.dispatchEvent(new KeyboardEvent('keydown', {
             key: 'ArrowUp',
-        }));
+        })); 
       },
-      arrow_down(event){
+      arrow_down(event:any){ 
            // alert("arown_down");
         var element = document.getElementById("suggest_dropdown");
 
@@ -138,7 +125,7 @@ export default Vue.extend({
         event.preventDefault();
 
       },
-      shift_arrowdown(e){
+      shift_arrowdown(e:any){
 
         e.preventDefault();
 
@@ -168,18 +155,32 @@ export default Vue.extend({
         height: 200px/10px;
         border-color: grey;
         margin-top:-45px;
-        font-size: 8px; 
+        font-size: 8.5px; 
         padding: 0px 2px;
+        font-family: arial;
     }
 
     div#legend-box div {
         padding: 2px 0px!important;
     }
+    div#legend-box a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
     div#legend-box {
-        padding: 2px 5px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1px 4px;
+        position: relative;
         text-align: center;
-        //width : 115px;
     }
 
     #legend img {

@@ -3,7 +3,7 @@
   .input-section
     input(ref="input" id="suggest_dropdown" v-model="search"  v-autowidth="{maxWidth:'960px', minWidth: `${50}px`, comfortZone: 10}" @keydown="handleDropdown")
   .dropdown-section(ref="dropdown")
-    button.dropdown-element(
+    button.dropdown-element(  
       v-for="(item, index) of pageEntries()"
       @click="choose(index)" 
       :class="selectionIndex === index? 'selected': ''"
@@ -52,9 +52,9 @@ export default Vue.extend({
     }
   },
   methods: {
-    close(event) {
+    close(event:any) {
       //alert(event.target.tagName);
-      if(event.target.tagName != "SPAN")
+      if(event.target.tagName != "A")
         this.$emit('close')
     }, 
     choose(index: number) {
@@ -65,8 +65,8 @@ export default Vue.extend({
     },
     selected(c: Character) {
       boost(c)
-      this.$emit('selected', c)
-      this.close()
+      this.$emit('selected', c) 
+      this.close(0)
     },
     toggleCharacterDescription(){
       this.characterDetails = !this.characterDetails

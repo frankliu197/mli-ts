@@ -4,7 +4,7 @@
   FloatingComponent(v-show="dropdownShow" :position="dropdownPosition")
     SuggestDropdown(:show="dropdownShow" @close="dropdownShow = false" @selected="write($event)")
 
-</template> 
+</template>    
 
 <script lang='ts'>
 import Character from '@/Recommender/Character';
@@ -15,7 +15,7 @@ import {Position} from "@/helpers/UiComponents"
 import FloatingComponent from "@/components/FloatingComponent.vue"
 import Globals from '@/helpers/globals'
 
-export default Vue.extend({
+export default Vue.extend({ 
   name: 'InputBox',
   components: {
     SuggestDropdown,
