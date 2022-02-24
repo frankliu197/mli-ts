@@ -77,7 +77,7 @@ export default Vue.extend({
             key: 'Enter',
         }));
 
-        //event.preventDefault(); 
+         
       },
       page_down(){
            var element = document.getElementById("input_box");
@@ -86,7 +86,7 @@ export default Vue.extend({
             key: 'PageDown',
         }));
 
-        //event.preventDefault();
+        
       },
       tab(){
            var element = document.getElementById("suggest_dropdown");
@@ -95,7 +95,7 @@ export default Vue.extend({
             key: 'Tab',
         }));
 
-       // event.preventDefault();
+       
       },
       shift_arrow_up(){
            var element = document.getElementById("suggest_dropdown");
@@ -115,7 +115,7 @@ export default Vue.extend({
         })); 
       },
       arrow_down(event:any){ 
-           // alert("arown_down");
+           
         var element = document.getElementById("suggest_dropdown");
 
         element?.dispatchEvent(new KeyboardEvent('keydown', {
@@ -129,7 +129,7 @@ export default Vue.extend({
 
         e.preventDefault();
 
-        //var element = document.getElementById("input_box");
+        
         var element = document.getElementById("suggest_dropdown");
 
         element?.dispatchEvent(new KeyboardEvent('keydown', {
@@ -144,7 +144,7 @@ export default Vue.extend({
 });
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" scoped> 
     #legend{
         display: flex;  
         bottom: 0;     

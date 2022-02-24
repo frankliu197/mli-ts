@@ -32,7 +32,7 @@ body{
              background: lightgreen !important;
          }
 // title button mouse-over highlight
-.v-btn.v-size--default {
+.v-btn.v-size--default { 
   color: white;
 }
 
