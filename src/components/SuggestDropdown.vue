@@ -7,12 +7,15 @@
       v-for="(item, index) of pageEntries()"
       @click="choose(index)" 
       :class="selectionIndex === index? 'selected': ''"
-      @mouseenter="selectionIndex = index"
-    ) {{index + 1}} {{item.symbol}}
+      @mouseenter="selectionIndex = index") 
+        div.index {{index + 1}}
+        div.symbol {{item.symbol}}
     .dropdown-footer(v-if="!isLastPage || !isFirstPage")
-      button(@click="_prevPage" :disabled="isFirstPage") prev
-      button(@click="_nextPage" :disabled="isLastPage") next
-  FloatingComponent(v-show="characterDetails" :position="characterPosition")
+      button(@click="_prevPage" :disabled="isFirstPage")
+        div(class="footer-arrow-left") ◀
+      button(@click="_nextPage" :disabled="isLastPage") 
+        div(class="footer-arrow-right") ▶
+  FloatingComponent(v-show="characterDetails" :position="characterPosition" style="min-width: 150px;") 
     CharacterDetails(v-if="getSuggestion(page, selectionIndex)" :character="getSuggestion(page, selectionIndex)")
 
 </template>
@@ -99,6 +102,10 @@ export default Vue.extend({
         $event.preventDefault()
       }
 
+      //prevent defaults of keys in case user rebinds tabs/enters to another key
+      if ($event.key === "Tab" || $event.key === "Enter") {
+        $event.preventDefault()
+      }
     },
     nextEntry() {
 			if (this.search === "") {
@@ -215,14 +222,11 @@ export default Vue.extend({
         input.focus()
       })
     },
-    characterDetails: function(val){
-      if (!val){
-        return
-      }
-      const dropdown = this.$refs.dropdown as HTMLDivElement
-      
-      let {right} = dropdown.getBoundingClientRect()
-      this.characterPosition = {left: right + "px", top: 0 + "px"}   
+    search: function(){
+      //this.selectionIndex = 0
+      const input = this.$refs.input as HTMLDivElement
+      let {right} = input.getBoundingClientRect()
+      this.characterPosition = {left: right/5 + "px", top: "9px"}   
     }
   },
  
@@ -230,14 +234,77 @@ export default Vue.extend({
 </script>
 
 <style lang='scss' scoped>
+
+.input-section {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins';
+  border-radius: 10px 10px 0 0;
+  font-size: 20px;
+  padding: 7px;
+  border: solid 2px rgb(85, 185, 215);
+}
+
+input {
+  outline: none;
+}
+
+.dropdown-section {
+  font-family: 'Poppins';
+  background-color: white;
+  border-radius: 0 0 10px 10px; 
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.dropdown-footer {
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+.footer-arrow-left {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-arrow-right {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.index, .separator, .symbol {
+  float: left;
+}
+
+.index {
+  color: rgb(190, 190, 190);
+  font-size: 18px;
+  padding-top: 2px;
+  min-width: 30px;
+  margin-right: 3px;
+  text-align: center;
+}
+
+.symbol {
+  min-width: 20px;
+  text-align: center;
+  margin-left: 5px;
+}
+
 .dropdown {
   padding: 10px;
   min-width: 70px;
   .dropdown-element {
     display: block;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    width: 95%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
     
     &.selected {
-      color: red;
+      color: rgb(85, 185, 215);
+      background-color: rgba(0, 0, 0, 0.03);
     }
   }
 }

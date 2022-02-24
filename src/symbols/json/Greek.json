@@ -4,7 +4,7 @@
         "name": "greek numeral sign",
         "symbol": "\u0374",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -12,7 +12,7 @@
         "name": "greek lower numeral sign",
         "symbol": "\u0375",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "greek ypogegrammeni",
         "symbol": "\u037a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "greek question mark",
         "symbol": "\u037e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "greek tonos",
         "symbol": "\u0384",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -44,7 +44,7 @@
         "name": "greek dialytika tonos",
         "symbol": "\u0385",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -52,7 +52,7 @@
         "name": "greek capital letter alpha with tonos",
         "symbol": "\u0386",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -60,7 +60,7 @@
         "name": "greek ano teleia",
         "symbol": "\u0387",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -68,7 +68,7 @@
         "name": "greek capital letter epsilon with tonos",
         "symbol": "\u0388",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -76,7 +76,7 @@
         "name": "greek capital letter eta with tonos",
         "symbol": "\u0389",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -84,7 +84,7 @@
         "name": "greek capital letter iota with tonos",
         "symbol": "\u038a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -92,7 +92,7 @@
         "name": "greek capital letter omicron with tonos",
         "symbol": "\u038c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -100,7 +100,7 @@
         "name": "greek capital letter upsilon with tonos",
         "symbol": "\u038e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -108,7 +108,7 @@
         "name": "greek capital letter omega with tonos",
         "symbol": "\u038f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -116,7 +116,7 @@
         "name": "greek small letter iota with dialytika and tonos",
         "symbol": "\u0390",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -124,7 +124,7 @@
         "name": "greek capital letter alpha",
         "symbol": "\u0391",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -132,7 +132,7 @@
         "name": "greek capital letter beta",
         "symbol": "\u0392",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -140,7 +140,7 @@
         "name": "greek capital letter gamma",
         "symbol": "\u0393",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -148,7 +148,7 @@
         "name": "greek capital letter delta",
         "symbol": "\u0394",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -156,7 +156,7 @@
         "name": "greek capital letter epsilon",
         "symbol": "\u0395",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -164,7 +164,7 @@
         "name": "greek capital letter zeta",
         "symbol": "\u0396",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -172,7 +172,7 @@
         "name": "greek capital letter eta",
         "symbol": "\u0397",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -180,7 +180,7 @@
         "name": "greek capital letter theta",
         "symbol": "\u0398",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -188,7 +188,7 @@
         "name": "greek capital letter iota",
         "symbol": "\u0399",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -196,7 +196,7 @@
         "name": "greek capital letter kappa",
         "symbol": "\u039a",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -204,7 +204,7 @@
         "name": "greek capital letter lamda",
         "symbol": "\u039b",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "greek capital letter mu",
         "symbol": "\u039c",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -220,7 +220,7 @@
         "name": "greek capital letter nu",
         "symbol": "\u039d",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -228,7 +228,7 @@
         "name": "greek capital letter xi",
         "symbol": "\u039e",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -236,7 +236,7 @@
         "name": "greek capital letter omicron",
         "symbol": "\u039f",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -244,7 +244,7 @@
         "name": "greek capital letter pi",
         "symbol": "\u03a0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -252,7 +252,7 @@
         "name": "greek capital letter rho",
         "symbol": "\u03a1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -260,7 +260,7 @@
         "name": "greek capital letter sigma",
         "symbol": "\u03a3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -268,7 +268,7 @@
         "name": "greek capital letter tau",
         "symbol": "\u03a4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -276,7 +276,7 @@
         "name": "greek capital letter upsilon",
         "symbol": "\u03a5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -284,7 +284,7 @@
         "name": "greek capital letter phi",
         "symbol": "\u03a6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -292,7 +292,7 @@
         "name": "greek capital letter chi",
         "symbol": "\u03a7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -300,7 +300,7 @@
         "name": "greek capital letter psi",
         "symbol": "\u03a8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -308,7 +308,7 @@
         "name": "greek capital letter omega",
         "symbol": "\u03a9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -316,7 +316,7 @@
         "name": "greek capital letter iota with dialytika",
         "symbol": "\u03aa",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -324,7 +324,7 @@
         "name": "greek capital letter upsilon with dialytika",
         "symbol": "\u03ab",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -332,7 +332,7 @@
         "name": "greek small letter alpha with tonos",
         "symbol": "\u03ac",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -340,7 +340,7 @@
         "name": "greek small letter epsilon with tonos",
         "symbol": "\u03ad",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -348,7 +348,7 @@
         "name": "greek small letter eta with tonos",
         "symbol": "\u03ae",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -356,7 +356,7 @@
         "name": "greek small letter iota with tonos",
         "symbol": "\u03af",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -364,7 +364,7 @@
         "name": "greek small letter upsilon with dialytika and tonos",
         "symbol": "\u03b0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -372,7 +372,7 @@
         "name": "greek small letter alpha",
         "symbol": "\u03b1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -380,7 +380,7 @@
         "name": "greek small letter beta",
         "symbol": "\u03b2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -388,7 +388,7 @@
         "name": "greek small letter gamma",
         "symbol": "\u03b3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -396,7 +396,7 @@
         "name": "greek small letter delta",
         "symbol": "\u03b4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -404,7 +404,7 @@
         "name": "greek small letter epsilon",
         "symbol": "\u03b5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -412,7 +412,7 @@
         "name": "greek small letter zeta",
         "symbol": "\u03b6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -420,7 +420,7 @@
         "name": "greek small letter eta",
         "symbol": "\u03b7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -428,7 +428,7 @@
         "name": "greek small letter theta",
         "symbol": "\u03b8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -436,7 +436,7 @@
         "name": "greek small letter iota",
         "symbol": "\u03b9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -444,7 +444,7 @@
         "name": "greek small letter kappa",
         "symbol": "\u03ba",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -452,7 +452,7 @@
         "name": "greek small letter lamda",
         "symbol": "\u03bb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -460,7 +460,7 @@
         "name": "greek small letter mu",
         "symbol": "\u03bc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -468,7 +468,7 @@
         "name": "greek small letter nu",
         "symbol": "\u03bd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -476,7 +476,7 @@
         "name": "greek small letter xi",
         "symbol": "\u03be",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -484,7 +484,7 @@
         "name": "greek small letter omicron",
         "symbol": "\u03bf",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -492,7 +492,7 @@
         "name": "greek small letter pi",
         "symbol": "\u03c0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -500,7 +500,7 @@
         "name": "greek small letter rho",
         "symbol": "\u03c1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -508,7 +508,7 @@
         "name": "greek small letter final sigma",
         "symbol": "\u03c2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -516,7 +516,7 @@
         "name": "greek small letter sigma",
         "symbol": "\u03c3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -524,7 +524,7 @@
         "name": "greek small letter tau",
         "symbol": "\u03c4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -532,7 +532,7 @@
         "name": "greek small letter upsilon",
         "symbol": "\u03c5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -540,7 +540,7 @@
         "name": "greek small letter phi",
         "symbol": "\u03c6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -548,7 +548,7 @@
         "name": "greek small letter chi",
         "symbol": "\u03c7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -556,7 +556,7 @@
         "name": "greek small letter psi",
         "symbol": "\u03c8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -564,7 +564,7 @@
         "name": "greek small letter omega",
         "symbol": "\u03c9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -572,7 +572,7 @@
         "name": "greek small letter iota with dialytika",
         "symbol": "\u03ca",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -580,7 +580,7 @@
         "name": "greek small letter upsilon with dialytika",
         "symbol": "\u03cb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -588,7 +588,7 @@
         "name": "greek small letter omicron with tonos",
         "symbol": "\u03cc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -596,7 +596,7 @@
         "name": "greek small letter upsilon with tonos",
         "symbol": "\u03cd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -604,7 +604,7 @@
         "name": "greek small letter omega with tonos",
         "symbol": "\u03ce",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -612,7 +612,7 @@
         "name": "greek beta symbol",
         "symbol": "\u03d0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -620,7 +620,7 @@
         "name": "greek theta symbol",
         "symbol": "\u03d1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -628,7 +628,7 @@
         "name": "greek upsilon with hook symbol",
         "symbol": "\u03d2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -636,7 +636,7 @@
         "name": "greek upsilon with acute and hook symbol",
         "symbol": "\u03d3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -644,7 +644,7 @@
         "name": "greek upsilon with diaeresis and hook symbol",
         "symbol": "\u03d4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -652,7 +652,7 @@
         "name": "greek phi symbol",
         "symbol": "\u03d5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -660,7 +660,7 @@
         "name": "greek pi symbol",
         "symbol": "\u03d6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -668,7 +668,7 @@
         "name": "greek kai symbol",
         "symbol": "\u03d7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -676,7 +676,7 @@
         "name": "greek letter stigma",
         "symbol": "\u03da",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -684,7 +684,7 @@
         "name": "greek small letter stigma",
         "symbol": "\u03db",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -692,7 +692,7 @@
         "name": "greek letter digamma",
         "symbol": "\u03dc",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -700,7 +700,7 @@
         "name": "greek small letter digamma",
         "symbol": "\u03dd",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -708,7 +708,7 @@
         "name": "greek letter koppa",
         "symbol": "\u03de",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -716,7 +716,7 @@
         "name": "greek small letter koppa",
         "symbol": "\u03df",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -724,7 +724,7 @@
         "name": "greek letter sampi",
         "symbol": "\u03e0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -732,7 +732,7 @@
         "name": "greek small letter sampi",
         "symbol": "\u03e1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -740,7 +740,7 @@
         "name": "coptic capital letter shei",
         "symbol": "\u03e2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -748,7 +748,7 @@
         "name": "coptic small letter shei",
         "symbol": "\u03e3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -756,7 +756,7 @@
         "name": "coptic capital letter fei",
         "symbol": "\u03e4",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -764,7 +764,7 @@
         "name": "coptic small letter fei",
         "symbol": "\u03e5",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -772,7 +772,7 @@
         "name": "coptic capital letter khei",
         "symbol": "\u03e6",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -780,7 +780,7 @@
         "name": "coptic small letter khei",
         "symbol": "\u03e7",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -788,7 +788,7 @@
         "name": "coptic capital letter hori",
         "symbol": "\u03e8",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -796,7 +796,7 @@
         "name": "coptic small letter hori",
         "symbol": "\u03e9",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -804,7 +804,7 @@
         "name": "coptic capital letter gangia",
         "symbol": "\u03ea",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -812,7 +812,7 @@
         "name": "coptic small letter gangia",
         "symbol": "\u03eb",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -820,7 +820,7 @@
         "name": "coptic capital letter shima",
         "symbol": "\u03ec",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -828,7 +828,7 @@
         "name": "coptic small letter shima",
         "symbol": "\u03ed",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -836,7 +836,7 @@
         "name": "coptic capital letter dei",
         "symbol": "\u03ee",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -844,7 +844,7 @@
         "name": "coptic small letter dei",
         "symbol": "\u03ef",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -852,7 +852,7 @@
         "name": "greek kappa symbol",
         "symbol": "\u03f0",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -860,7 +860,7 @@
         "name": "greek rho symbol",
         "symbol": "\u03f1",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -868,7 +868,7 @@
         "name": "greek lunate sigma symbol",
         "symbol": "\u03f2",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     },
     {
@@ -876,7 +876,7 @@
         "name": "greek letter yot",
         "symbol": "\u03f3",
         "keywords": [],
-        "strokes": "",
+        "composition": "",
         "boost": 1
     }
 ]
