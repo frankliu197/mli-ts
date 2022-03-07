@@ -299,8 +299,9 @@ input {
     border-bottom: 1px solid rgb(180, 180, 180);
     width: 95%;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px; 
     text-align: left;
+    display: 0;
     
     &.selected {
       color: rgb(85, 185, 215);

@@ -26,7 +26,7 @@ export default Vue.extend({
       dropdownShow: false,
       dropdownPosition: {} as Position
     }
-  },
+  }, 
   methods: {
     write($event: Character) : void {
       const el = this.$refs.textarea as HTMLTextAreaElement
@@ -90,6 +90,8 @@ textarea {
 .input-box {
   text-align: center;
 }
+
+
 
 .dropdown {
   padding: 10px;

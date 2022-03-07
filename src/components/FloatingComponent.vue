@@ -5,7 +5,7 @@
 
 <script lang='ts'>
 import Vue from "vue";
-import {Position} from "@/helpers/UiComponents"
+import {Position} from "@/helpers/UiComponents" 
 export default Vue.extend({
   name: 'FloatingComponent',
 	props: {

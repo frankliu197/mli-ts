@@ -4,7 +4,7 @@
   v-app-bar(:height=80 fixed)
     v-btn.secondary--text(text href="/")
       v-app-bar-title(class="title") MLI 
-      v-app-bar-title(class="subtitle") - Math-Latin Input Method
+      v-app-bar-title(class="subtitle") - Math-Latin Input Method 
   .header-margin(style="height: 100px")
 </template>
 

@@ -1,64 +1,69 @@
 <template lang =  "pug">   
-           
-    <div id="legend">          
-        <div id="legend-box"> 
-            <div> 
-                <div> Next page:</div>
-                <div id="imagebox"><img src="../assets/up-down.png" alt=""></div>
-                <div><span>Shift</span> + <span>ArrowDown</span></div>
-                <a @mousedown="keep_focus" @click="shift_arrowdown">
-                </a>
+    <div class="legend_container">
+        <div>
+            <label class="legend-label">Legend</label>
+        </div>      
+        <div id="legend">          
+            <div id="legend-box"> 
+                <div>  
+                    <div> Next page:</div>
+                    <div id="imagebox"><img src="../assets/up-down.png" alt=""></div>
+                    <div><span>Shift</span> + <span>ArrowDown</span></div>
+                    <a id = 'shiftarrowdown' @mousedown="keep_focus" @click="shift_arrowdown">
+                    </a>
+                </div>
             </div>
-        </div>
-        <div id="legend-box" class="border-left">
-            <div>
-                <div> Prev Page:</div>
-                <div id="imagebox"><img src="../assets/twoarrow.png" alt=""></div>
-                <div> <span>Shift</span> + <span>ArrowUp</span></div>
+            <div id="legend-box" class="border-left">
+                <div>
+                    <div> Prev Page:</div>
+                    <div id="imagebox"><img src="../assets/twoarrow.png" alt=""></div>
+                    <div> <span>Shift</span> + <span>ArrowUp</span></div>
+                </div> 
+                <a id = 'shiftarrowup' @click="shift_arrow_up"></a>
             </div> 
-             <a @click="shift_arrow_up"></a>
-        </div> 
-        <div id="legend-box" class="border-left"> 
-            <div>
-                <div> Next Entry:</div> 
-                <div id="imagebox"><img src="../assets/arrowdown32.png" alt=""></div> 
-                <div> <span>     </span>      <span>ArrowDown</span></div>
+            <div id="legend-box" class="border-left"> 
+                <div>
+                    <div> Next Entry:</div> 
+                    <div id="imagebox"><img src="../assets/arrowdown32.png" alt=""></div> 
+                    <div> <span>     </span>      <span>ArrowDown</span></div>
+                </div>
+                <a id ='down' @mousedown="keep_focus" @click="arrow_down" ></a>
             </div>
-             <a @mousedown="keep_focus" @click="arrow_down" ></a>
+            <div id="legend-box" class="border-left"> 
+                <div>
+                    <div> Prev Entry:</div>
+                    <div id="imagebox"><img src="../assets/arrowup32.png" alt=""></div>
+                    <div> <span>    </span>   <span>ArrowUp</span></div>
+                </div>
+                <a id = 'up' @click="arrow_up"></a>
+            </div>
+            <div id="legend-box" class="border-left">
+                <div>
+                    <div>Description:</div>
+                    <div id="imagebox"><img src="../assets/tab32.png" alt=""></div>
+                    <div> <span>    </span>   <span>Tab</span></div>
+                </div>
+                <a id = 'tab' @click="tab" ></a>
+            </div>
+            <div id="legend-box" class="border-left">
+                <div>
+                    <div> Enter:</div>
+                    <div id="imagebox"><img src="../assets/enter.png" alt=""></div> 
+                    <div> <span>    </span>   <span>Enter</span></div>
+                </div>
+                <a id ='enter' @click="enter"></a>
+            </div>
+            <div id="legend-box" class="border-left"> 
+                <div>
+                    <div>Toggledropdown:</div>
+                    <div id="imagebox"><img src="../assets/pagedown.png" alt=""></div>
+                    <div> <span>    </span>   <span>PageDown</span></div>
+                </div>
+                <a id = 'pagedown' @click="page_down"></a>
+            </div> 
         </div>
-        <div id="legend-box" class="border-left"> 
-            <div>
-                <div> Prev Entry:</div>
-                <div id="imagebox"><img src="../assets/arrowup32.png" alt=""></div>
-                <div> <span>    </span>   <span>ArrowUp</span></div>
-            </div>
-             <a @click="arrow_up"></a>
-        </div>
-        <div id="legend-box" class="border-left">
-            <div>
-                <div>Description:</div>
-                <div id="imagebox"><img src="../assets/tab32.png" alt=""></div>
-                <div> <span>    </span>   <span>Tab</span></div>
-            </div>
-             <a @click="tab" ></a>
-        </div>
-        <div id="legend-box" class="border-left"> 
-            <div>
-                <div> Enter:</div>
-                <div id="imagebox"><img src="../assets/enter.png" alt=""></div>  
-                <div> <span>    </span>   <span>Enter</span></div>
-            </div>
-             <a @click="enter"></a>
-        </div>
-        <div id="legend-box" class="border-left">  
-            <div>
-                <div>Toggledropdown:</div>
-                <div id="imagebox"><img src="../assets/pagedown.png" alt=""></div> 
-                <div> <span>    </span>   <span>PageDown</span></div> 
-            </div>
-             <a @click="page_down"></a>
-        </div> 
     </div>
+    
 </template>   
 
 
@@ -125,11 +130,11 @@ export default Vue.extend({
         event.preventDefault();
 
       },
+
       shift_arrowdown(e:any){
 
         e.preventDefault();
 
-        
         var element = document.getElementById("suggest_dropdown");
 
         element?.dispatchEvent(new KeyboardEvent('keydown', {
@@ -146,18 +151,22 @@ export default Vue.extend({
 
 <style lang="scss" scoped> 
     #legend{
-        display: flex;  
-        bottom: 0;     
-        position: absolute;
+        display: flex;   
         margin-bottom: 5px;
         border: 4px solid #4730ca;
         border-radius: 25px;
         height: 200px/10px;
         border-color: grey;
-        margin-top:-45px;
         font-size: 8.5px; 
         padding: 0px 2px;
         font-family: arial;
+        margin: 10px;
+        background-color: white;
+    }
+
+    .legend_container {
+        bottom: 0;
+        position: absolute;
     }
 
     div#legend-box div {
@@ -187,6 +196,14 @@ export default Vue.extend({
         width: 32px;
     }
 
+    label.legend-label {
+        font-size: 12px;
+        padding-left: 12px;
+        font-family: arial;
+        color: white;
+        
+    }
+
     .border-left {
         border-left: 4px solid grey;
     }
@@ -196,4 +213,4 @@ export default Vue.extend({
          }
 
    
-</style>
+</style> 
