@@ -1,5 +1,5 @@
-import SymbolSets from "./SymbolSets";
-import Character from "./Character";
+import SymbolSets from "../entities/SymbolSets";
+import Character from "../entities/Character";
 import { KeywordRecommender } from "./KeywordRecommender";
 import { CompositionRecommender } from "./CompositionRecommender";
 import { combinePriority } from "./Priority";
@@ -13,8 +13,9 @@ import MiscTechnical from "../symbols/json/MiscTechnical.json";
 import NumberForms from "../symbols/json/NumberForms.json";
 import SmallFormVariants from "../symbols/json/SmallFormVariants.json";
 import SuperscriptsAndSubscripts from "../symbols/json/SuperscriptsAndSubscripts.json";
-
+import OtherSymbols from "../symbols/json/OtherSymbols.json"
 const symbolSet = new SymbolSets();
+//symbolSet.add(OtherSymbols)
 symbolSet.add(BasicLatin);
 symbolSet.add(Greek);
 symbolSet.add(MathOperators);

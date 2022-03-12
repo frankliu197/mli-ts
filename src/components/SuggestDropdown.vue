@@ -24,7 +24,7 @@
 <script lang='ts'>
 import Globals from '@/helpers/globals'
 import {boost, suggest} from '@/Recommender/Recommender'
-import Character from '@/Recommender/Character';
+import Character from '@/entities/Character';
 import CharacterDetails from "@/components/CharacterDetails.vue"
 import "@/Recommender/KeywordRecommender";
 import Vue from "vue";

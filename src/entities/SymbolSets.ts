@@ -1,5 +1,5 @@
 import Character from "./Character";
-import { setBoosts } from "./Storage";
+import { setBoosts } from "../Recommender/Storage";
 export default class SymbolSets {
   symbols: Array<Character>;
   map: Map<string, Character>;

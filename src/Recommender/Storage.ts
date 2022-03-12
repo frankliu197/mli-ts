@@ -1,4 +1,4 @@
-import Character from "./Character";
+import Character from "../entities/Character";
 
 export function boost(c: Character): void {
   c.boost++;

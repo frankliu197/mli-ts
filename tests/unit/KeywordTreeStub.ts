@@ -1,6 +1,6 @@
 import { assert, expect } from "chai";
 import { KeywordTree, Node } from "@/Recommender/KeywordTree";
-import Character from "@/Recommender/Character";
+import Character from "@/entities/Character";
 
 export class StubNode {
   keys: Array<string>;

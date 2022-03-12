@@ -4,7 +4,7 @@
         "name": "exclamation mark",
         "symbol": "!",
         "keywords": [],
-        "composition": "",
+        "composition": "|.",
         "boost": 1
     },
     {
@@ -12,7 +12,7 @@
         "name": "quotation mark",
         "symbol": "\"",
         "keywords": [],
-        "composition": "",
+        "composition": "''",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "number sign",
         "symbol": "#",
         "keywords": [],
-        "composition": "",
+        "composition": "//--",
         "boost": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "dollar sign",
         "symbol": "$",
         "keywords": [],
-        "composition": "",
+        "composition": "S|",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "percent sign",
         "symbol": "%",
         "keywords": [],
-        "composition": "",
+        "composition": "o/o",
         "boost": 1
     },
     {
@@ -44,7 +44,7 @@
         "name": "ampersand",
         "symbol": "&amp;",
         "keywords": [],
-        "composition": "",
+        "composition": "&",
         "boost": 1
     },
     {
@@ -52,7 +52,7 @@
         "name": "apostrophe",
         "symbol": "'",
         "keywords": [],
-        "composition": "",
+        "composition": "'",
         "boost": 1
     },
     {
@@ -60,7 +60,7 @@
         "name": "left parenthesis",
         "symbol": "(",
         "keywords": [],
-        "composition": "",
+        "composition": "(",
         "boost": 1
     },
     {
@@ -68,7 +68,7 @@
         "name": "right parenthesis",
         "symbol": ")",
         "keywords": [],
-        "composition": "",
+        "composition": ")",
         "boost": 1
     },
     {
@@ -91,7 +91,7 @@
         "unicode": 44,
         "name": "comma",
         "symbol": ",",
-        "keywords": [],
+        "keywords": [], 
         "composition": "",
         "boost": 1
     },
@@ -100,7 +100,7 @@
         "name": "hyphen minus",
         "symbol": "_",
         "keywords": [],
-        "composition": "",
+        "composition": "-",
         "boost": 1
     },
     {
@@ -204,7 +204,7 @@
         "name": "colon",
         "symbol": ":",
         "keywords": [],
-        "composition": "",
+        "composition": "..",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "semicolon",
         "symbol": ";",
         "keywords": [],
-        "composition": "",
+        "composition": ".,",
         "boost": 1
     },
     {
@@ -220,7 +220,7 @@
         "name": "less than sign",
         "symbol": "&lt;",
         "keywords": [],
-        "composition": "",
+        "composition": "<",
         "boost": 1
     },
     {
@@ -228,7 +228,7 @@
         "name": "equals sign",
         "symbol": "=",
         "keywords": [],
-        "composition": "",
+        "composition": "--",
         "boost": 1
     },
     {
@@ -596,7 +596,7 @@
         "name": "latin small letter k",
         "symbol": "k",
         "keywords": [],
-        "composition": "",
+        "composition": "k",
         "boost": 1
     },
     {
@@ -604,7 +604,7 @@
         "name": "latin small letter l",
         "symbol": "l",
         "keywords": [],
-        "composition": "",
+        "composition": "l",
         "boost": 1
     },
     {
@@ -612,7 +612,7 @@
         "name": "latin small letter m",
         "symbol": "m",
         "keywords": [],
-        "composition": "",
+        "composition": "m",
         "boost": 1
     },
     {
@@ -748,7 +748,7 @@
         "name": "tilde",
         "symbol": "~",
         "keywords": [],
-        "composition": "",
+        "composition": "~",
         "boost": 1
     }
 ]

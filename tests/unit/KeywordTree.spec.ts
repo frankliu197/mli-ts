@@ -1,6 +1,6 @@
 import { createStubTree, assertTree } from "./KeywordTreeStub";
 import { KeywordTree, Node } from "@/Recommender/KeywordTree";
-import Character from "@/Recommender/Character";
+import Character from "@/entities/Character";
 import BL from "@/symbols/json/BasicLatin.json";
 import chai, { assert, expect } from "chai";
 import ChaiSorted from "chai-sorted";
@@ -38,7 +38,7 @@ describe("KeywordTree structure", () => {
     insertCharactersToTree(characters, tree);
 
     const stubTree = createStubTree({
-      keys: ["EXCLAMATION", "MARK", "QUOTATION"],
+      keys: ["exclamation", "mark", "quotation"],
     });
 
     assertTree(tree, stubTree, characters);
@@ -51,13 +51,13 @@ describe("KeywordTree structure", () => {
     insertCharactersToTree(characters, tree);
 
     const stubTree = createStubTree({
-      keys: ["NUMBER"],
+      keys: ["number"],
       child: [
         {
-          keys: ["DOLLAR", "EXCLAMATION", "MARK"],
+          keys: ["dollar", "exclamation", "mark"],
         },
         {
-          keys: ["NUMBER", "QUOTATION", "SIGN"],
+          keys: ["number", "quotation", "sign"],
         },
       ],
     });
@@ -72,16 +72,16 @@ describe("KeywordTree structure", () => {
     insertCharactersToTree(characters, tree);
 
     const stubTree = createStubTree({
-      keys: ["NUMBER", "QUOTATION"],
+      keys: ["number", "quotation"],
       child: [
         {
-          keys: ["DOLLAR", "EXCLAMATION", "MARK"],
+          keys: ["dollar", "exclamation", "mark"],
         },
         {
-          keys: ["NUMBER", "PERCENT"],
+          keys: ["number", "percent"],
         },
         {
-          keys: ["QUOTATION", "SIGN"],
+          keys: ["quotation", "sign"],
         },
       ],
     });
@@ -93,40 +93,40 @@ describe("KeywordTree structure", () => {
     const characters = BasicLatin.slice(0, 9);
     insertCharactersToTree(characters, tree);
     const stubTree = createStubTree({
-      keys: ["EXCLAMATION", "NUMBER", "QUOTATION"],
+      keys: ["exclamation", "number", "quotation"],
       child: [
-        { keys: ["AMPERSAND", "APOSTROPHE", "DOLLAR"] },
-        { keys: ["EXCLAMATION", "LEFT", "MARK"] },
-        { keys: ["NUMBER", "PARENTHESIS", "PERCENT"] },
-        { keys: ["QUOTATION", "RIGHT", "SIGN"] },
+        { keys: ["ampersand", "apostrophe", "dollar"] },
+        { keys: ["exclamation", "left", "mark"] },
+        { keys: ["number", "parenthesis", "percent"] },
+        { keys: ["quotation", "right", "sign"] },
       ],
     });
     assertTree(tree, stubTree, characters);
   });
 
   it("works with searches", () => {
-    assert.deepEqual(latinTree.getKeywordSet("A"), [
-      "A",
-      "ACCENT",
-      "AMPERSAND",
-      "APOSTROPHE",
-      "ASTERISK",
-      "AT",
+    assert.deepEqual(latinTree.getKeywordSet("a"), [
+      "a",
+      "accent",
+      "ampersand",
+      "apostrophe",
+      "asterisk",
+      "at",
     ]);
 
     //collection spanning accross middle of nodes
-    assert.deepEqual(latinTree.getKeywordSet("D"), ["D", "DIGIT", "DOLLAR"]);
+    assert.deepEqual(latinTree.getKeywordSet("d"), ["d", "digit", "dollar"]);
 
     //search of letters
-    assert.deepEqual(latinTree.getKeywordSet("CO"), [
-      "COLON",
-      "COMMA",
-      "COMMERCIAL",
+    assert.deepEqual(latinTree.getKeywordSet("co"), [
+      "colon",
+      "comma",
+      "commercial",
     ]);
 
-    assert.deepEqual(latinTree.getKeywordSet("REVERSE"), ["REVERSE"]);
+    assert.deepEqual(latinTree.getKeywordSet("reverse"), ["reverse"]);
 
-    assert.deepEqual(latinTree.getKeywordSet("ABCDS"), []);
+    assert.deepEqual(latinTree.getKeywordSet("abcds"), []);
 
     assert.deepEqual(latinTree.getKeywordSet("!"), []);
   });

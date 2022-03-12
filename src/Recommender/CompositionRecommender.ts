@@ -1,6 +1,6 @@
 import { CompositionTree } from "./CompositionTree";
-import Character from "./Character";
-import SymbolSets from "./SymbolSets";
+import Character from "../entities/Character";
+import SymbolSets from "../entities/SymbolSets";
 
 export class CompositionRecommender {
   tree: CompositionTree;
