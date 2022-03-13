@@ -16,7 +16,7 @@ context('Todos',() => {
 
     // if dropdown accessed and clicked 
    
-    cy.get('.dropdown').click({force:true})
+    cy.get('.dropdown').click({force:true}) 
 
     // Testing pagedown functionality, step to access the dropdown
    

@@ -210,7 +210,7 @@ export default Vue.extend({
 
          #legend-box>div{
              padding: 5px;
-         }
+         } 
 
    
 </style> 
