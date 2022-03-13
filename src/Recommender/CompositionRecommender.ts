@@ -1,13 +1,13 @@
 import { CompositionTree } from "./CompositionTree";
 import Character from "../entities/Character";
-import SymbolSets from "../entities/SymbolSets";
+import CharacterSets from "../entities/CharacterSets";
 
 export class CompositionRecommender {
   tree: CompositionTree;
   constructor() {
     this.tree = new CompositionTree();
   }
-  add(set: SymbolSets): void {
+  add(set: CharacterSets): void {
     for (const c of set.symbols) {
       this.tree.insert(c);
     }

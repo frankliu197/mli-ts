@@ -1,4 +1,4 @@
-import { createStubTree, assertTree } from "./KeywordTreeStub";
+import { createMockTree, assertTree } from "./KeywordTreeMock";
 import { KeywordTree, Node } from "@/Recommender/KeywordTree";
 import Character from "@/entities/Character";
 import BL from "@/symbols/json/BasicLatin.json";
@@ -24,11 +24,11 @@ describe("KeywordTree structure", () => {
   it("works as empty tree", () => {
     const tree = new KeywordTree();
 
-    const stubTree = createStubTree({
+    const mockTree = createMockTree({
       keys: [],
     });
 
-    assertTree(tree, stubTree, []);
+    assertTree(tree, mockTree, []);
   });
 
   it("works with only root node", () => {
@@ -37,11 +37,11 @@ describe("KeywordTree structure", () => {
     const characters = BasicLatin.slice(0, 2);
     insertCharactersToTree(characters, tree);
 
-    const stubTree = createStubTree({
+    const mockTree = createMockTree({
       keys: ["exclamation", "mark", "quotation"],
     });
 
-    assertTree(tree, stubTree, characters);
+    assertTree(tree, mockTree, characters);
   });
 
   it("works with root split", () => {
@@ -50,19 +50,6 @@ describe("KeywordTree structure", () => {
     const characters = BasicLatin.slice(0, 4);
     insertCharactersToTree(characters, tree);
 
-    const stubTree = createStubTree({
-      keys: ["number"],
-      child: [
-        {
-          keys: ["dollar", "exclamation", "mark"],
-        },
-        {
-          keys: ["number", "quotation", "sign"],
-        },
-      ],
-    });
-
-    assertTree(tree, stubTree, characters);
   });
 
   it("works with root merge", () => {
@@ -71,7 +58,7 @@ describe("KeywordTree structure", () => {
     const characters = BasicLatin.slice(0, 5);
     insertCharactersToTree(characters, tree);
 
-    const stubTree = createStubTree({
+    const mockTree = createMockTree({
       keys: ["number", "quotation"],
       child: [
         {
@@ -85,14 +72,19 @@ describe("KeywordTree structure", () => {
         },
       ],
     });
-    assertTree(tree, stubTree, characters);
+    assertTree(tree, mockTree, characters);
   });
 
   it("works with max children", () => {
-    const tree = new KeywordTree();
+    //choose CharacterSet
     const characters = BasicLatin.slice(0, 9);
+    
+    //create keyword Tree
+    const tree = new KeywordTree();
     insertCharactersToTree(characters, tree);
-    const stubTree = createStubTree({
+    
+    //create stub keyword tree
+    const mockTree = createMockTree({
       keys: ["exclamation", "number", "quotation"],
       child: [
         { keys: ["ampersand", "apostrophe", "dollar"] },
@@ -101,7 +93,9 @@ describe("KeywordTree structure", () => {
         { keys: ["quotation", "right", "sign"] },
       ],
     });
-    assertTree(tree, stubTree, characters);
+
+    //ensure the stub tree and keyword tree matches
+    assertTree(tree, mockTree, characters);
   });
 
   it("works with searches", () => {

@@ -1,4 +1,4 @@
-import SymbolSets from "../entities/SymbolSets";
+import CharacterSets from "../entities/CharacterSets";
 import Character from "../entities/Character";
 import { KeywordRecommender } from "./KeywordRecommender";
 import { CompositionRecommender } from "./CompositionRecommender";
@@ -14,16 +14,16 @@ import NumberForms from "../symbols/json/NumberForms.json";
 import SmallFormVariants from "../symbols/json/SmallFormVariants.json";
 import SuperscriptsAndSubscripts from "../symbols/json/SuperscriptsAndSubscripts.json";
 import OtherSymbols from "../symbols/json/OtherSymbols.json"
-const symbolSet = new SymbolSets();
+const characterSet = new CharacterSets();
 //symbolSet.add(OtherSymbols)
-symbolSet.add(BasicLatin);
-symbolSet.add(Greek);
-symbolSet.add(MathOperators);
+characterSet.add(BasicLatin);
+characterSet.add(Greek);
+characterSet.add(MathOperators);
 
 let keywordRecommender = new KeywordRecommender();
-keywordRecommender.add(symbolSet);
+keywordRecommender.add(characterSet);
 let compositionRecommender = new CompositionRecommender();
-compositionRecommender.add(symbolSet);
+compositionRecommender.add(characterSet);
 /**
  * Search with keywords
  * Search with strokes (if no spaces)
@@ -51,8 +51,8 @@ export function suggest(search: string): Array<Character> {
     }
   }
 
-  if (search.length === 1 && symbolSet.getCharacter(search)!) {
-    map.set(symbolSet.getCharacter(search)!, Number.MAX_VALUE);
+  if (search.length === 1 && characterSet.getCharacter(search)!) {
+    map.set(characterSet.getCharacter(search)!, Number.MAX_VALUE);
   }
 
   for (const [c, n] of map) {
