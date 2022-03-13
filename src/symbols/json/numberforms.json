@@ -1,0 +1,394 @@
+[
+    {
+        "unicode": 8531,
+        "name": "vulgar fraction one third",
+        "symbol": "\u2153",
+        "keywords": [],
+        "composition": "1/3",
+        "boost": 1
+    },
+    {
+        "unicode": 8532,
+        "name": "vulgar fraction two thirds",
+        "symbol": "\u2154",
+        "keywords": [],
+        "composition": "2/3",
+        "boost": 1
+    },
+    {
+        "unicode": 8533,
+        "name": "vulgar fraction one fifth",
+        "symbol": "\u2155",
+        "keywords": [],
+        "composition": "1/5",
+        "boost": 1
+    },
+    {
+        "unicode": 8534,
+        "name": "vulgar fraction two fifths",
+        "symbol": "\u2156",
+        "keywords": [],
+        "composition": "2/5",
+        "boost": 1
+    },
+    {
+        "unicode": 8535,
+        "name": "vulgar fraction three fifths",
+        "symbol": "\u2157",
+        "keywords": [],
+        "composition": "3/5",
+        "boost": 1
+    },
+    {
+        "unicode": 8536,
+        "name": "vulgar fraction four fifths",
+        "symbol": "\u2158",
+        "keywords": [],
+        "composition": "4/5",
+        "boost": 1
+    },
+    {
+        "unicode": 8537,
+        "name": "vulgar fraction one sixth",
+        "symbol": "\u2159",
+        "keywords": [],
+        "composition": "1/6",
+        "boost": 1
+    },
+    {
+        "unicode": 8538,
+        "name": "vulgar fraction five sixths",
+        "symbol": "\u215a",
+        "keywords": [],
+        "composition": "5/6",
+        "boost": 1
+    },
+    {
+        "unicode": 8539,
+        "name": "vulgar fraction one eighth",
+        "symbol": "\u215b",
+        "keywords": [],
+        "composition": "1/8",
+        "boost": 1
+    },
+    {
+        "unicode": 8540,
+        "name": "vulgar fraction three eighths",
+        "symbol": "\u215c",
+        "keywords": [],
+        "composition": "3/8",
+        "boost": 1
+    },
+    {
+        "unicode": 8541,
+        "name": "vulgar fraction five eighths",
+        "symbol": "\u215d",
+        "keywords": [],
+        "composition": "5/8",
+        "boost": 1
+    },
+    {
+        "unicode": 8542,
+        "name": "vulgar fraction seven eighths",
+        "symbol": "\u215e",
+        "keywords": [],
+        "composition": "7/8",
+        "boost": 1
+    },
+    {
+        "unicode": 8543,
+        "name": "fraction numerator one",
+        "symbol": "\u215f",
+        "keywords": [],
+        "composition": "1/",
+        "boost": 1
+    },
+    {
+        "unicode": 8544,
+        "name": "roman numeral one",
+        "symbol": "\u2160",
+        "keywords": [],
+        "composition": "Ⅰ",
+        "boost": 1
+    },
+    {
+        "unicode": 8545,
+        "name": "roman numeral two",
+        "symbol": "\u2161",
+        "keywords": [],
+        "composition": "ⅠⅠ",
+        "boost": 1
+    },
+    {
+        "unicode": 8546,
+        "name": "roman numeral three",
+        "symbol": "\u2162",
+        "keywords": [],
+        "composition": "ⅠⅠⅠ",
+        "boost": 1
+    },
+    {
+        "unicode": 8547,
+        "name": "roman numeral four",
+        "symbol": "\u2163",
+        "keywords": [],
+        "composition": "ⅠⅤ",
+        "boost": 1
+    },
+    {
+        "unicode": 8548,
+        "name": "roman numeral five",
+        "symbol": "\u2164",
+        "keywords": [],
+        "composition": "Ⅴ",
+        "boost": 1
+    },
+    {
+        "unicode": 8549,
+        "name": "roman numeral six",
+        "symbol": "\u2165",
+        "keywords": [],
+        "composition": "ⅤⅠ",
+        "boost": 1
+    },
+    {
+        "unicode": 8550,
+        "name": "roman numeral seven",
+        "symbol": "\u2166",
+        "keywords": [],
+        "composition": "ⅤⅠⅠ",
+        "boost": 1
+    },
+    {
+        "unicode": 8551,
+        "name": "roman numeral eight",
+        "symbol": "\u2167",
+        "keywords": [],
+        "composition": "ⅤⅠⅠⅠ",
+        "boost": 1
+    },
+    {
+        "unicode": 8552,
+        "name": "roman numeral nine",
+        "symbol": "\u2168",
+        "keywords": [],
+        "composition": "ⅠⅩ",
+        "boost": 1
+    },
+    {
+        "unicode": 8553,
+        "name": "roman numeral ten",
+        "symbol": "\u2169",
+        "keywords": [],
+        "composition": "Ⅹ",
+        "boost": 1
+    },
+    {
+        "unicode": 8554,
+        "name": "roman numeral eleven",
+        "symbol": "\u216a",
+        "keywords": [],
+        "composition": "ⅩⅠ",
+        "boost": 1
+    },
+    {
+        "unicode": 8555,
+        "name": "roman numeral twelve",
+        "symbol": "\u216b",
+        "keywords": [],
+        "composition": "ⅩⅠⅠ",
+        "boost": 1
+    },
+    {
+        "unicode": 8556,
+        "name": "roman numeral fifty",
+        "symbol": "\u216c",
+        "keywords": [],
+        "composition": "Ⅼ",
+        "boost": 1
+    },
+    {
+        "unicode": 8557,
+        "name": "roman numeral one hundred",
+        "symbol": "\u216d",
+        "keywords": [],
+        "composition": "Ⅽ",
+        "boost": 1
+    },
+    {
+        "unicode": 8558,
+        "name": "roman numeral five hundred",
+        "symbol": "\u216e",
+        "keywords": [],
+        "composition": "Ⅾ",
+        "boost": 1
+    },
+    {
+        "unicode": 8559,
+        "name": "roman numeral one thousand",
+        "symbol": "\u216f",
+        "keywords": [],
+        "composition": "Ⅿ",
+        "boost": 1
+    },
+    {
+        "unicode": 8560,
+        "name": "small roman numeral one",
+        "symbol": "\u2170",
+        "keywords": [],
+        "composition": ".1",
+        "boost": 1
+    },
+    {
+        "unicode": 8561,
+        "name": "small roman numeral two",
+        "symbol": "\u2171",
+        "keywords": [],
+        "composition": "..11",
+        "boost": 1
+    },
+    {
+        "unicode": 8562,
+        "name": "small roman numeral three",
+        "symbol": "\u2172",
+        "keywords": [],
+        "composition": "...111",
+        "boost": 1
+    },
+    {
+        "unicode": 8563,
+        "name": "small roman numeral four",
+        "symbol": "\u2173",
+        "keywords": [],
+        "composition": ".1ⅴ",
+        "boost": 1
+    },
+    {
+        "unicode": 8564,
+        "name": "small roman numeral five",
+        "symbol": "\u2174",
+        "keywords": [],
+        "composition": "ⅴ",
+        "boost": 1
+    },
+    {
+        "unicode": 8565,
+        "name": "small roman numeral six",
+        "symbol": "\u2175",
+        "keywords": [],
+        "composition": "ⅴⅰ",
+        "boost": 1
+    },
+    {
+        "unicode": 8566,
+        "name": "small roman numeral seven",
+        "symbol": "\u2176",
+        "keywords": [],
+        "composition": "ⅴⅰⅰ",
+        "boost": 1
+    },
+    {
+        "unicode": 8567,
+        "name": "small roman numeral eight",
+        "symbol": "\u2177",
+        "keywords": [],
+        "composition": "ⅴⅰⅰⅰ",
+        "boost": 1
+    },
+    {
+        "unicode": 8568,
+        "name": "small roman numeral nine",
+        "symbol": "\u2178",
+        "keywords": [],
+        "composition": "ⅰⅹ",
+        "boost": 1
+    },
+    {
+        "unicode": 8569,
+        "name": "small roman numeral ten",
+        "symbol": "\u2179",
+        "keywords": [],
+        "composition": "ⅹ",
+        "boost": 1
+    },
+    {
+        "unicode": 8570,
+        "name": "small roman numeral eleven",
+        "symbol": "\u217a",
+        "keywords": [],
+        "composition": "ⅹⅰ",
+        "boost": 1
+    },
+    {
+        "unicode": 8571,
+        "name": "small roman numeral twelve",
+        "symbol": "\u217b",
+        "keywords": [],
+        "composition": "ⅹⅰⅰ",
+        "boost": 1
+    },
+    {
+        "unicode": 8572,
+        "name": "small roman numeral fifty",
+        "symbol": "\u217c",
+        "keywords": [],
+        "composition": "ⅼ",
+        "boost": 1
+    },
+    {
+        "unicode": 8573,
+        "name": "small roman numeral one hundred",
+        "symbol": "\u217d",
+        "keywords": [],
+        "composition": "ⅽ",
+        "boost": 1
+    },
+    {
+        "unicode": 8574,
+        "name": "small roman numeral five hundred",
+        "symbol": "\u217e",
+        "keywords": [],
+        "composition": "ⅾ",
+        "boost": 1
+    },
+    {
+        "unicode": 8575,
+        "name": "small roman numeral one thousand",
+        "symbol": "\u217f",
+        "keywords": [],
+        "composition": "ⅿ",
+        "boost": 1
+    },
+    {
+        "unicode": 8576,
+        "name": "roman numeral one thousand c d",
+        "symbol": "\u2180",
+        "keywords": [],
+        "composition": "ↀ",
+        "boost": 1
+    },
+    {
+        "unicode": 8577,
+        "name": "roman numeral five thousand",
+        "symbol": "\u2181",
+        "keywords": [],
+        "composition": "ↁ",
+        "boost": 1
+    },
+    {
+        "unicode": 8578,
+        "name": "roman numeral ten thousand",
+        "symbol": "\u2182",
+        "keywords": [],
+        "composition": "ↂ",
+        "boost": 1
+    },
+    {
+        "unicode": 8579,
+        "name": "roman numeral reversed one hundred",
+        "symbol": "\u2183",
+        "keywords": [],
+        "composition": "Ↄ",
+        "boost": 1
+    }
+]
