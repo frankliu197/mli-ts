@@ -739,7 +739,7 @@
         "unicode": 125,
         "name": "right curly bracket",
         "symbol": "}",
-        "keywords": [],
+        "keywords": [], 
         "composition": "}",
         "boost": 1
     },
