@@ -401,7 +401,7 @@
     },
     {
         "unicode": 8754,
-        "name": "clockwise contour integral",
+        "name": "clockwise contour integral", 
         "symbol": "\u2232",
         "keywords": [],
         "composition": "⟳∫",
