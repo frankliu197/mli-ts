@@ -394,7 +394,7 @@
     {
         "unicode": 8753,
         "name": "clockwise integral",
-        "symbol": "\u2231",
+        "symbol": "\u2231", 
         "keywords": [],
         "composition": "↷∫",
         "boost": 1
