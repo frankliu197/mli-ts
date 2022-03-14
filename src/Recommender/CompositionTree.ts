@@ -11,7 +11,7 @@ export class CompositionTree {
 
   constructor() {
     this.root = new Node("");
-    this.values = new Map<string, Set<Character>>();
+    this.values = new Map<string, Set<Character>>(); 
     this.nodes = new Map<string, Node>();
     this.nodes.set("", this.root);
     this.values.set("", new Set());
