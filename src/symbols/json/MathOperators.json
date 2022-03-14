@@ -4,7 +4,7 @@
         "name": "for all",
         "symbol": "\u2200",
         "keywords": [],
-        "composition": "",
+        "composition": "∀",
         "boost": 1
     },
     {
@@ -12,7 +12,7 @@
         "name": "complement",
         "symbol": "\u2201",
         "keywords": [],
-        "composition": "",
+        "composition": "∁",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "partial differential",
         "symbol": "\u2202",
         "keywords": [],
-        "composition": "",
+        "composition": "∂",
         "boost": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "there exists",
         "symbol": "\u2203",
         "keywords": [],
-        "composition": "",
+        "composition": "∃",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "there does not exist",
         "symbol": "\u2204",
         "keywords": [],
-        "composition": "",
+        "composition": "/∃",
         "boost": 1
     },
     {
@@ -44,7 +44,7 @@
         "name": "empty set",
         "symbol": "\u2205",
         "keywords": [],
-        "composition": "",
+        "composition": "/O",
         "boost": 1
     },
     {
@@ -52,7 +52,7 @@
         "name": "increment",
         "symbol": "\u2206",
         "keywords": [],
-        "composition": "",
+        "composition": "∆",
         "boost": 1
     },
     {
@@ -60,7 +60,7 @@
         "name": "nabla",
         "symbol": "\u2207",
         "keywords": [],
-        "composition": "",
+        "composition": "∇",
         "boost": 1
     },
     {
@@ -68,7 +68,7 @@
         "name": "element of",
         "symbol": "\u2208",
         "keywords": [],
-        "composition": "",
+        "composition": "∈",
         "boost": 1
     },
     {
@@ -76,7 +76,7 @@
         "name": "not an element of",
         "symbol": "\u2209",
         "keywords": [],
-        "composition": "",
+        "composition": "∈/",
         "boost": 1
     },
     {
@@ -84,7 +84,7 @@
         "name": "small element of",
         "symbol": "\u220a",
         "keywords": [],
-        "composition": "",
+        "composition": "∊",
         "boost": 1
     },
     {
@@ -92,7 +92,7 @@
         "name": "contains as member",
         "symbol": "\u220b",
         "keywords": [],
-        "composition": "",
+        "composition": "∋",
         "boost": 1
     },
     {
@@ -100,7 +100,7 @@
         "name": "does not contain as member",
         "symbol": "\u220c",
         "keywords": [],
-        "composition": "",
+        "composition": "/∋",
         "boost": 1
     },
     {
@@ -108,7 +108,7 @@
         "name": "small contains as member",
         "symbol": "\u220d",
         "keywords": [],
-        "composition": "",
+        "composition": "∍",
         "boost": 1
     },
     {
@@ -116,7 +116,7 @@
         "name": "end of proof",
         "symbol": "\u220e",
         "keywords": [],
-        "composition": "",
+        "composition": "∎",
         "boost": 1
     },
     {
@@ -124,7 +124,7 @@
         "name": "n ary product",
         "symbol": "\u220f",
         "keywords": [],
-        "composition": "",
+        "composition": "∏",
         "boost": 1
     },
     {
@@ -132,7 +132,7 @@
         "name": "n ary coproduct",
         "symbol": "\u2210",
         "keywords": [],
-        "composition": "",
+        "composition": "∐",
         "boost": 1
     },
     {
@@ -140,7 +140,7 @@
         "name": "n ary summation",
         "symbol": "\u2211",
         "keywords": [],
-        "composition": "",
+        "composition": "∑",
         "boost": 1
     },
     {
@@ -148,7 +148,7 @@
         "name": "minus sign",
         "symbol": "\u2212",
         "keywords": [],
-        "composition": "",
+        "composition": "−",
         "boost": 1
     },
     {
@@ -156,7 +156,7 @@
         "name": "minus or plus sign",
         "symbol": "\u2213",
         "keywords": [],
-        "composition": "",
+        "composition": "−+",
         "boost": 1
     },
     {
@@ -164,7 +164,7 @@
         "name": "dot plus",
         "symbol": "\u2214",
         "keywords": [],
-        "composition": "",
+        "composition": ".+",
         "boost": 1
     },
     {
@@ -172,7 +172,7 @@
         "name": "division slash",
         "symbol": "\u2215",
         "keywords": [],
-        "composition": "",
+        "composition": "∕",
         "boost": 1
     },
     {
@@ -180,7 +180,7 @@
         "name": "set minus",
         "symbol": "\u2216",
         "keywords": [],
-        "composition": "",
+        "composition": "∖",
         "boost": 1
     },
     {
@@ -188,7 +188,7 @@
         "name": "asterisk operator",
         "symbol": "\u2217",
         "keywords": [],
-        "composition": "",
+        "composition": "∗",
         "boost": 1
     },
     {
@@ -196,7 +196,7 @@
         "name": "ring operator",
         "symbol": "\u2218",
         "keywords": [],
-        "composition": "",
+        "composition": "∘",
         "boost": 1
     },
     {
@@ -204,7 +204,7 @@
         "name": "bullet operator",
         "symbol": "\u2219",
         "keywords": [],
-        "composition": "",
+        "composition": "∙",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "square root",
         "symbol": "\u221a",
         "keywords": [],
-        "composition": "",
+        "composition": "√",
         "boost": 1
     },
     {
@@ -220,7 +220,7 @@
         "name": "cube root",
         "symbol": "\u221b",
         "keywords": [],
-        "composition": "",
+        "composition": "3√",
         "boost": 1
     },
     {
@@ -228,7 +228,7 @@
         "name": "fourth root",
         "symbol": "\u221c",
         "keywords": [],
-        "composition": "",
+        "composition": "4√",
         "boost": 1
     },
     {
@@ -236,7 +236,7 @@
         "name": "proportional to",
         "symbol": "\u221d",
         "keywords": [],
-        "composition": "",
+        "composition": "∝",
         "boost": 1
     },
     {
@@ -244,7 +244,7 @@
         "name": "infinity",
         "symbol": "\u221e",
         "keywords": [],
-        "composition": "",
+        "composition": "∞",
         "boost": 1
     },
     {
@@ -252,7 +252,7 @@
         "name": "right angle",
         "symbol": "\u221f",
         "keywords": [],
-        "composition": "",
+        "composition": "∟",
         "boost": 1
     },
     {
@@ -260,7 +260,7 @@
         "name": "angle",
         "symbol": "\u2220",
         "keywords": [],
-        "composition": "",
+        "composition": "∠",
         "boost": 1
     },
     {
@@ -268,7 +268,7 @@
         "name": "measured angle",
         "symbol": "\u2221",
         "keywords": [],
-        "composition": "",
+        "composition": "∠)",
         "boost": 1
     },
     {
@@ -276,7 +276,7 @@
         "name": "spherical angle",
         "symbol": "\u2222",
         "keywords": [],
-        "composition": "",
+        "composition": "<)",
         "boost": 1
     },
     {
@@ -284,7 +284,7 @@
         "name": "divides",
         "symbol": "\u2223",
         "keywords": [],
-        "composition": "",
+        "composition": "∣",
         "boost": 1
     },
     {
@@ -292,7 +292,7 @@
         "name": "does not divide",
         "symbol": "\u2224",
         "keywords": [],
-        "composition": "",
+        "composition": "∣",
         "boost": 1
     },
     {
@@ -300,7 +300,7 @@
         "name": "parallel to",
         "symbol": "\u2225",
         "keywords": [],
-        "composition": "",
+        "composition": "/∣",
         "boost": 1
     },
     {
@@ -308,7 +308,7 @@
         "name": "not parallel to",
         "symbol": "\u2226",
         "keywords": [],
-        "composition": "",
+        "composition": "/∣∣",
         "boost": 1
     },
     {
@@ -316,7 +316,7 @@
         "name": "logical and",
         "symbol": "\u2227",
         "keywords": [],
-        "composition": "",
+        "composition": "∧",
         "boost": 1
     },
     {
@@ -324,7 +324,7 @@
         "name": "logical or",
         "symbol": "\u2228",
         "keywords": [],
-        "composition": "",
+        "composition": "∨",
         "boost": 1
     },
     {
@@ -332,7 +332,7 @@
         "name": "intersection",
         "symbol": "\u2229",
         "keywords": [],
-        "composition": "",
+        "composition": "∩",
         "boost": 1
     },
     {
@@ -340,7 +340,7 @@
         "name": "union",
         "symbol": "\u222a",
         "keywords": [],
-        "composition": "",
+        "composition": "∪",
         "boost": 1
     },
     {
@@ -348,7 +348,7 @@
         "name": "integral",
         "symbol": "\u222b",
         "keywords": [],
-        "composition": "",
+        "composition": "∫",
         "boost": 1
     },
     {
@@ -356,7 +356,7 @@
         "name": "double integral",
         "symbol": "\u222c",
         "keywords": [],
-        "composition": "",
+        "composition": "∫∫",
         "boost": 1
     },
     {
@@ -364,7 +364,7 @@
         "name": "triple integral",
         "symbol": "\u222d",
         "keywords": [],
-        "composition": "",
+        "composition": "∫∫∫",
         "boost": 1
     },
     {
@@ -372,7 +372,7 @@
         "name": "contour integral",
         "symbol": "\u222e",
         "keywords": [],
-        "composition": "",
+        "composition": "o∫",
         "boost": 1
     },
     {
@@ -380,7 +380,7 @@
         "name": "surface integral",
         "symbol": "\u222f",
         "keywords": [],
-        "composition": "",
+        "composition": "⬭∫∫",
         "boost": 1
     },
     {
@@ -388,7 +388,7 @@
         "name": "volume integral",
         "symbol": "\u2230",
         "keywords": [],
-        "composition": "",
+        "composition": "⬭∫∫∫",
         "boost": 1
     },
     {
@@ -396,7 +396,7 @@
         "name": "clockwise integral",
         "symbol": "\u2231",
         "keywords": [],
-        "composition": "",
+        "composition": "↷∫",
         "boost": 1
     },
     {
@@ -404,7 +404,7 @@
         "name": "clockwise contour integral",
         "symbol": "\u2232",
         "keywords": [],
-        "composition": "",
+        "composition": "⟳∫",
         "boost": 1
     },
     {
@@ -412,7 +412,7 @@
         "name": "anticlockwise contour integral",
         "symbol": "\u2233",
         "keywords": [],
-        "composition": "",
+        "composition": "↺∫",
         "boost": 1
     },
     {
@@ -420,7 +420,7 @@
         "name": "therefore",
         "symbol": "\u2234",
         "keywords": [],
-        "composition": "",
+        "composition": "...",
         "boost": 1
     },
     {
@@ -428,7 +428,7 @@
         "name": "because",
         "symbol": "\u2235",
         "keywords": [],
-        "composition": "",
+        "composition": "ॱ.ॱ",
         "boost": 1
     },
     {
@@ -436,7 +436,7 @@
         "name": "ratio",
         "symbol": "\u2236",
         "keywords": [],
-        "composition": "",
+        "composition": "..",
         "boost": 1
     },
     {
@@ -444,7 +444,7 @@
         "name": "proportion",
         "symbol": "\u2237",
         "keywords": [],
-        "composition": "",
+        "composition": "::",
         "boost": 1
     },
     {
@@ -452,7 +452,7 @@
         "name": "dot minus",
         "symbol": "\u2238",
         "keywords": [],
-        "composition": "",
+        "composition": ".−",
         "boost": 1
     },
     {
@@ -460,7 +460,7 @@
         "name": "excess",
         "symbol": "\u2239",
         "keywords": [],
-        "composition": "",
+        "composition": "−:",
         "boost": 1
     },
     {
