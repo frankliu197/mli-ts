@@ -468,7 +468,7 @@
         "name": "geometric proportion",
         "symbol": "\u223a",
         "keywords": [],
-        "composition": "",
+        "composition": "-::",
         "boost": 1
     },
     {
@@ -484,7 +484,7 @@
         "name": "tilde operator",
         "symbol": "\u223c",
         "keywords": [],
-        "composition": "",
+        "composition": "~",
         "boost": 1
     },
     {
@@ -492,7 +492,7 @@
         "name": "reversed tilde",
         "symbol": "\u223d",
         "keywords": [],
-        "composition": "",
+        "composition": "∽",
         "boost": 1
     },
     {
@@ -500,7 +500,7 @@
         "name": "inverted lazy s",
         "symbol": "\u223e",
         "keywords": [],
-        "composition": "",
+        "composition": "∾",
         "boost": 1
     },
     {
@@ -508,7 +508,7 @@
         "name": "sine wave",
         "symbol": "\u223f",
         "keywords": [],
-        "composition": "",
+        "composition": "∿",
         "boost": 1
     },
     {
@@ -516,7 +516,7 @@
         "name": "wreath product",
         "symbol": "\u2240",
         "keywords": [],
-        "composition": "",
+        "composition": "≀",
         "boost": 1
     },
     {
@@ -524,7 +524,7 @@
         "name": "not tilde",
         "symbol": "\u2241",
         "keywords": [],
-        "composition": "",
+        "composition": "~/",
         "boost": 1
     },
     {
@@ -532,7 +532,7 @@
         "name": "minus tilde",
         "symbol": "\u2242",
         "keywords": [],
-        "composition": "",
+        "composition": "‐~",
         "boost": 1
     },
     {
@@ -540,7 +540,7 @@
         "name": "asymptotically equal to",
         "symbol": "\u2243",
         "keywords": [],
-        "composition": "",
+        "composition": "-~",
         "boost": 1
     },
     {
@@ -548,7 +548,7 @@
         "name": "not asymptotically equal to",
         "symbol": "\u2244",
         "keywords": [],
-        "composition": "",
+        "composition": "-~/",
         "boost": 1
     },
     {
@@ -556,7 +556,7 @@
         "name": "approximately equal to",
         "symbol": "\u2245",
         "keywords": [],
-        "composition": "",
+        "composition": "~=",
         "boost": 1
     },
     {
@@ -564,7 +564,7 @@
         "name": "approximately but not actually equal to",
         "symbol": "\u2246",
         "keywords": [],
-        "composition": "",
+        "composition": "~≠",
         "boost": 1
     },
     {
@@ -572,7 +572,7 @@
         "name": "neither approximately nor actually equal to",
         "symbol": "\u2247",
         "keywords": [],
-        "composition": "",
+        "composition": "≇",
         "boost": 1
     },
     {
@@ -580,7 +580,7 @@
         "name": "almost equal to",
         "symbol": "\u2248",
         "keywords": [],
-        "composition": "",
+        "composition": "~~",
         "boost": 1
     },
     {
@@ -588,7 +588,7 @@
         "name": "not almost equal to",
         "symbol": "\u2249",
         "keywords": [],
-        "composition": "",
+        "composition": "~~/",
         "boost": 1
     },
     {
@@ -596,7 +596,7 @@
         "name": "almost equal or equal to",
         "symbol": "\u224a",
         "keywords": [],
-        "composition": "",
+        "composition": "~~-",
         "boost": 1
     },
     {
@@ -604,7 +604,7 @@
         "name": "triple tilde",
         "symbol": "\u224b",
         "keywords": [],
-        "composition": "",
+        "composition": "~~~",
         "boost": 1
     },
     {
@@ -612,7 +612,7 @@
         "name": "all equal to",
         "symbol": "\u224c",
         "keywords": [],
-        "composition": "",
+        "composition": "=~",
         "boost": 1
     },
     {
@@ -620,7 +620,7 @@
         "name": "equivalent to",
         "symbol": "\u224d",
         "keywords": [],
-        "composition": "",
+        "composition": "≍",
         "boost": 1
     },
     {
@@ -628,7 +628,7 @@
         "name": "geometrically equivalent to",
         "symbol": "\u224e",
         "keywords": [],
-        "composition": "",
+        "composition": "≎",
         "boost": 1
     },
     {
@@ -636,7 +636,7 @@
         "name": "difference between",
         "symbol": "\u224f",
         "keywords": [],
-        "composition": "",
+        "composition": "≏",
         "boost": 1
     },
     {
@@ -644,7 +644,7 @@
         "name": "approaches the limit",
         "symbol": "\u2250",
         "keywords": [],
-        "composition": "",
+        "composition": "˙=",
         "boost": 1
     },
     {
@@ -652,7 +652,7 @@
         "name": "geometrically equal to",
         "symbol": "\u2251",
         "keywords": [],
-        "composition": "",
+        "composition": "˙=˙",
         "boost": 1
     },
     {
