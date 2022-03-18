@@ -217,7 +217,7 @@
     },
     {
         "unicode": 8334,
-        "name": "subscript right parenthesis",
+        "name": "subscript right parenthesis",  
         "symbol": "\u208e",
         "keywords": [],
         "composition": "₎",
