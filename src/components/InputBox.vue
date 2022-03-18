@@ -1,6 +1,6 @@
 <template lang='pug'>
 .input-box
-  textarea(ref="textarea" @keydown="openDropdown" default="Type Here" id="input_box")
+  textarea(ref="textarea" v-on:input="resize" :style="inputStyle" @keydown="openDropdown" default="Type Here" id="input_box")
   FloatingComponent(v-show="dropdownShow" :position="dropdownPosition")
     SuggestDropdown(:show="dropdownShow" @close="dropdownShow = false" @selected="write($event)")
 
@@ -24,7 +24,8 @@ export default Vue.extend({
   data: function() {
     return {
       dropdownShow: false,
-      dropdownPosition: {} as Position
+      dropdownPosition: {} as Position,
+      inputHeight: '0'
     }
   },
   methods: {
@@ -40,24 +41,27 @@ export default Vue.extend({
         this.dropdownShow = true
         $event.preventDefault()
       }
+    },
+    resize() {
+      this.inputHeight = this.$refs.textarea.scrollHeight - 15 + 'px';
     }
   },
   watch: {
     dropdownShow: function(val) {
       //https://stackoverflow.com/questions/17016698/get-caret-coordinates-on-a-contenteditable-div-through-javascript
       //TODO: try getting x and y coordinates on its own
-      
       const textarea = this.$refs.textarea as HTMLTextAreaElement
       
       if (!val) {
         textarea.focus()
         return 
       }
-            
-      let fontsize = {} as any;
-      fontsize.width = textarea.clientWidth + 1
-      fontsize.height = textarea.clientHeight + 1
-      let {x, y} = textarea.getBoundingClientRect()
+      // let fontsize = {} as any;
+      // fontsize.width = textarea.clientWidth + 1
+      // fontsize.height = textarea.clientHeight + 1
+      let y = textarea.getBoundingClientRect().y
+      let x = textarea.offsetLeft
+      x += textarea.textLength * 5;
       y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
 
@@ -67,6 +71,11 @@ export default Vue.extend({
   computed: {
     toggleDropdownShortcut: function(){
       return Globals.dropdown.shortcuts.toggleDropdown
+    },
+    inputStyle () : {'min-height': string} {
+        return {
+          'min-height': this.inputHeight
+        }
     }
   }
 })
@@ -84,6 +93,7 @@ textarea {
   overflow: hidden;
   border-radius: 10px;
   border: double 3px #133257;
+  resize: none;
   box-shadow: 0 0 10px 1px rgb(96, 213, 248);
 }
 
