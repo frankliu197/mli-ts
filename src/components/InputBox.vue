@@ -1,6 +1,8 @@
 <template lang='pug'>
 .input-box
-  textarea(ref="textarea" v-on:input="resize" :style="inputStyle" @keydown="openDropdown" default="Type Here" id="input_box")
+  button(@click='copy')
+    img(src='../assets/copy.png')
+  textarea(ref="textarea" v-on:focus="$event.target.select()" v-on:input="resize" :style="inputStyle" @keydown="handleKeyEvent" default="Type Here" id="input_box")
   FloatingComponent(v-show="dropdownShow" :position="dropdownPosition")
     SuggestDropdown(:show="dropdownShow" @close="dropdownShow = false" @selected="write($event)")
 
@@ -36,14 +38,21 @@ export default Vue.extend({
       el.setRangeText($event.symbol, start, end);
       el.selectionStart += $event.symbol.length
     },
-    openDropdown($event: KeyboardEvent) {
+    handleKeyEvent($event: KeyboardEvent) {
       if (this.toggleDropdownShortcut === $event.key){
         this.dropdownShow = true
         $event.preventDefault()
+      } else if (this.copyToClipboardShortcut == $event.key) {
+        this.copy()
       }
     },
     resize() {
       this.inputHeight = this.$refs.textarea.scrollHeight - 15 + 'px';
+    },
+    copy() {
+      this.$refs.textarea.focus();
+      this.$refs.textarea.select();
+      document.execCommand('copy');
     }
   },
   watch: {
@@ -72,6 +81,9 @@ export default Vue.extend({
     toggleDropdownShortcut: function(){
       return Globals.dropdown.shortcuts.toggleDropdown
     },
+    copyToClipboardShortcut: function() {
+      return Globals.clipboard.shortcuts.copyToClipboard
+    },
     inputStyle () : {'min-height': string} {
         return {
           'min-height': this.inputHeight
@@ -82,6 +94,13 @@ export default Vue.extend({
 </script>
 
 <style lang='scss' scoped>
+
+img {
+  width: 38px;
+  height: 43px;
+  margin-right: 23px;
+  margin-bottom: 12px;
+}
 
 textarea {
   background: white;
@@ -95,6 +114,7 @@ textarea {
   border: double 3px #133257;
   resize: none;
   box-shadow: 0 0 10px 1px rgb(96, 213, 248);
+  margin-right: 50px;
 }
 
 .input-box {

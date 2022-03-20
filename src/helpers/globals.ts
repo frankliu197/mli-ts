@@ -16,4 +16,9 @@ export default Vue.observable({
     },
     PAGE_ENTRIES: 9,
   },
+  clipboard: {
+    shortcuts: {
+      copyToClipboard: "PageUp"
+    }
+  }
 });
