@@ -24,6 +24,17 @@ let keywordRecommender = new KeywordRecommender();
 keywordRecommender.add(characterSet);
 let compositionRecommender = new CompositionRecommender();
 compositionRecommender.add(characterSet);
+
+function mergeMaps(map1: Map<Character, number>, map2: Map<Character, number>): Map<Character, number> {
+  for (const [c, p] of map2.entries()) {
+    if (map1.has(c)) {
+      map1.set(c, combinePriority(p, map1.get(c)!));
+    } else {
+      map1.set(c, p);
+    }
+  }
+  return map1;
+}
 /**
  * Search with keywords
  * Search with strokes (if no spaces)
@@ -32,25 +43,20 @@ compositionRecommender.add(characterSet);
  * @returns
  */
 export function suggest(search: string): Array<Character> {
-  //: Character[] cast into character
   search = search.trim();
   if (!search) {
     return [];
   }
-  const keywords = search.toLowerCase().split(" ").filter(Boolean);
-  const map = keywordRecommender.suggest(keywords);
-  if (keywords.length === 1) {
-    const symbolMap = compositionRecommender.suggest(stringSort(search));
-    //merge maps
-    for (const [c, p] of symbolMap.entries()) {
-      if (map.has(c)) {
-        map.set(c, combinePriority(p, map.get(c)!));
-      } else {
-        map.set(c, p);
-      }
-    }
+  
+  let map = new Map<Character, number>();
+  if (keywordRecommender.searchable(search)){
+    map = mergeMaps(keywordRecommender.suggest(search), map);
+  }
+  if (compositionRecommender.searchable(search)) {
+    map = mergeMaps(map, compositionRecommender.suggest(stringSort(search)));
   }
 
+  //search with exact char
   if (search.length === 1 && characterSet.getCharacter(search)!) {
     map.set(characterSet.getCharacter(search)!, Number.MAX_VALUE);
   }
