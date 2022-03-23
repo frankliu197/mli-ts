@@ -7,8 +7,8 @@
 
 <script lang='ts'>
 import Vue from "vue";
-import Character from '@/Recommender/Character'; 
-import {startCase} from "lodash"
+import Character from '@/entities/Character';
+import {startCase} from "lodash" 
 export default Vue.extend({
   name: 'CharacterDetails',
 	props: {

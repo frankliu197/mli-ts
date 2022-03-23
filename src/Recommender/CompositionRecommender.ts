@@ -1,7 +1,8 @@
 import { CompositionTree } from "./CompositionTree";
-import Character from "./Character";
-import SymbolSets from "./SymbolSets";
+import Character from "../entities/Character";
+import CharacterSets from "../entities/CharacterSets";
 import { stringSort } from "@/helpers/helpers";
+
 export class CompositionRecommender {
   tree: CompositionTree;
   symbolSet: SymbolSets;
@@ -9,8 +10,7 @@ export class CompositionRecommender {
   constructor() {
     this.tree = new CompositionTree();
   }
-  add(set: SymbolSets): void {
-    this.symbolSet = set;
+  add(set: CharacterSets): void {
     for (const c of set.symbols) {
       this.tree.insert(c);
     }
@@ -29,7 +29,10 @@ export class CompositionRecommender {
     }
     s = stringSort(s);
     
-    return this.tree.getCharacterSet(s);
+    return this.tree.getCharacterSet(s); 
+  }
+  searchable(search: string): boolean {
+    return search.indexOf(" ") === -1
   }
 }
 

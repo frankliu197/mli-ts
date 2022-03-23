@@ -7,7 +7,7 @@
 </template>    
 
 <script lang='ts'>
-import Character from '@/Recommender/Character';
+import Character from '@/entities/Character';
 import SuggestDropdown from "@/components/SuggestDropdown.vue"
 import "@/Recommender/KeywordRecommender";
 import Vue from "vue";

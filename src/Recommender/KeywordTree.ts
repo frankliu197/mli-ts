@@ -1,6 +1,6 @@
 import { isUndefined } from "typescript-collections/dist/lib/util"
 import { enumerate } from "@/helpers/helpers"
-import Character from "./Character"
+import Character from "../entities/Character"
 import { valueCountPriority, combinePriority, stringMatchPriority } from "./Priority"
 const order = 4;
 

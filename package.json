@@ -8,7 +8,8 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
-    "compositionTree": "mocha --inspect-brk unit/CompositionTrees.spec.ts"
+    "compositionTree": "mocha --inspect-brk unit/CompositionTrees.spec.ts",
+    "start": "node server.js"
   },
   "dependencies": {
     "@types/lodash": "^4.14.178",

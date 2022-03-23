@@ -4,7 +4,7 @@
         "name": "exclamation mark",
         "symbol": "!",
         "keywords": [],
-        "composition": ".|",
+        "composition": "|.",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "number sign",
         "symbol": "#",
         "keywords": [],
-        "composition": "--//",
+        "composition": "//--",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "percent sign",
         "symbol": "%",
         "keywords": [],
-        "composition": "/oo",
+        "composition": "o/o",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "semicolon",
         "symbol": ";",
         "keywords": [],
-        "composition": ",.",
+        "composition": ".,",
         "boost": 1
     },
     {
