@@ -17,6 +17,10 @@ context('Todos',() => {
     // if dropdown accessed and clicked 
    
     cy.get('.dropdown').click({force:true}) 
+ 
+    
+   // assert.notequals('#suggest_dropdown') // not give dropdown, will give dropdown
+
 
     // Testing pagedown functionality, step to access the dropdown
    
@@ -54,6 +58,8 @@ context('Todos',() => {
 
     ///dropdown
     cy.get('#suggest_dropdown').click();
+
+   
 })
 })
 

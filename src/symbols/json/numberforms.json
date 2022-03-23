@@ -82,7 +82,7 @@
     {
         "unicode": 8541,
         "name": "vulgar fraction five eighths",
-        "symbol": "\u215d",
+        "symbol": "\u215d", 
         "keywords": [],
         "composition": "5/8",
         "boost": 1
@@ -388,7 +388,7 @@
         "name": "roman numeral reversed one hundred",
         "symbol": "\u2183",
         "keywords": [],
-        "composition": "Ↄ",
+        "composition": "Ↄ",   
         "boost": 1
     }  
 ] 
