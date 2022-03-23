@@ -16,5 +16,8 @@ export class CompositionRecommender {
   suggest(search: string): Map<Character, number> {
     return this.tree.getCharacterSet(search);
   }
+  searchable(search: string): boolean {
+    return search.indexOf(" ") === -1
+  }
 }
 

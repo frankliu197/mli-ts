@@ -14,13 +14,14 @@ export class KeywordRecommender {
     }
     this.tree.updatePriorities();
   }
-  suggest(search: Array<string>): Map<Character, number> {
+  suggest(search: string): Map<Character, number> {
+    const keywords = search.toLowerCase().split(" ").filter(Boolean);
     //add only matching elements in prev map and character set from this search time to nextMap
     //this way next map matches all search terms
-    let map = this.tree.getCharacterSet(search[0]);
+    let map = this.tree.getCharacterSet(keywords[0]);
     let nextMap = new Map<Character, number>();
-    for (let i = 0; i < search.length; i++) {
-      for (const [c, p] of this.tree.getCharacterSet(search[i]).entries()) {
+    for (const keyword of keywords) {
+      for (const [c, p] of this.tree.getCharacterSet(keyword).entries()) {
         if (map.has(c)) {
           nextMap.set(c, combinePriority(p, map.get(c)!));
         }
@@ -30,4 +31,8 @@ export class KeywordRecommender {
     }
     return map;
   }
+  searchable(search: string): boolean {
+    return true
+  }
+
 }
