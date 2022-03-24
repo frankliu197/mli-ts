@@ -14,7 +14,6 @@ import Vue from "vue";
 import {Position} from "@/helpers/UiComponents"
 import FloatingComponent from "@/components/FloatingComponent.vue"
 import Globals from '@/helpers/globals'
-
 export default Vue.extend({ 
   name: 'InputBox',
   components: {
@@ -26,7 +25,7 @@ export default Vue.extend({
       dropdownShow: false,
       dropdownPosition: {} as Position
     }
-  }, 
+  },
   methods: {
     write($event: Character) : void {
       const el = this.$refs.textarea as HTMLTextAreaElement
@@ -60,7 +59,6 @@ export default Vue.extend({
       let {x, y} = textarea.getBoundingClientRect()
       y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
-
       this.dropdownPosition = {left: `calc(${x}px + ${offset}px)`, top: y + "px"}
     }
   }, 
@@ -73,7 +71,6 @@ export default Vue.extend({
 </script>
 
 <style lang='scss' scoped>
-
 textarea {
   background: white;
   font-family: 'Poppins';
@@ -86,13 +83,9 @@ textarea {
   border: double 3px #133257;
   box-shadow: 0 0 10px 1px rgb(96, 213, 248);
 }
-
 .input-box {
   text-align: center;
 }
-
-
-
 .dropdown {
   padding: 10px;
   min-width: 70px;
@@ -100,5 +93,4 @@ textarea {
     display: block;
   }
 }
-
 </style>
