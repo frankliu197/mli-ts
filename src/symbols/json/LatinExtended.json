@@ -4,7 +4,7 @@
         "name": "latin capital letter a with macron",
         "symbol": "\u0100",
         "keywords": [],
-        "composition": "",
+        "composition": "A-",
         "boost": 1
     },
     {
@@ -12,7 +12,7 @@
         "name": "latin small letter a with macron",
         "symbol": "\u0101",
         "keywords": [],
-        "composition": "",
+        "composition": "a-",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "latin capital letter a with breve",
         "symbol": "\u0102",
         "keywords": [],
-        "composition": "",
+        "composition": "Au",
         "boost": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "latin small letter a with breve",
         "symbol": "\u0103",
         "keywords": [],
-        "composition": "",
+        "composition": "au",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "latin capital letter a with ogonek",
         "symbol": "\u0104",
         "keywords": [],
-        "composition": "",
+        "composition": "cA",
         "boost": 1
     },
     {
@@ -44,7 +44,7 @@
         "name": "latin small letter a with ogonek",
         "symbol": "\u0105",
         "keywords": [],
-        "composition": "",
+        "composition": "ca",
         "boost": 1
     },
     {
@@ -148,7 +148,7 @@
         "name": "latin capital letter e with macron",
         "symbol": "\u0112",
         "keywords": [],
-        "composition": "",
+        "composition": "E-",
         "boost": 1
     },
     {
@@ -156,7 +156,7 @@
         "name": "latin small letter e with macron",
         "symbol": "\u0113",
         "keywords": [],
-        "composition": "",
+        "composition": "e-",
         "boost": 1
     },
     {
@@ -164,7 +164,7 @@
         "name": "latin capital letter e with breve",
         "symbol": "\u0114",
         "keywords": [],
-        "composition": "",
+        "composition": "Eu",
         "boost": 1
     },
     {
@@ -172,7 +172,7 @@
         "name": "latin small letter e with breve",
         "symbol": "\u0115",
         "keywords": [],
-        "composition": "",
+        "composition": "eu",
         "boost": 1
     },
     {
@@ -196,7 +196,7 @@
         "name": "latin capital letter e with ogonek",
         "symbol": "\u0118",
         "keywords": [],
-        "composition": "",
+        "composition": "cE",
         "boost": 1
     },
     {
@@ -204,7 +204,7 @@
         "name": "latin small letter e with ogonek",
         "symbol": "\u0119",
         "keywords": [],
-        "composition": "",
+        "composition": "ce",
         "boost": 1
     },
     {
@@ -244,7 +244,7 @@
         "name": "latin capital letter g with breve",
         "symbol": "\u011e",
         "keywords": [],
-        "composition": "",
+        "composition": "Gu",
         "boost": 1
     },
     {
@@ -252,7 +252,7 @@
         "name": "latin small letter g with breve",
         "symbol": "\u011f",
         "keywords": [],
-        "composition": "",
+        "composition": "gu",
         "boost": 1
     },
     {
@@ -340,7 +340,7 @@
         "name": "latin capital letter i with macron",
         "symbol": "\u012a",
         "keywords": [],
-        "composition": "",
+        "composition": "I-",
         "boost": 1
     },
     {
@@ -348,7 +348,7 @@
         "name": "latin small letter i with macron",
         "symbol": "\u012b",
         "keywords": [],
-        "composition": "",
+        "composition": "i-",
         "boost": 1
     },
     {
@@ -356,7 +356,7 @@
         "name": "latin capital letter i with breve",
         "symbol": "\u012c",
         "keywords": [],
-        "composition": "",
+        "composition": "Iu",
         "boost": 1
     },
     {
@@ -364,7 +364,7 @@
         "name": "latin small letter i with breve",
         "symbol": "\u012d",
         "keywords": [],
-        "composition": "",
+        "composition": "iu",
         "boost": 1
     },
     {
@@ -372,7 +372,7 @@
         "name": "latin capital letter i with ogonek",
         "symbol": "\u012e",
         "keywords": [],
-        "composition": "",
+        "composition": "cI",
         "boost": 1
     },
     {
@@ -380,7 +380,7 @@
         "name": "latin small letter i with ogonek",
         "symbol": "\u012f",
         "keywords": [],
-        "composition": "",
+        "composition": "ci",
         "boost": 1
     },
     {
@@ -612,7 +612,7 @@
         "name": "latin capital letter o with macron",
         "symbol": "\u014c",
         "keywords": [],
-        "composition": "",
+        "composition": "O-",
         "boost": 1
     },
     {
@@ -620,7 +620,7 @@
         "name": "latin small letter o with macron",
         "symbol": "\u014d",
         "keywords": [],
-        "composition": "",
+        "composition": "o-",
         "boost": 1
     },
     {
@@ -628,7 +628,7 @@
         "name": "latin capital letter o with breve",
         "symbol": "\u014e",
         "keywords": [],
-        "composition": "",
+        "composition": "Ou",
         "boost": 1
     },
     {
@@ -636,7 +636,7 @@
         "name": "latin small letter o with breve",
         "symbol": "\u014f",
         "keywords": [],
-        "composition": "",
+        "composition": "ou",
         "boost": 1
     },
     {
@@ -852,7 +852,7 @@
         "name": "latin capital letter u with macron",
         "symbol": "\u016a",
         "keywords": [],
-        "composition": "",
+        "composition": "U-",
         "boost": 1
     },
     {
@@ -860,7 +860,7 @@
         "name": "latin small letter u with macron",
         "symbol": "\u016b",
         "keywords": [],
-        "composition": "",
+        "composition": "u-",
         "boost": 1
     },
     {
@@ -868,7 +868,7 @@
         "name": "latin capital letter u with breve",
         "symbol": "\u016c",
         "keywords": [],
-        "composition": "",
+        "composition": "Uu",
         "boost": 1
     },
     {
@@ -876,7 +876,7 @@
         "name": "latin small letter u with breve",
         "symbol": "\u016d",
         "keywords": [],
-        "composition": "",
+        "composition": "uu",
         "boost": 1
     },
     {
@@ -916,7 +916,7 @@
         "name": "latin capital letter u with ogonek",
         "symbol": "\u0172",
         "keywords": [],
-        "composition": "",
+        "composition": "cU",
         "boost": 1
     },
     {
@@ -924,7 +924,7 @@
         "name": "latin small letter u with ogonek",
         "symbol": "\u0173",
         "keywords": [],
-        "composition": "",
+        "composition": "cu",
         "boost": 1
     },
     {
@@ -1708,7 +1708,7 @@
         "name": "latin capital letter u with diaeresis and macron",
         "symbol": "\u01d5",
         "keywords": [],
-        "composition": "",
+        "composition": "U..-",
         "boost": 1
     },
     {
@@ -1716,7 +1716,7 @@
         "name": "latin small letter u with diaeresis and macron",
         "symbol": "\u01d6",
         "keywords": [],
-        "composition": "",
+        "composition": "u..-",
         "boost": 1
     },
     {
@@ -1780,7 +1780,7 @@
         "name": "latin capital letter a with diaeresis and macron",
         "symbol": "\u01de",
         "keywords": [],
-        "composition": "",
+        "composition": "A..-",
         "boost": 1
     },
     {
@@ -1788,7 +1788,7 @@
         "name": "latin small letter a with diaeresis and macron",
         "symbol": "\u01df",
         "keywords": [],
-        "composition": "",
+        "composition": "a..-",
         "boost": 1
     },
     {
@@ -1796,7 +1796,7 @@
         "name": "latin capital letter a with dot above and macron",
         "symbol": "\u01e0",
         "keywords": [],
-        "composition": "",
+        "composition": "A-.",
         "boost": 1
     },
     {
@@ -1804,7 +1804,7 @@
         "name": "latin small letter a with dot above and macron",
         "symbol": "\u01e1",
         "keywords": [],
-        "composition": "",
+        "composition": "a-.",
         "boost": 1
     },
     {
@@ -1812,7 +1812,7 @@
         "name": "latin capital letter ae with macron",
         "symbol": "\u01e2",
         "keywords": [],
-        "composition": "",
+        "composition": "AE-",
         "boost": 1
     },
     {
@@ -1820,7 +1820,7 @@
         "name": "latin small letter ae with macron",
         "symbol": "\u01e3",
         "keywords": [],
-        "composition": "",
+        "composition": "ae-",
         "boost": 1
     },
     {
@@ -1876,7 +1876,7 @@
         "name": "latin capital letter o with ogonek",
         "symbol": "\u01ea",
         "keywords": [],
-        "composition": "",
+        "composition": "cO",
         "boost": 1
     },
     {
@@ -1884,7 +1884,7 @@
         "name": "latin small letter o with ogonek",
         "symbol": "\u01eb",
         "keywords": [],
-        "composition": "",
+        "composition": "co",
         "boost": 1
     },
     {
@@ -2068,7 +2068,7 @@
         "name": "latin capital letter a with inverted breve",
         "symbol": "\u0202",
         "keywords": [],
-        "composition": "",
+        "composition": "An",
         "boost": 1
     },
     {
@@ -2076,7 +2076,7 @@
         "name": "latin small letter a with inverted breve",
         "symbol": "\u0203",
         "keywords": [],
-        "composition": "",
+        "composition": "an",
         "boost": 1
     },
     {
@@ -2100,7 +2100,7 @@
         "name": "latin capital letter e with inverted breve",
         "symbol": "\u0206",
         "keywords": [],
-        "composition": "",
+        "composition": "En",
         "boost": 1
     },
     {
@@ -2108,7 +2108,7 @@
         "name": "latin small letter e with inverted breve",
         "symbol": "\u0207",
         "keywords": [],
-        "composition": "",
+        "composition": "en",
         "boost": 1
     },
     {
@@ -2132,7 +2132,7 @@
         "name": "latin capital letter i with inverted breve",
         "symbol": "\u020a",
         "keywords": [],
-        "composition": "",
+        "composition": "In",
         "boost": 1
     },
     {
@@ -2140,7 +2140,7 @@
         "name": "latin small letter i with inverted breve",
         "symbol": "\u020b",
         "keywords": [],
-        "composition": "",
+        "composition": "in",
         "boost": 1
     },
     {
@@ -2164,7 +2164,7 @@
         "name": "latin capital letter o with inverted breve",
         "symbol": "\u020e",
         "keywords": [],
-        "composition": "",
+        "composition": "On",
         "boost": 1
     },
     {
@@ -2172,7 +2172,7 @@
         "name": "latin small letter o with inverted breve",
         "symbol": "\u020f",
         "keywords": [],
-        "composition": "",
+        "composition": "on",
         "boost": 1
     },
     {
@@ -2196,7 +2196,7 @@
         "name": "latin capital letter r with inverted breve",
         "symbol": "\u0212",
         "keywords": [],
-        "composition": "",
+        "composition": "Rn",
         "boost": 1
     },
     {
@@ -2204,7 +2204,7 @@
         "name": "latin small letter r with inverted breve",
         "symbol": "\u0213",
         "keywords": [],
-        "composition": "",
+        "composition": "rn",
         "boost": 1
     },
     {
@@ -2228,7 +2228,7 @@
         "name": "latin capital letter u with inverted breve",
         "symbol": "\u0216",
         "keywords": [],
-        "composition": "",
+        "composition": "Un",
         "boost": 1
     },
     {
@@ -2236,7 +2236,7 @@
         "name": "latin small letter u with inverted breve",
         "symbol": "\u0217",
         "keywords": [],
-        "composition": "",
+        "composition": "un",
         "boost": 1
     },
     {
@@ -2372,7 +2372,7 @@
         "name": "latin capital letter o with diaeresis and macron",
         "symbol": "\u022a",
         "keywords": [],
-        "composition": "",
+        "composition": "O..-",
         "boost": 1
     },
     {
@@ -2380,7 +2380,7 @@
         "name": "latin small letter o with diaeresis and macron",
         "symbol": "\u022b",
         "keywords": [],
-        "composition": "",
+        "composition": "o..-",
         "boost": 1
     },
     {
@@ -2388,7 +2388,7 @@
         "name": "latin capital letter o with tilde and macron",
         "symbol": "\u022c",
         "keywords": [],
-        "composition": "",
+        "composition": "O~-",
         "boost": 1
     },
     {
@@ -2396,7 +2396,7 @@
         "name": "latin small letter o with tilde and macron",
         "symbol": "\u022d",
         "keywords": [],
-        "composition": "",
+        "composition": "o~-",
         "boost": 1
     },
     {
@@ -2420,7 +2420,7 @@
         "name": "latin capital letter o with dot above and macron",
         "symbol": "\u0230",
         "keywords": [],
-        "composition": "",
+        "composition": "O.-",
         "boost": 1
     },
     {
@@ -2428,7 +2428,7 @@
         "name": "latin small letter o with dot above and macron",
         "symbol": "\u0231",
         "keywords": [],
-        "composition": "",
+        "composition": "o.-",
         "boost": 1
     },
     {
@@ -2436,7 +2436,7 @@
         "name": "latin capital letter y with macron",
         "symbol": "\u0232",
         "keywords": [],
-        "composition": "",
+        "composition": "Y-",
         "boost": 1
     },
     {
@@ -2444,7 +2444,7 @@
         "name": "latin small letter y with macron",
         "symbol": "\u0233",
         "keywords": [],
-        "composition": "",
+        "composition": "y-",
         "boost": 1
     },
     {
@@ -2612,7 +2612,7 @@
         "name": "latin capital letter e with macron and grave",
         "symbol": "\u1e14",
         "keywords": [],
-        "composition": "",
+        "composition": "E-`",
         "boost": 1
     },
     {
@@ -2620,7 +2620,7 @@
         "name": "latin small letter e with macron and grave",
         "symbol": "\u1e15",
         "keywords": [],
-        "composition": "",
+        "composition": "e-`",
         "boost": 1
     },
     {
@@ -2628,7 +2628,7 @@
         "name": "latin capital letter e with macron and acute",
         "symbol": "\u1e16",
         "keywords": [],
-        "composition": "",
+        "composition": "E-'",
         "boost": 1
     },
     {
@@ -2636,7 +2636,7 @@
         "name": "latin small letter e with macron and acute",
         "symbol": "\u1e17",
         "keywords": [],
-        "composition": "",
+        "composition": "e-'",
         "boost": 1
     },
     {
@@ -2676,7 +2676,7 @@
         "name": "latin capital letter e with cedilla and breve",
         "symbol": "\u1e1c",
         "keywords": [],
-        "composition": "",
+        "composition": "5Eu",
         "boost": 1
     },
     {
@@ -2684,7 +2684,7 @@
         "name": "latin small letter e with cedilla and breve",
         "symbol": "\u1e1d",
         "keywords": [],
-        "composition": "",
+        "composition": "5eu",
         "boost": 1
     },
     {
@@ -2708,7 +2708,7 @@
         "name": "latin capital letter g with macron",
         "symbol": "\u1e20",
         "keywords": [],
-        "composition": "",
+        "composition": "G-",
         "boost": 1
     },
     {
@@ -2716,7 +2716,7 @@
         "name": "latin small letter g with macron",
         "symbol": "\u1e21",
         "keywords": [],
-        "composition": "",
+        "composition": "g-",
         "boost": 1
     },
     {
@@ -2788,7 +2788,7 @@
         "name": "latin capital letter h with breve below",
         "symbol": "\u1e2a",
         "keywords": [],
-        "composition": "",
+        "composition": "uH",
         "boost": 1
     },
     {
@@ -2796,7 +2796,7 @@
         "name": "latin small letter h with breve below",
         "symbol": "\u1e2b",
         "keywords": [],
-        "composition": "",
+        "composition": "uh",
         "boost": 1
     },
     {
@@ -2900,7 +2900,7 @@
         "name": "latin capital letter l with dot below and macron",
         "symbol": "\u1e38",
         "keywords": [],
-        "composition": "",
+        "composition": ".L-",
         "boost": 1
     },
     {
@@ -2908,7 +2908,7 @@
         "name": "latin small letter l with dot below and macron",
         "symbol": "\u1e39",
         "keywords": [],
-        "composition": "",
+        "composition": ".l-",
         "boost": 1
     },
     {
@@ -3092,7 +3092,7 @@
         "name": "latin capital letter o with macron and grave",
         "symbol": "\u1e50",
         "keywords": [],
-        "composition": "",
+        "composition": "O-`",
         "boost": 1
     },
     {
@@ -3100,7 +3100,7 @@
         "name": "latin small letter o with macron and grave",
         "symbol": "\u1e51",
         "keywords": [],
-        "composition": "",
+        "composition": "o-`",
         "boost": 1
     },
     {
@@ -3108,7 +3108,7 @@
         "name": "latin capital letter o with macron and acute",
         "symbol": "\u1e52",
         "keywords": [],
-        "composition": "",
+        "composition": "O-'",
         "boost": 1
     },
     {
@@ -3116,7 +3116,7 @@
         "name": "latin small letter o with macron and acute",
         "symbol": "\u1e53",
         "keywords": [],
-        "composition": "",
+        "composition": "o-'",
         "boost": 1
     },
     {
@@ -3188,7 +3188,7 @@
         "name": "latin capital letter r with dot below and macron",
         "symbol": "\u1e5c",
         "keywords": [],
-        "composition": "",
+        "composition": ".R-",
         "boost": 1
     },
     {
@@ -3196,7 +3196,7 @@
         "name": "latin small letter r with dot below and macron",
         "symbol": "\u1e5d",
         "keywords": [],
-        "composition": "",
+        "composition": ".r-",
         "boost": 1
     },
     {
@@ -3428,7 +3428,7 @@
         "name": "latin capital letter u with macron and diaeresis",
         "symbol": "\u1e7a",
         "keywords": [],
-        "composition": "",
+        "composition": "U-..",
         "boost": 1
     },
     {
@@ -3436,7 +3436,7 @@
         "name": "latin small letter u with macron and diaeresis",
         "symbol": "\u1e7b",
         "keywords": [],
-        "composition": "",
+        "composition": "u-..",
         "boost": 1
     },
     {
@@ -3812,7 +3812,7 @@
         "name": "latin capital letter a with breve and acute",
         "symbol": "\u1eae",
         "keywords": [],
-        "composition": "",
+        "composition": "Au'",
         "boost": 1
     },
     {
@@ -3820,7 +3820,7 @@
         "name": "latin small letter a with breve and acute",
         "symbol": "\u1eaf",
         "keywords": [],
-        "composition": "",
+        "composition": "au'",
         "boost": 1
     },
     {
@@ -3828,7 +3828,7 @@
         "name": "latin capital letter a with breve and grave",
         "symbol": "\u1eb0",
         "keywords": [],
-        "composition": "",
+        "composition": "Au`",
         "boost": 1
     },
     {
@@ -3836,7 +3836,7 @@
         "name": "latin small letter a with breve and grave",
         "symbol": "\u1eb1",
         "keywords": [],
-        "composition": "",
+        "composition": "au`",
         "boost": 1
     },
     {
@@ -3844,7 +3844,7 @@
         "name": "latin capital letter a with breve and hook above",
         "symbol": "\u1eb2",
         "keywords": [],
-        "composition": "",
+        "composition": "Au?",
         "boost": 1
     },
     {
@@ -3852,7 +3852,7 @@
         "name": "latin small letter a with breve and hook above",
         "symbol": "\u1eb3",
         "keywords": [],
-        "composition": "",
+        "composition": "au?",
         "boost": 1
     },
     {
@@ -3860,7 +3860,7 @@
         "name": "latin capital letter a with breve and tilde",
         "symbol": "\u1eb4",
         "keywords": [],
-        "composition": "",
+        "composition": "Au~",
         "boost": 1
     },
     {
@@ -3868,7 +3868,7 @@
         "name": "latin small letter a with breve and tilde",
         "symbol": "\u1eb5",
         "keywords": [],
-        "composition": "",
+        "composition": "au~",
         "boost": 1
     },
     {
@@ -3876,7 +3876,7 @@
         "name": "latin capital letter a with breve and dot below",
         "symbol": "\u1eb6",
         "keywords": [],
-        "composition": "",
+        "composition": ".Au",
         "boost": 1
     },
     {
@@ -3884,7 +3884,7 @@
         "name": "latin small letter a with breve and dot below",
         "symbol": "\u1eb7",
         "keywords": [],
-        "composition": "",
+        "composition": ".au",
         "boost": 1
     },
     {
