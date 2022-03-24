@@ -1,0 +1,28 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "cypress auto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "cypress:open" : "cypress open" 
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankliu197/mli-ts.git"
+  },
+  "keywords": [
+    "cypress",
+    "unit",
+    "automation"
+  ],
+  "author": "yasin",
+  "license": "ISC", 
+  "bugs": {
+    "url": "https://github.com/frankliu197/mli-ts/issues"
+  },
+  "homepage": "https://github.com/frankliu197/mli-ts#readme",
+  "dependencies": {
+    "cypress": "^9.5.0"
+  }
+}

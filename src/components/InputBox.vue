@@ -16,7 +16,6 @@ import Vue from "vue";
 import {Position} from "@/helpers/UiComponents"
 import FloatingComponent from "@/components/FloatingComponent.vue"
 import Globals from '@/helpers/globals'
-
 export default Vue.extend({ 
   name: 'InputBox',
   components: {
@@ -78,7 +77,6 @@ export default Vue.extend({
       x += metrics!.width;
       y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
-
       this.dropdownPosition = {left: `calc(${x}px + ${offset}px)`, top: y + "px"}
     }
   }, 
@@ -121,11 +119,9 @@ textarea {
   box-shadow: 0 0 10px 1px rgb(96, 213, 248);
   margin-right: 50px;
 }
-
 .input-box {
   text-align: center;
 }
-
 .dropdown {
   padding: 10px;
   min-width: 70px;
@@ -133,5 +129,4 @@ textarea {
     display: block;
   }
 }
-
 </style>

@@ -8,7 +8,7 @@
 <script lang='ts'>
 import Vue from "vue";
 import Character from '@/entities/Character';
-import {startCase} from "lodash"
+import {startCase} from "lodash" 
 export default Vue.extend({
   name: 'CharacterDetails',
 	props: {
@@ -39,7 +39,7 @@ export default Vue.extend({
 .name {
 	padding-bottom: 5px;
 	margin-bottom: 5px;
-	border-bottom: 2px solid rgb(180, 180, 180);
+	border-bottom: 2px solid rgb(180, 180, 180); 
 }
 
 .symbol {

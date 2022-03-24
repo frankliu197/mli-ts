@@ -15,7 +15,7 @@ export default {
   } 
 }
 
-// todo: auto-resize textarea on new line break
+// todo: auto-resize textarea on new line break  
 
 </script>
 
