@@ -47,11 +47,11 @@ export default Vue.extend({
       }
     },
     resize() {
-      this.inputHeight = this.$refs.textarea.scrollHeight - 15 + 'px';
+      this.inputHeight = this.$refs.textarea!.scrollHeight - 15 + 'px';
     },
     copy() {
-      this.$refs.textarea.focus();
-      this.$refs.textarea.select();
+      this.$refs.textarea!.focus();
+      this.$refs.textarea!.select();
       document.execCommand('copy');
     }
   },
@@ -68,14 +68,14 @@ export default Vue.extend({
       // let fontsize = {} as any;
       // fontsize.width = textarea.clientWidth + 1
       // fontsize.height = textarea.clientHeight + 1
+
       let y = textarea.getBoundingClientRect().y
       let x = textarea.offsetLeft
       const canvas = document.createElement("canvas");
       const context = canvas.getContext("2d");
-      context.font = 'Poppins';
+      context!.font = 'Poppins';
       const metrics = context?.measureText(textarea.value)
-      x += metrics?.width;
-      //x += textarea.value.replace(/\s/g, "").length * 5;
+      x += metrics!.width;
       y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
 
