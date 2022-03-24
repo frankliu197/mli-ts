@@ -13,7 +13,7 @@ function stringSort(s){
 const symbols = JSON.parse(fs.readFileSync(process.argv[2]))
 
 for (const i of symbols){
-	i.strokes = stringSort(i.strokes)
+	i.composition = stringSort(i.composition)
 }
 
 fs.writeFileSync(process.argv[2], JSON.stringify(symbols, null, 4))
