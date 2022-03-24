@@ -1084,7 +1084,7 @@
         "name": "latin capital letter c with hook",
         "symbol": "\u0187",
         "keywords": [],
-        "composition": "",
+        "composition": "C'",
         "boost": 1
     },
     {
@@ -1092,7 +1092,7 @@
         "name": "latin small letter c with hook",
         "symbol": "\u0188",
         "keywords": [],
-        "composition": "",
+        "composition": "c'",
         "boost": 1
     },
     {
@@ -1108,7 +1108,7 @@
         "name": "latin capital letter d with hook",
         "symbol": "\u018a",
         "keywords": [],
-        "composition": "",
+        "composition": "D'",
         "boost": 1
     },
     {
@@ -1116,7 +1116,7 @@
         "name": "latin capital letter d with topbar",
         "symbol": "\u018b",
         "keywords": [],
-        "composition": "",
+        "composition": "d-",
         "boost": 1
     },
     {
@@ -1124,7 +1124,7 @@
         "name": "latin small letter d with topbar",
         "symbol": "\u018c",
         "keywords": [],
-        "composition": "",
+        "composition": "d-",
         "boost": 1
     },
     {
@@ -1164,7 +1164,7 @@
         "name": "latin capital letter f with hook",
         "symbol": "\u0191",
         "keywords": [],
-        "composition": "",
+        "composition": "F'",
         "boost": 1
     },
     {
@@ -1172,7 +1172,7 @@
         "name": "latin small letter f with hook",
         "symbol": "\u0192",
         "keywords": [],
-        "composition": "",
+        "composition": "f'",
         "boost": 1
     },
     {
@@ -1180,7 +1180,7 @@
         "name": "latin capital letter g with hook",
         "symbol": "\u0193",
         "keywords": [],
-        "composition": "",
+        "composition": "G'",
         "boost": 1
     },
     {
@@ -1220,7 +1220,7 @@
         "name": "latin capital letter k with hook",
         "symbol": "\u0198",
         "keywords": [],
-        "composition": "",
+        "composition": "K'",
         "boost": 1
     },
     {
@@ -1228,7 +1228,7 @@
         "name": "latin small letter k with hook",
         "symbol": "\u0199",
         "keywords": [],
-        "composition": "",
+        "composition": "k'",
         "boost": 1
     },
     {
@@ -1260,7 +1260,7 @@
         "name": "latin capital letter n with left hook",
         "symbol": "\u019d",
         "keywords": [],
-        "composition": "",
+        "composition": "N'",
         "boost": 1
     },
     {
@@ -1284,7 +1284,7 @@
         "name": "latin capital letter o with horn",
         "symbol": "\u01a0",
         "keywords": [],
-        "composition": "",
+        "composition": "O'",
         "boost": 1
     },
     {
@@ -1292,7 +1292,7 @@
         "name": "latin small letter o with horn",
         "symbol": "\u01a1",
         "keywords": [],
-        "composition": "",
+        "composition": "o'",
         "boost": 1
     },
     {
@@ -1316,7 +1316,7 @@
         "name": "latin capital letter p with hook",
         "symbol": "\u01a4",
         "keywords": [],
-        "composition": "",
+        "composition": "P'",
         "boost": 1
     },
     {
@@ -1324,7 +1324,7 @@
         "name": "latin small letter p with hook",
         "symbol": "\u01a5",
         "keywords": [],
-        "composition": "",
+        "composition": "p'",
         "boost": 1
     },
     {
@@ -1372,7 +1372,7 @@
         "name": "latin small letter t with palatal hook",
         "symbol": "\u01ab",
         "keywords": [],
-        "composition": "",
+        "composition": "t,",
         "boost": 1
     },
     {
@@ -1380,7 +1380,7 @@
         "name": "latin capital letter t with hook",
         "symbol": "\u01ac",
         "keywords": [],
-        "composition": "",
+        "composition": "T'",
         "boost": 1
     },
     {
@@ -1388,7 +1388,7 @@
         "name": "latin small letter t with hook",
         "symbol": "\u01ad",
         "keywords": [],
-        "composition": "",
+        "composition": "t'",
         "boost": 1
     },
     {
@@ -1396,7 +1396,7 @@
         "name": "latin capital letter t with retroflex hook",
         "symbol": "\u01ae",
         "keywords": [],
-        "composition": "",
+        "composition": "T,",
         "boost": 1
     },
     {
@@ -1404,7 +1404,7 @@
         "name": "latin capital letter u with horn",
         "symbol": "\u01af",
         "keywords": [],
-        "composition": "",
+        "composition": "U'",
         "boost": 1
     },
     {
@@ -1412,7 +1412,7 @@
         "name": "latin small letter u with horn",
         "symbol": "\u01b0",
         "keywords": [],
-        "composition": "",
+        "composition": "u'",
         "boost": 1
     },
     {
@@ -1428,7 +1428,7 @@
         "name": "latin capital letter v with hook",
         "symbol": "\u01b2",
         "keywords": [],
-        "composition": "",
+        "composition": "V'",
         "boost": 1
     },
     {
@@ -1436,7 +1436,7 @@
         "name": "latin capital letter y with hook",
         "symbol": "\u01b3",
         "keywords": [],
-        "composition": "",
+        "composition": "Y'",
         "boost": 1
     },
     {
@@ -1444,7 +1444,7 @@
         "name": "latin small letter y with hook",
         "symbol": "\u01b4",
         "keywords": [],
-        "composition": "",
+        "composition": "y'",
         "boost": 1
     },
     {
@@ -2324,7 +2324,7 @@
         "name": "latin capital letter z with hook",
         "symbol": "\u0224",
         "keywords": [],
-        "composition": "",
+        "composition": "Z'",
         "boost": 1
     },
     {
@@ -2332,7 +2332,7 @@
         "name": "latin small letter z with hook",
         "symbol": "\u0225",
         "keywords": [],
-        "composition": "",
+        "composition": "z'",
         "boost": 1
     },
     {
@@ -3716,7 +3716,7 @@
         "name": "latin capital letter a with hook above",
         "symbol": "\u1ea2",
         "keywords": [],
-        "composition": "",
+        "composition": "A",
         "boost": 1
     },
     {
@@ -3724,7 +3724,7 @@
         "name": "latin small letter a with hook above",
         "symbol": "\u1ea3",
         "keywords": [],
-        "composition": "",
+        "composition": "a'",
         "boost": 1
     },
     {
@@ -3764,7 +3764,7 @@
         "name": "latin capital letter a with circumflex and hook above",
         "symbol": "\u1ea8",
         "keywords": [],
-        "composition": "",
+        "composition": "Ax'",
         "boost": 1
     },
     {
@@ -3772,7 +3772,7 @@
         "name": "latin small letter a with circumflex and hook above",
         "symbol": "\u1ea9",
         "keywords": [],
-        "composition": "",
+        "composition": "ax'",
         "boost": 1
     },
     {
@@ -3908,7 +3908,7 @@
         "name": "latin capital letter e with hook above",
         "symbol": "\u1eba",
         "keywords": [],
-        "composition": "",
+        "composition": "E'",
         "boost": 1
     },
     {
@@ -3916,7 +3916,7 @@
         "name": "latin small letter e with hook above",
         "symbol": "\u1ebb",
         "keywords": [],
-        "composition": "",
+        "composition": "e'",
         "boost": 1
     },
     {
@@ -3972,7 +3972,7 @@
         "name": "latin capital letter e with circumflex and hook above",
         "symbol": "\u1ec2",
         "keywords": [],
-        "composition": "",
+        "composition": "Ex'",
         "boost": 1
     },
     {
@@ -3980,7 +3980,7 @@
         "name": "latin small letter e with circumflex and hook above",
         "symbol": "\u1ec3",
         "keywords": [],
-        "composition": "",
+        "composition": "ex'",
         "boost": 1
     },
     {
@@ -4020,7 +4020,7 @@
         "name": "latin capital letter i with hook above",
         "symbol": "\u1ec8",
         "keywords": [],
-        "composition": "",
+        "composition": "I'",
         "boost": 1
     },
     {
@@ -4028,7 +4028,7 @@
         "name": "latin small letter i with hook above",
         "symbol": "\u1ec9",
         "keywords": [],
-        "composition": "",
+        "composition": "i'",
         "boost": 1
     },
     {
@@ -4068,7 +4068,7 @@
         "name": "latin capital letter o with hook above",
         "symbol": "\u1ece",
         "keywords": [],
-        "composition": "",
+        "composition": "O'",
         "boost": 1
     },
     {
@@ -4076,7 +4076,7 @@
         "name": "latin small letter o with hook above",
         "symbol": "\u1ecf",
         "keywords": [],
-        "composition": "",
+        "composition": "o'",
         "boost": 1
     },
     {
@@ -4116,7 +4116,7 @@
         "name": "latin capital letter o with circumflex and hook above",
         "symbol": "\u1ed4",
         "keywords": [],
-        "composition": "",
+        "composition": "Ox'",
         "boost": 1
     },
     {
@@ -4124,7 +4124,7 @@
         "name": "latin small letter o with circumflex and hook above",
         "symbol": "\u1ed5",
         "keywords": [],
-        "composition": "",
+        "composition": "ox'",
         "boost": 1
     },
     {
@@ -4164,7 +4164,7 @@
         "name": "latin capital letter o with horn and acute",
         "symbol": "\u1eda",
         "keywords": [],
-        "composition": "",
+        "composition": "O''",
         "boost": 1
     },
     {
@@ -4172,7 +4172,7 @@
         "name": "latin small letter o with horn and acute",
         "symbol": "\u1edb",
         "keywords": [],
-        "composition": "",
+        "composition": "o''",
         "boost": 1
     },
     {
@@ -4180,7 +4180,7 @@
         "name": "latin capital letter o with horn and grave",
         "symbol": "\u1edc",
         "keywords": [],
-        "composition": "",
+        "composition": "O'`",
         "boost": 1
     },
     {
@@ -4188,7 +4188,7 @@
         "name": "latin small letter o with horn and grave",
         "symbol": "\u1edd",
         "keywords": [],
-        "composition": "",
+        "composition": "o'`",
         "boost": 1
     },
     {
@@ -4196,7 +4196,7 @@
         "name": "latin capital letter o with horn and hook above",
         "symbol": "\u1ede",
         "keywords": [],
-        "composition": "",
+        "composition": "O?'",
         "boost": 1
     },
     {
@@ -4204,7 +4204,7 @@
         "name": "latin small letter o with horn and hook above",
         "symbol": "\u1edf",
         "keywords": [],
-        "composition": "",
+        "composition": "o?'",
         "boost": 1
     },
     {
@@ -4212,7 +4212,7 @@
         "name": "latin capital letter o with horn and tilde",
         "symbol": "\u1ee0",
         "keywords": [],
-        "composition": "",
+        "composition": "o'~",
         "boost": 1
     },
     {
@@ -4220,7 +4220,7 @@
         "name": "latin small letter o with horn and tilde",
         "symbol": "\u1ee1",
         "keywords": [],
-        "composition": "",
+        "composition": "o'~",
         "boost": 1
     },
     {
@@ -4228,7 +4228,7 @@
         "name": "latin capital letter o with horn and dot below",
         "symbol": "\u1ee2",
         "keywords": [],
-        "composition": "",
+        "composition": "O'.",
         "boost": 1
     },
     {
@@ -4236,7 +4236,7 @@
         "name": "latin small letter o with horn and dot below",
         "symbol": "\u1ee3",
         "keywords": [],
-        "composition": "",
+        "composition": "o'.",
         "boost": 1
     },
     {
@@ -4260,7 +4260,7 @@
         "name": "latin capital letter u with hook above",
         "symbol": "\u1ee6",
         "keywords": [],
-        "composition": "",
+        "composition": "U'",
         "boost": 1
     },
     {
@@ -4268,7 +4268,7 @@
         "name": "latin small letter u with hook above",
         "symbol": "\u1ee7",
         "keywords": [],
-        "composition": "",
+        "composition": "u'",
         "boost": 1
     },
     {
@@ -4276,7 +4276,7 @@
         "name": "latin capital letter u with horn and acute",
         "symbol": "\u1ee8",
         "keywords": [],
-        "composition": "",
+        "composition": "U''",
         "boost": 1
     },
     {
@@ -4284,7 +4284,7 @@
         "name": "latin small letter u with horn and acute",
         "symbol": "\u1ee9",
         "keywords": [],
-        "composition": "",
+        "composition": "u''",
         "boost": 1
     },
     {
@@ -4292,7 +4292,7 @@
         "name": "latin capital letter u with horn and grave",
         "symbol": "\u1eea",
         "keywords": [],
-        "composition": "",
+        "composition": "U'`",
         "boost": 1
     },
     {
@@ -4300,7 +4300,7 @@
         "name": "latin small letter u with horn and grave",
         "symbol": "\u1eeb",
         "keywords": [],
-        "composition": "",
+        "composition": "u'`",
         "boost": 1
     },
     {
@@ -4308,7 +4308,7 @@
         "name": "latin capital letter u with horn and hook above",
         "symbol": "\u1eec",
         "keywords": [],
-        "composition": "",
+        "composition": "U?'",
         "boost": 1
     },
     {
@@ -4316,7 +4316,7 @@
         "name": "latin small letter u with horn and hook above",
         "symbol": "\u1eed",
         "keywords": [],
-        "composition": "",
+        "composition": "u?'",
         "boost": 1
     },
     {
@@ -4332,7 +4332,7 @@
         "name": "latin small letter u with horn and tilde",
         "symbol": "\u1eef",
         "keywords": [],
-        "composition": "",
+        "composition": "u'~",
         "boost": 1
     },
     {
@@ -4340,7 +4340,7 @@
         "name": "latin capital letter u with horn and dot below",
         "symbol": "\u1ef0",
         "keywords": [],
-        "composition": "",
+        "composition": "U'.",
         "boost": 1
     },
     {
@@ -4348,7 +4348,7 @@
         "name": "latin small letter u with horn and dot below",
         "symbol": "\u1ef1",
         "keywords": [],
-        "composition": "",
+        "composition": "u'.",
         "boost": 1
     },
     {
@@ -4356,7 +4356,7 @@
         "name": "latin capital letter y with grave",
         "symbol": "\u1ef2",
         "keywords": [],
-        "composition": "",
+        "composition": "Y`",
         "boost": 1
     },
     {
@@ -4364,7 +4364,7 @@
         "name": "latin small letter y with grave",
         "symbol": "\u1ef3",
         "keywords": [],
-        "composition": "",
+        "composition": "y`",
         "boost": 1
     },
     {
@@ -4388,7 +4388,7 @@
         "name": "latin capital letter y with hook above",
         "symbol": "\u1ef6",
         "keywords": [],
-        "composition": "",
+        "composition": "Y'",
         "boost": 1
     },
     {
@@ -4396,7 +4396,7 @@
         "name": "latin small letter y with hook above",
         "symbol": "\u1ef7",
         "keywords": [],
-        "composition": "",
+        "composition": "y'",
         "boost": 1
     },
     {
