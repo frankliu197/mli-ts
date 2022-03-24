@@ -70,7 +70,12 @@ export default Vue.extend({
       // fontsize.height = textarea.clientHeight + 1
       let y = textarea.getBoundingClientRect().y
       let x = textarea.offsetLeft
-      x += textarea.textLength * 5;
+      const canvas = document.createElement("canvas");
+      const context = canvas.getContext("2d");
+      context.font = 'Poppins';
+      const metrics = context?.measureText(textarea.value)
+      x += metrics?.width;
+      //x += textarea.value.replace(/\s/g, "").length * 5;
       y += textarea.scrollHeight;
       const offset = textarea.selectionStart * 12 ?? 0
 
