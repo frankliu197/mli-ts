@@ -1,6 +1,6 @@
 import { isUndefined } from "typescript-collections/dist/lib/util";
 import { stripLetter } from "@/helpers/helpers";
-import Character from "../entities/Character";  
+import Character from "../entities/Character";
 import { stringMatchPriority } from "./Priority";
 import { Queue } from "typescript-collections";
 

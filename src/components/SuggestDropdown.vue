@@ -1,5 +1,5 @@
 <template lang='pug'>
-.dropdown(v-click-outside="close")
+.dropdown(ref="drop" v-click-outside="close")
   .input-section
     input(ref="input" id="suggest_dropdown" v-model="search"  v-autowidth="{maxWidth:'960px', minWidth: `${80}px`, comfortZone: 10}" @keydown="handleDropdown")
   .dropdown-section(ref="dropdown")
@@ -24,7 +24,7 @@
 <script lang='ts'>
 import Globals from '@/helpers/globals'
 import {boost, suggest} from '@/Recommender/Recommender'
-import Character from '@/Recommender/Character';
+import Character from '@/entities/Character';
 import CharacterDetails from "@/components/CharacterDetails.vue"
 import "@/Recommender/KeywordRecommender";
 import Vue from "vue";
@@ -224,9 +224,10 @@ export default Vue.extend({
     },
     search: function(){
       //this.selectionIndex = 0
-      const input = this.$refs.input as HTMLDivElement
-      let {right} = input.getBoundingClientRect()
-      this.characterPosition = {left: right/5 + "px", top: "9px"}
+      const drop = this.$refs.drop as HTMLDivElement
+      let x = drop.offsetWidth;
+      this.characterPosition = {left: x + "px", top: "9px"}
+      this.characterDetails = false;
     }
   },
  

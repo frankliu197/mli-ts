@@ -1,6 +1,6 @@
 import { CompositionTree } from "./CompositionTree";
-import Character from "./Character";
-import SymbolSets from "./SymbolSets";
+import Character from "../entities/Character";
+import CharacterSets from "../entities/CharacterSets";
 
 export class CompositionRecommender {
   tree: CompositionTree; 
@@ -9,7 +9,7 @@ export class CompositionRecommender {
   constructor() {
     this.tree = new CompositionTree();
   }
-  add(set: SymbolSets): void {
+  add(set: CharacterSets): void {
     for (const c of set.symbols) {
       this.tree.insert(c);
     }
@@ -24,6 +24,9 @@ export class CompositionRecommender {
 /*
   suggest(search: string): Map<Character, number> {
     return this.tree.getCharacterSet(search);
+  }
+  searchable(search: string): boolean {
+    return search.indexOf(" ") === -1
   }
 }
 */

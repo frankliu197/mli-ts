@@ -1,6 +1,6 @@
 import { KeywordTree } from "./KeywordTree"
-import Character from "./Character"
-import SymbolSets from "./SymbolSets"
+import Character from "../entities/Character"
+import CharacterSets from "../entities/CharacterSets"
 import { combinePriority } from "./Priority"
 
 export class KeywordRecommender {
@@ -8,19 +8,20 @@ export class KeywordRecommender {
   constructor() {
     this.tree = new KeywordTree();
   }
-  add(set: SymbolSets): void {
+  add(set: CharacterSets): void {
     for (const c of set.symbols) {
       this.tree.insert(c)
     }
     this.tree.updatePriorities();
   }
-  suggest(search: Array<string>): Map<Character, number> {
+  suggest(search: string): Map<Character, number> {
+    const keywords = search.toLowerCase().split(" ").filter(Boolean);
     //add only matching elements in prev map and character set from this search time to nextMap
     //this way next map matches all search terms
-    let map = this.tree.getCharacterSet(search[0]);
+    let map = this.tree.getCharacterSet(keywords[0]);
     let nextMap = new Map<Character, number>();
-    for (let i = 0; i < search.length; i++) {
-      for (const [c, p] of this.tree.getCharacterSet(search[i]).entries()) {
+    for (const keyword of keywords) {
+      for (const [c, p] of this.tree.getCharacterSet(keyword).entries()) {
         if (map.has(c)) {
           nextMap.set(c, combinePriority(p, map.get(c)!));
         }
@@ -28,13 +29,10 @@ export class KeywordRecommender {
       map = nextMap;
       nextMap = new Map<Character, number>();
     }
-    //let start = new Date().getTime();
-
-    //const end = new Date().getTime();
-    //const time = end - start;
-    //console.log(start)
-    //console.log('Execution time (ms): ' + time);
-    //todo sort
     return map;
   }
+  searchable(search: string): boolean {
+    return true
+  }
+
 }

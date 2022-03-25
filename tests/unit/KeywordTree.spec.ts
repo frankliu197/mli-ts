@@ -1,6 +1,6 @@
-import { createStubTree, assertTree } from "./KeywordTreeStub";
+import { createMockTree, assertTree } from "./KeywordTreeMock";
 import { KeywordTree, Node } from "@/Recommender/KeywordTree";
-import Character from "@/Recommender/Character";
+import Character from "@/entities/Character";
 import BL from "@/symbols/json/BasicLatin.json";
 import chai, { assert, expect } from "chai";
 import ChaiSorted from "chai-sorted";
@@ -24,11 +24,11 @@ describe("KeywordTree structure", () => {
   it("works as empty tree", () => {
     const tree = new KeywordTree();
 
-    const stubTree = createStubTree({
+    const mockTree = createMockTree({
       keys: [],
     });
 
-    assertTree(tree, stubTree, []);
+    assertTree(tree, mockTree, []);
   });
 
   it("works with only root node", () => {
@@ -37,11 +37,11 @@ describe("KeywordTree structure", () => {
     const characters = BasicLatin.slice(0, 2);
     insertCharactersToTree(characters, tree);
 
-    const stubTree = createStubTree({
-      keys: ["EXCLAMATION", "MARK", "QUOTATION"],
+    const mockTree = createMockTree({
+      keys: ["exclamation", "mark", "quotation"],
     });
 
-    assertTree(tree, stubTree, characters);
+    assertTree(tree, mockTree, characters);
   });
 
   it("works with root split", () => {
@@ -50,19 +50,6 @@ describe("KeywordTree structure", () => {
     const characters = BasicLatin.slice(0, 4);
     insertCharactersToTree(characters, tree);
 
-    const stubTree = createStubTree({
-      keys: ["NUMBER"],
-      child: [
-        {
-          keys: ["DOLLAR", "EXCLAMATION", "MARK"],
-        },
-        {
-          keys: ["NUMBER", "QUOTATION", "SIGN"],
-        },
-      ],
-    });
-
-    assertTree(tree, stubTree, characters);
   });
 
   it("works with root merge", () => {
@@ -71,62 +58,69 @@ describe("KeywordTree structure", () => {
     const characters = BasicLatin.slice(0, 5);
     insertCharactersToTree(characters, tree);
 
-    const stubTree = createStubTree({
-      keys: ["NUMBER", "QUOTATION"],
+    const mockTree = createMockTree({
+      keys: ["number", "quotation"],
       child: [
         {
-          keys: ["DOLLAR", "EXCLAMATION", "MARK"],
+          keys: ["dollar", "exclamation", "mark"],
         },
         {
-          keys: ["NUMBER", "PERCENT"],
+          keys: ["number", "percent"],
         },
         {
-          keys: ["QUOTATION", "SIGN"],
+          keys: ["quotation", "sign"],
         },
       ],
     });
-    assertTree(tree, stubTree, characters);
+    assertTree(tree, mockTree, characters);
   });
 
   it("works with max children", () => {
-    const tree = new KeywordTree();
+    //choose CharacterSet
     const characters = BasicLatin.slice(0, 9);
+    
+    //create keyword Tree
+    const tree = new KeywordTree();
     insertCharactersToTree(characters, tree);
-    const stubTree = createStubTree({
-      keys: ["EXCLAMATION", "NUMBER", "QUOTATION"],
+    
+    //create stub keyword tree
+    const mockTree = createMockTree({
+      keys: ["exclamation", "number", "quotation"],
       child: [
-        { keys: ["AMPERSAND", "APOSTROPHE", "DOLLAR"] },
-        { keys: ["EXCLAMATION", "LEFT", "MARK"] },
-        { keys: ["NUMBER", "PARENTHESIS", "PERCENT"] },
-        { keys: ["QUOTATION", "RIGHT", "SIGN"] },
+        { keys: ["ampersand", "apostrophe", "dollar"] },
+        { keys: ["exclamation", "left", "mark"] },
+        { keys: ["number", "parenthesis", "percent"] },
+        { keys: ["quotation", "right", "sign"] },
       ],
     });
-    assertTree(tree, stubTree, characters);
+
+    //ensure the stub tree and keyword tree matches
+    assertTree(tree, mockTree, characters);
   });
 
   it("works with searches", () => {
-    assert.deepEqual(latinTree.getKeywordSet("A"), [
-      "A",
-      "ACCENT",
-      "AMPERSAND",
-      "APOSTROPHE",
-      "ASTERISK",
-      "AT",
+    assert.deepEqual(latinTree.getKeywordSet("a"), [
+      "a",
+      "accent",
+      "ampersand",
+      "apostrophe",
+      "asterisk",
+      "at",
     ]);
 
     //collection spanning accross middle of nodes
-    assert.deepEqual(latinTree.getKeywordSet("D"), ["D", "DIGIT", "DOLLAR"]);
+    assert.deepEqual(latinTree.getKeywordSet("d"), ["d", "digit", "dollar"]);
 
     //search of letters
-    assert.deepEqual(latinTree.getKeywordSet("CO"), [
-      "COLON",
-      "COMMA",
-      "COMMERCIAL",
+    assert.deepEqual(latinTree.getKeywordSet("co"), [
+      "colon",
+      "comma",
+      "commercial",
     ]);
 
-    assert.deepEqual(latinTree.getKeywordSet("REVERSE"), ["REVERSE"]);
+    assert.deepEqual(latinTree.getKeywordSet("reverse"), ["reverse"]);
 
-    assert.deepEqual(latinTree.getKeywordSet("ABCDS"), []);
+    assert.deepEqual(latinTree.getKeywordSet("abcds"), []);
 
     assert.deepEqual(latinTree.getKeywordSet("!"), []);
   });

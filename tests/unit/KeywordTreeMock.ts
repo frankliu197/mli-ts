@@ -1,28 +1,28 @@
 import { assert, expect } from "chai";
 import { KeywordTree, Node } from "@/Recommender/KeywordTree";
-import Character from "@/Recommender/Character";
+import Character from "@/entities/Character";
 
-export class StubNode {
+export class MockNode {
   keys: Array<string>;
-  child?: Array<StubNode>; 
-  _nextNode?: StubNode;
+  child?: Array<MockNode>;
+  _nextNode?: MockNode;
 }
 
 /**
  * Takes in a tree of stub nodes with keys, and child params filled out. This function then connects the _nextNode? values of the StubNode
  * to be used as validation in assertTree
- * @param stubNode 
+ * @param mockNode 
  * @returns 
  */
-export function createStubTree(stubNode: StubNode) : StubNode {
-  const queue = new Array<{ node: StubNode; depth: number }>();
-  let prev = { node: stubNode, depth: 1 };
+export function createMockTree(mockNode: MockNode) : MockNode {
+  const queue = new Array<{ node: MockNode; depth: number }>();
+  let prev = { node: mockNode, depth: 1 };
 
-  if (!stubNode.child) {
-    return stubNode;
+  if (!mockNode.child) {
+    return mockNode;
   }
 
-  for (const i of stubNode.child) {
+  for (const i of mockNode.child) {
     queue.push({ node: i, depth: 2 });
   }
 
@@ -41,25 +41,25 @@ export function createStubTree(stubNode: StubNode) : StubNode {
 
     prev = curr;
   }
-  return stubNode;
+  return mockNode;
 }
 
-export function assertTree(actualTree: KeywordTree, stubNode: StubNode, characters: Array<Character>): void {
+export function assertTree(actualTree: KeywordTree, mockNode: MockNode, characters: Array<Character>): void {
   //assert root node
   assert.isUndefined(actualTree.root.parent, "root.parent");
   assert.isUndefined(actualTree.root.nextNode, "root.nextNode");
-  assert.deepEqual(actualTree.root.keys, stubNode.keys, "root.keys");
+  assert.deepEqual(actualTree.root.keys, mockNode.keys, "root.keys");
 
   //@ts-expect-error: ts not reading sorted
   expect(actualTree.toArray()).to.be.sorted();
 
-  if (stubNode.child) {
-    assert.lengthOf(actualTree.root.child, stubNode.child.length, "root.child");
+  if (mockNode.child) {
+    assert.lengthOf(actualTree.root.child, mockNode.child.length, "root.child");
     assert.isFalse(actualTree.root.leaf, "root.leaf");
 
-    for (const i in stubNode.child) {
+    for (const i in mockNode.child) {
       assert.equal(actualTree.root.child[i].parent, actualTree.root);
-      assertNode(actualTree.root.child[i], stubNode.child[i]);
+      assertNode(actualTree.root.child[i], mockNode.child[i]);
     }
   } else {
     assert.isTrue(actualTree.root.leaf, "root.leaf");
@@ -74,30 +74,30 @@ export function assertTree(actualTree: KeywordTree, stubNode: StubNode, characte
   }
 }
 
-function assertNode(actualNode: Node, stubNode: StubNode) {
-  if (stubNode._nextNode) {
+function assertNode(actualNode: Node, mockNode: MockNode) {
+  if (mockNode._nextNode) {
     assert.isDefined(actualNode.nextNode);
     assert.deepEqual(
       actualNode.nextNode!.keys,
-      stubNode._nextNode.keys,
+      mockNode._nextNode.keys,
       "Assert deep equal keys of next node. Either next node reference is wrong or the keys are wrong on the next node"
     );
   } else {
     assert.isUndefined(actualNode.nextNode, "nextNode should not exist");
   }
 
-  assert.deepEqual(actualNode.keys, stubNode.keys, "child.keys");
+  assert.deepEqual(actualNode.keys, mockNode.keys, "child.keys");
  
-  if (stubNode.child) {
-    assert.lengthOf(actualNode.child, stubNode.child.length, "child.child");
+  if (mockNode.child) {
+    assert.lengthOf(actualNode.child, mockNode.child.length, "child.child");
     assert.isFalse(actualNode.leaf, "child.leaf");
-    for (const i in stubNode.child) {
+    for (const i in mockNode.child) {
       assert.equal(
         actualNode.child[i].parent,
         actualNode,
         "Parent Node of " + actualNode.child[i].toString()
       );
-      assertNode(actualNode.child[i], stubNode.child[i]);
+      assertNode(actualNode.child[i], mockNode.child[i]);
     }
   } else {
     assert.isTrue(actualNode.leaf, "child.leaf");

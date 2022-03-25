@@ -756,7 +756,7 @@
         "name": "underscore",
         "symbol": "_",
         "keywords": [],
-        "composition": "-",
+        "composition": "-", 
         "boost": 1
     }
 ]  
