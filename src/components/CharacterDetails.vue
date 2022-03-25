@@ -1,4 +1,6 @@
 <template lang='pug'>
+//- @author Cameron
+
 .character-details
 	div(class="name") {{ startCase(character.name) }}
 	div(class="symbol") {{ character.symbol }}

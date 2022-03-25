@@ -1,5 +1,9 @@
 import Vue from "vue";
 
+/**
+ * @author Cameron
+ */
+
 export default Vue.observable({
   dropdown: {
     shortcuts: {

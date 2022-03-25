@@ -1,3 +1,8 @@
+
+/**
+ * @author Cameron
+ */
+
 import Character from "./Character";
 import { setBoosts } from "../Recommender/Storage";
 export default class CharacterSets {

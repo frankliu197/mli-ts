@@ -1,3 +1,7 @@
+/**
+ * @author Cameron
+ */
+
 export default class {
   public unicode: number;
   public symbol: string;

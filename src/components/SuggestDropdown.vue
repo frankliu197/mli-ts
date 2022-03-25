@@ -1,4 +1,5 @@
 <template lang='pug'>
+//- @author Cameron
 .dropdown(ref="drop" v-click-outside="close")
   .input-section
     input(ref="input" id="suggest_dropdown" v-model="search"  v-autowidth="{maxWidth:'960px', minWidth: `${80}px`, comfortZone: 10}" @keydown="handleDropdown")

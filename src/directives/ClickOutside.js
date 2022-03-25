@@ -1,3 +1,8 @@
+
+/**
+ * @author Cameron
+ */
+
 import Vue from "vue";
 export default Vue.directive('click-outside', {
   bind: function (el, binding, vnode) {

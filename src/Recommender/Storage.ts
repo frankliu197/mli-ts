@@ -1,5 +1,5 @@
 /**
- * @author frankliu197
+ * @author frankliu197, Cameron
  */
 
 import Character from "../entities/Character";
