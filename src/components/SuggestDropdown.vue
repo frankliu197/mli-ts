@@ -55,10 +55,8 @@ export default Vue.extend({
     }
   },
   methods: {
-    close(event:any) {
-      //alert(event.target.tagName);
-      if(event.target.tagName != "A")
-        this.$emit('close')
+    close() {
+      this.$emit('close')
     }, 
     choose(index: number) {
       this.selected(this.getSuggestion(this.page, index))
@@ -69,14 +67,12 @@ export default Vue.extend({
     selected(c: Character) {
       boost(c)
       this.$emit('selected', c) 
-      this.close(0)
+      this.close()
     },
     toggleCharacterDescription(){
       this.characterDetails = !this.characterDetails
     },
     handleDropdown($event: KeyboardEvent){
-     // alert('dropdown');
-      //alert($event.key);
       let functionKey = ""
       if ($event.ctrlKey){
         functionKey += "Control "
@@ -111,7 +107,7 @@ export default Vue.extend({
 			if (this.search === "") {
         return
       }
-      if (this.selectionIndex === this.PAGE_ENTRIES && !this.isLastPage){
+      if (this.selectionIndex === this.PAGE_ENTRIES - 1&& !this.isLastPage){
         this.selectionIndex = 0
         this.page++
         return

@@ -2,8 +2,7 @@
 .app
   Header
   Home
-  Legend  
-  eventhandle
+  Legend
 </template>
 
 <script lang="ts">
@@ -12,13 +11,11 @@ import Home from "@/pages/Home.vue"
 import Legend from "@/components/Legend.vue"
 
 import Vue from "vue";
-import eventhandleVue from "./eventhandle.vue";
 export default Vue.extend({
   components: {
     Header,
     Home,
     Legend 
-    
   }
 })
 </script>

@@ -47,11 +47,12 @@ export default Vue.extend({
       }
     },
     resize() {
-      this.inputHeight = this.$refs.textarea!.scrollHeight - 15 + 'px';
+      this.inputHeight = (this.$refs.textarea as HTMLTextAreaElement).scrollHeight - 15 + 'px';
     },
     copy() {
-      this.$refs.textarea!.focus();
-      this.$refs.textarea!.select();
+      const el = this.$refs.textarea as HTMLTextAreaElement
+      el.focus();
+      el.select();
       document.execCommand('copy');
     }
   },

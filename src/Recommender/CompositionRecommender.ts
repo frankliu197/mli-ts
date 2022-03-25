@@ -1,10 +1,11 @@
 import { CompositionTree } from "./CompositionTree";
 import Character from "../entities/Character";
 import CharacterSets from "../entities/CharacterSets";
+import { stringSort } from "@/helpers/helpers";
 
 export class CompositionRecommender {
   tree: CompositionTree; 
-  //symbolSet: SymbolSets; 
+  characterSets: CharacterSets; 
 
   constructor() {
     this.tree = new CompositionTree();
@@ -13,20 +14,23 @@ export class CompositionRecommender {
     for (const c of set.symbols) {
       this.tree.insert(c);
     }
+    this.characterSets = set;
   }
   suggest(search: string): Map<Character, number> {
-    return this.tree.getCharacterSet(search);
+    let s = "";
+    for (const i of search){
+      const c = this.characterSets.getCharacter(i);
+      if (c){
+        s += c.composition;
+      } else {
+        s += i;
+      }
+    }
+    s = stringSort(s);
+
+    return this.tree.getCharacterSet(s); 
   }
   searchable(search: string): boolean {
     return search.indexOf(" ") === -1
   }
 }
-/*
-  suggest(search: string): Map<Character, number> {
-    return this.tree.getCharacterSet(search);
-  }
-  searchable(search: string): boolean {
-    return search.indexOf(" ") === -1
-  }
-}
-*/
