@@ -21,7 +21,8 @@
     "vue-input-autowidth": "^1.0.11",
     "vue-moveable": "^1.8.11",
     "vue-property-decorator": "^9.1.2",
-    "vuetify": "^2.4.0"
+    "vuetify": "^2.4.0",
+    "express":"*"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
