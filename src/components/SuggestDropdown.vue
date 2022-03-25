@@ -4,7 +4,7 @@
     input(ref="input" id="suggest_dropdown" v-model="search"  v-autowidth="{maxWidth:'960px', minWidth: `${80}px`, comfortZone: 10}" @keydown="handleDropdown")
   .dropdown-section(ref="dropdown")
     button.dropdown-element(  
-      v-for="(item, index) of pageEntries()"
+      v-for="(item, index) of pageEntries"
       @click="choose(index)" 
       :class="selectionIndex === index? 'selected': ''"
       @mouseenter="selectionIndex = index") 
@@ -113,7 +113,7 @@ export default Vue.extend({
         return
       }
 
-      if (this.selectionIndex < this.pageEntriesLength() - 1){
+      if (this.selectionIndex < this.pageEntriesLength - 1){
         this.selectionIndex++
       }
 		},
@@ -134,7 +134,7 @@ export default Vue.extend({
     prevPage(){
       if (!this.isFirstPage){
         this.page--
-        this.selectionIndex = Math.min(this.selectionIndex, this.pageEntriesLength() - 1)
+        this.selectionIndex = Math.min(this.selectionIndex, this.pageEntriesLength - 1)
       } else {
         this.selectionIndex = 0
       }
@@ -147,23 +147,12 @@ export default Vue.extend({
       if (!this.isLastPage){
         this.page++
       } else {
-        this.selectionIndex = Math.min(this.PAGE_ENTRIES - 1, this.pageEntriesLength() - 1)
+        this.selectionIndex = Math.min(this.PAGE_ENTRIES - 1, this.pageEntriesLength - 1)
       }
     },
     _nextPage(){
       this.page++
       this.selectionIndex = 0
-    },
-    pageEntriesLength(): number {
-      if (this.isLastPage){
-        return this.suggestions.length % this.PAGE_ENTRIES
-      } else {
-        return this.PAGE_ENTRIES
-      }
-    },
-    pageEntries(): Array<Character> { 
-      const start = this.PAGE_ENTRIES * this.page
-      return this.suggestions.slice(start, start + this.PAGE_ENTRIES)
     },
     getSuggestion(page: number, index: number): Character {
       return this.suggestions[this.PAGE_ENTRIES * page + index]
@@ -172,6 +161,17 @@ export default Vue.extend({
   computed: {
     suggestions: function() : Array<Character> {
       return suggest(this.search)
+    },
+    pageEntriesLength: function(): number {
+      if (this.isLastPage){
+        return this.suggestions.length % this.PAGE_ENTRIES
+      } else {
+        return this.PAGE_ENTRIES
+      }
+    },
+    pageEntries: function(): Array<Character> { 
+      const start = this.PAGE_ENTRIES * this.page
+      return this.suggestions.slice(start, start + this.PAGE_ENTRIES)
     },
     isLastPage: function(){
       //@ts-expect-error no support for computed of computed
@@ -202,8 +202,6 @@ export default Vue.extend({
   },
   watch: {
     show: function(val) {
-     // alert("show");
-     // alert(val);
       const input = this.$refs.input as HTMLInputElement
       
       if (!val) {
@@ -219,11 +217,16 @@ export default Vue.extend({
       })
     },
     search: function(){
-      //this.selectionIndex = 0
+      this.page = 0;
       const drop = this.$refs.drop as HTMLDivElement
       let x = drop.offsetWidth;
       this.characterPosition = {left: x + "px", top: "9px"}
       this.characterDetails = false;
+    },
+    pageEntriesLength: function(val){
+      if (this.selectionIndex >= val) {
+        this.selectionIndex =  Math.max(this.pageEntriesLength - 1, 0);
+      }
     }
   },
  

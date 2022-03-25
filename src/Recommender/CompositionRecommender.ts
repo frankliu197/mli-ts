@@ -27,7 +27,6 @@ export class CompositionRecommender {
       }
     }
     s = stringSort(s);
-
     return this.tree.getCharacterSet(s); 
   }
   searchable(search: string): boolean {

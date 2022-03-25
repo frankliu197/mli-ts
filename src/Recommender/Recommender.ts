@@ -14,16 +14,20 @@ import NumberForms from "../symbols/json/NumberForms.json";
 import SmallFormVariants from "../symbols/json/SmallFormVariants.json";
 import SuperscriptsAndSubscripts from "../symbols/json/SuperscriptsAndSubscripts.json";
 import OtherSymbols from "../symbols/json/OtherSymbols.json"
-const characterSet = new CharacterSets();
-//symbolSet.add(OtherSymbols)
-characterSet.add(BasicLatin);
-characterSet.add(Greek);
-characterSet.add(MathOperators);
+const characterSets = new CharacterSets();
+
+characterSets.add(BasicLatin);
+characterSets.add(Greek);
+characterSets.add(MathOperators);
+characterSets.add(SuperscriptsAndSubscripts);
+characterSets.add(NumberForms);
+characterSets.add(LatinExtended);
+characterSets.add(SmallFormVariants);
 
 let keywordRecommender = new KeywordRecommender();
-keywordRecommender.add(characterSet);
+keywordRecommender.add(characterSets);
 let compositionRecommender = new CompositionRecommender();
-compositionRecommender.add(characterSet);
+compositionRecommender.add(characterSets);
 
 function mergeMaps(map1: Map<Character, number>, map2: Map<Character, number>): Map<Character, number> {
   for (const [c, p] of map2.entries()) {
@@ -57,8 +61,8 @@ export function suggest(search: string): Array<Character> {
   }
 
   //search with exact char
-  if (search.length === 1 && characterSet.getCharacter(search)!) {
-    map.set(characterSet.getCharacter(search)!, Number.MAX_VALUE);
+  if (search.length === 1 && characterSets.getCharacter(search)!) {
+    map.set(characterSets.getCharacter(search)!, Number.MAX_VALUE);
   }
 
   for (const [c, n] of map) {

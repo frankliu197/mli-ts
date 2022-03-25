@@ -2,7 +2,7 @@
     {
         "unicode": 65104,
         "name": "small comma",
-        "symbol": "\ufe50",
+        "symbol": "﹐",
         "keywords": [],
         "composition": ",",
         "boost": 1
@@ -10,7 +10,7 @@
     {
         "unicode": 65105,
         "name": "small ideographic comma",
-        "symbol": "\ufe51",
+        "symbol": "﹑",
         "keywords": [],
         "composition": ",",
         "boost": 1
@@ -18,7 +18,7 @@
     {
         "unicode": 65106,
         "name": "small full stop",
-        "symbol": "\ufe52",
+        "symbol": "﹒",
         "keywords": [],
         "composition": ".",
         "boost": 1
@@ -26,15 +26,15 @@
     {
         "unicode": 65108,
         "name": "small semicolon",
-        "symbol": "\ufe54",
+        "symbol": "﹔",
         "keywords": [],
-        "composition": ".,",
+        "composition": ",.",
         "boost": 1
     },
     {
         "unicode": 65109,
         "name": "small colon",
-        "symbol": "\ufe55",
+        "symbol": "﹕",
         "keywords": [],
         "composition": "",
         "boost": 1
@@ -42,7 +42,7 @@
     {
         "unicode": 65110,
         "name": "small question mark",
-        "symbol": "\ufe56",
+        "symbol": "﹖",
         "keywords": [],
         "composition": "?",
         "boost": 1
@@ -50,7 +50,7 @@
     {
         "unicode": 65111,
         "name": "small exclamation mark",
-        "symbol": "\ufe57",
+        "symbol": "﹗",
         "keywords": [],
         "composition": "",
         "boost": 1
@@ -58,7 +58,7 @@
     {
         "unicode": 65112,
         "name": "small em dash",
-        "symbol": "\ufe58",
+        "symbol": "﹘",
         "keywords": [],
         "composition": "-",
         "boost": 1
@@ -66,7 +66,7 @@
     {
         "unicode": 65113,
         "name": "small left parenthesis",
-        "symbol": "\ufe59",
+        "symbol": "﹙",
         "keywords": [],
         "composition": "(",
         "boost": 1
@@ -74,7 +74,7 @@
     {
         "unicode": 65114,
         "name": "small right parenthesis",
-        "symbol": "\ufe5a",
+        "symbol": "﹚",
         "keywords": [],
         "composition": ")",
         "boost": 1
@@ -82,7 +82,7 @@
     {
         "unicode": 65115,
         "name": "small left curly bracket",
-        "symbol": "\ufe5b",
+        "symbol": "﹛",
         "keywords": [],
         "composition": "{",
         "boost": 1
@@ -90,7 +90,7 @@
     {
         "unicode": 65116,
         "name": "small right curly bracket",
-        "symbol": "\ufe5c",
+        "symbol": "﹜",
         "keywords": [],
         "composition": "}",
         "boost": 1
@@ -98,7 +98,7 @@
     {
         "unicode": 65117,
         "name": "small left tortoise shell bracket",
-        "symbol": "\ufe5d",
+        "symbol": "﹝",
         "keywords": [],
         "composition": "(",
         "boost": 1
@@ -106,7 +106,7 @@
     {
         "unicode": 65118,
         "name": "small right tortoise shell bracket",
-        "symbol": "\ufe5e",
+        "symbol": "﹞",
         "keywords": [],
         "composition": ")",
         "boost": 1
@@ -114,7 +114,7 @@
     {
         "unicode": 65119,
         "name": "small number sign",
-        "symbol": "\ufe5f",
+        "symbol": "﹟",
         "keywords": [],
         "composition": "--//",
         "boost": 1
@@ -122,7 +122,7 @@
     {
         "unicode": 65120,
         "name": "small ampersand",
-        "symbol": "\ufe60",
+        "symbol": "﹠",
         "keywords": [],
         "composition": "&",
         "boost": 1
@@ -130,7 +130,7 @@
     {
         "unicode": 65121,
         "name": "small asterisk",
-        "symbol": "\ufe61",
+        "symbol": "﹡",
         "keywords": [],
         "composition": "*",
         "boost": 1
@@ -138,7 +138,7 @@
     {
         "unicode": 65122,
         "name": "small plus sign",
-        "symbol": "\ufe62",
+        "symbol": "﹢",
         "keywords": [],
         "composition": "+",
         "boost": 1
@@ -146,7 +146,7 @@
     {
         "unicode": 65123,
         "name": "small hyphen minus",
-        "symbol": "\ufe63",
+        "symbol": "﹣",
         "keywords": [],
         "composition": "-",
         "boost": 1
@@ -154,7 +154,7 @@
     {
         "unicode": 65124,
         "name": "small less than sign",
-        "symbol": "\ufe64",
+        "symbol": "﹤",
         "keywords": [],
         "composition": "<",
         "boost": 1
@@ -162,7 +162,7 @@
     {
         "unicode": 65125,
         "name": "small greater than sign",
-        "symbol": "\ufe65",
+        "symbol": "﹥",
         "keywords": [],
         "composition": ">",
         "boost": 1
@@ -170,7 +170,7 @@
     {
         "unicode": 65126,
         "name": "small equals sign",
-        "symbol": "\ufe66",
+        "symbol": "﹦",
         "keywords": [],
         "composition": "--",
         "boost": 1
@@ -178,7 +178,7 @@
     {
         "unicode": 65128,
         "name": "small reverse solidus",
-        "symbol": "\ufe68",
+        "symbol": "﹨",
         "keywords": [],
         "composition": "\\",
         "boost": 1
@@ -186,25 +186,25 @@
     {
         "unicode": 65129,
         "name": "small dollar sign",
-        "symbol": "\ufe69",
+        "symbol": "﹩",
         "keywords": [],
-        "composition": "|S", 
-        "boost": 1 
+        "composition": "S|",
+        "boost": 1
     },
     {
         "unicode": 65130,
         "name": "small percent sign",
-        "symbol": "\ufe6a",
+        "symbol": "﹪",
         "keywords": [],
-        "composition": "o/o",
-        "boost": 1 
-    }, 
+        "composition": "/oo",
+        "boost": 1
+    },
     {
-        "unicode": 65131, 
-        "name": "small commercial at", 
-        "symbol": "\ufe6b", 
-        "keywords": [], 
-        "composition": "aO",
-        "boost": 1 
-    } 
-]  
+        "unicode": 65131,
+        "name": "small commercial at",
+        "symbol": "﹫",
+        "keywords": [],
+        "composition": "Oa",
+        "boost": 1
+    }
+]
