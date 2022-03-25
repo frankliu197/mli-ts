@@ -93,7 +93,7 @@
         "symbol": ",",
         "keywords": [],
         "composition": ",",
-        "boost": 1
+        "boost": 1 
     },
     {
         "unicode": 45,
@@ -757,6 +757,6 @@
         "symbol": "_",
         "keywords": [],
         "composition": "-", 
-        "boost": 1
+        "boost": 1 
     }
 ]  
