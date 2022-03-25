@@ -124,7 +124,7 @@
         "name": "greek capital letter alpha",
         "symbol": "Α",
         "keywords": [],
-        "composition": "",
+        "composition": "A",
         "boost": 1
     },
     {
@@ -132,7 +132,7 @@
         "name": "greek capital letter beta",
         "symbol": "Β",
         "keywords": [],
-        "composition": "",
+        "composition": "B",
         "boost": 1
     },
     {
@@ -156,7 +156,7 @@
         "name": "greek capital letter epsilon",
         "symbol": "Ε",
         "keywords": [],
-        "composition": "",
+        "composition": "E",
         "boost": 1
     },
     {
@@ -164,7 +164,7 @@
         "name": "greek capital letter zeta",
         "symbol": "Ζ",
         "keywords": [],
-        "composition": "",
+        "composition": "Z",
         "boost": 1
     },
     {
@@ -172,7 +172,7 @@
         "name": "greek capital letter eta",
         "symbol": "Η",
         "keywords": [],
-        "composition": "",
+        "composition": "H",
         "boost": 1
     },
     {
@@ -180,7 +180,7 @@
         "name": "greek capital letter theta",
         "symbol": "Θ",
         "keywords": [],
-        "composition": "",
+        "composition": "-O",
         "boost": 1
     },
     {
@@ -188,7 +188,7 @@
         "name": "greek capital letter iota",
         "symbol": "Ι",
         "keywords": [],
-        "composition": "",
+        "composition": "I",
         "boost": 1
     },
     {
@@ -196,15 +196,15 @@
         "name": "greek capital letter kappa",
         "symbol": "Κ",
         "keywords": [],
-        "composition": "",
+        "composition": "K",
         "boost": 1
     },
     {
         "unicode": 923,
-        "name": "greek capital letter lamda",
+        "name": "greek capital letter lambda",
         "symbol": "Λ",
         "keywords": [],
-        "composition": "",
+        "composition": "/\\",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "greek capital letter mu",
         "symbol": "Μ",
         "keywords": [],
-        "composition": "",
+        "composition": "M",
         "boost": 1
     },
     {
@@ -220,7 +220,7 @@
         "name": "greek capital letter nu",
         "symbol": "Ν",
         "keywords": [],
-        "composition": "",
+        "composition": "N",
         "boost": 1
     },
     {
@@ -228,7 +228,7 @@
         "name": "greek capital letter xi",
         "symbol": "Ξ",
         "keywords": [],
-        "composition": "",
+        "composition": "---",
         "boost": 1
     },
     {
@@ -236,7 +236,7 @@
         "name": "greek capital letter omicron",
         "symbol": "Ο",
         "keywords": [],
-        "composition": "",
+        "composition": "O",
         "boost": 1
     },
     {
@@ -252,7 +252,7 @@
         "name": "greek capital letter rho",
         "symbol": "Ρ",
         "keywords": [],
-        "composition": "",
+        "composition": "P",
         "boost": 1
     },
     {
@@ -268,7 +268,7 @@
         "name": "greek capital letter tau",
         "symbol": "Τ",
         "keywords": [],
-        "composition": "",
+        "composition": "T",
         "boost": 1
     },
     {
@@ -276,7 +276,7 @@
         "name": "greek capital letter upsilon",
         "symbol": "Υ",
         "keywords": [],
-        "composition": "",
+        "composition": "Y",
         "boost": 1
     },
     {
@@ -292,7 +292,7 @@
         "name": "greek capital letter chi",
         "symbol": "Χ",
         "keywords": [],
-        "composition": "",
+        "composition": "X",
         "boost": 1
     },
     {
@@ -449,7 +449,7 @@
     },
     {
         "unicode": 955,
-        "name": "greek small letter lamda",
+        "name": "greek small letter lambda",
         "symbol": "λ",
         "keywords": [],
         "composition": "ll",
@@ -652,7 +652,7 @@
         "name": "greek phi symbol",
         "symbol": "ϕ",
         "keywords": [],
-        "composition": "",
+        "composition": "cp",
         "boost": 1
     },
     {
@@ -692,7 +692,7 @@
         "name": "greek letter digamma",
         "symbol": "Ϝ",
         "keywords": [],
-        "composition": "",
+        "composition": "F",
         "boost": 1
     },
     {

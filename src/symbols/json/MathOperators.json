@@ -148,7 +148,7 @@
         "name": "minus sign",
         "symbol": "−",
         "keywords": [],
-        "composition": "",
+        "composition": "-",
         "boost": 1
     },
     {
@@ -156,7 +156,7 @@
         "name": "minus or plus sign",
         "symbol": "∓",
         "keywords": [],
-        "composition": "",
+        "composition": "+-",
         "boost": 1
     },
     {
@@ -164,7 +164,7 @@
         "name": "dot plus",
         "symbol": "∔",
         "keywords": [],
-        "composition": "",
+        "composition": "+.",
         "boost": 1
     },
     {
@@ -172,7 +172,7 @@
         "name": "division slash",
         "symbol": "∕",
         "keywords": [],
-        "composition": "",
+        "composition": "/",
         "boost": 1
     },
     {
@@ -180,7 +180,7 @@
         "name": "set minus",
         "symbol": "∖",
         "keywords": [],
-        "composition": "",
+        "composition": "\\",
         "boost": 1
     },
     {
@@ -188,7 +188,7 @@
         "name": "asterisk operator",
         "symbol": "∗",
         "keywords": [],
-        "composition": "",
+        "composition": "*",
         "boost": 1
     },
     {
@@ -276,7 +276,7 @@
         "name": "spherical angle",
         "symbol": "∢",
         "keywords": [],
-        "composition": "",
+        "composition": ")<",
         "boost": 1
     },
     {
@@ -284,7 +284,7 @@
         "name": "divides",
         "symbol": "∣",
         "keywords": [],
-        "composition": "",
+        "composition": "|",
         "boost": 1
     },
     {
@@ -292,7 +292,7 @@
         "name": "does not divide",
         "symbol": "∤",
         "keywords": [],
-        "composition": "/∣",
+        "composition": "/|",
         "boost": 1
     },
     {
@@ -308,7 +308,7 @@
         "name": "not parallel to",
         "symbol": "∦",
         "keywords": [],
-        "composition": "/∣∣",
+        "composition": "/||",
         "boost": 1
     },
     {
@@ -420,7 +420,7 @@
         "name": "therefore",
         "symbol": "∴",
         "keywords": [],
-        "composition": "",
+        "composition": "...",
         "boost": 1
     },
     {
@@ -436,7 +436,7 @@
         "name": "ratio",
         "symbol": "∶",
         "keywords": [],
-        "composition": "",
+        "composition": ":",
         "boost": 1
     },
     {
@@ -444,7 +444,7 @@
         "name": "proportion",
         "symbol": "∷",
         "keywords": [],
-        "composition": "",
+        "composition": "::",
         "boost": 1
     },
     {
@@ -452,7 +452,7 @@
         "name": "dot minus",
         "symbol": "∸",
         "keywords": [],
-        "composition": "",
+        "composition": "-.",
         "boost": 1
     },
     {
@@ -540,7 +540,7 @@
         "name": "asymptotically equal to",
         "symbol": "≃",
         "keywords": [],
-        "composition": "",
+        "composition": "-~",
         "boost": 1
     },
     {
@@ -580,7 +580,7 @@
         "name": "almost equal to",
         "symbol": "≈",
         "keywords": [],
-        "composition": "",
+        "composition": "~~",
         "boost": 1
     },
     {
@@ -588,7 +588,7 @@
         "name": "not almost equal to",
         "symbol": "≉",
         "keywords": [],
-        "composition": "",
+        "composition": "/~~",
         "boost": 1
     },
     {
@@ -604,7 +604,7 @@
         "name": "triple tilde",
         "symbol": "≋",
         "keywords": [],
-        "composition": "",
+        "composition": "~~~",
         "boost": 1
     },
     {
@@ -780,7 +780,7 @@
         "name": "identical to",
         "symbol": "≡",
         "keywords": [],
-        "composition": "",
+        "composition": "---",
         "boost": 1
     },
     {
@@ -796,7 +796,7 @@
         "name": "strictly equivalent to",
         "symbol": "≣",
         "keywords": [],
-        "composition": "",
+        "composition": "----",
         "boost": 1
     },
     {
@@ -804,7 +804,7 @@
         "name": "less than or equal to",
         "symbol": "≤",
         "keywords": [],
-        "composition": "",
+        "composition": "-<",
         "boost": 1
     },
     {
@@ -812,7 +812,7 @@
         "name": "greater than or equal to",
         "symbol": "≥",
         "keywords": [],
-        "composition": "",
+        "composition": "->",
         "boost": 1
     },
     {
@@ -852,7 +852,7 @@
         "name": "much less than",
         "symbol": "≪",
         "keywords": [],
-        "composition": "",
+        "composition": "<<",
         "boost": 1
     },
     {
@@ -860,7 +860,7 @@
         "name": "much greater than",
         "symbol": "≫",
         "keywords": [],
-        "composition": "",
+        "composition": ">>",
         "boost": 1
     },
     {
@@ -884,7 +884,7 @@
         "name": "not less than",
         "symbol": "≮",
         "keywords": [],
-        "composition": "",
+        "composition": "/<",
         "boost": 1
     },
     {
@@ -892,7 +892,7 @@
         "name": "not greater than",
         "symbol": "≯",
         "keywords": [],
-        "composition": "",
+        "composition": "/>",
         "boost": 1
     },
     {
@@ -916,7 +916,7 @@
         "name": "less than or equivalent to",
         "symbol": "≲",
         "keywords": [],
-        "composition": "",
+        "composition": "<~",
         "boost": 1
     },
     {
@@ -924,7 +924,7 @@
         "name": "greater than or equivalent to",
         "symbol": "≳",
         "keywords": [],
-        "composition": "",
+        "composition": ">~",
         "boost": 1
     },
     {
@@ -948,7 +948,7 @@
         "name": "less than or greater than",
         "symbol": "≶",
         "keywords": [],
-        "composition": "",
+        "composition": "<>",
         "boost": 1
     },
     {
@@ -956,7 +956,7 @@
         "name": "greater than or less than",
         "symbol": "≷",
         "keywords": [],
-        "composition": "",
+        "composition": "<>",
         "boost": 1
     },
     {
@@ -1124,7 +1124,7 @@
         "name": "multiset",
         "symbol": "⊌",
         "keywords": [],
-        "composition": "",
+        "composition": "<U",
         "boost": 1
     },
     {
@@ -1132,7 +1132,7 @@
         "name": "multiset multiplication",
         "symbol": "⊍",
         "keywords": [],
-        "composition": "",
+        "composition": ".U",
         "boost": 1
     },
     {
@@ -1140,7 +1140,7 @@
         "name": "multiset union",
         "symbol": "⊎",
         "keywords": [],
-        "composition": "",
+        "composition": "+U",
         "boost": 1
     },
     {
@@ -1500,7 +1500,7 @@
         "name": "xor",
         "symbol": "⊻",
         "keywords": [],
-        "composition": "",
+        "composition": "-v",
         "boost": 1
     },
     {
@@ -1508,7 +1508,7 @@
         "name": "nand",
         "symbol": "⊼",
         "keywords": [],
-        "composition": "",
+        "composition": "-^",
         "boost": 1
     },
     {
@@ -1516,7 +1516,7 @@
         "name": "nor",
         "symbol": "⊽",
         "keywords": [],
-        "composition": "",
+        "composition": "-v",
         "boost": 1
     },
     {
@@ -1564,7 +1564,7 @@
         "name": "n ary union",
         "symbol": "⋃",
         "keywords": [],
-        "composition": "",
+        "composition": "U",
         "boost": 1
     },
     {
@@ -1588,7 +1588,7 @@
         "name": "star operator",
         "symbol": "⋆",
         "keywords": [],
-        "composition": "",
+        "composition": "*",
         "boost": 1
     },
     {
@@ -1644,7 +1644,7 @@
         "name": "reversed tilde equals",
         "symbol": "⋍",
         "keywords": [],
-        "composition": "",
+        "composition": "-~",
         "boost": 1
     },
     {
@@ -1716,7 +1716,7 @@
         "name": "less than with dot",
         "symbol": "⋖",
         "keywords": [],
-        "composition": "",
+        "composition": ".<",
         "boost": 1
     },
     {
@@ -1724,7 +1724,7 @@
         "name": "greater than with dot",
         "symbol": "⋗",
         "keywords": [],
-        "composition": "",
+        "composition": ".>",
         "boost": 1
     },
     {
@@ -1732,7 +1732,7 @@
         "name": "very much less than",
         "symbol": "⋘",
         "keywords": [],
-        "composition": "",
+        "composition": "<<<",
         "boost": 1
     },
     {
@@ -1740,7 +1740,7 @@
         "name": "very much greater than",
         "symbol": "⋙",
         "keywords": [],
-        "composition": "",
+        "composition": ">>>",
         "boost": 1
     },
     {
@@ -1764,7 +1764,7 @@
         "name": "equal to or less than",
         "symbol": "⋜",
         "keywords": [],
-        "composition": "",
+        "composition": "-<",
         "boost": 1
     },
     {
@@ -1772,7 +1772,7 @@
         "name": "equal to or greater than",
         "symbol": "⋝",
         "keywords": [],
-        "composition": "",
+        "composition": "->",
         "boost": 1
     },
     {
@@ -1844,7 +1844,7 @@
         "name": "less than but not equivalent to",
         "symbol": "⋦",
         "keywords": [],
-        "composition": "",
+        "composition": "/<~",
         "boost": 1
     },
     {
@@ -1852,7 +1852,7 @@
         "name": "greater than but not equivalent to",
         "symbol": "⋧",
         "keywords": [],
-        "composition": "",
+        "composition": "/>~",
         "boost": 1
     },
     {
@@ -1908,7 +1908,7 @@
         "name": "vertical ellipsis",
         "symbol": "⋮",
         "keywords": [],
-        "composition": "",
+        "composition": "...",
         "boost": 1
     },
     {
@@ -1916,7 +1916,7 @@
         "name": "midline horizontal ellipsis",
         "symbol": "⋯",
         "keywords": [],
-        "composition": "",
+        "composition": "...",
         "boost": 1
     },
     {
@@ -1924,7 +1924,7 @@
         "name": "up right diagonal ellipsis",
         "symbol": "⋰",
         "keywords": [],
-        "composition": "",
+        "composition": "...",
         "boost": 1
     },
     {
@@ -1932,7 +1932,7 @@
         "name": "down right diagonal ellipsis",
         "symbol": "⋱",
         "keywords": [],
-        "composition": "",
+        "composition": "...",
         "boost": 1
     }
 ]
