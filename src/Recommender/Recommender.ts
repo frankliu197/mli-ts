@@ -1,3 +1,7 @@
+/**
+ * @author frankliu197, Cameron
+ */
+
 import CharacterSets from "../entities/CharacterSets";
 import Character from "../entities/Character";
 import { KeywordRecommender } from "./KeywordRecommender";

@@ -6,7 +6,7 @@ const order = 4;
 
 /**
  * This is a modified BPlusTree
- *
+ * @author frankliu197
  */
 export class KeywordTree {
   root: Node;

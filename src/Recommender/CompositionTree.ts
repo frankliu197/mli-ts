@@ -4,6 +4,9 @@ import Character from "../entities/Character";
 import { stringMatchPriority } from "./Priority";
 import { Queue } from "typescript-collections";
 
+/**
+ * @author frankliu197
+ */
 export class CompositionTree { 
   root: Node;
   values: Map<string, Set<Character>>;

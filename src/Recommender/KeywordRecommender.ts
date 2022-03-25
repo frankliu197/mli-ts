@@ -3,6 +3,9 @@ import Character from "../entities/Character"
 import CharacterSets from "../entities/CharacterSets"
 import { combinePriority } from "./Priority"
 
+/**
+ * @author frankliu197
+ */
 export class KeywordRecommender {
   tree: KeywordTree;
   constructor() {

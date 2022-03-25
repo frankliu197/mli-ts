@@ -1,3 +1,7 @@
+/**
+ * @author frankliu197
+ */
+
 import Character from "../entities/Character";
 
 export function boost(c: Character): void {

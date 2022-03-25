@@ -1,3 +1,7 @@
+/**
+ * @author frankliu197, Cameron
+ */
+
 export function valueCountPriority(count: number): number {
   return 1 / (1 + 0.4 * count);
 }
