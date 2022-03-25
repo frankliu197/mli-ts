@@ -2,7 +2,7 @@
 .character-details
 	div(class="name") {{ startCase(character.name) }}
 	div(class="symbol") {{ character.symbol }}
-	p keywords:
+	p Composition: {{ character.composition }}
 </template>
 
 <script lang='ts'>
