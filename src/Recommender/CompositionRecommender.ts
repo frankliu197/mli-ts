@@ -3,7 +3,9 @@ import Character from "./Character";
 import SymbolSets from "./SymbolSets";
 
 export class CompositionRecommender {
-  tree: CompositionTree;
+  tree: CompositionTree; 
+  //symbolSet: SymbolSets; 
+
   constructor() {
     this.tree = new CompositionTree();
   }
@@ -12,9 +14,16 @@ export class CompositionRecommender {
       this.tree.insert(c);
     }
   }
-
+  suggest(search: string): Map<Character, number> {
+    return this.tree.getCharacterSet(search);
+  }
+  searchable(search: string): boolean {
+    return search.indexOf(" ") === -1
+  }
+}
+/*
   suggest(search: string): Map<Character, number> {
     return this.tree.getCharacterSet(search);
   }
 }
-
+*/

@@ -4,7 +4,7 @@ import Character from "@/Recommender/Character";
 
 export class StubNode {
   keys: Array<string>;
-  child?: Array<StubNode>;
+  child?: Array<StubNode>; 
   _nextNode?: StubNode;
 }
 

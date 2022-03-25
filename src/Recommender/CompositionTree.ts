@@ -1,10 +1,10 @@
 import { isUndefined } from "typescript-collections/dist/lib/util";
 import { stripLetter } from "@/helpers/helpers";
-import Character from "./Character";
+import Character from "../entities/Character";  
 import { stringMatchPriority } from "./Priority";
 import { Queue } from "typescript-collections";
 
-export class CompositionTree {
+export class CompositionTree { 
   root: Node;
   values: Map<string, Set<Character>>;
   nodes: Map<string, Node>;
@@ -34,7 +34,7 @@ export class CompositionTree {
     for (const s of stripLetter(c.composition)) {
       this.insertRecursive(currNode, s);
     }
-  }
+  } 
 
   insertRecursive(childNode: Node, composition: string): void {
     if (this.nodes.has(composition)) { 

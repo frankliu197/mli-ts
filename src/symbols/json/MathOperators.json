@@ -1,18 +1,18 @@
 [
     {
-        "unicode": 8704,
-        "name": "for all",
-        "symbol": "\u2200",
-        "keywords": [],
-        "composition": "",
-        "boost": 1
+        "unicode": 8704, 
+        "name": "for all",  
+        "symbol": "\u2200", 
+        "keywords": [], 
+        "composition": "V-", 
+        "boost": 1 
     },
     {
         "unicode": 8705,
         "name": "complement",
         "symbol": "\u2201",
         "keywords": [],
-        "composition": "",
+        "composition": "C",
         "boost": 1
     },
     {
@@ -20,7 +20,7 @@
         "name": "partial differential",
         "symbol": "\u2202",
         "keywords": [],
-        "composition": "",
+        "composition": "0",
         "boost": 1
     },
     {
@@ -28,7 +28,7 @@
         "name": "there exists",
         "symbol": "\u2203",
         "keywords": [],
-        "composition": "",
+        "composition": "---",
         "boost": 1
     },
     {
@@ -36,7 +36,7 @@
         "name": "there does not exist",
         "symbol": "\u2204",
         "keywords": [],
-        "composition": "",
+        "composition": "3/",
         "boost": 1
     },
     {
@@ -44,23 +44,23 @@
         "name": "empty set",
         "symbol": "\u2205",
         "keywords": [],
-        "composition": "",
+        "composition": "O/",
         "boost": 1
     },
-    {
-        "unicode": 8710,
-        "name": "increment",
-        "symbol": "\u2206",
-        "keywords": [],
-        "composition": "",
-        "boost": 1
+    { 
+        "unicode": 8710, 
+        "name": "increment",   
+        "symbol": "\u2206", 
+        "keywords": [], 
+        "composition": "A", 
+        "boost": 1 
     },
     {
         "unicode": 8711,
         "name": "nabla",
         "symbol": "\u2207",
         "keywords": [],
-        "composition": "",
+        "composition": "v",
         "boost": 1
     },
     {
@@ -68,7 +68,7 @@
         "name": "element of",
         "symbol": "\u2208",
         "keywords": [],
-        "composition": "",
+        "composition": "E",
         "boost": 1
     },
     {
@@ -76,7 +76,7 @@
         "name": "not an element of",
         "symbol": "\u2209",
         "keywords": [],
-        "composition": "",
+        "composition": "E/",
         "boost": 1
     },
     {
@@ -84,7 +84,7 @@
         "name": "small element of",
         "symbol": "\u220a",
         "keywords": [],
-        "composition": "",
+        "composition": "E",
         "boost": 1
     },
     {
@@ -92,7 +92,7 @@
         "name": "contains as member",
         "symbol": "\u220b",
         "keywords": [],
-        "composition": "",
+        "composition": "3",
         "boost": 1
     },
     {
@@ -100,7 +100,7 @@
         "name": "does not contain as member",
         "symbol": "\u220c",
         "keywords": [],
-        "composition": "",
+        "composition": "3/",
         "boost": 1
     },
     {
@@ -108,7 +108,7 @@
         "name": "small contains as member",
         "symbol": "\u220d",
         "keywords": [],
-        "composition": "",
+        "composition": "3",
         "boost": 1
     },
     {
@@ -116,15 +116,15 @@
         "name": "end of proof",
         "symbol": "\u220e",
         "keywords": [],
-        "composition": "",
-        "boost": 1
+        "composition": "[]",
+        "boost": 1 
     },
     {
         "unicode": 8719,
         "name": "n ary product",
         "symbol": "\u220f",
         "keywords": [],
-        "composition": "",
+        "composition": "-II",
         "boost": 1
     },
     {
@@ -132,7 +132,7 @@
         "name": "n ary coproduct",
         "symbol": "\u2210",
         "keywords": [],
-        "composition": "",
+        "composition": "-II",
         "boost": 1
     },
     {
@@ -140,7 +140,7 @@
         "name": "n ary summation",
         "symbol": "\u2211",
         "keywords": [],
-        "composition": "",
+        "composition": "z",
         "boost": 1
     },
     {
@@ -196,7 +196,7 @@
         "name": "ring operator",
         "symbol": "\u2218",
         "keywords": [],
-        "composition": "",
+        "composition": "o",
         "boost": 1
     },
     {
@@ -204,7 +204,7 @@
         "name": "bullet operator",
         "symbol": "\u2219",
         "keywords": [],
-        "composition": "",
+        "composition": ".",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "square root",
         "symbol": "\u221a",
         "keywords": [],
-        "composition": "",
+        "composition": "V",
         "boost": 1
     },
     {
@@ -220,7 +220,7 @@
         "name": "cube root",
         "symbol": "\u221b",
         "keywords": [],
-        "composition": "",
+        "composition": "3V",
         "boost": 1
     },
     {
@@ -228,7 +228,7 @@
         "name": "fourth root",
         "symbol": "\u221c",
         "keywords": [],
-        "composition": "",
+        "composition": "4V",
         "boost": 1
     },
     {
@@ -236,7 +236,7 @@
         "name": "proportional to",
         "symbol": "\u221d",
         "keywords": [],
-        "composition": "",
+        "composition": "a",
         "boost": 1
     },
     {
@@ -244,7 +244,7 @@
         "name": "infinity",
         "symbol": "\u221e",
         "keywords": [],
-        "composition": "",
+        "composition": "8",
         "boost": 1
     },
     {
@@ -252,7 +252,7 @@
         "name": "right angle",
         "symbol": "\u221f",
         "keywords": [],
-        "composition": "",
+        "composition": "L",
         "boost": 1
     },
     {
@@ -260,7 +260,7 @@
         "name": "angle",
         "symbol": "\u2220",
         "keywords": [],
-        "composition": "",
+        "composition": "<",
         "boost": 1
     },
     {
@@ -268,7 +268,7 @@
         "name": "measured angle",
         "symbol": "\u2221",
         "keywords": [],
-        "composition": "",
+        "composition": "<)",
         "boost": 1
     },
     {
@@ -292,7 +292,7 @@
         "name": "does not divide",
         "symbol": "\u2224",
         "keywords": [],
-        "composition": "",
+        "composition": "∣/",
         "boost": 1
     },
     {
@@ -300,7 +300,7 @@
         "name": "parallel to",
         "symbol": "\u2225",
         "keywords": [],
-        "composition": "",
+        "composition": "||",
         "boost": 1
     },
     {
@@ -308,7 +308,7 @@
         "name": "not parallel to",
         "symbol": "\u2226",
         "keywords": [],
-        "composition": "",
+        "composition": "∣∣/",
         "boost": 1
     },
     {
@@ -316,7 +316,7 @@
         "name": "logical and",
         "symbol": "\u2227",
         "keywords": [],
-        "composition": "",
+        "composition": "A",
         "boost": 1
     },
     {
@@ -324,7 +324,7 @@
         "name": "logical or",
         "symbol": "\u2228",
         "keywords": [],
-        "composition": "",
+        "composition": "v",
         "boost": 1
     },
     {
@@ -332,7 +332,7 @@
         "name": "intersection",
         "symbol": "\u2229",
         "keywords": [],
-        "composition": "",
+        "composition": "n",
         "boost": 1
     },
     {
@@ -340,7 +340,7 @@
         "name": "union",
         "symbol": "\u222a",
         "keywords": [],
-        "composition": "",
+        "composition": "U",
         "boost": 1
     },
     {
@@ -348,7 +348,7 @@
         "name": "integral",
         "symbol": "\u222b",
         "keywords": [],
-        "composition": "",
+        "composition": "S",
         "boost": 1
     },
     {
@@ -356,7 +356,7 @@
         "name": "double integral",
         "symbol": "\u222c",
         "keywords": [],
-        "composition": "",
+        "composition": "SS",
         "boost": 1
     },
     {
@@ -364,7 +364,7 @@
         "name": "triple integral",
         "symbol": "\u222d",
         "keywords": [],
-        "composition": "",
+        "composition": "SSS",
         "boost": 1
     },
     {
@@ -372,7 +372,7 @@
         "name": "contour integral",
         "symbol": "\u222e",
         "keywords": [],
-        "composition": "",
+        "composition": "oS",
         "boost": 1
     },
     {
@@ -380,7 +380,7 @@
         "name": "surface integral",
         "symbol": "\u222f",
         "keywords": [],
-        "composition": "",
+        "composition": "oSS",
         "boost": 1
     },
     {
@@ -388,7 +388,7 @@
         "name": "volume integral",
         "symbol": "\u2230",
         "keywords": [],
-        "composition": "",
+        "composition": "oSSS",
         "boost": 1
     },
     {
@@ -396,7 +396,7 @@
         "name": "clockwise integral",
         "symbol": "\u2231",
         "keywords": [],
-        "composition": "",
+        "composition": "^S",
         "boost": 1
     },
     {
@@ -404,7 +404,7 @@
         "name": "clockwise contour integral",
         "symbol": "\u2232",
         "keywords": [],
-        "composition": "",
+        "composition": "OS",
         "boost": 1
     },
     {
@@ -412,7 +412,7 @@
         "name": "anticlockwise contour integral",
         "symbol": "\u2233",
         "keywords": [],
-        "composition": "",
+        "composition": "uS",
         "boost": 1
     },
     {
@@ -428,7 +428,7 @@
         "name": "because",
         "symbol": "\u2235",
         "keywords": [],
-        "composition": "",
+        "composition": "...",
         "boost": 1
     },
     {
@@ -459,8 +459,8 @@
         "unicode": 8761,
         "name": "excess",
         "symbol": "\u2239",
-        "keywords": [],
-        "composition": "",
+        "keywords": [], 
+        "composition": ":−", 
         "boost": 1
     },
     {
@@ -468,15 +468,15 @@
         "name": "geometric proportion",
         "symbol": "\u223a",
         "keywords": [],
-        "composition": "",
+        "composition": "-::",
         "boost": 1
     },
     {
         "unicode": 8763,
         "name": "homothetic",
         "symbol": "\u223b",
-        "keywords": [],
-        "composition": "",
+        "keywords": [], 
+        "composition": ":~",
         "boost": 1
     },
     {
@@ -492,7 +492,7 @@
         "name": "reversed tilde",
         "symbol": "\u223d",
         "keywords": [],
-        "composition": "",
+        "composition": "-",
         "boost": 1
     },
     {
@@ -500,7 +500,7 @@
         "name": "inverted lazy s",
         "symbol": "\u223e",
         "keywords": [],
-        "composition": "",
+        "composition": "n",
         "boost": 1
     },
     {
@@ -508,7 +508,7 @@
         "name": "sine wave",
         "symbol": "\u223f",
         "keywords": [],
-        "composition": "",
+        "composition": "~",
         "boost": 1
     },
     {
@@ -516,7 +516,7 @@
         "name": "wreath product",
         "symbol": "\u2240",
         "keywords": [],
-        "composition": "",
+        "composition": "l",
         "boost": 1
     },
     {
@@ -524,7 +524,7 @@
         "name": "not tilde",
         "symbol": "\u2241",
         "keywords": [],
-        "composition": "",
+        "composition": "~/",
         "boost": 1
     },
     {
@@ -532,7 +532,7 @@
         "name": "minus tilde",
         "symbol": "\u2242",
         "keywords": [],
-        "composition": "",
+        "composition": "∼-",
         "boost": 1
     },
     {
@@ -548,7 +548,7 @@
         "name": "not asymptotically equal to",
         "symbol": "\u2244",
         "keywords": [],
-        "composition": "",
+        "composition": "∼-/",
         "boost": 1
     },
     {
@@ -556,7 +556,7 @@
         "name": "approximately equal to",
         "symbol": "\u2245",
         "keywords": [],
-        "composition": "",
+        "composition": "--∼",
         "boost": 1
     },
     {
@@ -564,7 +564,7 @@
         "name": "approximately but not actually equal to",
         "symbol": "\u2246",
         "keywords": [],
-        "composition": "",
+        "composition": "--∼/",
         "boost": 1
     },
     {
@@ -572,7 +572,7 @@
         "name": "neither approximately nor actually equal to",
         "symbol": "\u2247",
         "keywords": [],
-        "composition": "",
+        "composition": "--∼/",
         "boost": 1
     },
     {
@@ -596,7 +596,7 @@
         "name": "almost equal or equal to",
         "symbol": "\u224a",
         "keywords": [],
-        "composition": "",
+        "composition": "-~~", 
         "boost": 1
     },
     {
@@ -612,7 +612,7 @@
         "name": "all equal to",
         "symbol": "\u224c",
         "keywords": [],
-        "composition": "",
+        "composition": "--∽",
         "boost": 1
     },
     {
@@ -620,7 +620,7 @@
         "name": "equivalent to",
         "symbol": "\u224d",
         "keywords": [],
-        "composition": "",
+        "composition": "--",
         "boost": 1
     },
     {
@@ -628,7 +628,7 @@
         "name": "geometrically equivalent to",
         "symbol": "\u224e",
         "keywords": [],
-        "composition": "",
+        "composition": "o",
         "boost": 1
     },
     {
@@ -636,7 +636,7 @@
         "name": "difference between",
         "symbol": "\u224f",
         "keywords": [],
-        "composition": "",
+        "composition": "-o",
         "boost": 1
     },
     {
@@ -644,7 +644,7 @@
         "name": "approaches the limit",
         "symbol": "\u2250",
         "keywords": [],
-        "composition": "",
+        "composition": ".--",
         "boost": 1
     },
     {
@@ -652,7 +652,7 @@
         "name": "geometrically equal to",
         "symbol": "\u2251",
         "keywords": [],
-        "composition": "",
+        "composition": "..--",
         "boost": 1
     },
     {
@@ -660,7 +660,7 @@
         "name": "approximately equal to or the image of",
         "symbol": "\u2252",
         "keywords": [],
-        "composition": "",
+        "composition": ".--.",
         "boost": 1
     },
     {
@@ -668,7 +668,7 @@
         "name": "image of or approximately equal to",
         "symbol": "\u2253",
         "keywords": [],
-        "composition": "",
+        "composition": "--:",
         "boost": 1
     },
     {
@@ -676,7 +676,7 @@
         "name": "colon equals",
         "symbol": "\u2254",
         "keywords": [],
-        "composition": "",
+        "composition": ":--",
         "boost": 1
     },
     {
@@ -684,7 +684,7 @@
         "name": "equals colon",
         "symbol": "\u2255",
         "keywords": [],
-        "composition": "",
+        "composition": "--:",
         "boost": 1
     },
     {
@@ -692,7 +692,7 @@
         "name": "ring in equal to",
         "symbol": "\u2256",
         "keywords": [],
-        "composition": "",
+        "composition": "--",
         "boost": 1
     },
     {
@@ -700,7 +700,7 @@
         "name": "ring equal to",
         "symbol": "\u2257",
         "keywords": [],
-        "composition": "",
+        "composition": "o--",
         "boost": 1
     },
     {
@@ -708,7 +708,7 @@
         "name": "corresponds to",
         "symbol": "\u2258",
         "keywords": [],
-        "composition": "",
+        "composition": "---",
         "boost": 1
     },
     {
@@ -716,7 +716,7 @@
         "name": "estimates",
         "symbol": "\u2259",
         "keywords": [],
-        "composition": "",
+        "composition": "^--",
         "boost": 1
     },
     {
@@ -724,7 +724,7 @@
         "name": "equiangular to",
         "symbol": "\u225a",
         "keywords": [],
-        "composition": "",
+        "composition": "v--",
         "boost": 1
     },
     {
@@ -732,7 +732,7 @@
         "name": "star equals",
         "symbol": "\u225b",
         "keywords": [],
-        "composition": "",
+        "composition": "*--",
         "boost": 1
     },
     {
@@ -740,7 +740,7 @@
         "name": "delta equal to",
         "symbol": "\u225c",
         "keywords": [],
-        "composition": "",
+        "composition": "A--",
         "boost": 1
     },
     {
@@ -748,7 +748,7 @@
         "name": "equal to by definition",
         "symbol": "\u225d",
         "keywords": [],
-        "composition": "",
+        "composition": "def--",
         "boost": 1
     },
     {
@@ -756,7 +756,7 @@
         "name": "measured by",
         "symbol": "\u225e",
         "keywords": [],
-        "composition": "",
+        "composition": "m--",
         "boost": 1
     },
     {
@@ -764,7 +764,7 @@
         "name": "questioned equal to",
         "symbol": "\u225f",
         "keywords": [],
-        "composition": "",
+        "composition": "?--",
         "boost": 1
     },
     {
@@ -772,7 +772,7 @@
         "name": "not equal to",
         "symbol": "\u2260",
         "keywords": [],
-        "composition": "",
+        "composition": "--/",
         "boost": 1
     },
     {
@@ -788,7 +788,7 @@
         "name": "not identical to",
         "symbol": "\u2262",
         "keywords": [],
-        "composition": "",
+        "composition": "---/",
         "boost": 1
     },
     {
@@ -820,7 +820,7 @@
         "name": "less than over equal to",
         "symbol": "\u2266",
         "keywords": [],
-        "composition": "",
+        "composition": "--<",
         "boost": 1
     },
     {
@@ -828,7 +828,7 @@
         "name": "greater than over equal to",
         "symbol": "\u2267",
         "keywords": [],
-        "composition": "",
+        "composition": "-->",
         "boost": 1
     },
     {
@@ -836,7 +836,7 @@
         "name": "less than but not equal to",
         "symbol": "\u2268",
         "keywords": [],
-        "composition": "",
+        "composition": "--</",
         "boost": 1
     },
     {
@@ -844,7 +844,7 @@
         "name": "greater than but not equal to",
         "symbol": "\u2269",
         "keywords": [],
-        "composition": "",
+        "composition": "--/>",
         "boost": 1
     },
     {
@@ -868,7 +868,7 @@
         "name": "between",
         "symbol": "\u226c",
         "keywords": [],
-        "composition": "",
+        "composition": "A",
         "boost": 1
     },
     {
@@ -876,7 +876,7 @@
         "name": "not equivalent to",
         "symbol": "\u226d",
         "keywords": [],
-        "composition": "",
+        "composition": "--/",
         "boost": 1
     },
     {
@@ -900,7 +900,7 @@
         "name": "neither less than nor equal to",
         "symbol": "\u2270",
         "keywords": [],
-        "composition": "",
+        "composition": "<-/",
         "boost": 1
     },
     {
@@ -908,7 +908,7 @@
         "name": "neither greater than nor equal to",
         "symbol": "\u2271",
         "keywords": [],
-        "composition": "",
+        "composition": "->/",
         "boost": 1
     },
     {
@@ -932,7 +932,7 @@
         "name": "neither less than nor equivalent to",
         "symbol": "\u2274",
         "keywords": [],
-        "composition": "",
+        "composition": "<~-/",
         "boost": 1
     },
     {
@@ -940,7 +940,7 @@
         "name": "neither greater than nor equivalent to",
         "symbol": "\u2275",
         "keywords": [],
-        "composition": "",
+        "composition": ">~-/",
         "boost": 1
     },
     {
@@ -964,7 +964,7 @@
         "name": "neither less than nor greater than",
         "symbol": "\u2278",
         "keywords": [],
-        "composition": "",
+        "composition": "<>/",
         "boost": 1
     },
     {
@@ -972,7 +972,7 @@
         "name": "neither greater than nor less than",
         "symbol": "\u2279",
         "keywords": [],
-        "composition": "",
+        "composition": "<>/",
         "boost": 1
     },
     {
@@ -980,7 +980,7 @@
         "name": "precedes",
         "symbol": "\u227a",
         "keywords": [],
-        "composition": "",
+        "composition": "<",
         "boost": 1
     },
     {
@@ -988,7 +988,7 @@
         "name": "succeeds",
         "symbol": "\u227b",
         "keywords": [],
-        "composition": "",
+        "composition": ">",
         "boost": 1
     },
     {
@@ -996,7 +996,7 @@
         "name": "precedes or equal to",
         "symbol": "\u227c",
         "keywords": [],
-        "composition": "",
+        "composition": ")<",
         "boost": 1
     },
     {
@@ -1004,7 +1004,7 @@
         "name": "succeeds or equal to",
         "symbol": "\u227d",
         "keywords": [],
-        "composition": "",
+        "composition": ")>",
         "boost": 1
     },
     {
@@ -1012,7 +1012,7 @@
         "name": "precedes or equivalent to",
         "symbol": "\u227e",
         "keywords": [],
-        "composition": "",
+        "composition": "∼<",
         "boost": 1
     },
     {
@@ -1020,7 +1020,7 @@
         "name": "succeeds or equivalent to",
         "symbol": "\u227f",
         "keywords": [],
-        "composition": "",
+        "composition": "∼>",
         "boost": 1
     },
     {
@@ -1028,7 +1028,7 @@
         "name": "does not precede",
         "symbol": "\u2280",
         "keywords": [],
-        "composition": "",
+        "composition": "/<",
         "boost": 1
     },
     {
@@ -1036,7 +1036,7 @@
         "name": "does not succeed",
         "symbol": "\u2281",
         "keywords": [],
-        "composition": "",
+        "composition": "/>",
         "boost": 1
     },
     {
@@ -1044,7 +1044,7 @@
         "name": "subset of",
         "symbol": "\u2282",
         "keywords": [],
-        "composition": "",
+        "composition": "c",
         "boost": 1
     },
     {
@@ -1052,7 +1052,7 @@
         "name": "superset of",
         "symbol": "\u2283",
         "keywords": [],
-        "composition": "",
+        "composition": ")",
         "boost": 1
     },
     {
@@ -1060,7 +1060,7 @@
         "name": "not a subset of",
         "symbol": "\u2284",
         "keywords": [],
-        "composition": "",
+        "composition": "/c",
         "boost": 1
     },
     {
@@ -1068,7 +1068,7 @@
         "name": "not a superset of",
         "symbol": "\u2285",
         "keywords": [],
-        "composition": "",
+        "composition": "/)",
         "boost": 1
     },
     {
@@ -1076,7 +1076,7 @@
         "name": "subset of or equal to",
         "symbol": "\u2286",
         "keywords": [],
-        "composition": "",
+        "composition": "-c",
         "boost": 1
     },
     {
@@ -1084,7 +1084,7 @@
         "name": "superset of or equal to",
         "symbol": "\u2287",
         "keywords": [],
-        "composition": "",
+        "composition": "-)",
         "boost": 1
     },
     {
@@ -1092,7 +1092,7 @@
         "name": "neither a subset of nor equal to",
         "symbol": "\u2288",
         "keywords": [],
-        "composition": "",
+        "composition": "-c/",
         "boost": 1
     },
     {
@@ -1100,7 +1100,7 @@
         "name": "neither a superset of nor equal to",
         "symbol": "\u2289",
         "keywords": [],
-        "composition": "",
+        "composition": "-)/",
         "boost": 1
     },
     {
@@ -1108,7 +1108,7 @@
         "name": "subset of with not equal to",
         "symbol": "\u228a",
         "keywords": [],
-        "composition": "",
+        "composition": "-/c",
         "boost": 1
     },
     {
@@ -1116,7 +1116,7 @@
         "name": "superset of with not equal to",
         "symbol": "\u228b",
         "keywords": [],
-        "composition": "",
+        "composition": "-/)",
         "boost": 1
     },
     {
@@ -1148,7 +1148,7 @@
         "name": "square image of",
         "symbol": "\u228f",
         "keywords": [],
-        "composition": "",
+        "composition": "C",
         "boost": 1
     },
     {
@@ -1156,7 +1156,7 @@
         "name": "square original of",
         "symbol": "\u2290",
         "keywords": [],
-        "composition": "",
+        "composition": ")",
         "boost": 1
     },
     {
@@ -1164,7 +1164,7 @@
         "name": "square image of or equal to",
         "symbol": "\u2291",
         "keywords": [],
-        "composition": "",
+        "composition": "-C",
         "boost": 1
     },
     {
@@ -1172,7 +1172,7 @@
         "name": "square original of or equal to",
         "symbol": "\u2292",
         "keywords": [],
-        "composition": "",
+        "composition": "-)",
         "boost": 1
     },
     {
@@ -1180,7 +1180,7 @@
         "name": "square cap",
         "symbol": "\u2293",
         "keywords": [],
-        "composition": "",
+        "composition": "n",
         "boost": 1
     },
     {
@@ -1188,7 +1188,7 @@
         "name": "square cup",
         "symbol": "\u2294",
         "keywords": [],
-        "composition": "",
+        "composition": "U",
         "boost": 1
     },
     {
@@ -1196,7 +1196,7 @@
         "name": "circled plus",
         "symbol": "\u2295",
         "keywords": [],
-        "composition": "",
+        "composition": "O+",
         "boost": 1
     },
     {
@@ -1204,7 +1204,7 @@
         "name": "circled minus",
         "symbol": "\u2296",
         "keywords": [],
-        "composition": "",
+        "composition": "O-",
         "boost": 1
     },
     {
@@ -1212,7 +1212,7 @@
         "name": "circled times",
         "symbol": "\u2297",
         "keywords": [],
-        "composition": "",
+        "composition": "OX",
         "boost": 1
     },
     {
@@ -1220,7 +1220,7 @@
         "name": "circled division slash",
         "symbol": "\u2298",
         "keywords": [],
-        "composition": "",
+        "composition": "O/",
         "boost": 1
     },
     {
@@ -1228,7 +1228,7 @@
         "name": "circled dot operator",
         "symbol": "\u2299",
         "keywords": [],
-        "composition": "",
+        "composition": "O.",
         "boost": 1
     },
     {
@@ -1236,7 +1236,7 @@
         "name": "circled ring operator",
         "symbol": "\u229a",
         "keywords": [],
-        "composition": "",
+        "composition": "O.",
         "boost": 1
     },
     {
@@ -1244,7 +1244,7 @@
         "name": "circled asterisk operator",
         "symbol": "\u229b",
         "keywords": [],
-        "composition": "",
+        "composition": "O*",
         "boost": 1
     },
     {
@@ -1252,7 +1252,7 @@
         "name": "circled equals",
         "symbol": "\u229c",
         "keywords": [],
-        "composition": "",
+        "composition": "O--",
         "boost": 1
     },
     {
@@ -1260,7 +1260,7 @@
         "name": "circled dash",
         "symbol": "\u229d",
         "keywords": [],
-        "composition": "",
+        "composition": "O-",
         "boost": 1
     },
     {
@@ -1268,7 +1268,7 @@
         "name": "squared plus",
         "symbol": "\u229e",
         "keywords": [],
-        "composition": "",
+        "composition": "+[]",
         "boost": 1
     },
     {
@@ -1276,7 +1276,7 @@
         "name": "squared minus",
         "symbol": "\u229f",
         "keywords": [],
-        "composition": "",
+        "composition": "-[]",
         "boost": 1
     },
     {
@@ -1284,7 +1284,7 @@
         "name": "squared times",
         "symbol": "\u22a0",
         "keywords": [],
-        "composition": "",
+        "composition": "x[]",
         "boost": 1
     },
     {
@@ -1292,15 +1292,15 @@
         "name": "squared dot operator",
         "symbol": "\u22a1",
         "keywords": [],
-        "composition": "",
-        "boost": 1
+        "composition": ".[]",
+        "boost": 1 
     },
     {
         "unicode": 8866,
         "name": "right tack",
         "symbol": "\u22a2",
         "keywords": [],
-        "composition": "",
+        "composition": "|-",
         "boost": 1
     },
     {
@@ -1308,7 +1308,7 @@
         "name": "left tack",
         "symbol": "\u22a3",
         "keywords": [],
-        "composition": "",
+        "composition": "-|",
         "boost": 1
     },
     {
@@ -1316,7 +1316,7 @@
         "name": "down tack",
         "symbol": "\u22a4",
         "keywords": [],
-        "composition": "",
+        "composition": "T",
         "boost": 1
     },
     {
@@ -1324,7 +1324,7 @@
         "name": "up tack",
         "symbol": "\u22a5",
         "keywords": [],
-        "composition": "",
+        "composition": "-1",
         "boost": 1
     },
     {
@@ -1332,7 +1332,7 @@
         "name": "assertion",
         "symbol": "\u22a6",
         "keywords": [],
-        "composition": "",
+        "composition": "|-",
         "boost": 1
     },
     {
@@ -1340,15 +1340,15 @@
         "name": "models",
         "symbol": "\u22a7",
         "keywords": [],
-        "composition": "",
-        "boost": 1
+        "composition": "|--",
+        "boost": 1 
     },
     {
         "unicode": 8872,
         "name": "true",
         "symbol": "\u22a8",
         "keywords": [],
-        "composition": "",
+        "composition": "|--",
         "boost": 1
     },
     {
@@ -1356,7 +1356,7 @@
         "name": "forces",
         "symbol": "\u22a9",
         "keywords": [],
-        "composition": "",
+        "composition": "||-",
         "boost": 1
     },
     {
@@ -1364,7 +1364,7 @@
         "name": "triple vertical bar right turnstile",
         "symbol": "\u22aa",
         "keywords": [],
-        "composition": "",
+        "composition": "||}-",
         "boost": 1
     },
     {
@@ -1372,7 +1372,7 @@
         "name": "double vertical bar double right turnstile",
         "symbol": "\u22ab",
         "keywords": [],
-        "composition": "",
+        "composition": "||--",
         "boost": 1
     },
     {
@@ -1380,7 +1380,7 @@
         "name": "does not prove",
         "symbol": "\u22ac",
         "keywords": [],
-        "composition": "",
+        "composition": "/|-",
         "boost": 1
     },
     {
@@ -1388,31 +1388,31 @@
         "name": "not true",
         "symbol": "\u22ad",
         "keywords": [],
-        "composition": "",
+        "composition": "/|--",
         "boost": 1
     },
-    {
-        "unicode": 8878,
-        "name": "does not force",
-        "symbol": "\u22ae",
-        "keywords": [],
-        "composition": "",
-        "boost": 1
-    },
+    {   
+        "unicode": 8878, 
+        "name": "does not force", 
+        "symbol": "\u22ae", 
+        "keywords": [], 
+        "composition": "|/|-", 
+        "boost": 1 
+    }, 
     {
         "unicode": 8879,
         "name": "negated double vertical bar double right turnstile",
         "symbol": "\u22af",
         "keywords": [],
-        "composition": "",
-        "boost": 1
+        "composition": "|/|--",
+        "boost": 1 
     },
     {
         "unicode": 8880,
         "name": "precedes under relation",
         "symbol": "\u22b0",
         "keywords": [],
-        "composition": "",
+        "composition": "3",
         "boost": 1
     },
     {
@@ -1420,7 +1420,7 @@
         "name": "succeeds under relation",
         "symbol": "\u22b1",
         "keywords": [],
-        "composition": "",
+        "composition": ">",
         "boost": 1
     },
     {
@@ -1428,7 +1428,7 @@
         "name": "normal subgroup of",
         "symbol": "\u22b2",
         "keywords": [],
-        "composition": "",
+        "composition": "<|",
         "boost": 1
     },
     {
@@ -1436,15 +1436,15 @@
         "name": "contains as normal subgroup",
         "symbol": "\u22b3",
         "keywords": [],
-        "composition": "",
-        "boost": 1
+        "composition": "|>",
+        "boost": 1 
     },
     {
         "unicode": 8884,
         "name": "normal subgroup of or equal to",
         "symbol": "\u22b4",
         "keywords": [],
-        "composition": "",
+        "composition": "-<|",
         "boost": 1
     },
     {
@@ -1452,7 +1452,7 @@
         "name": "contains as normal subgroup or equal to",
         "symbol": "\u22b5",
         "keywords": [],
-        "composition": "",
+        "composition": "-|>",
         "boost": 1
     },
     {
@@ -1460,7 +1460,7 @@
         "name": "original of",
         "symbol": "\u22b6",
         "keywords": [],
-        "composition": "",
+        "composition": "..",
         "boost": 1
     },
     {
@@ -1468,7 +1468,7 @@
         "name": "image of",
         "symbol": "\u22b7",
         "keywords": [],
-        "composition": "",
+        "composition": "..",
         "boost": 1
     },
     {
@@ -1476,7 +1476,7 @@
         "name": "multimap",
         "symbol": "\u22b8",
         "keywords": [],
-        "composition": "",
+        "composition": "-.",
         "boost": 1
     },
     {
@@ -1484,7 +1484,7 @@
         "name": "hermitian conjugate matrix",
         "symbol": "\u22b9",
         "keywords": [],
-        "composition": "",
+        "composition": "+",
         "boost": 1
     },
     {
@@ -1492,7 +1492,7 @@
         "name": "intercalate",
         "symbol": "\u22ba",
         "keywords": [],
-        "composition": "",
+        "composition": "T",
         "boost": 1
     },
     {
@@ -1521,43 +1521,43 @@
     },
     {
         "unicode": 8894,
-        "name": "right angle with arc",
-        "symbol": "\u22be",
-        "keywords": [],
-        "composition": "",
-        "boost": 1
-    },
-    {
-        "unicode": 8895,
-        "name": "right triangle",
-        "symbol": "\u22bf",
-        "keywords": [],
-        "composition": "",
-        "boost": 1
-    },
-    {
-        "unicode": 8896,
-        "name": "n ary logical and",
-        "symbol": "\u22c0",
-        "keywords": [],
-        "composition": "",
-        "boost": 1
+        "name": "right angle with arc", 
+        "symbol": "\u22be", 
+        "keywords": [], 
+        "composition": "L)", 
+        "boost": 1 
+    }, 
+    { 
+        "unicode": 8895, 
+        "name": "right triangle", 
+        "symbol": "\u22bf", 
+        "keywords": [], 
+        "composition": "/-|", 
+        "boost": 1  
+    }, 
+    { 
+        "unicode": 8896, 
+        "name": "n ary logical and", 
+        "symbol": "\u22c0", 
+        "keywords": [], 
+        "composition": "A",
+        "boost": 1 
     },
     {
         "unicode": 8897,
         "name": "n ary logical or",
         "symbol": "\u22c1",
         "keywords": [],
-        "composition": "",
+        "composition": "v",
         "boost": 1
     },
     {
-        "unicode": 8898,
-        "name": "n ary intersection",
-        "symbol": "\u22c2",
-        "keywords": [],
-        "composition": "",
-        "boost": 1
+        "unicode": 8898, 
+        "name": "n ary intersection", 
+        "symbol": "\u22c2", 
+        "keywords": [], 
+        "composition": "n",
+        "boost": 1 
     },
     {
         "unicode": 8899,
@@ -1572,7 +1572,7 @@
         "name": "diamond operator",
         "symbol": "\u22c4",
         "keywords": [],
-        "composition": "",
+        "composition": "o",
         "boost": 1
     },
     {
@@ -1580,7 +1580,7 @@
         "name": "dot operator",
         "symbol": "\u22c5",
         "keywords": [],
-        "composition": "",
+        "composition": ".",
         "boost": 1
     },
     {
@@ -1596,15 +1596,15 @@
         "name": "division times",
         "symbol": "\u22c7",
         "keywords": [],
-        "composition": "",
+        "composition": "*",
         "boost": 1
     },
     {
-        "unicode": 8904,
-        "name": "bowtie",
-        "symbol": "\u22c8",
-        "keywords": [],
-        "composition": "",
+        "unicode": 8904, 
+        "name": "bowtie", 
+        "symbol": "\u22c8", 
+        "keywords": [], 
+        "composition": "><",
         "boost": 1
     },
     {
@@ -1612,7 +1612,7 @@
         "name": "left normal factor semidirect product",
         "symbol": "\u22c9",
         "keywords": [],
-        "composition": "",
+        "composition": "|x",
         "boost": 1
     },
     {
@@ -1620,7 +1620,7 @@
         "name": "right normal factor semidirect product",
         "symbol": "\u22ca",
         "keywords": [],
-        "composition": "",
+        "composition": "x|",
         "boost": 1
     },
     {
@@ -1628,7 +1628,7 @@
         "name": "left semidirect product",
         "symbol": "\u22cb",
         "keywords": [],
-        "composition": "",
+        "composition": "h",
         "boost": 1
     },
     {
@@ -1636,7 +1636,7 @@
         "name": "right semidirect product",
         "symbol": "\u22cc",
         "keywords": [],
-        "composition": "",
+        "composition": "/",
         "boost": 1
     },
     {
@@ -1652,7 +1652,7 @@
         "name": "curly logical or",
         "symbol": "\u22ce",
         "keywords": [],
-        "composition": "",
+        "composition": "v",
         "boost": 1
     },
     {
@@ -1660,7 +1660,7 @@
         "name": "curly logical and",
         "symbol": "\u22cf",
         "keywords": [],
-        "composition": "",
+        "composition": "A",
         "boost": 1
     },
     {
@@ -1668,7 +1668,7 @@
         "name": "double subset",
         "symbol": "\u22d0",
         "keywords": [],
-        "composition": "",
+        "composition": "C",
         "boost": 1
     },
     {
@@ -1676,7 +1676,7 @@
         "name": "double superset",
         "symbol": "\u22d1",
         "keywords": [],
-        "composition": "",
+        "composition": ")",
         "boost": 1
     },
     {
@@ -1684,7 +1684,7 @@
         "name": "double intersection",
         "symbol": "\u22d2",
         "keywords": [],
-        "composition": "",
+        "composition": "n",
         "boost": 1
     },
     {
@@ -1692,7 +1692,7 @@
         "name": "double union",
         "symbol": "\u22d3",
         "keywords": [],
-        "composition": "",
+        "composition": "U",
         "boost": 1
     },
     {
@@ -1700,7 +1700,7 @@
         "name": "pitchfork",
         "symbol": "\u22d4",
         "keywords": [],
-        "composition": "",
+        "composition": "m",
         "boost": 1
     },
     {
@@ -1708,7 +1708,7 @@
         "name": "equal and parallel to",
         "symbol": "\u22d5",
         "keywords": [],
-        "composition": "",
+        "composition": "--||",
         "boost": 1
     },
     {
@@ -1748,7 +1748,7 @@
         "name": "less than equal to or greater than",
         "symbol": "\u22da",
         "keywords": [],
-        "composition": "",
+        "composition": "-<>",
         "boost": 1
     },
     {
@@ -1756,7 +1756,7 @@
         "name": "greater than equal to or less than",
         "symbol": "\u22db",
         "keywords": [],
-        "composition": "",
+        "composition": "-><",
         "boost": 1
     },
     {
@@ -1780,7 +1780,7 @@
         "name": "equal to or precedes",
         "symbol": "\u22de",
         "keywords": [],
-        "composition": "",
+        "composition": ")<",
         "boost": 1
     },
     {
@@ -1788,7 +1788,7 @@
         "name": "equal to or succeeds",
         "symbol": "\u22df",
         "keywords": [],
-        "composition": "",
+        "composition": "(>",
         "boost": 1
     },
     {
@@ -1796,7 +1796,7 @@
         "name": "does not precede or equal",
         "symbol": "\u22e0",
         "keywords": [],
-        "composition": "",
+        "composition": "/)<",
         "boost": 1
     },
     {
@@ -1804,7 +1804,7 @@
         "name": "does not succeed or equal",
         "symbol": "\u22e1",
         "keywords": [],
-        "composition": "",
+        "composition": "/(>",
         "boost": 1
     },
     {
@@ -1812,7 +1812,7 @@
         "name": "not square image of or equal to",
         "symbol": "\u22e2",
         "keywords": [],
-        "composition": "",
+        "composition": "-/c",
         "boost": 1
     },
     {
@@ -1820,7 +1820,7 @@
         "name": "not square original of or equal to",
         "symbol": "\u22e3",
         "keywords": [],
-        "composition": "",
+        "composition": "-/)",
         "boost": 1
     },
     {
@@ -1828,7 +1828,7 @@
         "name": "square image of or not equal to",
         "symbol": "\u22e4",
         "keywords": [],
-        "composition": "",
+        "composition": "-c",
         "boost": 1
     },
     {
@@ -1836,7 +1836,7 @@
         "name": "square original of or not equal to",
         "symbol": "\u22e5",
         "keywords": [],
-        "composition": "",
+        "composition": "-)",
         "boost": 1
     },
     {
@@ -1860,7 +1860,7 @@
         "name": "precedes but not equivalent to",
         "symbol": "\u22e8",
         "keywords": [],
-        "composition": "",
+        "composition": "~/<",
         "boost": 1
     },
     {
@@ -1868,7 +1868,7 @@
         "name": "succeeds but not equivalent to",
         "symbol": "\u22e9",
         "keywords": [],
-        "composition": "",
+        "composition": "~/>",
         "boost": 1
     },
     {
@@ -1876,7 +1876,7 @@
         "name": "not normal subgroup of",
         "symbol": "\u22ea",
         "keywords": [],
-        "composition": "",
+        "composition": "<|/",
         "boost": 1
     },
     {
@@ -1884,7 +1884,7 @@
         "name": "does not contain as normal subgroup",
         "symbol": "\u22eb",
         "keywords": [],
-        "composition": "",
+        "composition": ">/|",
         "boost": 1
     },
     {
@@ -1892,7 +1892,7 @@
         "name": "not normal subgroup of or equal to",
         "symbol": "\u22ec",
         "keywords": [],
-        "composition": "",
+        "composition": "<|/",
         "boost": 1
     },
     {
@@ -1900,7 +1900,7 @@
         "name": "does not contain as normal subgroup or equal",
         "symbol": "\u22ed",
         "keywords": [],
-        "composition": "",
+        "composition": ">/|",
         "boost": 1
     },
     {
@@ -1935,4 +1935,4 @@
         "composition": "",
         "boost": 1
     }
-]
+]  
