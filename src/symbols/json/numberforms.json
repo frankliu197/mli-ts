@@ -108,7 +108,7 @@
         "name": "roman numeral one",
         "symbol": "\u2160",
         "keywords": [],
-        "composition": "Ⅰ",
+        "composition": "i",
         "boost": 1
     },
     {
@@ -116,7 +116,7 @@
         "name": "roman numeral two",
         "symbol": "\u2161",
         "keywords": [],
-        "composition": "ⅠⅠ",
+        "composition": "ii",
         "boost": 1
     },
     {
@@ -124,7 +124,7 @@
         "name": "roman numeral three",
         "symbol": "\u2162",
         "keywords": [],
-        "composition": "ⅠⅠⅠ",
+        "composition": "iii",
         "boost": 1
     },
     {
@@ -132,7 +132,7 @@
         "name": "roman numeral four",
         "symbol": "\u2163",
         "keywords": [],
-        "composition": "ⅠⅤ",
+        "composition": "iv",
         "boost": 1
     },
     {
@@ -140,7 +140,7 @@
         "name": "roman numeral five",
         "symbol": "\u2164",
         "keywords": [],
-        "composition": "Ⅴ",
+        "composition": "v",
         "boost": 1
     },
     {
@@ -148,7 +148,7 @@
         "name": "roman numeral six",
         "symbol": "\u2165",
         "keywords": [],
-        "composition": "ⅤⅠ",
+        "composition": "vi",
         "boost": 1
     },
     {
@@ -156,7 +156,7 @@
         "name": "roman numeral seven",
         "symbol": "\u2166",
         "keywords": [],
-        "composition": "ⅤⅠⅠ",
+        "composition": "vii",
         "boost": 1
     },
     {
@@ -164,7 +164,7 @@
         "name": "roman numeral eight",
         "symbol": "\u2167",
         "keywords": [],
-        "composition": "ⅤⅠⅠⅠ",
+        "composition": "viii",
         "boost": 1
     },
     {
@@ -172,7 +172,7 @@
         "name": "roman numeral nine",
         "symbol": "\u2168",
         "keywords": [],
-        "composition": "ⅠⅩ",
+        "composition": "ix",
         "boost": 1
     },
     {
@@ -180,7 +180,7 @@
         "name": "roman numeral ten",
         "symbol": "\u2169",
         "keywords": [],
-        "composition": "Ⅹ",
+        "composition": "X",
         "boost": 1
     },
     {
@@ -188,7 +188,7 @@
         "name": "roman numeral eleven",
         "symbol": "\u216a",
         "keywords": [],
-        "composition": "ⅩⅠ",
+        "composition": "xi",
         "boost": 1
     },
     {
@@ -196,7 +196,7 @@
         "name": "roman numeral twelve",
         "symbol": "\u216b",
         "keywords": [],
-        "composition": "ⅩⅠⅠ",
+        "composition": "xii",
         "boost": 1
     },
     {
@@ -204,7 +204,7 @@
         "name": "roman numeral fifty",
         "symbol": "\u216c",
         "keywords": [],
-        "composition": "Ⅼ",
+        "composition": "L",
         "boost": 1
     },
     {
@@ -212,7 +212,7 @@
         "name": "roman numeral one hundred",
         "symbol": "\u216d",
         "keywords": [],
-        "composition": "Ⅽ",
+        "composition": "C",
         "boost": 1
     },
     {
@@ -220,7 +220,7 @@
         "name": "roman numeral five hundred",
         "symbol": "\u216e",
         "keywords": [],
-        "composition": "Ⅾ",
+        "composition": "D",
         "boost": 1
     },
     {
@@ -228,7 +228,7 @@
         "name": "roman numeral one thousand",
         "symbol": "\u216f",
         "keywords": [],
-        "composition": "Ⅿ",
+        "composition": "M",
         "boost": 1
     },
     {
@@ -244,7 +244,7 @@
         "name": "small roman numeral two",
         "symbol": "\u2171",
         "keywords": [],
-        "composition": "..11",
+        "composition": "ii",
         "boost": 1
     },
     {
@@ -252,7 +252,7 @@
         "name": "small roman numeral three",
         "symbol": "\u2172",
         "keywords": [],
-        "composition": "...111",
+        "composition": "iii",
         "boost": 1
     },
     {
@@ -260,7 +260,7 @@
         "name": "small roman numeral four",
         "symbol": "\u2173",
         "keywords": [],
-        "composition": ".1ⅴ",
+        "composition": "iv",
         "boost": 1
     },
     {
@@ -268,7 +268,7 @@
         "name": "small roman numeral five",
         "symbol": "\u2174",
         "keywords": [],
-        "composition": "ⅴ",
+        "composition": "v",
         "boost": 1
     },
     {
@@ -276,7 +276,7 @@
         "name": "small roman numeral six",
         "symbol": "\u2175",
         "keywords": [],
-        "composition": "ⅴⅰ",
+        "composition": "vi",
         "boost": 1
     },
     {
@@ -284,7 +284,7 @@
         "name": "small roman numeral seven",
         "symbol": "\u2176",
         "keywords": [],
-        "composition": "ⅴⅰⅰ",
+        "composition": "vii",
         "boost": 1
     },
     {
@@ -300,7 +300,7 @@
         "name": "small roman numeral nine",
         "symbol": "\u2178",
         "keywords": [],
-        "composition": "ⅰⅹ",
+        "composition": "ⅰx",
         "boost": 1
     },
     {
@@ -308,7 +308,7 @@
         "name": "small roman numeral ten",
         "symbol": "\u2179",
         "keywords": [],
-        "composition": "ⅹ",
+        "composition": "x",
         "boost": 1
     },
     {
@@ -316,7 +316,7 @@
         "name": "small roman numeral eleven",
         "symbol": "\u217a",
         "keywords": [],
-        "composition": "ⅹⅰ",
+        "composition": "xi",
         "boost": 1
     },
     {
@@ -324,7 +324,7 @@
         "name": "small roman numeral twelve",
         "symbol": "\u217b",
         "keywords": [],
-        "composition": "ⅹⅰⅰ",
+        "composition": "xii",
         "boost": 1
     },
     {
@@ -340,7 +340,7 @@
         "name": "small roman numeral one hundred",
         "symbol": "\u217d",
         "keywords": [],
-        "composition": "ⅽ",
+        "composition": "c",
         "boost": 1
     },
     {
@@ -348,7 +348,7 @@
         "name": "small roman numeral five hundred",
         "symbol": "\u217e",
         "keywords": [],
-        "composition": "ⅾ",
+        "composition": "d",
         "boost": 1
     },
     {
@@ -356,7 +356,7 @@
         "name": "small roman numeral one thousand",
         "symbol": "\u217f",
         "keywords": [],
-        "composition": "ⅿ",
+        "composition": "m",
         "boost": 1
     },
     {
@@ -364,7 +364,7 @@
         "name": "roman numeral one thousand c d",
         "symbol": "\u2180",
         "keywords": [],
-        "composition": "ↀ",
+        "composition": "CD",
         "boost": 1
     },
     {
@@ -372,7 +372,7 @@
         "name": "roman numeral five thousand",
         "symbol": "\u2181",
         "keywords": [],
-        "composition": "ↁ",
+        "composition": "D",
         "boost": 1
     },
     {
@@ -380,7 +380,7 @@
         "name": "roman numeral ten thousand",
         "symbol": "\u2182",
         "keywords": [],
-        "composition": "ↂ",
+        "composition": "O",
         "boost": 1
     },
     {
@@ -388,7 +388,7 @@
         "name": "roman numeral reversed one hundred",
         "symbol": "\u2183",
         "keywords": [],
-        "composition": "Ↄ",   
+        "composition": ")",   
         "boost": 1
     }  
 ] 
