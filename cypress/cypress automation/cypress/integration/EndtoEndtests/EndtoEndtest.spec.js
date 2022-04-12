@@ -4,7 +4,7 @@
 context('Todos',() => { 
 
     // adds todos, what to do 
-    it(' Adds todos', () => { 
+    it(' Adds todos', () => {  
 
         // 1st test, testing to navigate to app url, depending on the system, localhost needs to adjust to specific port
         cy.visit('http://localhost:8080/') 
@@ -18,15 +18,12 @@ context('Todos',() => {
    
     cy.get('.dropdown').click({force:true}) 
  
-    
-   // assert.notequals('#suggest_dropdown') // not give dropdown, will give dropdown
-
 
     // Testing pagedown functionality, step to access the dropdown
    
     describe('button pressed test', () =>{
         cy.get('#pagedown').click({multiple: true})  
-    });
+    }); 
     
     //Second step for dropdown with letter v being inserted as an example
    
@@ -62,7 +59,7 @@ context('Todos',() => {
    
 })
 })
-
+ 
 
 
 

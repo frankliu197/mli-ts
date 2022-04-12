@@ -5,7 +5,7 @@ import { stringSort } from "@/helpers/helpers";
 
 export class CompositionRecommender {
   tree: CompositionTree;
-  symbolSet: SymbolSets;
+  characterSets: CharacterSets;
 
   constructor() {
     this.tree = new CompositionTree();
@@ -20,7 +20,7 @@ export class CompositionRecommender {
     //composition breakdown of search terms
     let s = "";
     for (const i of search){
-      const c = this.symbolSet.getCharacter(i);
+      const c = this.characterSets.getCharacter(i);
       if (c){
         s += c.composition;
       } else {
@@ -34,5 +34,5 @@ export class CompositionRecommender {
   searchable(search: string): boolean {
     return search.indexOf(" ") === -1
   }
-}
+} 
 

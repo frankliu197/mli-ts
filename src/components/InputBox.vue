@@ -46,11 +46,11 @@ export default Vue.extend({
       }
     },
     resize() {
-      this.inputHeight = this.$refs.textarea!.scrollHeight - 15 + 'px';
-    },
+this.inputHeight = (this.$refs.textarea as HTMLTextAreaElement).scrollHeight - 15 + 'px';    },
     copy() {
-      this.$refs.textarea!.focus();
-      this.$refs.textarea!.select();
+      const el = this.$refs.textarea as HTMLTextAreaElement
+      el.focus();
+      el.select();
       document.execCommand('copy');
     }
   },
@@ -98,8 +98,8 @@ export default Vue.extend({
 
 <style lang='scss' scoped>
 
-img {
-  width: 38px;
+img { 
+  width: 38px; 
   height: 43px;
   margin-right: 23px;
   margin-bottom: 12px;

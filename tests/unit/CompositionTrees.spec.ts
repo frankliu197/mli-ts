@@ -1,28 +1,28 @@
 import { CompositionTree } from "@/Recommender/CompositionTree";
 import { KeywordTree, Node } from "@/Recommender/KeywordTree";
-import Character from "@/Recommender/Character";
+//import Character from "@/Recommender/Character";
+import Character from "@/entities/Character";
 import BL from "@/symbols/json/BasicLatin.json";
 import chai, { assert, expect } from "chai";
 import ChaiSorted from "chai-sorted";
 
-chai.use(ChaiSorted);
+chai.use(ChaiSorted);   
 
 //grouping for our tests
 describe("Inserting tree entries testing for composition", () => {
-    let tree = null as any;
-    let character = null as any;
-
+    let tree = null as any; 
+    let character = null as any; 
     before(() => {
       character = new Character({  
         "unicode": 33,
         "name": "exclamation mark",
-        "symbol": "!",
+        "symbol": "!", 
         "keywords": [],
         "composition": "|.",
         "boost": 1
       });
       tree = new CompositionTree(); // made in before , compositionTree object
-    });
+    }); 
  
 
     it("Check if the node tree is empty", () => { 
@@ -35,14 +35,7 @@ describe("Inserting tree entries testing for composition", () => {
       tree = new CompositionTree(); // create the tree object.
       assert.isOk(tree); // checking if the tree is ok
     });
-    it("check the get character set method for presence", () =>{
-      tree.getCharacterSet("-")
-      let map = tree.getCharacterSet("-") ;
-      //assert.isAbove(array.size, 0, 'theres a value in the map', ); ///array length should be 0
-      expect(map).to.have.length(1);  
-
-      console.log('tree check: ', map); // TODO remove this line
-    });
+  
    // Testing constructor 
     it("Check if there's no symbol/character inserted in the tree", () => {
       assert.isEmpty(tree.root.child); // expecting the comptree root to be empty, no symbols
@@ -56,7 +49,7 @@ describe("Inserting tree entries testing for composition", () => {
   // Testing symbol insertion 
     it("Check if the exclamation mark(!) is inserted", () => {
       tree.insert(character); 
-       console.log('tree is: ', tree); // TODO remove this line
+       //console.log('tree is: ', tree); // TODO remove this line
       assert.isAbove(tree.root.child.length, 0); // check there's no root inserted
     });
     it("Check if the exclamation mark(!) values", () => {
@@ -65,12 +58,7 @@ describe("Inserting tree entries testing for composition", () => {
     it("Check if the exclamation mark(!) nodes", () => {
       assert.isAbove(tree.nodes.size, 1, 'There\'s nodes in tree.nodes map.'); // check if there's nodes, checking if theres more than 1 node, if so theres more node
     });
-    //opposite so checking if theres values,root, and node....
-
-    // it("Check if the exclamation mark is created", () => {
-    //   assert(character != null); 
-    // }); 
- // our diff symbol scenarios, empty one always there thats why > 1
+   
 
 
 

@@ -20,7 +20,7 @@
                         <div><span>Shift</span> + <span>ArrowDown</span></div> 
                         <a id = 'shiftarrowdown' @mousedown="keep_focus" @click="shift_arrowdown">
                         </a>
-                    </div>
+                    </div> 
                 </div>
                 <div id="legend-box" class="border-left">
                     <div>
@@ -77,7 +77,6 @@
 
 <script>
 import Moveable from "vue-moveable";
-
 export default {
   name: "Legend",
   components: {
@@ -94,28 +93,24 @@ export default {
     },
     enter(){
         var element = document.getElementById("suggest_dropdown");
-
         element?.dispatchEvent(new KeyboardEvent('keydown', {
             key: 'Enter',
         }));
     },
     page_down(){
         var element = document.getElementById("input_box");
-
         element?.dispatchEvent(new KeyboardEvent('keydown', {
             key: 'PageDown',
         }));
     },
     tab(){
         var element = document.getElementById("suggest_dropdown");
-
         element?.dispatchEvent(new KeyboardEvent('keydown', {
             key: 'Tab',
         }));
     },
     shift_arrow_up(){
         var element = document.getElementById("suggest_dropdown");
-
         element?.dispatchEvent(new KeyboardEvent('keydown', {
             key: 'ArrowUp',
             shiftKey: true,
@@ -123,7 +118,6 @@ export default {
     },
     arrow_up(){
         var element = document.getElementById("suggest_dropdown");
-
         element?.dispatchEvent(new KeyboardEvent('keydown', {
             key: 'ArrowUp',
         })); 
@@ -131,7 +125,6 @@ export default {
     arrow_down(event){ 
         
         var element = document.getElementById("suggest_dropdown");
-
         element?.dispatchEvent(new KeyboardEvent('keydown', {
             key: 'ArrowDown',
         }));
@@ -140,12 +133,9 @@ export default {
     movingmethod({ target, transform }) {
       target.style.transform = transform; 
     },
-
     shift_arrowdown(e){
         e.preventDefault();
-
         var element = document.getElementById("suggest_dropdown");
-
         element?.dispatchEvent(new KeyboardEvent('keydown', {
             key: 'ArrowDown',
             shiftKey: true
@@ -157,7 +147,6 @@ export default {
   },
 };
 </script>
-
 <style lang="scss">
     .container{
         display: table-cell;
@@ -176,12 +165,10 @@ export default {
         margin: 10px;
         background-color: white;
     }
-
     .legend_container {
         bottom: 0;
         position: absolute;
     }
-
     div#legend-box div {
         padding: 2px 0px!important;
     }
@@ -194,7 +181,6 @@ export default {
         width: 100%;
         height: 100%;
     }
-
     div#legend-box {
         flex: 1;
         display: flex;
@@ -204,11 +190,9 @@ export default {
         position: relative;
         text-align: center;
     }
-
     #legend img { 
         width: 32px; 
     } 
-
     label.legend-label {
         font-size: 12px;
         padding-left: 12px;
@@ -216,7 +200,6 @@ export default {
         color: white;
         
     }
-
     .border-left { 
         border-left: 4px solid grey;
     }
@@ -224,7 +207,8 @@ export default {
     #legend-box>div{
         padding: 5px; 
     } 
-
+    div.moveable-line.moveable-rotation-line .moveable-control, .moveable-line {
+        display: none;
+    }
    
-
-</style>     
+</style>   
