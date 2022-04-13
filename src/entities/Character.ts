@@ -17,4 +17,14 @@ export default class {
   public toString(): string {
     return this.symbol;
   }
+  constructor(untyped?: any) {
+    if (untyped) {
+        this.unicode = untyped.unicode;
+        this.symbol = untyped.symbol;
+        this.name = untyped.name;
+        this.keywords = untyped.keywords;
+        this.composition = untyped.composition;
+        this.boost = untyped.boost;
+    }
+}
 }
