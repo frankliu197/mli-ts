@@ -7,13 +7,15 @@ Currently available online: [MLI Tool](https://frankliu197.github.io/mli-ts)
 ### How to Use
 You can search for a character by opening the dropdown with the **PageDown** key.
 
-![MLI Dropdown](dropdown.png)
+![MLI Dropdown](dropdown.jpg)
 
 There are two search methods:
 - **Keyword Search:** Look for characters by name.
   - Example: Searching "arrow" will suggest characters like *LEFT RIGHT ARROW* (↔).
 - **Composition Search:** Search based on visual similarity to a sequence of characters.
   - Example: Typing "--", "=/" or ">=/" suggests symbols like "=", "≠", "≩", respectively.
+
+You can see the symbol names and compositions in the photo above. All search terms can be done in any order. Example: You can search for *Does not force* ⊮ symbol using *force not*.
 
 With over 10,000 characters supported, multiple pages of results are common. Use **Shift + ArrowDown** or **Shift + ArrowUp** to navigate through suggestions, or scroll through the UI. 
 
@@ -24,7 +26,7 @@ The order of symbol recommendations is based on three main factors:
    - For composition searches: Typing "--" will match better with "=" than "≠".
   
 2. **Search Specificity:**
-   - Example: Searching for "le" can match both *letter* and *less* (for math symbols like "<"). Since *less* is more specific and matches fewer symbols, it would be prioritized over *letter*.
+   - Example: Searching for "fo" can match both *force* and *four*. Since *force* is more specific and matches fewer symbols, it would be prioritized over *four*.
 
 3. **Usage Patterns:**
    - The tool tracks user preferences to predict and prioritize commonly chosen symbols.
