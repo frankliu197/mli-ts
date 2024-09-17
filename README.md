@@ -24,7 +24,7 @@ The order of symbol recommendations is based on three main factors:
    - For composition searches: Typing "--" will match better with "=" than "≠".
   
 2. **Search Specificity:**
-   - Example: Searching for "le" can match both *letter* and *less* (for math symbols like "<"). Since *less* is more specific, it would be prioritized over *letter*.
+   - Example: Searching for "le" can match both *letter* and *less* (for math symbols like "<"). Since *less* is more specific and matches fewer symbols, it would be prioritized over *letter*.
 
 3. **Usage Patterns:**
    - The tool tracks user preferences to predict and prioritize commonly chosen symbols.
