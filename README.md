@@ -7,7 +7,7 @@ Currently available online: [MLI Tool](https://frankliu197.github.io/mli-ts)
 ### How to Use
 You can search for a character by opening the dropdown with the **PageDown** key.
 
-![MLI Dropdown](dropdown.jpg)
+![MLI Dropdown](documentation/dropdown.jpg)
 
 There are two search methods:
 - **Keyword Search:** Look for characters by name.
